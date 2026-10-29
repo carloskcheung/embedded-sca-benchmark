@@ -1,0 +1,246 @@
+# Ground truth for the Acme gateway scanning benchmark.
+#
+# Every third-party component deliberately planted in this repository, with
+# the exact version and license and *how* it is included. `inclusion` tells
+# you which detection path a scanner must use to find it:
+#
+#   vendored-full         complete upstream copy, LICENSE file present
+#   vendored-partial      subset of upstream files copied, LICENSE present
+#   vendored-modified     upstream copy with local edits (ACME-PATCH markers)
+#   vendored-obfuscated   subset, directory renamed, LICENSE file dropped
+#                         (only per-file headers identify it)
+#   west-manifest         declared in firmware/ble-controller/west.yml;
+#                         source is NOT in the repo, only the pin
+#   yocto-recipe          provided by an upstream layer pinned in kas
+#   yocto-recipe-patched  upstream-layer recipe + .bbappend carrying a patch
+#   yocto-custom-recipe   recipe written in meta-acme
+#   binary-embedded       compiled into a firmware blob shipped by Yocto
+#
+# `yocto_license` is the recipe's LICENSE string where Yocto's naming differs
+# from SPDX (e.g. EDL-1.0 == BSD-3-Clause, PD for SQLite's blessing).
+#
+# `scope` matches the --scope flag of score.py.
+#
+# Yocto images contain hundreds of packages; only the ones this product
+# deliberately chose are listed. The full Yocto inventory is whatever the
+# build's SPDX output says (benchmark/sbom/), which is itself under test.
+
+components:
+
+  # --- firmware/sensor-node (FreeRTOS, CMake) --------------------------------
+  - name: FreeRTOS-Kernel
+    aliases: [freertos, freertos-kernel, amazon-freertos]
+    version: "11.1.0"
+    license: MIT
+    purl: pkg:github/FreeRTOS/FreeRTOS-Kernel@V11.1.0
+    scope: sensor-node
+    path: firmware/sensor-node/third_party/FreeRTOS-Kernel
+    inclusion: vendored-partial
+    notes: Kernel sources + GCC/ARM_CM3 port + heap_4 only; other ports dropped.
+
+  - name: lwIP
+    aliases: [lwip, lwip-tcpip]
+    version: "2.2.0"
+    license: BSD-3-Clause
+    purl: pkg:github/lwip-tcpip/lwip@STABLE-2_2_0_RELEASE
+    scope: sensor-node
+    path: firmware/sensor-node/third_party/lwip
+    inclusion: vendored-partial
+    notes: src/ plus contrib/ports/freertos; docs, tests and apps dropped.
+
+  - name: Mbed TLS
+    aliases: [mbedtls, mbed-tls, armmbed/mbedtls]
+    version: "3.6.2"
+    license: Apache-2.0 OR GPL-2.0-or-later
+    purl: pkg:github/Mbed-TLS/mbedtls@v3.6.2
+    scope: sensor-node
+    path: firmware/sensor-node/third_party/mbedtls
+    inclusion: vendored-partial
+    notes: include/ and library/ only; tests/, programs/, 3rdparty/ dropped.
+
+  - name: cJSON
+    aliases: [cjson, davegamble/cjson]
+    version: "1.7.18"
+    license: MIT
+    purl: pkg:github/DaveGamble/cJSON@v1.7.18
+    scope: sensor-node
+    path: firmware/sensor-node/third_party/cJSON
+    inclusion: vendored-modified
+    notes: CJSON_NESTING_LIMIT lowered in cJSON.h (ACME-PATCH SEC-112).
+
+  - name: TinyCBOR
+    aliases: [tinycbor, intel/tinycbor]
+    version: "0.6.0"
+    license: MIT
+    purl: pkg:github/intel/tinycbor@v0.6.0
+    scope: sensor-node
+    path: firmware/sensor-node/third_party/cbor
+    inclusion: vendored-obfuscated
+    notes: Encoder-only subset in a directory named "cbor"; LICENSE dropped.
+
+  # --- firmware/ble-controller (Zephyr, west) --------------------------------
+  - name: nanopb
+    aliases: [nanopb]
+    version: "0.4.9"
+    license: Zlib
+    purl: pkg:github/nanopb/nanopb@0.4.9
+    scope: ble-controller
+    path: firmware/ble-controller/lib/nanopb
+    inclusion: vendored-full
+    notes: Runtime sources only (pb_*.c/h). Generated code in app/src/generated.
+
+  - name: Zephyr RTOS
+    aliases: [zephyr, zephyrproject-rtos/zephyr]
+    version: "3.7.1"
+    license: Apache-2.0
+    purl: pkg:github/zephyrproject-rtos/zephyr@9f824289b28d7aea2eee74f62787c385a5005453
+    scope: ble-controller
+    inclusion: west-manifest
+
+  - name: CMSIS (Zephyr module)
+    aliases: [cmsis, zephyrproject-rtos/cmsis]
+    version: "5.6.0"
+    license: Apache-2.0
+    purl: pkg:github/zephyrproject-rtos/cmsis@4b96cbb174678dcd3ca86e11e1f24bc5f8726da0
+    scope: ble-controller
+    inclusion: west-manifest
+    notes: Version from CMSIS/Core/Include/cmsis_version.h.
+
+  - name: hal_nordic (nrfx)
+    aliases: [hal_nordic, nrfx, zephyrproject-rtos/hal_nordic]
+    version: ab5cb2e2faeb1edfad7a25286dcb513929ae55da
+    license: BSD-3-Clause
+    purl: pkg:github/zephyrproject-rtos/hal_nordic@ab5cb2e2faeb1edfad7a25286dcb513929ae55da
+    scope: ble-controller
+    inclusion: west-manifest
+
+  - name: littlefs (Zephyr module)
+    aliases: [littlefs, littlefs-project/littlefs, zephyrproject-rtos/littlefs]
+    version: "2.8"
+    license: BSD-3-Clause
+    purl: pkg:github/zephyrproject-rtos/littlefs@408c16a909dd6cf128874a76f21c793798c9e423
+    scope: ble-controller
+    inclusion: west-manifest
+    notes: LFS_VERSION 0x00020008 in lfs.h.
+
+  - name: Mbed TLS (Zephyr fork)
+    aliases: [mbedtls, mbed-tls, zephyrproject-rtos/mbedtls]
+    version: "3.6.2"
+    license: Apache-2.0 OR GPL-2.0-or-later
+    purl: pkg:github/zephyrproject-rtos/mbedtls@a78176c6ff0733ba08018cba4447bd3f20de7978
+    scope: ble-controller
+    inclusion: west-manifest
+    notes: Same upstream version as the sensor-node copy, different provenance.
+
+  - name: SEGGER RTT
+    aliases: [segger, segger-rtt, zephyrproject-rtos/segger]
+    version: b011c45b585e097d95d9cf93edf4f2e01588d3cd
+    license: BSD-3-Clause
+    purl: pkg:github/zephyrproject-rtos/segger@b011c45b585e097d95d9cf93edf4f2e01588d3cd
+    scope: ble-controller
+    inclusion: west-manifest
+
+  - name: TinyCrypt
+    aliases: [tinycrypt, zephyrproject-rtos/tinycrypt]
+    version: "0.2.8"
+    license: BSD-3-Clause
+    purl: pkg:github/zephyrproject-rtos/tinycrypt@1012a3ebee18c15ede5efc8332ee2fc37817670f
+    scope: ble-controller
+    inclusion: west-manifest
+
+  # --- yocto/meta-acme (scarthgap) -------------------------------------------
+  - name: cJSON
+    aliases: [cjson]
+    version: "1.7.19"
+    license: MIT
+    purl: pkg:yocto/meta-oe/cjson@1.7.19
+    scope: yocto
+    inclusion: yocto-recipe-patched
+    notes: >-
+      meta-oe recipe + meta-acme bbappend applying
+      0001-cJSON-lower-default-nesting-limit.patch. Note the version differs
+      from the vendored firmware copy (1.7.18).
+
+  - name: TinyCBOR
+    aliases: [tinycbor]
+    version: "0.6.0"
+    license: MIT
+    purl: pkg:yocto/meta-acme/tinycbor@0.6.0
+    scope: yocto
+    inclusion: yocto-custom-recipe
+    notes: Same component as the obfuscated firmware copy, here fully declared.
+
+  - name: Mosquitto
+    aliases: [mosquitto, libmosquitto, eclipse-mosquitto]
+    version: "2.0.22"
+    license: EPL-2.0 OR BSD-3-Clause
+    yocto_license: EPL-2.0 | EDL-1.0
+    purl: pkg:yocto/meta-networking/mosquitto@2.0.22
+    scope: yocto
+    inclusion: yocto-recipe
+    notes: bbappend replaces mosquitto.conf (config only, no code change).
+
+  - name: SQLite
+    aliases: [sqlite, sqlite3]
+    version: "3.45.3"
+    license: blessing
+    yocto_license: PD
+    purl: pkg:yocto/core/sqlite3@3.45.3
+    scope: yocto
+    inclusion: yocto-recipe
+
+  - name: OpenSSL
+    aliases: [openssl, libssl, libcrypto]
+    version: "3.5.9"
+    license: Apache-2.0
+    purl: pkg:yocto/core/openssl@3.5.9
+    scope: yocto
+    inclusion: yocto-recipe
+
+  - name: libmodbus
+    aliases: [libmodbus]
+    version: "3.1.10"
+    license: LGPL-2.1-or-later
+    purl: pkg:yocto/meta-oe/libmodbus@3.1.10
+    scope: yocto
+    inclusion: yocto-recipe
+
+  - name: can-utils
+    aliases: [can-utils]
+    version: "2023.03"
+    license: GPL-2.0-only AND BSD-3-Clause
+    yocto_license: GPL-2.0-only & BSD-3-Clause
+    purl: pkg:yocto/meta-oe/can-utils@2023.03
+    scope: yocto
+    inclusion: yocto-recipe
+
+  - name: BusyBox
+    aliases: [busybox]
+    version: "1.36.1"
+    license: GPL-2.0-only AND bzip2-1.0.4
+    purl: pkg:yocto/core/busybox@1.36.1
+    scope: yocto
+    inclusion: yocto-recipe-patched
+    notes: bbappend adds a config fragment (acme.cfg), no source patch.
+
+  # --- firmware shipped inside the Yocto image -------------------------------
+  # acme-mcu-firmware declares LICENSE = "CLOSED", so the Yocto SBOM cannot
+  # know what is inside the blobs. A complete answer links these back to the
+  # sensor-node / ble-controller components above.
+  - name: acme-mcu-firmware
+    aliases: [acme-mcu-firmware]
+    version: "1.0"
+    license: LicenseRef-Acme-Proprietary
+    scope: yocto
+    inclusion: binary-embedded
+    contains: [FreeRTOS-Kernel, lwIP, Mbed TLS, cJSON, TinyCBOR, nanopb, Zephyr RTOS,
+               CMSIS (Zephyr module), hal_nordic (nrfx), littlefs (Zephyr module),
+               Mbed TLS (Zephyr fork), SEGGER RTT, TinyCrypt]
+
+# First-party code (should NOT be reported as third-party):
+first_party:
+  - firmware/sensor-node/app
+  - firmware/sensor-node/board
+  - firmware/ble-controller/app
+  - software/acme-gatewayd
+  - yocto/meta-acme

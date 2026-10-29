@@ -1,0 +1,23 @@
+// Copyright (c) 2026 Acme Industrial Systems, Inc. All rights reserved.
+// SPDX-License-Identifier: LicenseRef-Acme-Proprietary
+syntax = "proto3";
+
+package acme.motor;
+
+enum MotorState {
+  MOTOR_IDLE = 0;
+  MOTOR_RUNNING = 1;
+  MOTOR_FAULT = 2;
+}
+
+message MotorCommand {
+  uint32 target_rpm = 1;
+  bool enable = 2;
+}
+
+message MotorStatus {
+  MotorState state = 1;
+  uint32 rpm = 2;
+  uint32 boot_count = 3;
+  uint32 uptime_s = 4;
+}

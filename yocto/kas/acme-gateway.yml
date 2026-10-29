@@ -1,0 +1,51 @@
+# Acme industrial gateway - Yocto build configuration (kas).
+#
+#   kas build yocto/kas/acme-gateway.yml
+#
+# Upstream layers are pinned to exact commits on the scarthgap (5.0 LTS)
+# branch; meta-acme lives in this repository.
+header:
+  version: 14
+
+machine: qemuarm64
+distro: poky
+target: acme-gateway-image
+
+repos:
+  acme:
+    layers:
+      yocto/meta-acme:
+
+  poky:
+    url: https://git.yoctoproject.org/poky
+    branch: scarthgap
+    commit: b6ae714a1d1bfae8384654a13da15996cac64712
+    layers:
+      meta:
+      meta-poky:
+
+  meta-openembedded:
+    url: https://git.openembedded.org/meta-openembedded
+    branch: scarthgap
+    commit: 2db6aece32c7f8ebf6015b468e1b4e21de072e3b
+    layers:
+      meta-oe:
+      meta-python:
+      meta-networking:
+
+local_conf_header:
+  acme: |
+    INIT_MANAGER = "systemd"
+    PACKAGE_CLASSES = "package_ipk"
+    INHERIT += "rm_work"
+
+  sbom: |
+    # SPDX 2.2 SBOM for every recipe and the final image
+    INHERIT += "create-spdx"
+    SPDX_PRETTY = "1"
+    SPDX_INCLUDE_SOURCES = "0"
+
+  build-host: |
+    # Sized for an 8 GB Docker Desktop VM
+    BB_NUMBER_THREADS = "4"
+    PARALLEL_MAKE = "-j 4"

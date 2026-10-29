@@ -1,0 +1,26 @@
+From 3c1f0e2a9b7d4e5f8a6c2d1b0e9f8a7b6c5d4e3f Mon Sep 17 00:00:00 2001
+From: Acme Platform Team <platform@acme-industrial.example>
+Date: Tue, 14 Oct 2026 09:12:00 +0000
+Subject: [PATCH] cJSON: lower default nesting limit (SEC-112)
+
+Untrusted MQTT payloads are parsed on the gateway; cap recursion depth
+to bound stack usage.
+
+Upstream-Status: Inappropriate [product-specific hardening]
+Signed-off-by: Acme Platform Team <platform@acme-industrial.example>
+---
+ cJSON.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/cJSON.h b/cJSON.h
+--- a/cJSON.h
++++ b/cJSON.h
+@@ -134,7 +134,7 @@
+ /* Limits how deeply nested arrays/objects can be before cJSON rejects to parse them.
+  * This is to prevent stack overflows. */
+ #ifndef CJSON_NESTING_LIMIT
+-#define CJSON_NESTING_LIMIT 1000
++#define CJSON_NESTING_LIMIT 64
+ #endif
+ 
+ /* Limits the length of circular references can be before cJSON rejects to parse them.

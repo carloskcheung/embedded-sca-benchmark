@@ -1,0 +1,13 @@
+# build outputs
+/build/
+firmware/sensor-node/build/
+firmware/ble-controller/build/
+
+# populated by `make yocto` from build/firmware
+yocto/meta-acme/recipes-firmware/acme-mcu-firmware/files/bin/
+
+# raw Yocto SBOM archive (extracted copy in benchmark/sbom/spdx is tracked)
+benchmark/sbom/*.spdx.tar.zst
+
+.DS_Store
+__pycache__/

@@ -1,0 +1,12 @@
+[Unit]
+Description=Acme gateway telemetry daemon
+After=mosquitto.service
+Wants=mosquitto.service
+
+[Service]
+ExecStart=/usr/sbin/acme-gatewayd -c /etc/acme-gatewayd.conf
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

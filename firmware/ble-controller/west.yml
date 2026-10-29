@@ -1,0 +1,28 @@
+# Acme BLE motor controller - west manifest (T2 "application repository" topology).
+#
+# Zephyr and only the modules this product needs are pinned here. Running
+# `west update` in a workspace whose manifest is this directory clones them
+# next to it; nothing from upstream is committed to this repository.
+manifest:
+  version: "1.2"
+
+  remotes:
+    - name: zephyrproject
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject
+      # v3.7.1 (LTS)
+      revision: 9f824289b28d7aea2eee74f62787c385a5005453
+      import:
+        name-allowlist:
+          - cmsis
+          - hal_nordic
+          - littlefs
+          - mbedtls
+          - segger
+          - tinycrypt
+
+  self:
+    path: ble-controller
