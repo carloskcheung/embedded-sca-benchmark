@@ -1,0 +1,745 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:42:51Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/kmod-c91a9b67-c26b-5fcd-ac47-27e95ef17a1a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "37f9bad6906228dd120705ee9c6b3f83c2ad2d73"
+      },
+      "externalDocumentId": "DocumentRef-recipe-kmod",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-kmod-20bdd709-d6c7-5444-8085-cc59b1bedf3f"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kmod-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "17da5a3893c4f50b4be636250a14fbfdfd16b9b8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "40d29fe4b26a0d11e93ffad832177cba5628e652a1bdee67a50b0a474ddd3fc1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/kmod",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kmod-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8229587c0c399bd48f6a14223cb769a16683a454"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7ca0c16cc80d841f5a4de6210215f31e3a382fa06dbe05eff6fbf9d162d4b4b8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/depmod.d/exclude.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kmod-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d75703849b993ca4d0715a1ee24804974c7c9529"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cd7d184ab2ce77d74df3c4d9165f428e5dcae1a26ae506601975db9751f5b163"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/depmod.d/search.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kmod",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kmod",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kmod-1",
+        "SPDXRef-PackagedFile-kmod-2",
+        "SPDXRef-PackagedFile-kmod-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kmod",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ae4bfbb64ecfdac46ab393d05f8bc5f2c321ed15"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "31"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-kmod:SPDXRef-Recipe-kmod",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kmod"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kmod",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kmod-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kmod"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kmod-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kmod"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kmod-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kmod"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-bsearch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/fnmatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/lzma/base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/lzma/container.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/openssl/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/openssl/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/openssl/bn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/openssl/objects.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/openssl/pkcs7.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/openssl/stack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/openssl/x509.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/regex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/zconf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/include/zlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-builtin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-config.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-elf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-index.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-index.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-module.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod-signature.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/libkmod/libkmod.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/array.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/array.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/hash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/hash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/missing.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/scratchbuf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/scratchbuf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/strbuf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/strbuf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/shared/util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/depmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/insmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/kmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/kmod.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/log.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/log.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/lsmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/modinfo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/modprobe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/rmmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    },
+    {
+      "comment": "/usr/src/debug/kmod/31/tools/static-nodes.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kmod-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

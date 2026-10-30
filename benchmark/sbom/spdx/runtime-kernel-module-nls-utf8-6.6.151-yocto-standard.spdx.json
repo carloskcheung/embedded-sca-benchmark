@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:26:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-kernel-module-nls-utf8-6.6.151-yocto-standard-7c1997ae-c7e7-5228-a7d9-8157ab704745",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "073ad29d3fa355f8894639431866ed68883c620c"
+      },
+      "externalDocumentId": "DocumentRef-package-kernel-module-nls-utf8-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/kernel-module-nls-utf8-6.6.151-yocto-standard-5b7bbabb-a3a1-54e2-be48-c24440bd2f01"
+    }
+  ],
+  "name": "runtime-kernel-module-nls-utf8-6.6.151-yocto-standard",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-kernel-module-nls-utf8-6.6.151-yocto-standard:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

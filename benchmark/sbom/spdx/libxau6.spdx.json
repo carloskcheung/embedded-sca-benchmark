@@ -1,0 +1,299 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:38:11Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libxau6-388eb4b4-08a3-57bc-a4a4-bb21b90e9083",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "07d3799e324053e0d9f07fbffcce688060179434"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxau",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxau-dc53d0c7-7adc-5e2a-a9e2-03b22f685185"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxau6-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3cefbf0ccb643305a36d159c82988b28646ba250"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4aaf193986fb1d909eabbb2a1f363ed167136aa0272de92e9ba1228b48067168"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libXau.so.6.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libxau6",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libxau6",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libxau6-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libxau6",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "eb22510413f53766ab0ae2dd4322e22bc398e4d4"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0.11"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxau:SPDXRef-Recipe-libxau",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libxau6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libxau6",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxau6-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxau6"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/include/dso_handle.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/stdlib/atexit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/AuDispose.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/AuFileName.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/AuGetAddr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/AuGetBest.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/AuLock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/AuRead.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/AuUnlock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/AuWrite.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxau/1.0.11/include/X11/Xauth.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxau6-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

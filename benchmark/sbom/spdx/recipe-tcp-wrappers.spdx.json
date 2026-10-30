@@ -1,0 +1,122 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T05:23:44Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-tcp-wrappers-df9e9b9d-1f78-5aa7-9013-44ba239c72fa",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    }
+  ],
+  "name": "recipe-tcp-wrappers",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-tcp-wrappers",
+      "copyrightText": "NOASSERTION",
+      "description": "Tools for monitoring and filtering incoming requests for tcp                services.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:tcp-wrappers:7.6:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.softpanorama.org/Net/Network_security/TCP_wrappers/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-1-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "tcp-wrappers",
+      "summary": "Security tool that is a wrapper for TCP daemons",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "7.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-tcp-wrappers-1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e6fa25f71226d090f34de3f6b122fb5a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9543d7adedf78a6de0b221ccbbd1952e08b5138717f4ade814039bb489a4315d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://ftp.porcupine.org/pub/security/tcp_wrappers_7.6.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "tcp-wrappers-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-tcp-wrappers",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-tcp-wrappers-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-tcp-wrappers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-tcp-wrappers-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-tcp-wrappers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-tcp-wrappers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-tcp-wrappers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

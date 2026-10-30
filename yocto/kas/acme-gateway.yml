@@ -47,10 +47,11 @@ local_conf_header:
 
   build-host: |
     # Sized for an 8 GB Docker Desktop VM; gcc's insn-emit.cc alone can take
-    # >2 GB per compiler process.
+    # >2 GB per compiler process, most of it debug info.
     BB_NUMBER_THREADS = "3"
     PARALLEL_MAKE = "-j 4"
-    PARALLEL_MAKE:pn-gcc = "-j 2"
+    PARALLEL_MAKE:pn-gcc = "-j 1"
+    DEBUG_FLAGS:pn-gcc = "${DEBUG_PREFIX_MAP}"
 
   mirrors: |
     # Prefer the Yocto Project source mirror (plain tarballs, including git

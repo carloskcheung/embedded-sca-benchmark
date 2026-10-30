@@ -1,0 +1,126 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:10:28Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-python3-pyproject-hooks-native-3c92f7d2-d5bf-5ae1-9636-f2a444cf0c92",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "40470652e618ec8c332fb238413565d03cb2f8d7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-flit-core-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-flit-core-native-e62949a3-3d60-5850-bc46-6c225875a32c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aa574517cc2a48e4ddeb3da163cf72a33af69989"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-installer-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-installer-native-6a2f8ac3-c10d-5155-9b98-c3e070517152"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    }
+  ],
+  "name": "recipe-python3-pyproject-hooks-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-python3-pyproject-hooks-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:10:28Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "A low-level library for calling build-backends in pyproject.toml-based projects.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:python:pyproject_hooks:1.0.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://github.com/pypa/pyproject-hooks",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-pyproject-hooks-native",
+      "summary": "A low-level library for calling build-backends in pyproject.toml-based projects",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-python3-pyproject-hooks-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f271b298b97f5955d53fb12b72c1fb1948c22c1a6b70b315c54cedaca0264ef5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://files.pythonhosted.org/packages/source/p/pyproject_hooks/pyproject_hooks-1.0.0.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-pyproject-hooks-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-pyproject-hooks-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-python3-pyproject-hooks-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-pyproject-hooks-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-python3-pyproject-hooks-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-pyproject-hooks-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-flit-core-native:SPDXRef-Recipe-python3-flit-core-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-pyproject-hooks-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-installer-native:SPDXRef-Recipe-python3-installer-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-pyproject-hooks-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

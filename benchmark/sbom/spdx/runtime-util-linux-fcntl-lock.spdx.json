@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-util-linux-fcntl-lock-5cfefacf-b117-52a6-85db-3ef606e78391",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c8dc2b0c6ff6b6120aba92cc7d6c7f1670746eab"
+      },
+      "externalDocumentId": "DocumentRef-package-util-linux-fcntl-lock",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-fcntl-lock-c94e31fd-7c08-58ac-8ea6-76e69e3139ae"
+    }
+  ],
+  "name": "runtime-util-linux-fcntl-lock",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-fcntl-lock:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

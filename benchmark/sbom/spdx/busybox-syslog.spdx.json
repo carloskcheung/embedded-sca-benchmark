@@ -1,0 +1,201 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:28:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/busybox-syslog-9c50eff5-a9f9-5765-b33a-312c76b55eb2",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f78d7e8756baa4158bc5bad313480ff18eb026f5"
+      },
+      "externalDocumentId": "DocumentRef-recipe-busybox",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-busybox-1dd695ee-b779-5d09-9314-a0c15f2a4031"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-syslog-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "052fd6bc72fd2768699739511f6c787c1e5361ab"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4eac150fb382645fc5f3f70558e245173f948e09ad6589c8609d1cb066cdce33"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system-preset/98-busybox-syslog.preset",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-syslog-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6bcc7882838451f3a3e2a140c8e0f7b8d17c58d1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8616d7753abe5b2dbfc224811e4dc798cecfcb73b1eda56e9c50955d973a824b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/busybox-klogd.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-syslog-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39702a1ab0c26b977e7008df38158a1cca11c8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ede7bc7bc3a2db5d4e2fd35a264e5050bdf13cf1034e15a7b8978f582dddf25"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/busybox-syslog.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-syslog-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "09e963c405b5e5d5eab538b4b4b7f659af037d67"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1deaae973215411f452910484dcd9cdc3c78af4c39cb0e1592568001931f9e3d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/syslog.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-syslog-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5770b9efcd517248cf8a48329b056a28c3eb6102"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aad4a98e70f55283ad0f3c3335b3b941bb06225ccc82c2e8aab999a0dddfa3dd"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/default/busybox-syslog",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "busybox-syslog",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-busybox-syslog",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-busybox-syslog-1",
+        "SPDXRef-PackagedFile-busybox-syslog-2",
+        "SPDXRef-PackagedFile-busybox-syslog-3",
+        "SPDXRef-PackagedFile-busybox-syslog-4",
+        "SPDXRef-PackagedFile-busybox-syslog-5"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND DocumentRef-recipe-busybox:LicenseRef-bzip2-1.0.4",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "busybox-syslog",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9e81255daab409339d5f5a106a0e4032d61e80d9"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.36.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-busybox:SPDXRef-Recipe-busybox",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-busybox-syslog"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-busybox-syslog",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-syslog-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox-syslog"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-syslog-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox-syslog"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-syslog-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox-syslog"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-syslog-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox-syslog"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-syslog-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox-syslog"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

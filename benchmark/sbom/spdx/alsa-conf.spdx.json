@@ -1,0 +1,2245 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T03:41:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/alsa-conf-ce040d73-dc61-5d2e-aed2-574678934c2a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7e13d7c0f435f604e32b4f27d71ce21cb3b7ad4c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-alsa-lib",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-alsa-lib-b4e57b3f-c8e7-5fb5-aceb-479dba1fa849"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "858a3fa44f7630e50f7f6487249be67303bd141c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fbcae1033c90a32bbda2d88296ba104ee0527dcbe2fec4380b1cee65f895b89c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/alsa.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "253363e487854f11fd0c90209756e82a68953963"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4849b4b523b4995d5d700370787511ab4cd73db447f8fc02dd6e0bb221025120"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/surround21.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b834ff41789b9df4ffc4038b3e00d10481b74784"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "30e4411fb010b64f1c570534c805ce4ce9be98ed1bbad95a2cdb7e6ed8bb1bcd"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/iec958.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca9adfd71f19f0e271be463424253b68bf2606f4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "751d2fdecf36464d11f5b0895f020d5875265ca53423d20eae532d4ce72ecb57"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/default.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1708bb109e9ddfa6217c6eee35734dbc919d6522"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "56eaca2008cdef9a8b94f1e622f10b6c21cc1496b9b4e570ff989b19369e85b8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/modem.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "db213ab95df803ef57d5122f6ae06b239799843a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f32c9810643fe2a371ff0e3c62011b4fbb544702e08424425983f74146989394"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/surround40.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "070368772f69a9dd6535e174cff99fafbfdf7b7a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "615c9e0a739902b304787ea3cb202800ac861727fb2e1501eaa409f4c6a9fc40"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/surround71.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e3e165e341eadd46b7734389ec3e0f44eff088b5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4d0708b1417921f72bece0217547b3b41ca348f93804496a5061f20c92c073f0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/hdmi.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "877e7c1500b48ec342f5366e2c7c67dc64474f80"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d7c6d1582e910445db3bdacdce95d57f5833373d57944b92d3604478df992663"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/center_lfe.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-10",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6fa43f90af140efabdd039cbdb7f5f072646b0e2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7d028550074f0e1d14c9a09bb76a6498771c2ca8660a8cebbf61b6c19d5e70da"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/surround50.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-11",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ccc501efce17dbc7a87d8e3b0180a1fa6f5abd6c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f9c8750ab61549d15b24adccc39587459e1fd6a448f259625d3c31fb0e46f8db"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/front.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a9d81055b6b1628d5246fd0b3e6781b755f2e4ff"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "68b8d7f66f991d7612cdaf379504bf4ca1ee75fefb3cc3a0479177287d655242"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/dmix.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-13",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7379c10f2a393f7eb1e7fe278c193ebe721169b9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "663ebadd34cf94e8b5780fa51159c62d7cce503cf955f585a44b05eb9e390022"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/rear.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-14",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "195e57f5e8fea925327679264967b0206a255c03"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ccec7c194270433c2dcdf3622b2ef25e3197020da800662c6111ff8b8638f30b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/dpl.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-15",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e10f5c265d70c6776d3f654abea0972d09132531"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c2ac63498263b277b6adc2f19caf5463ce49f4ef8f8612fa17ac71433e5d008c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/dsnoop.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-16",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2eb8d2a6c81983b25af79ebee26d31ca5d4eabbd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ee8178f092294ff94ce2e065126888992eeb35cd5119e53487fd0b55fc8be32"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/surround41.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-17",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6d09753552c84731d770de894a93b7af9699f1ab"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ee4124c414833fdfd24dbb584092b77564aaa3481a4b73f34c301ac79636428"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/surround51.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-18",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "eaa4e533a96735c45b6981808b67a5180793da42"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "de6aa38da3163709d3b81cc8a56c4afed3e76788cc0cd912c14ec6c5b2a0761a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/pcm/side.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-19",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "36ebab36e84cda2b078da4cf65dafe2c40fb0d24"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "37fe34f7ddc7a7758863cfd8f32718b1434acee5b5a93548ff5605629468648d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/EMU10K1X.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-20",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dc383beb73a096c5b39457c31645f3558e0a719c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e4f5a1d3007a5938c67b7faf2269cbc6c7bf7487797e5c8111574525c75f8bb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ENS1370.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-21",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "74474d8ddc84957468428c06bfe0eee9ec83d605"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f846aba377c4930fa524fda0ef149b51f519065c9980403e1698371ae7a418fa"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ICH.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-22",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "168e15cca791f067d0f98e1fec646f02012170ff"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0dff9acb89c5772ddd5bdf60bc11ce75d73e9097dd5214f2579ac2097834fc2a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/CA0106.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-23",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "869ce4adf73699903f661de716412165ff81a810"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "14751edd67a1b842be0c44a8104ba132acc85e619a4ffdf3cfb094656b345daa"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/SB-XFi.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-24",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "70e3d30931a99ded541d9e3d57893bd2475b43c6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6af986179f0e753617e36d3b596fce180394b1000862540954a6262cd59c09f0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/Audigy.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-25",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c84df906b009e07251c704f9f393c481846e7cca"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c79d68b2205708c68f073c4b3e86006c0b1fcbe2d93026f69f3b0671fcf97a29"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/PMac.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-26",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "25f5e01521aa2f52091a5b8a9d99ead5474b1d84"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "39ab71393579ea7ed4ad20b58cc61579462b4ac0db559e871840b218dc712fc5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/pistachio-card.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-27",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "567a12d5de8b3906d53fb4c8705364b703f02e71"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "97942d9546bca7fa50841e74168d7e1e8f62468ff8cb9fc3794dd7e3770d8ace"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/GUS.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-28",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "eb9b2222db4be73bc123579207fff6e7caae1f2a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7120140996a1a2037f0edb4a9d39c1f1074fd7d6072b6132014c0cb314c52301"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/CMI8338-SWIEC.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-29",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d974c6672b4fdc9ada536830d50f1b265281d7a4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0d351ba328e6d216857cd0f73632b1e5b929fd9aafc622d7089d44ba78f3b549"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/SI7018.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-30",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0dfbfda20bdfeb53c48816c7c06d8026b7df6749"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1e62875ffadcc69a78cee0146314121aa51317af113ff9782071875d23b22249"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/TRID4DWAVENX.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-31",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "04d78d8ca9fc5b8de93501d18f44a388998c534b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5824b33f63d8884f927688111f38b9b8943747a2ee203646f8bc23ec5a40eae4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/AU8830.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-32",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "63562758f91efeb9b92c293409864f014f5482e5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c405ae909d53f9dcb71546c46bde37e63d76c6fed2bbd1f0e272ea26c69e832e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/VIA8233A.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-33",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8a9551ee37a8fb4086d18037b5f08d989cf4ddf0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "13d828536619f7b9aa16d00b6d8231e5e26266aa417dec1c5f293c9d6263e5ce"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/VIA686A.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-34",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "eb9c6d3f9cc00c8bc16ef193784ee4ae8539f48a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eab3789ba81a6800f11fb01a386e32ae397b0d225f4d7144f486e3ee393ad0bb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/FWSpeakers.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-35",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3803adc43c0a3f59513a0dae488f3d3defa31a0d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "48d733a429b58b0721895b5c28a9df4aba7f6804c5cfb9df484b801660aa672c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/Loopback.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-36",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "080f67f42f6f032baa06d639734ce13592a80aac"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b27ede016371d8b5202ad22092618da188e9509b889882e1f619e746321fe3c6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/Aureon71.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-37",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f9dafa58492a25f72f514577dc21fd8fff4b3ff3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "367fe3988d35b9aa297be855a99504cbad7928fa22153e0b9d753a399eba2a80"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/EMU10K1.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-38",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "46ef1c406c2a629976b84cac7cf1307d1b4da9e4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5f2ddbc85bd703a0fea9c677e9043bb98cd95b8578064092b67ae4c2b557b3c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ICH4.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-39",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f654bd598d871a719c9cae3c5870c0334e4058b0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "39f4fedef3fdab641b954608f8f5f2c1d3ed4c1bb919929286b87a668f586529"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/VX222.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-40",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a2ce6171e85aedb45dd5a0e1d821d3d855d61278"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5189377924d34b4442151489b76ec877d19a9676a1332d1bb7e4b20c0281b745"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/vc4-hdmi.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-41",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "437b4c476f1b47ea7c34c29c8beec1d40d0637ee"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ec8c18a874dc42f6cf925dff57b9cd8b86f0cda3e8ae9de0c6b382811ee4286"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ATIIXP-MODEM.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-42",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b6131a49351fc0332340e24ac70e110e5ac48e75"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "554b97e9bd91ca8debe8517e19f01dfb1bdf0e95e8bbffa431556457a1554557"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/CMI8788.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-43",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fa34ac0e3e273a2762943b5fc3ff4ec8d57735ba"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "72f5b63f7016d076fc59087ab28b60eba988e9bc41814759fc430b364f42997d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ENS1371.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-44",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd1f1c234944780fe69b6b1d728ee01282669c06"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3a5951177ede3e7afc7259dca02a4f62080a9f388d6489eefe98cd1b74bc0fe8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/HDA-Intel.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-45",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3dd5ddb645ed0e65d7fa420742dd21c68d6cbe1f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f4123f0f106c0baf213020ef8cb5aed19e79a2d896fb9e6603d43c001a704254"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/FireWave.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-46",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e8d9268dee8efbcb576a2732c9a58b36889efc6a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f396368a200d99288919481bc398996b52e278ebb65f64974bc741dccdf1723a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/AU8820.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-47",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b402ef5621cd9a34130fecd4703aee17ddb85a6d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9291749b971d36f4f436127d105641031b44dde0da9ea0411937fb4e34897f24"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/Maestro3.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-48",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "31b5124b7fac6a412e6b3f1d9cd99a37205b97d4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "049002e88438628c145792a7059855d08c14c7f33b290a5547eb9203deffb7d2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/Aureon51.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-49",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "07a41fe8826e7c9d31b235683965b29e5a0848ce"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "600ac09279191aded92809840171fdf6184663c6bc8e0c188df255862536e8e7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/VXPocket440.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-50",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d5f500f613b2d3bd73aa8162a811ca461601d657"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "79bd52df908894e3eca05c52db832a0996732556b038aba3b17a7738e7eda274"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/CS46xx.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-51",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5ef90cba7a1e1b950f201b4db4c9fd7fc3e0e419"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3b455ac43aeaf36887eec1300c2580fe645499c8f6ef277f193635b0bd5b26c3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ICH-MODEM.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-52",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c602b1fb2e81721c89b80ba876427752f0392474"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "753be05a4280bd8bbe50a04f5a54371886f9867798ee0968eb21156b770337f7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ATIIXP-SPDMA.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-53",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d9b6b3b6b761be6fff8b7586358cea50cf9fe65"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8a065a1bc0f7e9843e54fc098ccebb049dc85981d93f7e1a24db26f958f33339"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/RME9652.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-54",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3f1cffe1304d07bd80dc3d9a537c33aab93effdb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "58caca46430a262b1f5707275217e97418ae97839c714fecd1509a3c37dc8c10"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/HdmiLpeAudio.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-55",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0c06c1b99d2c4e95c6f90dfa2da20326e2e7c664"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cddd47a62dcb70aa209d2788f743c469a3d799a0e1093fea5d200837a5ea6f9a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/PS3.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-56",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a0f756474eb337f644b76fa49fdf5286a9e648ed"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fa3218152521ad798b5770aad93363fd57557c84dd32d630bf273041c21fa5dc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ES1968.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-57",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "de57408cb679403cb4bf2cd5163f7f5e68e26636"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8fe2eb01c92038c0b50f98f0386c435db852fe131323a585f529d89f81fb2ba7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/VIA8237.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-58",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3b21bffa157e13e8fa35a7e7e355504902d97c52"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "812eda76155dfa495eb1d743356a2471fe02add40bea1d669188ee3f083b5dc4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/NFORCE.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-59",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e3170aa7fba7884eab885efc95b85e7f5215585d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "010df70a0dbf4fcfc3b19b43a9af30d58fa7e1121da8069573857336a62a889c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/CMI8738-MC8.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-60",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad2b6e1d5c52656b8299e227d694552d06355308"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "88fcf5d6019e425f849f9d2aa67a5620203235982fe80993f0d6c6c9bb65a18e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ICE1724.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-61",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "47957abe50e44d03419ecaa10ca09739eed655cc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aff8b0c75abbfe770cb2aab21612b5f404b5468a858d6bf333a535e40ee5611c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/CMI8738-MC6.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-62",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fb284644b868bc2efaa0d69a0d951082e848ce8f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8485eab66bcc53c6b21f18a3997607b77eabd698b437a4788d86baf67948a838"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/Audigy2.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-63",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "828d00513dd17eb7bccab906507b596c76e37f5b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c6e894381791831b01df3403c5493027bcc22b11b9c018c32df93a8f17794ffe"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/AACI.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-64",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca03c80e7f281de8ee7d4f82c11cfb0f64539293"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "022ca9b10d7cc8a32f60b0aff3960fdd9fb06a68a2cecb2a54da5426d64f1903"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/FM801.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-65",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "28494f3b3d54184798c784198b357e9e02400c62"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2ee6d46c2bda0be75a42bf29f9bf242ebfd3502dbee57a5bd08c0cae4b48d097"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/VIA8233.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-66",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "40348a1c04606b2f180f0ea6ab12d4a8649867a5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c372e8777d554e4cf9b10ece78d967ef06daadaa0362d46468f927d9062ef5f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/RME9636.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-67",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "02f48095f8564e3584cbb9d863fa581f8f7ae618"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "626f6b628f29714ca8925b67a7a337ab12ec2cdd39c2fc5098ff8dd3865ad678"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ATIIXP.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-68",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f8632ba42f0bd66775fc2c43c861e4e3e08ad98b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "778ac126c680298a4ca4f9e004098466bf51298433b91ca8ba850647e6b3e680"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/PMacToonie.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-69",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "015116303e6456c2a8772319cb1752581ff69e6a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ca5b2b36906ef6f4322df049e44148d2c5657768dcbc21c55e696eebe5eeb0fe"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/AU8810.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-70",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "af6ae5fedb7e8dcb4b9b2c0428ff1bc6d564c602"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "db64d0d74de40d5c975dbceecf64feff164a4cc709ccbfa67958b457a2615218"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/CMI8338.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-71",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1a8a39e8c83d4a425b749071031244534b8faa95"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "961520f46a0826778aed3716a2b573bd039af6bd8605858651dc56d3d0621c6e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/USB-Audio.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-72",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7974585e97e390e617fec6a4517e4585b015cad2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d024c523af4e2dbcf967e88b2101ce340bc8dd1c1fa5f5ef3746fffe4ec11d7f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/YMF744.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-73",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ed6a6602dd3476d3b9edda970f6aea77aaa645c1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b6df2b1986dbc8cc543130f6fe07c58e8c0f96f360891081096df1d3b4bd865f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/Echo_Echo3G.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-74",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d1f1418fdb5baff16ba39914287dce7077760dee"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d6c8185b9a3bcfa829632ea2238ea1804f9eb7568d2047bdaf8e519e883146ee"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/PC-Speaker.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-75",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "345b3f0532d032baa4f2052ffd8723aa1615f1cd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8bad941984949f531c03fd813941ad055afd5883e3be0c0408fd4dea7feab5d8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/aliases.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-76",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e0060e56461048e86e02f06e8ee747b000e45437"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c5d14491b5de612c7bbc69b4b5989fd1002d93f6fd6a3a672249951f9367a515"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/VXPocket.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-77",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "89e47d1a80ef6be2253f432964bc47b858700e6f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "31761fd7920b74f976eb545f356c835d82cdd4d266812aca8c49c1575c642c85"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/cards/ICE1712.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-conf-78",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "609cbad29db66d9bd2f6b4a7e4066bd499c22c67"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ab4a977ee780c466ab09ce5b3eb11a81e829a07cc277e108416be5fb57360f8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/ctl/default.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "alsa-conf",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-alsa-conf",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-alsa-conf-1",
+        "SPDXRef-PackagedFile-alsa-conf-2",
+        "SPDXRef-PackagedFile-alsa-conf-3",
+        "SPDXRef-PackagedFile-alsa-conf-4",
+        "SPDXRef-PackagedFile-alsa-conf-5",
+        "SPDXRef-PackagedFile-alsa-conf-6",
+        "SPDXRef-PackagedFile-alsa-conf-7",
+        "SPDXRef-PackagedFile-alsa-conf-8",
+        "SPDXRef-PackagedFile-alsa-conf-9",
+        "SPDXRef-PackagedFile-alsa-conf-10",
+        "SPDXRef-PackagedFile-alsa-conf-11",
+        "SPDXRef-PackagedFile-alsa-conf-12",
+        "SPDXRef-PackagedFile-alsa-conf-13",
+        "SPDXRef-PackagedFile-alsa-conf-14",
+        "SPDXRef-PackagedFile-alsa-conf-15",
+        "SPDXRef-PackagedFile-alsa-conf-16",
+        "SPDXRef-PackagedFile-alsa-conf-17",
+        "SPDXRef-PackagedFile-alsa-conf-18",
+        "SPDXRef-PackagedFile-alsa-conf-19",
+        "SPDXRef-PackagedFile-alsa-conf-20",
+        "SPDXRef-PackagedFile-alsa-conf-21",
+        "SPDXRef-PackagedFile-alsa-conf-22",
+        "SPDXRef-PackagedFile-alsa-conf-23",
+        "SPDXRef-PackagedFile-alsa-conf-24",
+        "SPDXRef-PackagedFile-alsa-conf-25",
+        "SPDXRef-PackagedFile-alsa-conf-26",
+        "SPDXRef-PackagedFile-alsa-conf-27",
+        "SPDXRef-PackagedFile-alsa-conf-28",
+        "SPDXRef-PackagedFile-alsa-conf-29",
+        "SPDXRef-PackagedFile-alsa-conf-30",
+        "SPDXRef-PackagedFile-alsa-conf-31",
+        "SPDXRef-PackagedFile-alsa-conf-32",
+        "SPDXRef-PackagedFile-alsa-conf-33",
+        "SPDXRef-PackagedFile-alsa-conf-34",
+        "SPDXRef-PackagedFile-alsa-conf-35",
+        "SPDXRef-PackagedFile-alsa-conf-36",
+        "SPDXRef-PackagedFile-alsa-conf-37",
+        "SPDXRef-PackagedFile-alsa-conf-38",
+        "SPDXRef-PackagedFile-alsa-conf-39",
+        "SPDXRef-PackagedFile-alsa-conf-40",
+        "SPDXRef-PackagedFile-alsa-conf-41",
+        "SPDXRef-PackagedFile-alsa-conf-42",
+        "SPDXRef-PackagedFile-alsa-conf-43",
+        "SPDXRef-PackagedFile-alsa-conf-44",
+        "SPDXRef-PackagedFile-alsa-conf-45",
+        "SPDXRef-PackagedFile-alsa-conf-46",
+        "SPDXRef-PackagedFile-alsa-conf-47",
+        "SPDXRef-PackagedFile-alsa-conf-48",
+        "SPDXRef-PackagedFile-alsa-conf-49",
+        "SPDXRef-PackagedFile-alsa-conf-50",
+        "SPDXRef-PackagedFile-alsa-conf-51",
+        "SPDXRef-PackagedFile-alsa-conf-52",
+        "SPDXRef-PackagedFile-alsa-conf-53",
+        "SPDXRef-PackagedFile-alsa-conf-54",
+        "SPDXRef-PackagedFile-alsa-conf-55",
+        "SPDXRef-PackagedFile-alsa-conf-56",
+        "SPDXRef-PackagedFile-alsa-conf-57",
+        "SPDXRef-PackagedFile-alsa-conf-58",
+        "SPDXRef-PackagedFile-alsa-conf-59",
+        "SPDXRef-PackagedFile-alsa-conf-60",
+        "SPDXRef-PackagedFile-alsa-conf-61",
+        "SPDXRef-PackagedFile-alsa-conf-62",
+        "SPDXRef-PackagedFile-alsa-conf-63",
+        "SPDXRef-PackagedFile-alsa-conf-64",
+        "SPDXRef-PackagedFile-alsa-conf-65",
+        "SPDXRef-PackagedFile-alsa-conf-66",
+        "SPDXRef-PackagedFile-alsa-conf-67",
+        "SPDXRef-PackagedFile-alsa-conf-68",
+        "SPDXRef-PackagedFile-alsa-conf-69",
+        "SPDXRef-PackagedFile-alsa-conf-70",
+        "SPDXRef-PackagedFile-alsa-conf-71",
+        "SPDXRef-PackagedFile-alsa-conf-72",
+        "SPDXRef-PackagedFile-alsa-conf-73",
+        "SPDXRef-PackagedFile-alsa-conf-74",
+        "SPDXRef-PackagedFile-alsa-conf-75",
+        "SPDXRef-PackagedFile-alsa-conf-76",
+        "SPDXRef-PackagedFile-alsa-conf-77",
+        "SPDXRef-PackagedFile-alsa-conf-78"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-only AND GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "alsa-conf",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a9fd5db795950bdfcdab00baf968fabddbb6c1e7"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.2.11"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-alsa-lib:SPDXRef-Recipe-alsa-lib",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-alsa-conf",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-7",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-9",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-10",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-11",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-12",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-13",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-14",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-15",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-16",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-17",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-18",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-19",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-20",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-21",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-22",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-23",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-24",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-25",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-26",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-27",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-28",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-29",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-30",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-31",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-32",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-33",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-34",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-35",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-36",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-37",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-38",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-39",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-40",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-41",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-42",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-43",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-44",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-45",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-46",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-47",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-48",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-49",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-50",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-51",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-52",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-53",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-54",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-55",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-56",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-57",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-58",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-59",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-60",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-61",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-62",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-63",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-64",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-65",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-66",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-67",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-68",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-69",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-70",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-71",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-72",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-73",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-74",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-75",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-76",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-77",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-conf-78",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-conf"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

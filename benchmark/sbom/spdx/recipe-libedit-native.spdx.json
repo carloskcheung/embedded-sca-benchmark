@@ -1,0 +1,139 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:59:04Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-libedit-native-6f691384-6781-5ebb-82b1-bb916697c420",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "00eea26a137bfcb4ba475eff4a39c9ef248357f7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ncurses-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ncurses-native-6ee9d8f0-8e87-5b73-a420-c66a1123b8a6"
+    }
+  ],
+  "name": "recipe-libedit-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-libedit-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:59:04Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Command line editor library providing generic line editing, history, and tokenization functions",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:libedit:20230828-3.1:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.thrysoee.dk/editline/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libedit-native",
+      "summary": "BSD replacement for libreadline",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "20230828-3.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-libedit-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4ee8182b6e569290e7d1f44f0f78dac8716b35f656b76528f699c69c98814dad"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://www.thrysoee.dk/editline/libedit-20230828-3.1.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libedit-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libedit-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-libedit-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libedit-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-libedit-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libedit-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libedit-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libedit-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libedit-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ncurses-native:SPDXRef-Recipe-ncurses-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

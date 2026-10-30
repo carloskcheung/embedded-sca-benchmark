@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:39:39Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libglib-2.0-locale-en-gb-49c5c400-156e-5cad-9e03-9107edc63565",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "eda89ebc3373a4e118fb175a376e96348bfd530b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glib-2.0",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glib-2.0-d0091684-3041-5a99-9476-45ed618feb68"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libglib-2.0-locale-en-gb-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48625a4806be54100b1cc2961568d085cc28fe37"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c86dfebace74f5d3130157f20d019ac663a4bb2a038dcb6f861d4d09978cbefa"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/en_GB/LC_MESSAGES/glib20.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libglib-2.0-locale-en-gb",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libglib-2.0-locale-en-gb",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libglib-2.0-locale-en-gb-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later AND BSD-3-Clause AND DocumentRef-recipe-glib-2.0:LicenseRef-PD",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libglib-2.0-locale-en-gb",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "af611232d8ee8d4d622a03bde9c4c678006e90dc"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.78.6"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glib-2.0:SPDXRef-Recipe-glib-2.0",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libglib-2.0-locale-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libglib-2.0-locale-en-gb",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libglib-2.0-locale-en-gb-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libglib-2.0-locale-en-gb"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

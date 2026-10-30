@@ -1,0 +1,41 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:29:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-packagegroup-core-boot-14d22e2f-db47-5b86-a08e-b921c83de151",
+  "name": "recipe-packagegroup-core-boot",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-packagegroup-core-boot",
+      "copyrightText": "NOASSERTION",
+      "description": "The minimal set of packages required to boot the system",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "packagegroup-core-boot",
+      "summary": "Minimal boot requirements",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-packagegroup-core-boot",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

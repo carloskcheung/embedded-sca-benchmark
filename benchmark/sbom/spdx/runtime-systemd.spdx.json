@@ -1,0 +1,229 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-systemd-84566080-b04d-5f67-8769-fe1cbefc825c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "45a3c6d0008e3abe65554dfc33bfc54f458233fc"
+      },
+      "externalDocumentId": "DocumentRef-package-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-00fc451d-b6e9-5017-9e51-d97c976713e3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c36b0570829d8ee4c9f21071139e17a2544ba25e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-kmod",
+      "spdxDocument": "http://spdx.org/spdxdocs/kmod-c91a9b67-c26b-5fcd-ac47-27e95ef17a1a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f32ad8592b675175ef4dc7bd037de205c850f7df"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-ldconfig",
+      "spdxDocument": "http://spdx.org/spdxdocs/ldconfig-7e38a952-6968-5151-9591-63015b1f4a16"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "14212c0d7513eed2f1f73c4159e2429ca8724be7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libsystemd-shared",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsystemd-shared-22a8ac6b-2fc5-5064-9a75-8311ddb0e763"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "51d4aa5f719ffe0fab9112e6b3a6cb181d3f36b5"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-systemd-compat-units",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-compat-units-4c2c3d30-bc83-5896-8412-23f83f9ba639"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f79ee165a1674637ba932b3fcbaf23157a3d1b1b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-systemd-serialgetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-serialgetty-bcd2c8c3-ad88-5b41-83d2-06676a42f89f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "38936120385b626fd7660a41bb33f2d27ab394b1"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-systemd-udev-rules",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-udev-rules-d86f4a71-4946-55af-a57d-95e331103e63"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a575a44a61fb7c3dc3cacff7fb574c2febdfacfd"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-systemd-vconsole-setup",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-vconsole-setup-c2ae399a-5b83-544a-bcef-b088799fcc41"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1dc7ad8f0c99f6e6469bc539a39f6d74d74cfd39"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-udev",
+      "spdxDocument": "http://spdx.org/spdxdocs/udev-71788d32-2a9e-54e1-948e-381440fd3488"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "87ee6998d0dc22963e11235741673079388bb97c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-update-rc.d",
+      "spdxDocument": "http://spdx.org/spdxdocs/update-rc.d-fde24237-98eb-54c2-b3e8-cc69971dd42c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "65981fa71c50a245677dd7cc3c96a35ce8bce8b6"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-util-linux-agetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-agetty-c6cafcdd-59a0-5ad2-90e5-60aee3d34c85"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "be5bc7ede9c91fbe6553f3cc29c7788d3018114c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-util-linux-fsck",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-fsck-424e2cc7-cd52-5415-8f26-758d0128cde4"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b1a2435267f097e8ad44b282ee00e7b06451080"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-util-linux-mount",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-mount-5e3a3943-9fdf-52d9-a674-935de1669932"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d8eee8b9e17da3828c2ab11157de3314743b9158"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-util-linux-swaponoff",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-swaponoff-59a21ba1-e58a-5f44-b5cb-37836f16d01a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "82a7a3a1bc58c08d4f037de2d9df5d223763801a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-util-linux-umount",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-umount-1f25cc32-74e5-5a5c-9bf6-58d9abd4e93a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ae9d9eec931b09003a65926a8468fd93bd094e08"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-volatile-binds",
+      "spdxDocument": "http://spdx.org/spdxdocs/volatile-binds-cd179282-7f9d-5c0c-8cd9-b7806645ea8d"
+    }
+  ],
+  "name": "runtime-systemd",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-kmod:SPDXRef-Package-kmod"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-ldconfig:SPDXRef-Package-ldconfig"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libsystemd-shared:SPDXRef-Package-libsystemd-shared"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-systemd-compat-units:SPDXRef-Package-systemd-compat-units"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-systemd-serialgetty:SPDXRef-Package-systemd-serialgetty"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-systemd-udev-rules:SPDXRef-Package-systemd-udev-rules"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-systemd-vconsole-setup:SPDXRef-Package-systemd-vconsole-setup"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-udev:SPDXRef-Package-udev"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-update-rc.d:SPDXRef-Package-update-rc.d"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-util-linux-agetty:SPDXRef-Package-util-linux-agetty"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-util-linux-fsck:SPDXRef-Package-util-linux-fsck"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-util-linux-mount:SPDXRef-Package-util-linux-mount"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-util-linux-swaponoff:SPDXRef-Package-util-linux-swaponoff"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-util-linux-umount:SPDXRef-Package-util-linux-umount"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-volatile-binds:SPDXRef-Package-volatile-binds"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

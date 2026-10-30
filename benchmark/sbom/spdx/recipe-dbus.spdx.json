@@ -1,0 +1,349 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T16:49:42Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-dbus-71a464b4-138c-59b6-b5fa-4e7ee7d3cef8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "55a20143c98cad4df664286f0b57402e1b0c0a5c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-archive-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-archive-native-fd00b327-70b9-5c20-8c90-9c0103cbc9f0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d70047f319831bf1fd4b5ded8a452e0075b3199d"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-base-files",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-files-c146050a-959a-5836-966f-98e79d6e765f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d02ccafbb41857537f2dbc2b2a5046fe5c3f04af"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-passwd-bb3f3152-7b84-5ef0-95bd-04186ff304e1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7cfeb57633c21cefeee3e5bf5f7a7b4ccf108e55"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-expat",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-expat-3c0df939-071e-5cc6-ab3d-a72974b1f775"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "34b62e10031b25f9fcde0a193bd805baea98428e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-native-bc0b5e4e-69c4-5def-955c-45419d0a98ee"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "eda89ebc3373a4e118fb175a376e96348bfd530b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glib-2.0",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glib-2.0-d0091684-3041-5a99-9476-45ed618feb68"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4a9e8fcf8e782e13d7d0f0c6ce66089a0f7b593e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libsm",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libsm-79c00984-3eaf-50e2-8b53-f4f67349a799"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f2cacbf0939f303297321fc12601bb5b7cb6a7be"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-cross",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-cross-07500b21-b619-56d3-838e-16ca401a612f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a3cbcc93ce4dbb50aebd4ebd5fed202ed93d5076"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libx11",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libx11-55e245a1-d00e-5445-bb7b-87ecfa6d3cde"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aad97394aafc70c52bb3aafc62d9040eeaf3149f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-6845d95c-0853-56dd-b976-caae5a99461e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5b42c041572f8ac5fabd72042bc7e164bf0f175"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-native-8f9e05bf-71e7-5a75-a2e0-b8f7479cc53d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d9cd040dbdd54bf85028a78d7b59e3b151a07b10"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow-sysroot",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-sysroot-b6b6920a-50f2-5a27-a753-5106a834f19f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1abf1313d50efb2ff39e7b1bda652813cad9381c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-9a30b9ed-a145-56fe-863a-756f27954858"
+    }
+  ],
+  "name": "recipe-dbus",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-dbus",
+      "copyrightText": "NOASSERTION",
+      "description": "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\\"single instance\\\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:d-bus_project:d-bus:1.14.10:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:freedesktop:dbus:1.14.10:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:freedesktop:libdbus:1.14.10:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://dbus.freedesktop.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "AFL-2.1 OR GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "dbus",
+      "summary": "D-Bus message bus",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.14.10"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-dbus-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ba1f21d2bd9d339da2d4aa8780c09df32fea87998b73da24f49ab9df1e36a50f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://dbus.freedesktop.org/releases/dbus/dbus-1.14.10.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "dbus-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-dbus-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-dbus-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-archive-native:SPDXRef-Recipe-autoconf-archive-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-base-files:SPDXRef-Recipe-base-files"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-base-passwd:SPDXRef-Recipe-base-passwd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-expat:SPDXRef-Recipe-expat"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-native:SPDXRef-Recipe-gettext-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glib-2.0:SPDXRef-Recipe-glib-2.0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libsm:SPDXRef-Recipe-libsm"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-cross:SPDXRef-Recipe-libtool-cross"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libx11:SPDXRef-Recipe-libx11"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow:SPDXRef-Recipe-shadow"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow-native:SPDXRef-Recipe-shadow-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow-sysroot:SPDXRef-Recipe-shadow-sysroot"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-dbus",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-systemd:SPDXRef-Recipe-systemd"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

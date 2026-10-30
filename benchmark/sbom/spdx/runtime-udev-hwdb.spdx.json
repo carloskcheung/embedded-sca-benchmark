@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-udev-hwdb-b0e4eab9-2982-5a1a-a49d-1a43dadc8a0f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8c1bd7f26a8f2ecf02d4b12a605781f64b1297a6"
+      },
+      "externalDocumentId": "DocumentRef-package-udev-hwdb",
+      "spdxDocument": "http://spdx.org/spdxdocs/udev-hwdb-536f650c-610d-59fd-a9aa-822d06daa180"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1dc7ad8f0c99f6e6469bc539a39f6d74d74cfd39"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-udev",
+      "spdxDocument": "http://spdx.org/spdxdocs/udev-71788d32-2a9e-54e1-948e-381440fd3488"
+    }
+  ],
+  "name": "runtime-udev-hwdb",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-udev-hwdb:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-udev-hwdb:SPDXRef-Package-udev-hwdb",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-udev:SPDXRef-Package-udev"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

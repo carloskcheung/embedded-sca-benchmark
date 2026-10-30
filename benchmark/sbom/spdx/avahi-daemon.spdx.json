@@ -1,0 +1,1375 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:56:35Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/avahi-daemon-81243a7b-5ae6-57ad-afaf-b9f620b0c46e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a34b3a71eb85e063c8af26280d4448369f108a93"
+      },
+      "externalDocumentId": "DocumentRef-recipe-avahi",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-avahi-b4754c8f-dcab-5c30-83e0-ebf6ec632750"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d827c10cb2bc5243084a75b48e5dcf0a68b681db"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "70e959e3286cb86170d29b6a914902c438414d9b3133e9b1b9cb7b5b80683624"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/system-services/org.freedesktop.Avahi.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2a86e5d8ba76ccf44879373ce330e5bd9d597e0e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cdb6b1f9cda0509e362815fde88074d1151976f9f8bdd3ff30cb80a86c90d631"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.Server.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ee49d50e09e1cffd4056a51bb7c597d500b99c6c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ca4d11d21db16bb34964aff545c7d642421c163eeba5560008cd6f097b2f6e8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.ServiceTypeBrowser.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "66b91c720f7cf86b50ad274cab32a58c29dfeb2c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa30465c8573b5cfac75f7581ecf6439eb5923e783dc39ba3569932d66c1dc12"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.AddressResolver.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2b961bedc4eb762f3b07fb1a67ea75a7cd472a96"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7ea489e95681a97acbef068413dd063802af1ae7ba5ef3adfb3d42566d31a488"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.EntryGroup.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b589ec4a73ce0f974cdbb560e17c3fdedb95fb2d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "37d012a9cdbe953e0c32d0042c2a4e692becc276ff0bc14d8c0178cc96e7cd00"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.RecordBrowser.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4abf8abf4fe585c1dcdd5935a8128f76351212c3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c4978128db3864abd0470315768c6570509fce3a2a5332fc68832971d5006d2a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.ServiceBrowser.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8675f81ea34dbf701621e2af095b5b6dbe3f1505"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f418e7793eca2129220534413dd48b5f42e746d2a3896d194d5faf9d17e1d99"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.HostNameResolver.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bc4fab4ced5d643599c4068f438e85c1df5f9de5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3fd2a26c05bc5f6a9ea121162814f25fa41a750594dfae6bee6a35c63b9390cb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.DomainBrowser.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-10",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "865d235c7fadc3b21af369be2be3d52c383d821f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a7bc05116c4fb6f8194956bc27cebaced4d6362401a1cc9ad5686744d6342680"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/dbus-1/interfaces/org.freedesktop.Avahi.ServiceResolver.xml",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-11",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a4941ee2d25e195c34ebef6614711df87c63d107"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cbdcda74df125b04c254e4b1a495d18ccb139b4d6ffea48cfe455b08fd3bad6a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/avahi/avahi-service.dtd",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "254f23b0f4fb3d3953180becfa126d5fa879948f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7c24de82a7058ebb806ed99c32735b5163fb9cf9e84460a6f2e23fc466ad2c52"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system-preset/98-avahi-daemon.preset",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-13",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "63d6254afe3af1562ee00c2a598d2002ba5b085d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5405e59c183286407558aab4ef44812605bdaa988da71b9f89d72af5f88bfab8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/avahi-daemon.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-14",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9b19bafd4632ddef89f63fbcb45ba65131cbbdd1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "53aa111dadc10bba319e0346e399c607a80ae6ffcded55f3cd3102c6d71995b0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/avahi-daemon.socket",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-15",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0652c84ed9fdbfe1ee80286a3d3f1a75af1e91db"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a4e7310ac316a9f4e60e20aa378604a16a09104fa9ec76d5cf8d6f05114d9b17"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/avahi-daemon",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-16",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "66ff4665ecad8429744cb96d03f8d0f5e5805e8e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ec9d3b6cdfd1fecad5a9ac5dd86c71dadc9f08e630ec63b4ba59e79a7713a959"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/dbus-1/system.d/avahi-dbus.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-17",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8a246ebd5f0b1b762e55779808ece2a12f2491b6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d16fca08d5054e14ffa9b0cb919263f4f21db379da4058ea745d3ec467f32afd"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/avahi/hosts",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-daemon-18",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d12c98f20ef6551e411b122e74faf3add10db8f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5ed1c838661a12a292c4a764af0ff0feb8420486570264da833653d40328ff8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/avahi/avahi-daemon.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "avahi-daemon",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-avahi-daemon",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-avahi-daemon-1",
+        "SPDXRef-PackagedFile-avahi-daemon-2",
+        "SPDXRef-PackagedFile-avahi-daemon-3",
+        "SPDXRef-PackagedFile-avahi-daemon-4",
+        "SPDXRef-PackagedFile-avahi-daemon-5",
+        "SPDXRef-PackagedFile-avahi-daemon-6",
+        "SPDXRef-PackagedFile-avahi-daemon-7",
+        "SPDXRef-PackagedFile-avahi-daemon-8",
+        "SPDXRef-PackagedFile-avahi-daemon-9",
+        "SPDXRef-PackagedFile-avahi-daemon-10",
+        "SPDXRef-PackagedFile-avahi-daemon-11",
+        "SPDXRef-PackagedFile-avahi-daemon-12",
+        "SPDXRef-PackagedFile-avahi-daemon-13",
+        "SPDXRef-PackagedFile-avahi-daemon-14",
+        "SPDXRef-PackagedFile-avahi-daemon-15",
+        "SPDXRef-PackagedFile-avahi-daemon-16",
+        "SPDXRef-PackagedFile-avahi-daemon-17",
+        "SPDXRef-PackagedFile-avahi-daemon-18"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "avahi-daemon",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2c63dd038eb2ea9ca73e8d82b0d319c57da6e60d"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-avahi:SPDXRef-Recipe-avahi",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-avahi-daemon",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-7",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-9",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-10",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-11",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-12",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-13",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-14",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-15",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-16",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-17",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-daemon-18",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-daemon"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/dbus-1.0/dbus/dbus-bus.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/dbus-1.0/dbus/dbus-connection.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/dbus-1.0/dbus/dbus-errors.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/dbus-1.0/dbus/dbus-memory.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/dbus-1.0/dbus/dbus-message.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/dbus-1.0/dbus/dbus-shared.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/dbus-1.0/dbus/dbus-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/expat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/expat_external.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/glob.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/libdaemon/dfork.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/libdaemon/dlog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/libdaemon/dpid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/libdaemon/dsignal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/net/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/capability.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/inotify.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/prctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-client/check-nss.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/address.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/alternative.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/dbus-watch-glue.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/dbus-watch-glue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/dbus.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/dbus.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/domain.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/error.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/simple-watch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/strlst.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-common/watch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-core/core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-core/dns-srv-rr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-core/log.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-core/lookup.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-core/publish.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-core/rr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-core/util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/caps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/caps.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/chroot.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/chroot.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-async-address-resolver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-async-host-name-resolver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-async-service-resolver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-domain-browser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-entry-group.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-protocol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-protocol.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-record-browser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-service-browser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-service-type-browser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-sync-address-resolver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-sync-host-name-resolver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-sync-service-resolver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/dbus-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/ini-file-parser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/ini-file-parser.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/main.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/main.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/sd-daemon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/sd-daemon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/setproctitle.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/setproctitle.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/simple-protocol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/simple-protocol.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/static-hosts.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/static-hosts.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/static-services.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/avahi/0.8/avahi-daemon/static-services.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-avahi-daemon-15"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

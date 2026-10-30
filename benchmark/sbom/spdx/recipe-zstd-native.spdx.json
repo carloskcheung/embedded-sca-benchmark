@@ -1,0 +1,79 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:53:17Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-zstd-native-ccc925e5-9b0f-5106-b595-cbfe0152bf06",
+  "name": "recipe-zstd-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-zstd-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:53:17Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Zstandard is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios. It's backed by a very fast entropy stage, provided by Huff0 and FSE library.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:zstandard:1.5.5:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.zstd.net/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause OR GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "zstd-native",
+      "summary": "Zstandard - Fast real-time compression algorithm",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.5.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-zstd-native-1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/facebook/zstd.git@63779c798237346c2b245c546c40b72a5a5913fe",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "zstd-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-zstd-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-zstd-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-zstd-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-zstd-native-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

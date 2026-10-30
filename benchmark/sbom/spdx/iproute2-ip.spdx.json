@@ -1,0 +1,1901 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:31:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/iproute2-ip-206c4c9a-2f99-56d1-aef8-75cc4bc5689d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0c5cbb60aae7ee1a5fbde702782bd5f97ecb8e09"
+      },
+      "externalDocumentId": "DocumentRef-recipe-iproute2",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-iproute2-6d877ab9-bf53-50dc-8a38-20733171e4b0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4a42a4c2f078e0a2c3845bc5c0a57c17adc144bb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "beb2c6dbeb8c7bcc056a7ebaad1c213bc7204b63f2e7e2d47f0e64f5c8b6ce22"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/bpf_pinning",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "96881d20ee9d521b74d4bde6c12d6f1bdb210c96"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "422704225f2cdc53e6a5387a3a35a4bcfd8eabd40e4bc143dfb82ffb5571acd9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/group",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "439471711c9ce9d8cc9713378b20d47513c20165"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c9fef75e20c479554825ead8f96b5eee51771a2f1e5d1794875226ead014730c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/rt_protos",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da6ecd3c272b22a495a7498c1da2e68348b8e22b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "08c418b8469951cd5c59da91e4b116cd62cb125478dfac12e5f5067d4d07ad3f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/rt_tables",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "71a4c71af485bca57a562b6d0c73fec23a93c11c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a84a4480b5925624c5ac3ff059faf9af42858e7f9224c06270df3f15baacc9c1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/rt_scopes",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c9a8e6c59067f0d6bc5fcc4a6cea0b5bddaf314f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ca77fbc6bfbc56c9b4c4780b7b336da24ceaf3af3b657937e3076aa48c5d460b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/nl_protos",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ab64726fcfeb050b86ab31825cb7b2ec6700002d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f0bfd37d31eb05e75b42908d0eeb61bc3394ba4e5a5f110ed3ae2e5fb9e92af"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/rt_realms",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "66a78e8a71aef6e6eac5684fbd98c10722168d07"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0b1d73102310eedcb0b6a6f1b104c40d9d7a33ab5150c88a4698d0d6ab2b8659"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/ematch_map",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d2bc998f14cbc997cd053824d21b561db38df289"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1bf0c82f97f2c25563c9cb7e4bf57a007f35355fd93f9815898fee79d2592d3b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/iproute2/rt_dsfield",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-iproute2-ip-10",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1b1df5d4726fd796272b9090f9508d000704888f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "05fe8e20485382b03e2db658ccfbef4598c465055e6e0bdc14ad033862639597"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/ip.iproute2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "iproute2-ip",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-iproute2-ip",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-iproute2-ip-1",
+        "SPDXRef-PackagedFile-iproute2-ip-2",
+        "SPDXRef-PackagedFile-iproute2-ip-3",
+        "SPDXRef-PackagedFile-iproute2-ip-4",
+        "SPDXRef-PackagedFile-iproute2-ip-5",
+        "SPDXRef-PackagedFile-iproute2-ip-6",
+        "SPDXRef-PackagedFile-iproute2-ip-7",
+        "SPDXRef-PackagedFile-iproute2-ip-8",
+        "SPDXRef-PackagedFile-iproute2-ip-9",
+        "SPDXRef-PackagedFile-iproute2-ip-10"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iproute2-ip",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "19bae95b0f8d91ca6aaea20f84223867486cec4a"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.7.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-iproute2:SPDXRef-Recipe-iproute2",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-iproute2-ip",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-7",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-9",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-iproute2-ip-10",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-iproute2-ip"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/arpa/nameser.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl-linux.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/socket2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/statfs-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/statvfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/fnmatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/gelf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/glob.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/libelf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/libmnl/libmnl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/net/ethernet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/net/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/netinet/ether.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/capability.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/inotify.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/mount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/sendfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/statfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/statvfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/bpf_elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/bpf_scm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/bpf_util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/color.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/json_print.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/json_writer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/libgenl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/libnetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/ll_map.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/namespace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/rt_names.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/rtm_map.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/selinux.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/asm-generic/posix_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/amt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/ax25.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/batman_adv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/bpf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/btf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/can/netlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/can/vxcan.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/fib_rules.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/filter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/fou.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/genetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/hdlc/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_addr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_addrlabel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_alg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_bonding.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_bridge.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_link.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_macsec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_tunnel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/if_vlan.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/ila.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/ioam6.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/ioam6_genl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/ioam6_iptunnel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/ip.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/ip6_tunnel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/l2tp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/lwtunnel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/mpls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/mpls_iptunnel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/mptcp_pm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/neighbour.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/net_namespace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/netconf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/netlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/nexthop.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/rose.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/rpl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/rpl_iptunnel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/rtnetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/seg6.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/seg6_genl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/seg6_hmac.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/seg6_iptunnel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/seg6_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/snmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/tcp_metrics.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/veth.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/wwan.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/uapi/linux/xfrm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/utils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/include/version.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ila_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ip6tunnel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ip_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipaddress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipaddrlabel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipfou.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipila.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipioam6.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipl2tp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_amt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_bareudp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_batadv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_bond.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_bond_slave.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_bridge.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_bridge_slave.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_can.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_dsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_dummy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_geneve.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_gtp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_hsr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_ifb.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_ipoib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_ipvlan.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_macvlan.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_netdevsim.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_nlmon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_rmnet.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_team.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_vcan.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_virt_wifi.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_vlan.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_vrf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_vxcan.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_vxlan.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_wwan.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_xdp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iplink_xstats.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipmacsec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipmaddr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipmonitor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipmptcp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipmroute.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipneigh.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipnetconf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipnetns.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipnexthop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipntable.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipprefix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iproute.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iproute_lwtunnel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iprule.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipseg6.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipstats.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iptoken.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iptunnel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/iptuntap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipvrf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/ipxfrm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/link_gre.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/link_gre6.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/link_ip6tnl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/link_iptnl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/link_veth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/link_vti.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/link_vti6.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/link_xfrm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/nh_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/rtm_map.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/tcp_metrics.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/tunnel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/tunnel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/xfrm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/xfrm_monitor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/xfrm_policy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/ip/xfrm_state.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/ax25_ntop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/bpf_glue.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/bpf_legacy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/color.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/exec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/fs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/inet_proto.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/json_print.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/json_writer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/libgenl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/libnetlink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/ll_addr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/ll_map.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/ll_proto.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/ll_types.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/mpls_ntop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/mpls_pton.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/namespace.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/netrom_ntop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/rose_ntop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/rt_names.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/selinux.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    },
+    {
+      "comment": "/usr/src/debug/iproute2/6.7.0/lib/utils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-iproute2-ip-10"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

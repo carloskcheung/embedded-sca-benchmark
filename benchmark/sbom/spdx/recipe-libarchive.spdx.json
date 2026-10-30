@@ -1,0 +1,288 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T03:14:58Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-libarchive-c957a076-e41b-5324-b215-ff8740630913",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7bf7995d9341c4025070b1f79575c336574ab348"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-acl",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-acl-991bebcd-14ce-51cc-8504-78d996f149a0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2af4a6eeea84050ca7e50780c999f8e748998555"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-attr",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-attr-6b7ab556-c6f1-582c-bcb8-45571cd1978c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5021687d4b5bedd46b36d187cd313428f911bc60"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bzip2",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bzip2-48d77de4-d76a-580e-82f3-6bfefd5b9795"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a474315e886f9c7dd2328e106a7525564f19abd8"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-e2fsprogs-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-e2fsprogs-native-75777574-9a0a-53b1-836b-9df344bcc3ee"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f2cacbf0939f303297321fc12601bb5b7cb6a7be"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-cross",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-cross-07500b21-b619-56d3-838e-16ca401a612f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e8c1ee48aa185808544aabeacf8320882ff6e5c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-opkg-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-opkg-utils-f3c24e09-f6ff-5f5c-ab93-a37218f4e1a7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2acf10d3a5239ae816413ca6d7af7a842ba67376"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-xz",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-xz-0b1dbf00-7439-5d43-bb26-1a70f5d63a71"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9e6f32b5855116f75b5146a8e8afd1fa1c76e812"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-5b14b6f4-7132-524f-8cee-cdebd6df7ce5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "142fd697c40541de6693436572fdb9ccc1281ebc"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zstd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zstd-b618f900-5369-5a25-8647-066a4f7a592a"
+    }
+  ],
+  "name": "recipe-libarchive",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-libarchive",
+      "copyrightText": "NOASSERTION",
+      "description": "C library and command-line tools for reading and writing tar, cpio, zip, ISO, and other archive formats",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:libarchive:3.7.9:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.libarchive.org/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libarchive",
+      "sourceInfo": "CVEs fixed: CVE-2026-4111 CVE-2025-60753 CVE-2025-5917 CVE-2025-5914 CVE-2026-5121 CVE-2025-5915 CVE-2025-5916 CVE-2026-14164 CVE-2026-4426 CVE-2026-4424 CVE-2025-5918 CVE-2026-5745",
+      "summary": "Support for reading various archive formats",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.7.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-libarchive-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aa90732c5a6bdda52fda2ad468ac98d75be981c15dde263d7b5cf6af66fd009f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://libarchive.org/downloads/libarchive-3.7.9.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libarchive-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-libarchive-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-libarchive-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-acl:SPDXRef-Recipe-acl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-attr:SPDXRef-Recipe-attr"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bzip2:SPDXRef-Recipe-bzip2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-e2fsprogs-native:SPDXRef-Recipe-e2fsprogs-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-cross:SPDXRef-Recipe-libtool-cross"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-opkg-utils:SPDXRef-Recipe-opkg-utils"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-xz:SPDXRef-Recipe-xz"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib:SPDXRef-Recipe-zlib"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libarchive",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zstd:SPDXRef-Recipe-zstd"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

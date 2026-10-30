@@ -1,0 +1,419 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:24:25Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libdaemon0-f6d4dec7-e5e7-51f6-afd9-f41df14947a1",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "66318d5f861c68bd5969bdbaf2aeeecb0fc5f247"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libdaemon",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libdaemon-41947111-27be-5156-91dc-85a1e2968400"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libdaemon0-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b90396993b0d609c4de444338460d28ff26157d8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "768f45882937a0b2f20fac51c847a80705b191015dd9ff4253920bcf93394a23"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libdaemon.so.0.5.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libdaemon0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libdaemon0",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libdaemon0-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libdaemon0",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "254d7c3a407dc216ab7c88f3d050de42d9ec67ac"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.14"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libdaemon:SPDXRef-Recipe-libdaemon",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libdaemon0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libdaemon0",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libdaemon0-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libdaemon0"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/select-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/sys/select.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dexec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dfork.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dfork.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dlog.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dlog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dnonblock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dnonblock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dpid.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dpid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dsignal.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libdaemon/0.14/libdaemon/dsignal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdaemon0-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

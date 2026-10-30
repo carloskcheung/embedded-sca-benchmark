@@ -1,0 +1,192 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:14:41Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-libtasn1-native-8c740967-8f95-571e-9be6-d0bd3c4186c8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2dd51c06c45680d39090923118a55bd1f2fd5a68"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bison-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bison-native-d18e081d-4246-5067-9e41-c5ae29c9b9ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4dffa05f2fbc60e3201490d8e34529047e82210f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gtk-doc-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gtk-doc-native-5263677d-0962-5f28-a0fb-1308d67c5da7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "032c99ee251cd907f4733b083193bda44bf2f78a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-texinfo-dummy-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-texinfo-dummy-native-cb9012ff-d8d8-5775-98c1-f58ed5fb9573"
+    }
+  ],
+  "name": "recipe-libtasn1-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-libtasn1-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:14:41Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "A highly portable C library that encodes and decodes DER/BER data following an ASN.1 schema. ",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:libtasn1:4.20.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.gnu.org/software/libtasn1/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libtasn1-native",
+      "sourceInfo": "CVEs fixed: CVE-2025-13151",
+      "summary": "Library for ASN.1 and DER manipulation",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "4.20.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-libtasn1-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "92e0e3bd4c02d4aeee76036b2ddd83f0c732ba4cda5cb71d583272b23587a76c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://ftpmirror.gnu.org/gnu/libtasn1/libtasn1-4.20.0.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libtasn1-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-libtasn1-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-libtasn1-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bison-native:SPDXRef-Recipe-bison-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gtk-doc-native:SPDXRef-Recipe-gtk-doc-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtasn1-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-texinfo-dummy-native:SPDXRef-Recipe-texinfo-dummy-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

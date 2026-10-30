@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:06:29Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libseccomp-df4576e5-1e30-57fe-9526-e874e62fabd1",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9b3903ca87d8985be1c5e1461603640cc8b75aa0"
+      },
+      "externalDocumentId": "DocumentRef-package-libseccomp",
+      "spdxDocument": "http://spdx.org/spdxdocs/libseccomp-de7982f5-d12c-5127-b52f-8f19e238b0e5"
+    }
+  ],
+  "name": "runtime-libseccomp",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libseccomp:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,1081 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T03:16:35Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libreadline8-f0c3aaf0-5f16-5ae7-8e02-de7940c64a5f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7676030320d785205c0d82b2ce09e051645a746e"
+      },
+      "externalDocumentId": "DocumentRef-recipe-readline",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-readline-c3815bde-1cd5-5568-bcc2-54e657e67a2d"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libreadline8-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b65c3c6bc027bdb962ecd5c74a94ccf90c1cd6eb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e2f7a17beec99b22c30a936fa4592c490c5555323571402e1981c68bf5ec08ad"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libreadline.so.8.2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libreadline8-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0867bc53d264485151d062e0025fb5236330ad15"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e296be76bcc2e8297111460af0745a960ca0d5268aaf181f35f27c8e008b96de"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libhistory.so.8.2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libreadline8-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9df00e3c69a7591ab778ae52be1a76446476181e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cc713926f66e248643c6d1f5835ac9473b9d03a3cdb814f1f2a2186cf7a32d65"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/inputrc",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libreadline8",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libreadline8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libreadline8-1",
+        "SPDXRef-PackagedFile-libreadline8-2",
+        "SPDXRef-PackagedFile-libreadline8-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libreadline8",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "54fae07bf81b4f12b22be928d5da505779580ee0"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "8.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-readline:SPDXRef-Recipe-readline",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libreadline8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libreadline8",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libreadline8-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libreadline8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libreadline8-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libreadline8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libreadline8-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libreadline8"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/fnmatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/histexpand.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/histfile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/histlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/history.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/history.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/histsearch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/mbutil.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rlmbutil.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rlprivate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rlshell.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rltypedefs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/shell.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/shlib/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/xfree.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/xmalloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/xmalloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-2"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/ioctl-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/select-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios-struct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct___jmp_buf_tag.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/wint_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/wchar2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/wchar2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/bits/wctype-wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/fnmatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/langinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/nl_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/setjmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/sys/select.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/termcap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/include/wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/bind.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/callback.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/colors.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/colors.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/compat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/complete.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/display.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/emacs_keymap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/funmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/histexpand.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/histfile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/histlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/history.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/history.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/histsearch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/input.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/isearch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/keymaps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/keymaps.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/kill.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/macro.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/mbutil.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/nls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/parens.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/parse-colors.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/parse-colors.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/readline.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/readline.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rlmbutil.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rlprivate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rlshell.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rltty.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rltty.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/rltypedefs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/search.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/shell.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/shlib/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/signals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/terminal.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/text.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/tilde.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/tilde.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/undo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/vi_keymap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/vi_mode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/xfree.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/xmalloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    },
+    {
+      "comment": "/usr/src/debug/readline/8.2/xmalloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libreadline8-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

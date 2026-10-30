@@ -1,0 +1,1105 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:29:42Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libtirpc3-3ca2c749-67e9-5ee8-a913-f72bb736eee1",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4f62eeda6386b293bb8a9b7b14853bede96e11d6"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libtirpc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtirpc-03b2a863-bb17-5e82-a092-25d189a10a96"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libtirpc3-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f228b9f89450ba505edda25511608d423897c272"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "86583cb1d28006c4ab0d11e09f3368c6557bbe5527772d70e2712f4d4530ef0b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libtirpc.so.3.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libtirpc3-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "445c1073ee7ab34ec35221468bd876a6e17e805e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2c057192613771163f64d66deac0d98e97140cdf9a31fd018ee5e325a94d2bbc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/bindresvport.blacklist",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libtirpc3-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "36852ec5ce61da5aebd8f23ecd2f17434f457367"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "86ee43cde79ed4afdbcc697d74fe80cb3d9b261feab550f45beeedfba7ff9fbd"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/netconfig",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libtirpc3",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libtirpc3",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libtirpc3-1",
+        "SPDXRef-PackagedFile-libtirpc3-2",
+        "SPDXRef-PackagedFile-libtirpc3-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libtirpc3",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5ed92cd56beb35d79bb8facd5d9e281dff8ae346"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.3.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libtirpc:SPDXRef-Recipe-libtirpc",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libtirpc3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libtirpc3",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libtirpc3-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libtirpc3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libtirpc3-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libtirpc3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libtirpc3-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libtirpc3"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/atomic_wide_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/select-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_rwlock-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/ifaddrs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/linux/errqueue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/net/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/select.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/auth_none.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/auth_time.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/auth_unix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/authunix_prot.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/binddynport.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/bindresvport.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/clnt_bcast.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/clnt_dg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/clnt_fd_locks.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/clnt_generic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/clnt_perror.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/clnt_raw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/clnt_simple.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/clnt_vc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/debug.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/debug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/getnetconfig.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/getnetpath.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/getpeereid.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/getpublickey.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/getrpcport.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/key_call.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/key_prot_xdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/mt_misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/netname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/netnamer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/nis.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/pmap_clnt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/pmap_getmaps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/pmap_getport.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/pmap_prot.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/pmap_prot2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/pmap_rmt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpc_callmsg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpc_com.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpc_commondata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpc_dtablesize.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpc_generic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpc_prot.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpc_soc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpcb_clnt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpcb_prot.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpcb_st_xdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rpcdname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/rtime.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_auth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_auth_none.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_auth_unix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_dg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_generic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_raw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_run.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_simple.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/svc_vc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/xdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/xdr_array.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/xdr_float.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/xdr_mem.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/xdr_rec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/xdr_reference.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/xdr_sizeof.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/src/xdr_stdio.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/getpeereid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/netconfig.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/auth.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/auth_unix.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/clnt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/clnt_soc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/clnt_stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/key_prot.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/nettype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/pmap_clnt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/pmap_prot.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/pmap_rmt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/raw.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/rpc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/rpc_com.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/rpc_msg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/rpcb_clnt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/rpcb_prot.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/svc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/svc_auth.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/svc_dg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/svc_mt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libtirpc/1.3.4/tirpc/rpc/xdr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libtirpc3-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

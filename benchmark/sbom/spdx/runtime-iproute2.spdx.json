@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:31:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-iproute2-36734b99-488e-59b3-b0eb-8783833ec4b9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6b2540af436ce7d6f9c31185353e59ca46a427b4"
+      },
+      "externalDocumentId": "DocumentRef-package-iproute2",
+      "spdxDocument": "http://spdx.org/spdxdocs/iproute2-471b6169-6d4c-5b85-8b69-700df0f91947"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a95e1c0e8a374ba197571a8d0a4f9c072aee93d6"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-iproute2-ip",
+      "spdxDocument": "http://spdx.org/spdxdocs/iproute2-ip-206c4c9a-2f99-56d1-aef8-75cc4bc5689d"
+    }
+  ],
+  "name": "runtime-iproute2",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-iproute2:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-iproute2:SPDXRef-Package-iproute2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-iproute2-ip:SPDXRef-Package-iproute2-ip"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

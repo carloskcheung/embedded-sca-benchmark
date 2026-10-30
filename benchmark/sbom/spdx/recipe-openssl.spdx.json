@@ -1,0 +1,144 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:30:31Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-openssl-48156327-17ba-5e34-b313-de0c1f21058e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e8c1ee48aa185808544aabeacf8320882ff6e5c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-opkg-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-opkg-utils-f3c24e09-f6ff-5f5c-ab93-a37218f4e1a7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b3629b80c8e11b67280fe49b323ced9192c5db6e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-perl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-perl-native-ca4779ec-f2da-58e4-b2de-b4093de4d855"
+    }
+  ],
+  "name": "recipe-openssl",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-openssl",
+      "copyrightText": "NOASSERTION",
+      "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:openssl:openssl:3.5.9:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.openssl.org/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssl",
+      "summary": "Secure Socket Layer",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-openssl-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "603f5602e2eef00d77fbd429d34dcd5822bb301757a1bc9cdb24c670f1eb859a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://www.openssl.org/source/openssl-3.5.9.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssl-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-openssl-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-openssl-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-opkg-utils:SPDXRef-Recipe-opkg-utils"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-perl-native:SPDXRef-Recipe-perl-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

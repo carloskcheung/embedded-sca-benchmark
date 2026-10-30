@@ -42,6 +42,11 @@ def license_ids(expr):
     return {t for t in tokens if t.upper() not in SPDX_OPERATORS and t != "NOASSERTION"}
 
 
+def yocto_ids(ids):
+    # create-spdx emits non-SPDX Yocto names as [DocumentRef-x:]LicenseRef-<name>
+    return {re.sub(r"^(DocumentRef-[^:]+:)?LicenseRef-", "", i) for i in ids}
+
+
 # --- SBOM readers -------------------------------------------------------------
 
 def read_cyclonedx(doc):
@@ -118,9 +123,11 @@ def license_status(expected, got):
     have = license_ids(got)
     if not have:
         return "missing"
-    if have in (spdx, yocto):
+    if have == spdx:
         return "ok"
-    return "partial" if have & (spdx | yocto) else "wrong"
+    if yocto and yocto_ids(have) == yocto:
+        return "yocto-name"  # right license, but left in Yocto's naming
+    return "partial" if yocto_ids(have) & (spdx | yocto) else "wrong"
 
 
 def score(expected_components, reported):
@@ -159,7 +166,9 @@ def print_markdown(rows):
     found = sum(r["found"] for r in rows)
     ver = sum(r["version_ok"] for r in rows)
     lic = sum(r["license"] == "ok" for r in rows)
-    print(f"\nfound {found}/{n} · correct version {ver}/{n} · correct license {lic}/{n}")
+    yn = sum(r["license"] == "yocto-name" for r in rows)
+    print(f"\nfound {found}/{n} · correct version {ver}/{n} · correct license {lic}/{n}"
+          + (f" (+{yn} correct but not mapped to SPDX)" if yn else ""))
 
 
 def main():

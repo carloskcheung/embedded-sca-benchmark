@@ -1,0 +1,218 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:16:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-elfutils-native-3e169fd6-3b75-52c3-9f12-b29b93de68a4",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6d81990279f14ad6451c0572d85cd764790d2c60"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-curl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-curl-native-acd62102-415e-50b8-8fff-b573056aa44e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5dfd53edb8a13f81c50ef86b1a7efdb956ac95b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-minimal-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-minimal-native-d0a27f93-c2cb-5d69-ab6b-b5b2d7da1769"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "02f0e68d1415928d799bb70d7ec406235c90f5e2"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libarchive-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libarchive-native-43980718-348e-546b-935b-fc9e87538c23"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "96cfcf2db3e196c61acd5e03b342a508ccd6ee97"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libmicrohttpd-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libmicrohttpd-native-1d174422-2782-58c2-90c9-46256d000497"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "95e7b5edebb6027376e22a501bd39e6b4600e211"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-sqlite3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-sqlite3-native-37e6312b-56b6-52d3-af92-d788e79f1637"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    }
+  ],
+  "name": "recipe-elfutils-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-elfutils-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:16:19Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "elfutils is a collection of utilities and libraries to read, create and modify ELF binary files, find and handle DWARF debug data, symbols, thread state and stacktraces for processes and core files on GNU/Linux.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:elfutils:0.191:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://sourceware.org/elfutils",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "( GPL-2.0-or-later OR LGPL-3.0-or-later ) AND GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "elfutils-native",
+      "sourceInfo": "CVEs fixed: CVE-2025-1377 CVE-2025-1371 CVE-2025-1352 CVE-2025-1365 CVE-2025-1372 CVE-2025-1376",
+      "summary": "Utilities and libraries for handling compiled object files",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.191"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-elfutils-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df76db71366d1d708365fc7a6c60ca48398f14367eb2b8954efc8897147ad871"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://sourceware.org/elfutils/ftp/0.191/elfutils-0.191.tar.bz2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "elfutils-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-elfutils-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-elfutils-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-curl-native:SPDXRef-Recipe-curl-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-minimal-native:SPDXRef-Recipe-gettext-minimal-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libarchive-native:SPDXRef-Recipe-libarchive-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libmicrohttpd-native:SPDXRef-Recipe-libmicrohttpd-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-sqlite3-native:SPDXRef-Recipe-sqlite3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-elfutils-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

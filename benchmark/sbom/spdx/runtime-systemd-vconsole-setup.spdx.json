@@ -1,0 +1,86 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-systemd-vconsole-setup-ef8b7076-38c9-5642-a3f4-3bfec55907bc",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a575a44a61fb7c3dc3cacff7fb574c2febdfacfd"
+      },
+      "externalDocumentId": "DocumentRef-package-systemd-vconsole-setup",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-vconsole-setup-c2ae399a-5b83-544a-bcef-b088799fcc41"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5fe9d9052551e15d3cb961bc2a715f1752aea805"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-kbd",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-a231b99c-6530-5c25-bb9f-34ffd81270f7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "608a10453cd602e1be2be55d656d5eade8cf53b3"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-kbd-consolefonts",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-consolefonts-e11157d6-4020-586d-bca2-2141fd8701d3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8e8e4c2633cf6270966f397135f7755faea65147"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-kbd-keymaps",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-keymaps-1a81480a-8a5a-588f-b6c8-e25b054a0862"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "14212c0d7513eed2f1f73c4159e2429ca8724be7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libsystemd-shared",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsystemd-shared-22a8ac6b-2fc5-5064-9a75-8311ddb0e763"
+    }
+  ],
+  "name": "runtime-systemd-vconsole-setup",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-vconsole-setup:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-vconsole-setup:SPDXRef-Package-systemd-vconsole-setup",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-kbd:SPDXRef-Package-kbd"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-vconsole-setup:SPDXRef-Package-systemd-vconsole-setup",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-kbd-consolefonts:SPDXRef-Package-kbd-consolefonts"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-vconsole-setup:SPDXRef-Package-systemd-vconsole-setup",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-kbd-keymaps:SPDXRef-Package-kbd-keymaps"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-vconsole-setup:SPDXRef-Package-systemd-vconsole-setup",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libsystemd-shared:SPDXRef-Package-libsystemd-shared"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

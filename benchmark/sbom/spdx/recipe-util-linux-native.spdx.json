@@ -1,0 +1,244 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:14:36Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-util-linux-native-ad149639-d77e-5762-95b9-57fc9f43ba41",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5dfd53edb8a13f81c50ef86b1a7efdb956ac95b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-minimal-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-minimal-native-d0a27f93-c2cb-5d69-ab6b-b5b2d7da1769"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4dffa05f2fbc60e3201490d8e34529047e82210f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gtk-doc-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gtk-doc-native-5263677d-0962-5f28-a0fb-1308d67c5da7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8879aae679ce6485064f92b646abebecd366bbf9"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libcap-ng-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libcap-ng-native-14985d36-c68b-5e36-b2e3-71dfd5168cd8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0a8af08238cc833a751322faa895dfe734469920"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libpcre2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libpcre2-native-87c509bc-91cb-5a3c-9a43-68404322bbb2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "00eea26a137bfcb4ba475eff4a39c9ef248357f7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ncurses-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ncurses-native-6ee9d8f0-8e87-5b73-a420-c66a1123b8a6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "72389bdd66c669b10f286b28e74a1d8c495038d0"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-util-linux-libuuid-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-util-linux-libuuid-native-103ab003-39fa-5581-bc0b-bcf14aad3f6c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    }
+  ],
+  "name": "recipe-util-linux-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-util-linux-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:14:36Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:util-linux:2.39.3:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://en.wikipedia.org/wiki/Util-linux",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-1.0-or-later AND GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "util-linux-native",
+      "sourceInfo": "CVEs fixed: CVE-2026-3184 CVE-2026-13595 CVE-2024-28085 CVE-2026-27456 CVE-2025-14104",
+      "summary": "A suite of basic system administration utilities",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.39.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-util-linux-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7b6605e48d1a49f43cc4b4cfc59f313d0dd5402fa40b96810bd572e167dfed0f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://cdn.kernel.org/pub/linux/utils/util-linux/v2.39/util-linux-2.39.3.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "util-linux-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-util-linux-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-util-linux-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-minimal-native:SPDXRef-Recipe-gettext-minimal-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gtk-doc-native:SPDXRef-Recipe-gtk-doc-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libcap-ng-native:SPDXRef-Recipe-libcap-ng-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libpcre2-native:SPDXRef-Recipe-libpcre2-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ncurses-native:SPDXRef-Recipe-ncurses-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-util-linux-libuuid-native:SPDXRef-Recipe-util-linux-libuuid-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-util-linux-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

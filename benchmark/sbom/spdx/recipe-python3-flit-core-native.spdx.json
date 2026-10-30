@@ -1,0 +1,113 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:01:17Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-python3-flit-core-native-e62949a3-3d60-5850-bc46-6c225875a32c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6d47005efa102fb51c213f34061d2f0e371849f3"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-unzip-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-unzip-native-973eef0c-f234-504f-abce-ad53e966428c"
+    }
+  ],
+  "name": "recipe-python3-flit-core-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-python3-flit-core-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:01:17Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "This provides a PEP 517 build backend for packages using Flit. The only public interface is the API specified by PEP 517, at flit_core.buildapi.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:python:flit:3.9.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://github.com/pypa/flit",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-flit-core-native",
+      "summary": "This provides a PEP 517 build backend for packages using Flit.",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.9.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-python3-flit-core-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d75edf5eb324da20d53570a6a6f87f51e606eee8384925cd66a90611140844c7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://files.pythonhosted.org/packages/source/f/flit/flit-3.9.0.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-flit-core-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-flit-core-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-python3-flit-core-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-flit-core-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-python3-flit-core-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-flit-core-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-flit-core-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-unzip-native:SPDXRef-Recipe-unzip-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

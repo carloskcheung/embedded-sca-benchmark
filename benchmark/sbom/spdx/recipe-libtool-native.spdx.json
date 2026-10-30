@@ -1,0 +1,126 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:50:20Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "032c99ee251cd907f4733b083193bda44bf2f78a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-texinfo-dummy-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-texinfo-dummy-native-cb9012ff-d8d8-5775-98c1-f58ed5fb9573"
+    }
+  ],
+  "name": "recipe-libtool-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-libtool-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:50:20Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "This is GNU libtool, a generic library support script. Libtool hides the complexity of generating special library types (such as shared libraries) behind a consistent interface.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:libtool:2.4.7:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.gnu.org/software/libtool/libtool.html",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libtool-native",
+      "summary": "Generic library support script",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.4.7"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-libtool-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "04e96c2404ea70c590c546eba4202a4e12722c640016c12b9b2f1ce3d481e9a8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://ftpmirror.gnu.org/gnu/libtool/libtool-2.4.7.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libtool-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtool-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-libtool-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtool-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-libtool-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtool-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtool-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libtool-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-texinfo-dummy-native:SPDXRef-Recipe-texinfo-dummy-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

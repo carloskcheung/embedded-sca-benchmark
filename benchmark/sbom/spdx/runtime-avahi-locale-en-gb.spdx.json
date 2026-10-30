@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:57:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-avahi-locale-en-gb-917b0030-e4f3-53af-b3e4-a67d41d65eca",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "063183a8eee941a448e9846611a604fcb7497149"
+      },
+      "externalDocumentId": "DocumentRef-package-avahi-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/avahi-locale-en-gb-35e61a4c-7f43-5d5a-8ee7-c2ba7e00f0ed"
+    }
+  ],
+  "name": "runtime-avahi-locale-en-gb",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-avahi-locale-en-gb:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

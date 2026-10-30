@@ -1,0 +1,57 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:38:25Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/locale-base-c-18604d21-aacd-57e5-b412-5de2f5993014",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8f592d3372337274afbe1a767c2e333cffa68ad2"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc-locale",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-locale-47f2a024-76b3-5cce-b0ab-d34e50dc4570"
+    }
+  ],
+  "name": "locale-base-c",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-locale-base-c",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "locale-base-c",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.39+git"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc-locale:SPDXRef-Recipe-glibc-locale",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-locale-base-c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-locale-base-c",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

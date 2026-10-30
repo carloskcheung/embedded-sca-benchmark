@@ -1,0 +1,119 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:26:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/pam-plugin-permit-d4383a82-e79a-5849-ad7a-7897876aa84d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92970a0b736d949840ecc3366e897e73c13fab2c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libpam-598348bb-de94-5567-9012-dd2dbcb34f59"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-pam-plugin-permit-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c371a6c04dbc1d949300d63fb96d04efee518fe8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "735dae1d30f08f1814ef69c3eb39a8bc6b5095da394e782cbe1035fde08cacbe"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/security/pam_permit.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "pam-plugin-permit",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-pam-plugin-permit",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-pam-plugin-permit-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "pam-plugin-permit",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e67484e3e2d650e98bf8926416745cd106b53ce6"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.5.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libpam:SPDXRef-Recipe-libpam",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-pam-plugin-permit"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pam-plugin-permit",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-pam-plugin-permit-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-pam-plugin-permit"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-permit-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-permit-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/security/_pam_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-permit-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/security/pam_modules.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-permit-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/modules/pam_permit/pam_permit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-permit-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

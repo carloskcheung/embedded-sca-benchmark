@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-packagegroup-base-extended-8ce0e235-1be9-5216-b767-5d3bff6c26b0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "514365fe1edaaa73a203c388d0a6e2b2ae2fa9d2"
+      },
+      "externalDocumentId": "DocumentRef-package-packagegroup-base-extended",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-extended-edbaae9d-9bd0-56ea-9756-318bb857e02a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b9c09a5901a241e263eaf5644042013f75279267"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-7efe0b05-366b-5e3a-9fd1-ecd77ae4a6de"
+    }
+  ],
+  "name": "runtime-packagegroup-base-extended",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base-extended:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base-extended:SPDXRef-Package-packagegroup-base-extended",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-base:SPDXRef-Package-packagegroup-base"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

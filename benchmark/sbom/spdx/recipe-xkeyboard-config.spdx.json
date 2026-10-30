@@ -1,0 +1,222 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:42:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-xkeyboard-config-7e164127-b95b-5fc7-94e8-944a06585632",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "34b62e10031b25f9fcde0a193bd805baea98428e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-native-bc0b5e4e-69c4-5def-955c-45419d0a98ee"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3e7268b9d308e534ad82eb25978f80d7c33705b0"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libxslt-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxslt-native-1d9ff2f8-6a95-5fb7-b992-446a266ac105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "171b7a41ca4f4285f02feaeaf21da65ace4cefe5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-meson-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-meson-native-c406ca80-e1f3-5f06-98d6-b7b62049c315"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e9f2c7e4c30f7c5ede908475e0be08d8083f50e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ninja-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ninja-native-69509a4d-51be-58e4-8b69-f8cab885e13f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "291d94c36a91656489f0dd7d02ac192b75d4e8a4"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-qemu-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-qemu-native-4a6c275b-748a-5a53-90e0-46381c95e2ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4c56897962b4454770f9cbb848661875df65705a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-util-macros",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-util-macros-3a788eb9-b380-5e8a-bc7c-01384f914470"
+    }
+  ],
+  "name": "recipe-xkeyboard-config",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-xkeyboard-config",
+      "copyrightText": "NOASSERTION",
+      "description": "The non-arch keyboard configuration database for X Window.  The goal is to provide the consistent, well-structured, frequently released open source of X keyboard configuration data for X Window System implementations.  The project is targeted to XKB-based systems.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:xkeyboard-config:2.41:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://freedesktop.org/wiki/Software/XKeyboardConfig",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT AND MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "xkeyboard-config",
+      "summary": "Keyboard configuration database for X Window",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.41"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-xkeyboard-config-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f02cd6b957295e0d50236a3db15825256c92f67ef1f73bf1c77a4b179edf728f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://www.x.org/releases//individual/data/xkeyboard-config/xkeyboard-config-2.41.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "xkeyboard-config-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-xkeyboard-config-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-xkeyboard-config-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-native:SPDXRef-Recipe-gettext-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libxslt-native:SPDXRef-Recipe-libxslt-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-meson-native:SPDXRef-Recipe-meson-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ninja-native:SPDXRef-Recipe-ninja-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-qemu-native:SPDXRef-Recipe-qemu-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xkeyboard-config",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-util-macros:SPDXRef-Recipe-util-macros"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

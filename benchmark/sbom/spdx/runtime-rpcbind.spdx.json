@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T17:00:10Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-rpcbind-e570b71d-cd7c-5582-8c75-f22bf6abbdac",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a33dbc87b53dd27417c5e7068143c5ad3423b016"
+      },
+      "externalDocumentId": "DocumentRef-package-rpcbind",
+      "spdxDocument": "http://spdx.org/spdxdocs/rpcbind-099d7904-d3ad-59b5-a8dd-a1d9da22fe51"
+    }
+  ],
+  "name": "runtime-rpcbind",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-rpcbind:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

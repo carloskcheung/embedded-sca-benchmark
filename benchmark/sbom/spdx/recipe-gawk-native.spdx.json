@@ -1,0 +1,153 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:54:04Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-gawk-native-5c367ce0-8bfc-5692-ab02-be5ebe12a976",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5dfd53edb8a13f81c50ef86b1a7efdb956ac95b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-minimal-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-minimal-native-d0a27f93-c2cb-5d69-ab6b-b5b2d7da1769"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "032c99ee251cd907f4733b083193bda44bf2f78a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-texinfo-dummy-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-texinfo-dummy-native-cb9012ff-d8d8-5775-98c1-f58ed5fb9573"
+    }
+  ],
+  "name": "recipe-gawk-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-gawk-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:54:04Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:gawk:5.3.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://www.gnu.org/software/gawk/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gawk-native",
+      "sourceInfo": "CVEs fixed: CVE-2026-40468 CVE-2026-40467 CVE-2026-40553 CVE-2026-40469",
+      "summary": "GNU awk text processing utility",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "5.3.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-gawk-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "378f8864ec21cfceaa048f7e1869ac9b4597b449087caf1eb55e440d30273336"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://ftpmirror.gnu.org/gnu/gawk/gawk-5.3.0.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gawk-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gawk-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-gawk-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gawk-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-gawk-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gawk-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gawk-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gawk-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-minimal-native:SPDXRef-Recipe-gettext-minimal-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gawk-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gawk-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-texinfo-dummy-native:SPDXRef-Recipe-texinfo-dummy-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

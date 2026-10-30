@@ -1,0 +1,198 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T03:25:33Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-kmod-native-b80fa7cc-bea6-5201-a643-13c693659b0f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4dffa05f2fbc60e3201490d8e34529047e82210f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gtk-doc-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gtk-doc-native-5263677d-0962-5f28-a0fb-1308d67c5da7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "adac09d6ccfd0ca78ba38f123d665ba3e3e5c2f3"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-openssl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssl-native-29712d98-dace-570a-bc97-e67cefc5997d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "027a318fbfaf6a00e140062c4b4c26549a95a81e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-xz-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-xz-native-fb9b6d7a-1472-5337-888f-d4bf9e719144"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    }
+  ],
+  "name": "recipe-kmod-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-kmod-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T03:25:33Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "kmod is a set of tools to handle common tasks with Linux kernel modules like                insert, remove, list, check properties, resolve dependencies and aliases.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:kmod:31:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://kernel.org/pub/linux/utils/kernel/kmod/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kmod-native",
+      "summary": "Tools for managing Linux kernel modules",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "31"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-kmod-native-1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "git+https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git@aff617ea871d0568cc491bd116c0be1e857463bb",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kmod-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-kmod-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-kmod-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gtk-doc-native:SPDXRef-Recipe-gtk-doc-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-openssl-native:SPDXRef-Recipe-openssl-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-xz-native:SPDXRef-Recipe-xz-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kmod-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

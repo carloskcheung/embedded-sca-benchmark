@@ -1,0 +1,235 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T05:31:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-iproute2-6d877ab9-bf53-50dc-8a38-20733171e4b0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a5dbac8a2264f35e217ed9092e05f1e8df5de7df"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bash-completion",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bash-completion-449f3c99-4701-554f-9a75-392b0289d6be"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2dd51c06c45680d39090923118a55bd1f2fd5a68"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bison-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bison-native-d18e081d-4246-5067-9e41-c5ae29c9b9ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "87988c8da3f393dc63757802c44943547317ab46"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-elfutils",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-elfutils-4cdfa240-f049-53bc-bf95-ba542d917d61"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "95977ff99d0f707373602e6404e0f89603d2ef43"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-flex-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-flex-native-db3e6886-d8ff-51c5-9589-0e997748f089"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a87c9a00e78772733fa1f0805ca586cc8d4e03cf"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-iptables",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-iptables-a4050920-0c02-5208-93b0-f3bf350f9920"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e4927b1349d5c151ce088c6904de425cbbc6d6e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libcap",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libcap-71d96c70-9f88-56e2-add1-19af56887698"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c1b065b0ea039459756a8e214b7f74ff666a4c0e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libmnl",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libmnl-21fbf1f9-4692-5748-a6c1-d66c06676614"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e8c1ee48aa185808544aabeacf8320882ff6e5c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-opkg-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-opkg-utils-f3c24e09-f6ff-5f5c-ab93-a37218f4e1a7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    }
+  ],
+  "name": "recipe-iproute2",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-iproute2",
+      "copyrightText": "NOASSERTION",
+      "description": "Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:iproute2:6.7.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iproute2",
+      "summary": "TCP / IP networking and traffic control utilities",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.7.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-iproute2-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ff942dd9828d7d1f867f61fe72ce433078c31e5d8e4a78e20f02cb5892e8841d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://cdn.kernel.org/pub/linux/utils/net/iproute2/iproute2-6.7.0.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "iproute2-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-iproute2-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-iproute2-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bash-completion:SPDXRef-Recipe-bash-completion"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bison-native:SPDXRef-Recipe-bison-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-elfutils:SPDXRef-Recipe-elfutils"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-flex-native:SPDXRef-Recipe-flex-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-iptables:SPDXRef-Recipe-iptables"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libcap:SPDXRef-Recipe-libcap"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libmnl:SPDXRef-Recipe-libmnl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-opkg-utils:SPDXRef-Recipe-opkg-utils"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-iproute2",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

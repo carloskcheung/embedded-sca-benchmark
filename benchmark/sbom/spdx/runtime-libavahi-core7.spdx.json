@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:57:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libavahi-core7-aa5776a1-e504-5db7-a83c-6585d7f210c6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "dcb7d2e6cbae3098df68bdf6354c997c8626c305"
+      },
+      "externalDocumentId": "DocumentRef-package-libavahi-core",
+      "spdxDocument": "http://spdx.org/spdxdocs/libavahi-core7-b319a6ae-3861-54b9-b664-cb2b90a7b613"
+    }
+  ],
+  "name": "runtime-libavahi-core7",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libavahi-core:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

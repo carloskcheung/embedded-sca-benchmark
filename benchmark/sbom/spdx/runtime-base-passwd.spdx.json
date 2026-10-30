@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:37:37Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-base-passwd-ce4b7161-f876-5777-aae4-48933d45e48e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f0c3ec2c2928078830b21a7c75df63a55cbed4e7"
+      },
+      "externalDocumentId": "DocumentRef-package-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/base-passwd-78e3ab0a-4686-572d-a886-5105dd9b12de"
+    }
+  ],
+  "name": "runtime-base-passwd",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-base-passwd:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

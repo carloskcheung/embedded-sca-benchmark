@@ -1,0 +1,126 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:50:18Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d82fb4e91dd0bca78e0d6c39cfe7ee215ec5dd3f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gnu-config-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gnu-config-native-7f998b5b-4a9f-5868-bb80-1279a9b986ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "acbc2b0bd0b3c422ed705630b1ff86ed61a3db3f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-m4-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-m4-native-5679b535-f65a-57b6-8760-ded5f4d5578c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "032c99ee251cd907f4733b083193bda44bf2f78a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-texinfo-dummy-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-texinfo-dummy-native-cb9012ff-d8d8-5775-98c1-f58ed5fb9573"
+    }
+  ],
+  "name": "recipe-autoconf-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-autoconf-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:50:18Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. Autoconf creates a configuration script for a package from a template file that lists the operating system features that the package can use, in the form of M4 macro calls.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:autoconf:2.72e:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.gnu.org/software/autoconf/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "autoconf-native",
+      "summary": "A GNU tool that produce shell scripts to automatically configure software",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.72e"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-autoconf-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f3478d3b597d51f5d61596fb2f6f6aba49cdd974b4b05ff0bac57f56b5cfdb39"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://alpha.gnu.org/gnu/autoconf/autoconf-2.72e.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "autoconf-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-autoconf-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-autoconf-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-autoconf-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-autoconf-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-autoconf-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gnu-config-native:SPDXRef-Recipe-gnu-config-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-autoconf-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-m4-native:SPDXRef-Recipe-m4-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-autoconf-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-texinfo-dummy-native:SPDXRef-Recipe-texinfo-dummy-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

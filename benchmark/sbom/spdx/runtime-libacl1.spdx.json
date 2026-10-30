@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:28:50Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libacl1-01877bdd-3a5b-523d-b7c2-d916306b9935",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6a5890c2c354e04a1c757dd6ad669408c943853c"
+      },
+      "externalDocumentId": "DocumentRef-package-libacl",
+      "spdxDocument": "http://spdx.org/spdxdocs/libacl1-60ae9000-5255-544d-a332-9d00fec7a2eb"
+    }
+  ],
+  "name": "runtime-libacl1",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libacl:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:48:37Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/systemd-serialgetty-bcd2c8c3-ad88-5b41-83d2-06676a42f89f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1b062b7b8ab396dedf3798a54693905370b92324"
+      },
+      "externalDocumentId": "DocumentRef-recipe-systemd-serialgetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-serialgetty-d3d15abe-cdb8-53a8-8471-2c828197de76"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-serialgetty-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6caf1cd598594841dcf87601998da7834d9bfebf"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6e738c9c9a79c8126eff2cc66e80268471f48370f9dad5913ea3903f06812aef"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/serial-getty@.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "systemd-serialgetty",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-systemd-serialgetty",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-systemd-serialgetty-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "systemd-serialgetty",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a420f26bdc2ddca7e2c0ce522f4309b0661a7814"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-systemd-serialgetty:SPDXRef-Recipe-systemd-serialgetty",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-systemd-serialgetty"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-systemd-serialgetty",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-serialgetty-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-serialgetty"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

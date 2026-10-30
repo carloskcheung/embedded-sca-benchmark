@@ -1,0 +1,419 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:58:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/acme-gatewayd-5fee46b4-754a-5812-b922-f71c3e9b8dd4",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4059d9fbf3ed5d7ee0931eda2fa35ff7a9d84b90"
+      },
+      "externalDocumentId": "DocumentRef-recipe-acme-gatewayd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-acme-gatewayd-3c8f2e5a-01ba-5069-a586-4d8540d05a80"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acme-gatewayd-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "192ac49fb50870c9971780fe85036f5956539845"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7469ffd1f78873ea41e1b75d4ef8568c69830745cf6fbf22d48c6f258d913b84"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system-preset/98-acme-gatewayd.preset",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acme-gatewayd-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ce50db5c12fd1717dc11a8d79e1972c6dbf5718"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6d9205721fc79f39084d13fa2d85efe67b36f0af8ec998e7745fbbe336a4d000"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/acme-gatewayd.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acme-gatewayd-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2542cfb26e32f14e023aade713830d903c5e3475"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b7c020ae2b977c9e826e4710e88439a1b473d5a6acdb51f1c277d784524c57bd"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/acme-gatewayd",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acme-gatewayd-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c91212b21aa3e18b0c3505be8a189d14cc419c3a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3fff70d581ece5afad0ffe972be035ed37dc095efac564fe572baaeb3dc96771"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/acme-gatewayd.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "acme-gatewayd",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-acme-gatewayd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-acme-gatewayd-1",
+        "SPDXRef-PackagedFile-acme-gatewayd-2",
+        "SPDXRef-PackagedFile-acme-gatewayd-3",
+        "SPDXRef-PackagedFile-acme-gatewayd-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "acme-gatewayd",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b59f600e988ce93476b6312d7c9ecb5d8360245a"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.0.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-acme-gatewayd:SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-acme-gatewayd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-acme-gatewayd",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acme-gatewayd-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acme-gatewayd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acme-gatewayd-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acme-gatewayd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acme-gatewayd-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acme-gatewayd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acme-gatewayd-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acme-gatewayd"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/sig_atomic_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/cjson/cJSON.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/mosquitto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/openssl/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/openssl/hmac.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/sqlite3.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/include/tinycbor/cbor.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/acme-gatewayd/3.0.4/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/acme-gatewayd/3.0.4/src/frame.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/acme-gatewayd/3.0.4/src/frame.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/acme-gatewayd/3.0.4/src/main.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/acme-gatewayd/3.0.4/src/publish.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/acme-gatewayd/3.0.4/src/publish.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/acme-gatewayd/3.0.4/src/store.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/acme-gatewayd/3.0.4/src/store.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-acme-gatewayd-3"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

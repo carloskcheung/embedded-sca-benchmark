@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-update-rc.d-91536303-d4bc-55bf-bad5-db561c40958c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "87ee6998d0dc22963e11235741673079388bb97c"
+      },
+      "externalDocumentId": "DocumentRef-package-update-rc.d",
+      "spdxDocument": "http://spdx.org/spdxdocs/update-rc.d-fde24237-98eb-54c2-b3e8-cc69971dd42c"
+    }
+  ],
+  "name": "runtime-update-rc.d",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-update-rc.d:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

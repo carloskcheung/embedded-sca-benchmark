@@ -1,0 +1,395 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:30:05Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libsqlite3-0-e8742ecb-0e8f-5dc1-a460-5a047ee422ca",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b8faebaaf9c7552646db691dd1fb07b71d4631c0"
+      },
+      "externalDocumentId": "DocumentRef-recipe-sqlite3",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-sqlite3-ddb15355-31cb-5efc-bc2f-344348b1afbe"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libsqlite3-0-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "30eaf960c02fd4440a6bcf9ec241ecf85c208c6c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "924479f7a4dba58a13de2b68372716f4def273ff0e0bed7f553304a70fec7b9e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libsqlite3.so.0.8.6",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libsqlite3-0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libsqlite3-0",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libsqlite3-0-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "DocumentRef-recipe-sqlite3:LicenseRef-PD",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libsqlite3-0",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1755bea2fd5d8cd43bd98a2836ae73babfbfde12"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.45.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-sqlite3:SPDXRef-Recipe-sqlite3",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libsqlite3-0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libsqlite3-0",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libsqlite3-0-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libsqlite3-0"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/mathcalls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/sfp-exceptions.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/sfp-machine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/addtf3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/double.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/eqtf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/extenddftf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/fixunstfdi.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/floatditf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/floatunditf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/getf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/letf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/multf3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/quad.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/soft-fp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/trunctfdf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/sqlite3/3.45.3/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    },
+    {
+      "comment": "/usr/src/debug/sqlite3/3.45.3/sqlite3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsqlite3-0-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

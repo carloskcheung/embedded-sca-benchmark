@@ -1,0 +1,1733 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:30:31Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libssl3-5cac9e74-3a8f-55d6-922c-02d591932154",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "931e1607f2aa96691b3fa2f0fab4e9e2c40e0d35"
+      },
+      "externalDocumentId": "DocumentRef-recipe-openssl",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssl-48156327-17ba-5e34-b313-de0c1f21058e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libssl3-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "272465b9dbac28049bec50461462df7453a2b596"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e2b402cd19d1927616a06029831d5cdf5ac98539c33a4b2c82ca5eef397d9088"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libssl.so.3",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libssl3",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libssl3",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libssl3-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libssl3",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a5bfe2c0201dff44e69a07d3ac26eaa8bfc4105b"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.5.9"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-openssl:SPDXRef-Recipe-openssl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libssl3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libssl3",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libssl3-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libssl3"
+    },
+    {
+      "comment": "/usr/include/bits/atomic_wide_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdatomic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse-init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/ctype.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/getenv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/hashtable/hashfunc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/packet.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/quic_vlint.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/rbtree/rbtree.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/siphash/siphash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/thread/arch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/thread/arch/thread_posix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/crypto/time.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/crypto/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/crypto/siphash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/bio_addr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/comp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/constant_time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/cryptlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/dane.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/hashfunc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/json_enc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/o_dir.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/ossl_rbtree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/packet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/packet_quic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/priority_queue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/qlog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/qlog_event_helpers.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/qlog_events.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_ackm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_cc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_cfq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_channel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_demux.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_engine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_error.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_fc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_fifd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_lcidm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_port.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_predef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_rcidm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_reactor.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_reactor_wait_ctx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_record_rx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_record_tx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_record_util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_rx_depack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_srt_gen.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_srtm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_ssl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_statm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_stream.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_stream_map.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_strm_reas.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_thread_assist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_tls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_trace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_tserver.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_txp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_txpim.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_vlint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_wire.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/quic_wire_pkt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/recordmethod.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/refcount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/ring_buf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/rio_notifier.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/ssl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/ssl3_cbc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/ssl_unwrap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/sslconf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/statem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/thread_arch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/to_hex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/internal/uint_set.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/asn1t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/async.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/bn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/buffer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/comp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/conf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/core_dispatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/ct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/decoder.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/dh.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/e_os2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/ec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/engine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/hmac.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/kdf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/lhash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/md5.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/objects.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/ocsp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/param_build.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/params.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/pem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/provider.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/quic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/rand.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/rsa.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/safestack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/sha.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/srp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/srtp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/ssl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/stack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/store.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/tls1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/x509.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/x509_vfy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/include/openssl/x509v3.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/bio_ssl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/d1_lib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/d1_msg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/d1_srtp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/methods.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/pqueue.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/priority_queue.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/cc_newreno.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/json_enc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/qlog.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/qlog_event_helpers.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_ackm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_cfq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_channel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_channel_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_demux.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_engine.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_engine_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_fc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_fifd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_impl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_lcidm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_method.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_obj.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_obj_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_port.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_port_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_rcidm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_reactor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_reactor_wait_ctx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_record_rx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_record_rx_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_record_shared.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_record_shared.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_record_tx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_record_util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_rstream.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_rx_depack.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_srt_gen.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_srtm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_sstream.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_statm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_stream_map.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_strm_reas.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_thread_assist.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_tls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_tls_api.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_trace.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_tserver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_txp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_txpim.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_types.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_wire.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/quic_wire_pkt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/quic/uint_set.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/dtls_meth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/recmethod_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/ssl3_cbc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/ssl3_meth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/tls13_meth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/tls1_meth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/tls_common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/tls_multib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/tls_pad.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/methods/tlsany_meth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/rec_layer_d1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/rec_layer_s3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/record/record.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/rio/poll_builder.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/rio/poll_builder.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/rio/poll_immediate.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/rio/rio_notifier.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/s3_enc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/s3_lib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/s3_msg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_asn1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_cert.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_cert_comp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_cert_table.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_ciph.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_conf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_err_legacy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_lib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_mcnf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_rsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_rsa_legacy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_sess.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_stat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/ssl_txt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/extensions.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/extensions_clnt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/extensions_cust.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/extensions_srvr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/statem.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/statem_clnt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/statem_dtls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/statem_lib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/statem_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/statem/statem_srvr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/t1_enc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/t1_lib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/t1_trce.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/tls13_enc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/tls_depr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssl/3.5.9/ssl/tls_srp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libssl3-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

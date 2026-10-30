@@ -1,0 +1,185 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T05:30:39Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-xmlto-native-44785ef7-a340-5f60-87e1-2ac47a103df0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c58235461ff864857ffbc78e7bc27ad1a1050d4d"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-docbook-xml-dtd4-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-docbook-xml-dtd4-native-ff999756-af69-5f13-a6f8-9e66cb532674"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a0d3a314c1f4e2b2ce2bef7032349eb8e9305425"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-docbook-xsl-stylesheets-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-docbook-xsl-stylesheets-native-533ea34d-19fe-5235-a651-36cb1d06ebdf"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "95977ff99d0f707373602e6404e0f89603d2ef43"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-flex-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-flex-native-db3e6886-d8ff-51c5-9589-0e997748f089"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "05349514ad28af51e186c6c6456b7d422d7fea43"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libxml2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxml2-native-3a00c675-f8c7-59bc-88fd-8dcbd5a6a02a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3e7268b9d308e534ad82eb25978f80d7c33705b0"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libxslt-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxslt-native-1d9ff2f8-6a95-5fb7-b992-446a266ac105"
+    }
+  ],
+  "name": "recipe-xmlto-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-xmlto-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T05:30:39Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Utility xmlto is a simple shell-script tool for converting XML files to various formats. It serves as easy to use command line frontend to make fine output without remembering many long options and searching for the syntax of the backends.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:xmlto:0.0.28+0.0.29:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://pagure.io/xmlto",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "xmlto-native",
+      "summary": "A shell-script tool for converting XML files to various formats",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.0.28+0.0.29+git"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-xmlto-native-1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "git+https://codeberg.org/xmlto/xmlto.git@6fa6a0e07644f20abf2596f78a60112713e11cbe",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "xmlto-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-xmlto-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-xmlto-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-docbook-xml-dtd4-native:SPDXRef-Recipe-docbook-xml-dtd4-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-docbook-xsl-stylesheets-native:SPDXRef-Recipe-docbook-xsl-stylesheets-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-flex-native:SPDXRef-Recipe-flex-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libxml2-native:SPDXRef-Recipe-libxml2-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-xmlto-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libxslt-native:SPDXRef-Recipe-libxslt-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

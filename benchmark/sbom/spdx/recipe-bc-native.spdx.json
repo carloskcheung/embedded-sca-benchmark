@@ -1,0 +1,169 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T03:19:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-bc-native-a34712f7-f20f-5b89-a5a7-6b0c75717ec1",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "95977ff99d0f707373602e6404e0f89603d2ef43"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-flex-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-flex-native-db3e6886-d8ff-51c5-9589-0e997748f089"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c10008535007ebeccd50f0e2e952d2cd6479af86"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-readline-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-readline-native-acb67a62-4d2f-54be-b07f-6c8716c62e89"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "032c99ee251cd907f4733b083193bda44bf2f78a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-texinfo-dummy-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-texinfo-dummy-native-cb9012ff-d8d8-5775-98c1-f58ed5fb9573"
+    }
+  ],
+  "name": "recipe-bc-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-bc-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T03:19:59Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "bc is an arbitrary precision numeric processing language. Syntax is similar to C, but differs in many substantial areas. It supports interactive execution of statements.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:bc:1.07.1:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.gnu.org/software/bc/bc.html",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bc-native",
+      "summary": "Arbitrary precision calculator language",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.07.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-bc-native-1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "cda93857418655ea43590736fc3ca9fc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "62adfca89b0a1c0164c2cdca59ca210c1d44c3ffc46daf9931cf4942664cb02a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://ftpmirror.gnu.org/gnu/bc/bc-1.07.1.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bc-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bc-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-bc-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bc-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-bc-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bc-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bc-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bc-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-flex-native:SPDXRef-Recipe-flex-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bc-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bc-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-readline-native:SPDXRef-Recipe-readline-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bc-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-texinfo-dummy-native:SPDXRef-Recipe-texinfo-dummy-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

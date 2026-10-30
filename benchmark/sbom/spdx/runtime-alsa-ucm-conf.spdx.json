@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:46:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-alsa-ucm-conf-c0412a44-3a6f-5d99-8887-586e02276d20",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ca5927610c8dc70528fe2b239799c1984a6dfed6"
+      },
+      "externalDocumentId": "DocumentRef-package-alsa-ucm-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-ucm-conf-da521397-9b59-5085-8de8-f15172e1e245"
+    }
+  ],
+  "name": "runtime-alsa-ucm-conf",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-alsa-ucm-conf:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

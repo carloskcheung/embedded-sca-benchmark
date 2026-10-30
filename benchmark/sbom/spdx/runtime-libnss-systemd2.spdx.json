@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libnss-systemd2-a682388b-5f31-5328-9f76-e971ff85946e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "62407904739b1630e0d553409e3306773ab3189b"
+      },
+      "externalDocumentId": "DocumentRef-package-libnss-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/libnss-systemd2-89fb5432-87df-52c5-b88a-1016b63da653"
+    }
+  ],
+  "name": "runtime-libnss-systemd2",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libnss-systemd:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

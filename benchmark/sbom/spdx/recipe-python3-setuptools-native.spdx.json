@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:26:31Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-python3-setuptools-native-92b01c14-7992-558f-a0a2-15e98166b4eb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d4f5347624a0bfabd3fd992c77b3dba19d992da5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-build-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-build-native-31f01149-e917-52f1-a38e-ae049be674fb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aa574517cc2a48e4ddeb3da163cf72a33af69989"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-installer-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-installer-native-6a2f8ac3-c10d-5155-9b98-c3e070517152"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7582083c20470340448e5cd1ce34ac251649b6b5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-wheel-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-wheel-native-7a4afc6e-8440-50b2-8bb9-a733e12ef1a6"
+    }
+  ],
+  "name": "recipe-python3-setuptools-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-python3-setuptools-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T01:26:31Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Download, build, install, upgrade, and uninstall Python packages.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:python3-setuptools:69.1.1:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:python:setuptools:69.1.1:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://pypi.org/project/setuptools",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-setuptools-native",
+      "sourceInfo": "CVEs fixed: CVE-2025-47273 CVE-2026-59890 CVE-2024-6345",
+      "summary": "Download, build, install, upgrade, and uninstall Python packages",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "69.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-python3-setuptools-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5c0806c7d9af348e6dd3777b4f4dbb42c7ad85b190104837488eab9a7c945cf8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://files.pythonhosted.org/packages/source/s/setuptools/setuptools-69.1.1.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-setuptools-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-setuptools-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-python3-setuptools-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-setuptools-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-python3-setuptools-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-setuptools-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-build-native:SPDXRef-Recipe-python3-build-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-setuptools-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-installer-native:SPDXRef-Recipe-python3-installer-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-setuptools-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-setuptools-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-wheel-native:SPDXRef-Recipe-python3-wheel-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

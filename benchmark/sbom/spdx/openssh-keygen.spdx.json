@@ -1,0 +1,1337 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:28:04Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/openssh-keygen-709b0140-aba9-5999-b209-a126240f3278",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "befc55de14090a6ae64c4d0e17b621a7500a01d1"
+      },
+      "externalDocumentId": "DocumentRef-recipe-openssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssh-dd4ff61a-484b-5123-87bb-3e01690699c1"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssh-keygen-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8f76d926965d71d370ab975814da0910010c2581"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fb14ea503b7759e9b5477c31cb0c0dbf2752e5cf99123e8cf24f77c920633222"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/ssh-keygen",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "openssh-keygen",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-openssh-keygen",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-openssh-keygen-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssh-keygen",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e654f6bbd3d2a3efc4b6cdc8312a2c25abebe1e2"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "9.6p1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-openssh:SPDXRef-Recipe-openssh",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-openssh-keygen"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-openssh-keygen",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssh-keygen-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssh-keygen"
+    },
+    {
+      "comment": "/usr/include/arpa/nameser.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/arpa/nameser_compat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/strings_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios-struct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/res_state.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sig_atomic_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/langinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/libgen.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/linux/hdlc/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/linux/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/netinet/ip.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/nl_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/bn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/dsa.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/ec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/pem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/rand.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/rsa.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/openssl/x509.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/resolv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/uio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/include/wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/libgcc2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/libgcc2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/addr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/addr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/addrmatch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/atomicio.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/atomicio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/authfd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/authfd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/authfile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/authfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/bitmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/bitmap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/channels.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/cipher-aesctr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/cipher-chachapoly-libcrypto.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/cipher-chachapoly.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/cipher.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/cipher.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/cleanup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/crypto_api.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/digest-openssl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/digest.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/dns.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/dns.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ed25519.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/entropy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/entropy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/fatal.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/hash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/hmac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/hmac.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/hostfile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/hostfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/krl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/krl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/log.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/log.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/match.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/match.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/misc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/moduli.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/msg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/msg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/base64.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/bcrypt_pbkdf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/blf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/blowfish.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/bsd-closefrom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/bsd-misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/bsd-misc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/freezero.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/getopt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/getopt_long.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/getrrsetbyname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/getrrsetbyname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/libressl-api-compat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/mktemp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/openbsd-compat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/openssl-compat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/openssl-compat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/port-net.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/port-net.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/readpassphrase.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/readpassphrase.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/recallocarray.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/strtonum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/timingsafe_bcmp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/vis.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/openbsd-compat/vis.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/pkcs11.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/platform-misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/platform.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/poly1305.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/poly1305.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/readpass.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/rijndael.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-dss.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-ecdsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-ed25519.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-keygen.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-pkcs11.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-pkcs11.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-rsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-sk-client.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssh-sk.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshbuf-getput-basic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshbuf-getput-crypto.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshbuf-io.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshbuf-misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshbuf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshbuf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssherr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/ssherr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshkey.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshkey.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshsig.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/sshsig.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/utf8.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/utf8.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/xmalloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    },
+    {
+      "comment": "/usr/src/debug/openssh/9.6p1/xmalloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-openssh-keygen-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

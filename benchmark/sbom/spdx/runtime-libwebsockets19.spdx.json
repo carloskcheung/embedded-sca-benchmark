@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:23:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libwebsockets19-b5114aa3-6a04-52a7-adaf-ab03926e20e0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "946e5fb94ee6a54c69e2908a1abbc176b75bb7c2"
+      },
+      "externalDocumentId": "DocumentRef-package-libwebsockets",
+      "spdxDocument": "http://spdx.org/spdxdocs/libwebsockets19-5110c821-d23c-5dc1-b44f-ec641be2bc30"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4b49c744b712c205b0980bf9a2bb0e9fb983444f"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libwebsockets-evlib-uv",
+      "spdxDocument": "http://spdx.org/spdxdocs/libwebsockets-evlib-uv-472126e4-1dbf-5acf-a38d-6bca5eca60b7"
+    }
+  ],
+  "name": "runtime-libwebsockets19",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libwebsockets:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-libwebsockets:SPDXRef-Package-libwebsockets19",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libwebsockets-evlib-uv:SPDXRef-Package-libwebsockets-evlib-uv"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

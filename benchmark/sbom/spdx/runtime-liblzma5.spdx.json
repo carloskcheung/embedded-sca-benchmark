@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:06:28Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-liblzma5-e56dde43-de68-5fef-87ff-696ceda5976c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a2deabec74c3b8d0cb815a335b2fb7071b5ab586"
+      },
+      "externalDocumentId": "DocumentRef-package-liblzma",
+      "spdxDocument": "http://spdx.org/spdxdocs/liblzma5-581e9949-ad9b-58d8-8690-7b520067f059"
+    }
+  ],
+  "name": "runtime-liblzma5",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-liblzma:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

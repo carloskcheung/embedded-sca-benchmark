@@ -1,0 +1,145 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:26:02Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/kernel-6.6.151-yocto-standard-23b6c912-d369-5d36-92dd-638003593227",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92b8a54efd522581719dd55df791e301f8d25a0a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ac6de2c9454971f3c89e527a03db6dd75f8eac34"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "077695072e34392a319633350c6b8cce85e4b39ac629365f72648173b4b8d4b8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/modules/6.6.151-yocto-standard/modules.builtin",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "192251c4715179b7b3139bb2f8fc20b79e97922d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "871c0ccc03a80a73f647f640ff9314b09ac3b992f18d4afd56d92bc547f27632"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/modules/6.6.151-yocto-standard/modules.order",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d58c2dc37e631a5879dfefea636d7a428d3c4dd0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "57397b454786f4c2fc1569cba10f69c89561899f9ad8dfb72ff86c8a901ed1db"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/modules/6.6.151-yocto-standard/modules.builtin.modinfo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-6.6.151-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-6.6.151-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-1",
+        "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-2",
+        "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-6.6.151-yocto-standard",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8eada01823038d78f53a8f85fbe7936fcf6aac9e"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.6.151+git"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-6.6.151-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-6.6.151-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-6.6.151-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-6.6.151-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-6.6.151-yocto-standard-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-6.6.151-yocto-standard"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

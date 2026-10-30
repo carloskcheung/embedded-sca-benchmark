@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:29:39Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/update-alternatives-opkg-bee129de-d7c1-5485-9609-be84c78b0544",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e8c1ee48aa185808544aabeacf8320882ff6e5c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-opkg-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-opkg-utils-f3c24e09-f6ff-5f5c-ab93-a37218f4e1a7"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-update-alternatives-opkg-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aff903f8c32c6ec0c3e9fd69f04e089f3cbd1bc7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9cc31bda94d3fd2787732a77b00be50bf2f45680f08aa3420724285c0e01c4f4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/update-alternatives",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "update-alternatives-opkg",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-update-alternatives-opkg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-update-alternatives-opkg-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "update-alternatives-opkg",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a48e0db4db39d0ca22614b6ccaa4b64a6eb56cb0"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.6.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-opkg-utils:SPDXRef-Recipe-opkg-utils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-update-alternatives-opkg"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-update-alternatives-opkg",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-update-alternatives-opkg-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-update-alternatives-opkg"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

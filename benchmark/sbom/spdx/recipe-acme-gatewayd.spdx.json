@@ -1,0 +1,207 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T16:58:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-acme-gatewayd-3c8f2e5a-01ba-5069-a586-4d8540d05a80",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5a6003100f9aa3200281a87b3345005f72475113"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-cjson",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-cjson-3e448e4a-2ed0-5eb3-97b9-fcb78aca6b84"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cabb14de16b0fa623be57031c7e169f5ab36edd7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-cmake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-cmake-native-065aeeea-e673-57cc-a9f5-a3fe1fc2b3ea"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cb4198d61e90d4034197cde4a4379fd5d8e23875"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-mosquitto",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-mosquitto-e9fc2cea-7913-5189-9897-244ca2181db8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e9f2c7e4c30f7c5ede908475e0be08d8083f50e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ninja-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ninja-native-69509a4d-51be-58e4-8b69-f8cab885e13f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "931e1607f2aa96691b3fa2f0fab4e9e2c40e0d35"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-openssl",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssl-48156327-17ba-5e34-b313-de0c1f21058e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b8faebaaf9c7552646db691dd1fb07b71d4631c0"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-sqlite3",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-sqlite3-ddb15355-31cb-5efc-bc2f-344348b1afbe"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c55a28348b7449b433137bc92178aa4b0c79f492"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-systemd-systemctl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-systemctl-native-2f3d50ae-528c-5654-b3e7-3b2e2de42e45"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "abb6ea374fdda1f7ebcb4f6db1355269b633c1e4"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-tinycbor",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-tinycbor-d0a629dc-1afd-5c06-8697-b0e3429a4492"
+    }
+  ],
+  "name": "recipe-acme-gatewayd",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-acme-gatewayd",
+      "copyrightText": "NOASSERTION",
+      "description": "Ingests authenticated CBOR telemetry from the sensor-node MCU, buffers it in SQLite and forwards it to the local MQTT broker.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:acme-gatewayd:3.0.4:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://acme-industrial.example/gateway",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "acme-gatewayd",
+      "summary": "Acme gateway telemetry daemon",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.0.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-cjson:SPDXRef-Recipe-cjson"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-cmake-native:SPDXRef-Recipe-cmake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-mosquitto:SPDXRef-Recipe-mosquitto"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ninja-native:SPDXRef-Recipe-ninja-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-openssl:SPDXRef-Recipe-openssl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-sqlite3:SPDXRef-Recipe-sqlite3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-systemd-systemctl-native:SPDXRef-Recipe-systemd-systemctl-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-gatewayd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-tinycbor:SPDXRef-Recipe-tinycbor"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

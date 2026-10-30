@@ -1,0 +1,238 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:27:23Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-glib-2.0-native-705aca78-6a39-5d5c-9e39-a6c873295cf1",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5dfd53edb8a13f81c50ef86b1a7efdb956ac95b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-minimal-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-minimal-native-d0a27f93-c2cb-5d69-ab6b-b5b2d7da1769"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "34b62e10031b25f9fcde0a193bd805baea98428e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-native-bc0b5e4e-69c4-5def-955c-45419d0a98ee"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4dffa05f2fbc60e3201490d8e34529047e82210f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gtk-doc-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gtk-doc-native-5263677d-0962-5f28-a0fb-1308d67c5da7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ff09865e7c19855074b4b5f19c90a72188bbfe14"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libffi-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libffi-native-16d6a62d-8719-56f3-a4ce-660f29fe886a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0a8af08238cc833a751322faa895dfe734469920"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libpcre2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libpcre2-native-87c509bc-91cb-5a3c-9a43-68404322bbb2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "171b7a41ca4f4285f02feaeaf21da65ace4cefe5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-meson-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-meson-native-c406ca80-e1f3-5f06-98d6-b7b62049c315"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e9f2c7e4c30f7c5ede908475e0be08d8083f50e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ninja-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ninja-native-69509a4d-51be-58e4-8b69-f8cab885e13f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ee1578e02df4c1e393dd1a8aac087ddc515f60d0"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-util-linux-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-util-linux-native-ad149639-d77e-5762-95b9-57fc9f43ba41"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "extractedText": "Software released to the public domain",
+      "licenseId": "LicenseRef-PD",
+      "name": "PD"
+    }
+  ],
+  "name": "recipe-glib-2.0-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-glib-2.0-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T01:27:23Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:glib:2.78.6:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://developer.gnome.org/glib/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later AND BSD-3-Clause AND LicenseRef-PD",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glib-2.0-native",
+      "sourceInfo": "CVEs fixed: CVE-2026-1484 CVE-2026-1485 CVE-2026-58012 CVE-2025-6052 CVE-2026-58011 CVE-2026-58016 CVE-2025-7039 CVE-2024-52533 CVE-2026-58010 CVE-2026-58015 CVE-2025-14087 CVE-2026-1489 CVE-2025-13601 CVE-2025-14512 CVE-2026-58013 CVE-2026-58014 CVE-2026-0988 CVE-2025-4373 CVE-2025-3360",
+      "summary": "A general-purpose utility library",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.78.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-glib-2.0-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "244854654dd82c7ebcb2f8e246156d2a05eb9cd1ad07ed7a779659b4602c9fae"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://download.gnome.org/sources//glib/2.78/glib-2.78.6.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glib-2.0-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-glib-2.0-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-glib-2.0-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-minimal-native:SPDXRef-Recipe-gettext-minimal-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-native:SPDXRef-Recipe-gettext-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gtk-doc-native:SPDXRef-Recipe-gtk-doc-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libffi-native:SPDXRef-Recipe-libffi-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libpcre2-native:SPDXRef-Recipe-libpcre2-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-meson-native:SPDXRef-Recipe-meson-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ninja-native:SPDXRef-Recipe-ninja-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-util-linux-native:SPDXRef-Recipe-util-linux-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-glib-2.0-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

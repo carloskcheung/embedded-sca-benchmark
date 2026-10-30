@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:43:48Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/alsa-states-c81175cf-8432-5ffc-8e48-184de0870e80",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0130feb232d5fc80e10721ca3187eb283e767238"
+      },
+      "externalDocumentId": "DocumentRef-recipe-alsa-state",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-alsa-state-9b94d012-c712-57e8-a3df-6b0cb7133336"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-states-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9dce05f589f2a2bcd4028295ea6dc6a39783c1dd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4efb5a6245b47b3a546ed07b4c99ae5a714e1d4efa71ff16a483e00cfe8c4907"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "var/lib/alsa/asound.state",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "alsa-states",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-alsa-states",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-alsa-states-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT AND GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "alsa-states",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "58169d0e4366e6fa709488464a166bac93116a5d"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.2.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-alsa-state:SPDXRef-Recipe-alsa-state",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-alsa-states"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-alsa-states",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-states-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-states"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

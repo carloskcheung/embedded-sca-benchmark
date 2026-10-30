@@ -1,0 +1,481 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:29:57Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/ncurses-terminfo-base-cd7daf82-90c2-594e-89d3-1466f6bf3255",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4e1b3ca3db968a814513b71a6de8e514c8fae7b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-ncurses",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ncurses-0e23f426-319c-55a3-92d6-7bae8d64d645"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cea0673243df18b6982de56f953cdaefda61d25d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b70a4941416eb703a01b5a06fd1c914880452302b0e0b2a7dea12600607824a7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/l/linux",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "df4b4d8fa4137e85510ddb04c84cc7b0bfc518f6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "123c85a2812a517d967db5f31660db0e6aded4a0b95ed943c5ab435368e7a25c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/d/dumb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3eb5fb0ae63435e3eab37327cd9a85275fcf9a0c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e20569b88d29b6338adc5258440508df33f14ff628a6dac6e189015c05850416"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/r/rxvt",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b5211ae4c20d69e9913b175c3645c5ce97837ce3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "93ec8cb9beb0c898ebc7dda0f670de31addb605be9005735228680d592cff657"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/a/ansi",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bd610789d092c60c5eee5fab1910efe730d81c96"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "84e298d614f21185e2da434d327791c6a9900c81d1d7a40c51878223cff9e9db"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/v/vt52",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "160795cab5b8106b8a7f7614a4ba01e817bd214a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "463acf11d61e842340295dfd230bfdca83d6fc3ee8b3a52aed0058b3f7ea7f17"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/v/vt220",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ffbe7ea2dda9854bcafcdbab44b82c712dd62d17"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "779a219d6ed2ed282f9416ee04fe65f92a1c90606cf6e93a61cebfc3aa96c982"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/v/vt100",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "160795cab5b8106b8a7f7614a4ba01e817bd214a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "463acf11d61e842340295dfd230bfdca83d6fc3ee8b3a52aed0058b3f7ea7f17"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/v/vt200",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "757033dcf26d01cf4216c3a0dfae91f4d074838d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7fe8275bde4dc821f6b89ca2fd99badff00d02db7d92fe9a419ebe7331426e36"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/v/vt102",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-10",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7ae2dbc6510b41bd548aacbdf73fcd1b779435c2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fcb5173ee0c48a229b82180eebf160b8f2b4b2593767d6373d9c28d2aea705fc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/x/xterm-color",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-11",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "17e0a41e037ebfa9f74a9592bb4dadb1ed38dd82"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "202da795044f311fa75894b385ab58b1aa3dbefeebaf9113d672f1c42892e5a0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/x/xterm-256color",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6f8c8e0d6e34be554ab07e10caa84b10c7a33230"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8d1e375cf40cac3e78d50dd0f06a488d69d51baeb77fc3fb7a5c5d9c5f146080"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/x/xterm-xfree86",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-13",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "20ed0a78232532609b851d9854e1656c0d118d2b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ddf0061af30f3a630ef85deab0e42a0b25042cdce55f5c35b800ef6eb4832687"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/s/screen",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-14",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "faf6b1b33d6c3a6aae31f7b657810b6171d91a8d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "02e392161cb23f49a8fb1ba2f1a6583e013c0c26672f58c5eaca828db3b19914"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/s/sun",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-ncurses-terminfo-base-15",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2470109f95b046fd0d33a40d0a1fbf0e02ad3a3f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "42d2d66868c1b6bb86246cd2a830ba28d41f148cd832989524bc2233a71afee2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/terminfo/s/screen-256color",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "ncurses-terminfo-base",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-ncurses-terminfo-base",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-1",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-2",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-3",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-4",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-5",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-6",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-7",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-8",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-9",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-10",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-11",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-12",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-13",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-14",
+        "SPDXRef-PackagedFile-ncurses-terminfo-base-15"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "ncurses-terminfo-base",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8c9fbb361e49d6cada84c227984f6b07c07c6257"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-ncurses:SPDXRef-Recipe-ncurses",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ncurses-terminfo-base",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-7",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-9",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-10",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-11",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-12",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-13",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-14",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-ncurses-terminfo-base-15",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-ncurses-terminfo-base"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

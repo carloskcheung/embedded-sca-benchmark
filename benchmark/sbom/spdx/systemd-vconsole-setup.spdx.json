@@ -1,0 +1,489 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:48:16Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/systemd-vconsole-setup-c2ae399a-5b83-544a-bcef-b088799fcc41",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1abf1313d50efb2ff39e7b1bda652813cad9381c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-9a30b9ed-a145-56fe-863a-756f27954858"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-vconsole-setup-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4db49e40d60865de16a36d91ebe6ced591e05747"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e88c1796370b9a923b9641b4122775c4ff5da885a49de108420f8d634c82b6ee"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/systemd-vconsole-setup",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-vconsole-setup-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4baf2b3fec99f6ce6dfac19d62d035a35fc1fab1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c300aaab7671384c1764ff7c88b2c3ccd2a18d534a00c6be572175c072855cf1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/systemd-vconsole-setup.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "systemd-vconsole-setup",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-systemd-vconsole-setup",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-systemd-vconsole-setup-1",
+        "SPDXRef-PackagedFile-systemd-vconsole-setup-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "systemd-vconsole-setup",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fb04e3aa8250d5fd78ad717145fed134f26e7542"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "255.22"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-systemd:SPDXRef-Recipe-systemd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-systemd-vconsole-setup"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-systemd-vconsole-setup",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-vconsole-setup-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-vconsole-setup"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-vconsole-setup-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-vconsole-setup"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios-struct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/linux/kd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/linux/vt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/alloc-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/argv-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/env-file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/errno-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/fd-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/fileio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/io-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/locale-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/log.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/proc-cmdline.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/process-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/static-destruct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/stdio-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/string-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/strv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/terminal-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/time-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/macro-fundamental.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/memory-util-fundamental.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/string-util-fundamental.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/creds-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/dev-setup.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/pager.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/selinux-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/spawn-ask-password-agent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/spawn-polkit-agent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/systemd/sd-daemon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/vconsole/vconsole-setup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-systemd-vconsole-setup-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

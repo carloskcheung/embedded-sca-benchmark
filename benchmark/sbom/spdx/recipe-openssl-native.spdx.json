@@ -1,0 +1,100 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:56:38Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-openssl-native-29712d98-dace-570a-bc97-e67cefc5997d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b3629b80c8e11b67280fe49b323ced9192c5db6e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-perl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-perl-native-ca4779ec-f2da-58e4-b2de-b4093de4d855"
+    }
+  ],
+  "name": "recipe-openssl-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-openssl-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:56:38Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:openssl:openssl:3.5.9:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.openssl.org/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssl-native",
+      "summary": "Secure Socket Layer",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-openssl-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "603f5602e2eef00d77fbd429d34dcd5822bb301757a1bc9cdb24c670f1eb859a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://www.openssl.org/source/openssl-3.5.9.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssl-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-openssl-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-openssl-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-openssl-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-perl-native:SPDXRef-Recipe-perl-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

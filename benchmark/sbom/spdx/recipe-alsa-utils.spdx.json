@@ -1,0 +1,248 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T16:59:23Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-alsa-utils-b39ab38f-e304-587f-9ea1-b01a6b629753",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7e13d7c0f435f604e32b4f27d71ce21cb3b7ad4c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-alsa-lib",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-alsa-lib-b4e57b3f-c8e7-5fb5-aceb-479dba1fa849"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "34b62e10031b25f9fcde0a193bd805baea98428e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-native-bc0b5e4e-69c4-5def-955c-45419d0a98ee"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b22bc6faca5e481a4435ad299eb27b1f990f1df4"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libsamplerate0",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libsamplerate0-8c02e695-a6b4-5495-bc5a-ddd2b8568fcd"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f2cacbf0939f303297321fc12601bb5b7cb6a7be"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-cross",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-cross-07500b21-b619-56d3-838e-16ca401a612f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4e1b3ca3db968a814513b71a6de8e514c8fae7b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ncurses",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ncurses-0e23f426-319c-55a3-92d6-7bae8d64d645"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1abf1313d50efb2ff39e7b1bda652813cad9381c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-9a30b9ed-a145-56fe-863a-756f27954858"
+    }
+  ],
+  "name": "recipe-alsa-utils",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-alsa-utils",
+      "copyrightText": "NOASSERTION",
+      "description": "collection of small and often extremely powerful applications designed to allow users to control the various parts of the ALSA system.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:alsa-utils:1.2.11:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.alsa-project.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "alsa-utils",
+      "summary": "ALSA sound utilities",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.2.11"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-alsa-utils-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9ac6ca3a883f151e568dcf979b8d2e5cbecc51b819bb0e6bb8a2e9b34cc428a7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://www.alsa-project.org/files/pub/utils/alsa-utils-1.2.11.tar.bz2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "alsa-utils-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-alsa-utils-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-alsa-utils-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-alsa-lib:SPDXRef-Recipe-alsa-lib"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-native:SPDXRef-Recipe-gettext-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libsamplerate0:SPDXRef-Recipe-libsamplerate0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-cross:SPDXRef-Recipe-libtool-cross"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ncurses:SPDXRef-Recipe-ncurses"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-systemd:SPDXRef-Recipe-systemd"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

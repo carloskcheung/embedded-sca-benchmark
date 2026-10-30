@@ -1,0 +1,57 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:29:24Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/packagegroup-distro-base-2fbe2070-45eb-59bb-8bdc-05fc4e58d84f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6fc387004b1d6c19ba771947a3b52b6265355906"
+      },
+      "externalDocumentId": "DocumentRef-recipe-packagegroup-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-packagegroup-base-74582ca8-4988-5352-85c5-2e3f7e4aba58"
+    }
+  ],
+  "name": "packagegroup-distro-base",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-packagegroup-distro-base",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "packagegroup-distro-base",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-packagegroup-base:SPDXRef-Recipe-packagegroup-base",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-packagegroup-distro-base"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-packagegroup-distro-base",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

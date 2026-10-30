@@ -1,0 +1,94 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T03:08:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-kern-tools-native-df052eaa-fcae-5096-ab00-31da460b907f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "59d34f7235adc82d1eb97c12a2977829f12afdd9"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-git-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-git-native-5ca64a03-71f7-513e-93be-c8d7a5d73bee"
+    }
+  ],
+  "name": "recipe-kern-tools-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-kern-tools-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T03:08:21Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Powerful set of tools or managing Yocto Linux kernel sources and configuration data. You can use these tools to make a single configuration change, apply multiple patches, or work with your own kernel sources.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:kern-tools:0.3:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://www.yoctoproject.org/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kern-tools-native",
+      "summary": "Tools for managing Yocto Project style branched kernels",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.3+git"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-kern-tools-native-1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "git+https://git.yoctoproject.org/yocto-kernel-tools.git@7160ebe8b865dd6028aef278efa219433db93f7e",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kern-tools-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kern-tools-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-kern-tools-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kern-tools-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-kern-tools-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-kern-tools-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-git-native:SPDXRef-Recipe-git-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

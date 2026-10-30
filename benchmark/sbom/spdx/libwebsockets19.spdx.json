@@ -1,0 +1,1529 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:23:14Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libwebsockets19-5110c821-d23c-5dc1-b44f-ec641be2bc30",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0d14af871c9c5a042b18570c5a759907c74c92bf"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libwebsockets",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libwebsockets-36f14c5f-0064-560a-9204-44bfd69a3fca"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libwebsockets19-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "42552dfe3c80dc47b4f22b4985003600cea08c6f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "364c9af81712a91c08bd6c111c01b6320705c3878906c7b215acb95a14d4830b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libwebsockets.so.19",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libwebsockets19",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libwebsockets19",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libwebsockets19-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT AND Zlib AND BSD-3-Clause AND Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libwebsockets19",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d6a6de4dfc9a341c0d3cae50d8ba1d2400da60bf"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "4.3.10"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libwebsockets:SPDXRef-Recipe-libwebsockets",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libwebsockets19"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libwebsockets19",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libwebsockets19-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libwebsockets19"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/eventfd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/ifaddrs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/linux/if_addr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/linux/if_link.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/linux/if_packet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/linux/neighbour.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/linux/netlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/linux/rtnetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/linux/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/net/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/net/route.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/conf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/ec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/evp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/objects.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/pem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/ssl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/stack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/tls1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/x509.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/x509_vfy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/openssl/x509v3.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/eventfd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/abstract/abstract.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-adopt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-cache-ttl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-callbacks.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-client.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-conmon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-context-vhost.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-cose.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-dll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-eventlib-exports.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-fault-injection.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-gencrypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-http.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-jose.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-jwk.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-jws.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-lejp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-logs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-lwsac.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-map.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-metrics.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-misc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-network-helper.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-protocols-plugins.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-retry.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-secure-streams-policy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-service.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-sha1-base64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-smd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-spa.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-state.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-system.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-timeout-timer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-tls-sessions.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-tokenize.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-vfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-write.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-writeable.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-ws-close.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-ws-ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-ws-state.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/include/libwebsockets/lws-x509.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/adopt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/client/client.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/client/conmon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/client/connect.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/client/connect2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/client/connect3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/client/connect4.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/client/sort-dns.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/close.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/dummy-callback.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/network.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/output.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/pollfd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/private-lib-core-net.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/route.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/service.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/sorted-usec-list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/state.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/vhost.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/wsi-timeout.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core-net/wsi.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/alloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/buflist.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/context.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/libwebsockets.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/logs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/lws_dll2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/lws_map.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/private-lib-core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/core/vfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/event-libs/poll/poll.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/event-libs/poll/private-lib-event-libs-poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/base64-decode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/cache-ttl/file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/cache-ttl/heap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/cache-ttl/lws-cache-ttl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/cache-ttl/private-lib-misc-cache-ttl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/dir.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/lejp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/lws-ring.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/lwsac/cached-file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/lwsac/lwsac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/lwsac/private-lib-misc-lwsac.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/prng.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/misc/sha-1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/private-lib-plat-unix.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-caps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-fds.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-pipe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-plugins.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-service.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/plat/unix/unix-sockets.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/h1/ops-h1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/h1/private-lib-roles-h1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/h2/hpack.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/h2/http2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/h2/huftable.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/h2/ops-h2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/h2/private-lib-roles-h2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/client/client-http.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/cookie.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/date.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/header.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/lextable-strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/parsers.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/private-lib-roles-http.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/server/lejp-conf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/server/lws-spa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/http/server/server.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/listen/ops-listen.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/netlink/ops-netlink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/pipe/ops-pipe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/private-lib-roles.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/raw-file/ops-raw-file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/raw-skt/ops-raw-skt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/ws/client-parser-ws.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/ws/client-ws.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/ws/ops-ws.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/ws/private-lib-roles-ws.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/roles/ws/server-ws.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/system/metrics/private-lib-system-metrics.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/system/smd/private-lib-system-smd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/system/smd/smd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/system/system.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/openssl/openssl-client.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/openssl/openssl-server.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/openssl/openssl-session.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/openssl/openssl-ssl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/openssl/openssl-tls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/openssl/openssl-x509.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/openssl/private-lib-tls-openssl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/private-lib-tls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/private-network.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/tls-client.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/tls-network.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/tls-server.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/tls-sessions.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    },
+    {
+      "comment": "/usr/src/debug/libwebsockets/4.3.10/lib/tls/tls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libwebsockets19-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

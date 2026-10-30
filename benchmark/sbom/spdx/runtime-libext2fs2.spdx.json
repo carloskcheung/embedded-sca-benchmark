@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:03Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libext2fs2-1a7ae427-e2a0-5d84-b33c-c2448aa3b8f8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "03ac14a86e589e262c1dbdee6aed068bf74c6ee2"
+      },
+      "externalDocumentId": "DocumentRef-package-libext2fs",
+      "spdxDocument": "http://spdx.org/spdxdocs/libext2fs2-51fe693b-50bf-5b76-83df-188797a90b27"
+    }
+  ],
+  "name": "runtime-libext2fs2",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libext2fs:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

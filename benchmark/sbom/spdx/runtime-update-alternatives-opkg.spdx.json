@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T03:19:12Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-update-alternatives-opkg-47d58a72-d92d-577f-b68d-f55d1c3731bb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ec9f5577d0199edbc2fc004074937b1f4851fc0a"
+      },
+      "externalDocumentId": "DocumentRef-package-update-alternatives-opkg",
+      "spdxDocument": "http://spdx.org/spdxdocs/update-alternatives-opkg-bee129de-d7c1-5485-9609-be84c78b0544"
+    }
+  ],
+  "name": "runtime-update-alternatives-opkg",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-update-alternatives-opkg:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

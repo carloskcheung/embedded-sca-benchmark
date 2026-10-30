@@ -1,0 +1,41 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:29:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-packagegroup-core-ssh-openssh-8ab8eb85-f9f0-521d-87af-253b3796a4fc",
+  "name": "recipe-packagegroup-core-ssh-openssh",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-packagegroup-core-ssh-openssh",
+      "copyrightText": "NOASSERTION",
+      "description": "OpenSSH SSH client/server.",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "packagegroup-core-ssh-openssh",
+      "summary": "OpenSSH SSH client/server",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-packagegroup-core-ssh-openssh",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

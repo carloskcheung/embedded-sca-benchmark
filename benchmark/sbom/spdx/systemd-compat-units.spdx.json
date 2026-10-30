@@ -1,0 +1,57 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:48:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/systemd-compat-units-4c2c3d30-bc83-5896-8412-23f83f9ba639",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d08d11e7217b188c0a4437ee01bc7fd672d27777"
+      },
+      "externalDocumentId": "DocumentRef-recipe-systemd-compat-units",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-compat-units-fa9aa102-ca77-530d-87f0-419c28b48271"
+    }
+  ],
+  "name": "systemd-compat-units",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-systemd-compat-units",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "systemd-compat-units",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-systemd-compat-units:SPDXRef-Recipe-systemd-compat-units",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-systemd-compat-units"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-systemd-compat-units",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

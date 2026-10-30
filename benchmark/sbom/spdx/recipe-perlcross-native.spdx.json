@@ -1,0 +1,86 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:54:56Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-perlcross-native-2c1f6985-82ff-5005-b2a1-d04a20bf908d",
+  "name": "recipe-perlcross-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-perlcross-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:54:56Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "perl-cross provides configure script, top-level Makefile and some auxiliary files for perl, with the primary emphasis on cross-compiling the source.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:perlcross:1.6.2:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://github.com/arsv/perl-cross",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perlcross-native",
+      "sourceInfo": "CVEs fixed: CVE-2025-40909",
+      "summary": "Perl-cross build system",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.6.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-perlcross-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "131f7496152ee32067dbac2bc9b44b2f582fc778140e545701b3b2faee782f1d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/arsv/perl-cross/releases//download/1.6.2/perl-cross-1.6.2.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perlcross-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-perlcross-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-perlcross-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-perlcross-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-perlcross-native-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

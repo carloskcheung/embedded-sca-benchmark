@@ -1,0 +1,839 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:49:06Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libmosquitto1-08745afc-5d1a-5d67-97d4-47156f529ce9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cb4198d61e90d4034197cde4a4379fd5d8e23875"
+      },
+      "externalDocumentId": "DocumentRef-recipe-mosquitto",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-mosquitto-e9fc2cea-7913-5189-9897-244ca2181db8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libmosquitto1-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c85e834af2c737ffed7379bacd6306a5d9a9cc1e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f799fdd260dca495eee077d2b13cd497a728c9c0ffd6f03e516a1b9f4b5d696"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libmosquitto.so.2.0.22",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libmosquitto1",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libmosquitto1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libmosquitto1-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "EPL-2.0 OR DocumentRef-recipe-mosquitto:LicenseRef-EDL-1.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libmosquitto1",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e14ac1bcfc97ed29840e877da2cbec94e57d8d68"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.0.22"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-mosquitto:SPDXRef-Recipe-mosquitto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libmosquitto1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libmosquitto1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libmosquitto1-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libmosquitto1"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/select-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/asn1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/bn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/conf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/crypto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/engine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/ocsp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/rand.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/ssl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/stack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/ui.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/x509.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/x509_vfy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/openssl/x509v3.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/sys/select.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/include/mosquitto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/include/mqtt_protocol.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/actions.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/callbacks.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/connect.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_auth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_connack.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_disconnect.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_ping.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_pubackcomp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_publish.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_pubrec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_pubrel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_suback.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/handle_unsuback.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/helpers.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/logging_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/logging_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/loop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/memory_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/memory_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/messages_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/messages_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/misc_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/misc_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/mosquitto.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/mosquitto_internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/net_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/net_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/net_mosq_ocsp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/options.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/packet_datatypes.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/packet_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/packet_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/property_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/property_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/read_handle.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/read_handle.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/send_connect.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/send_disconnect.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/send_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/send_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/send_publish.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/send_subscribe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/send_unsubscribe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/socks_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/socks_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/srv_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/strings_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/thread_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/time_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/time_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/tls_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/tls_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/utf8_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/util_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/util_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/util_topic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/will_mosq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    },
+    {
+      "comment": "/usr/src/debug/mosquitto/2.0.22/lib/will_mosq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libmosquitto1-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

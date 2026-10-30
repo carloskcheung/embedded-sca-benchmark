@@ -1,0 +1,201 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:48:39Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/systemd-conf-f1e0360f-6d1c-5ac9-856d-d0ef46689d6b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5752e3decea35c9f47331785d936998d05176a07"
+      },
+      "externalDocumentId": "DocumentRef-recipe-systemd-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-conf-10e4e0e7-7344-5aed-838d-076129bec107"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-conf-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fae1357de02da757f31e387a263cb6e4a94198e6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "83f8b3d4f7b9d4d46bb2a098a23832ba41d790b8f6b7fe546009239e0aa5dd1e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/journald.conf.d/00-systemd-conf.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-conf-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "96ae31d7c8dcd1899e30a9cd7c7ff9e34b479a2f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0d11e45909dbba5ef6ae69ecced8e5d7478f68dfbe7c252cfc7b601004bbd4a4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system.conf.d/01-systemd-conf.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-conf-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bcf11479681b4f3fa80e3387fee3873da84fc303"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5704a74bd1ad15cb7fdcf523068170fbab6be61bded9626e4c0e8073a94a9689"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system.conf.d/00-systemd-conf.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-conf-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "06258d20223cd4b159626a9aec2dcd0cc5e2b19a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "91b90e619806859e5dc611e50e28d1279d12d2b5f96cd0a37a8a2de3e27598cc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/network/80-wired.network",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-conf-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e2dcf5d9cb9a2b2e218e6d0293a12410c1c5bcf8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0182e5439b9d1d9cf0b5a1e5c7d54908ae2acbc897afdf49ed6634c3a8de5c76"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/logind.conf.d/00-systemd-conf.conf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "systemd-conf",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-systemd-conf",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-systemd-conf-1",
+        "SPDXRef-PackagedFile-systemd-conf-2",
+        "SPDXRef-PackagedFile-systemd-conf-3",
+        "SPDXRef-PackagedFile-systemd-conf-4",
+        "SPDXRef-PackagedFile-systemd-conf-5"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "systemd-conf",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9913e2b8d52c0204af510a1f11ac72b89960738c"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-systemd-conf:SPDXRef-Recipe-systemd-conf",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-systemd-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-systemd-conf",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-conf-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-conf-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-conf-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-conf-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-conf-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-conf"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

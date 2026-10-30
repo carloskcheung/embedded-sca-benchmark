@@ -1,0 +1,60 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-util-linux-swaponoff-7dd324e6-2318-5bb5-b10f-dfc6f4411bcc",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d8eee8b9e17da3828c2ab11157de3314743b9158"
+      },
+      "externalDocumentId": "DocumentRef-package-util-linux-swaponoff",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-swaponoff-59a21ba1-e58a-5f44-b5cb-37836f16d01a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7874c0c05acb4e7c897295a97f207d1516330d88"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-util-linux-swapoff",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-swapoff-f8c62027-3840-5ba8-b83d-9f81309a4c49"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "42cce7ffc9a10eedc4ea7ffb52bd2308a3d00b7d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-util-linux-swapon",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-swapon-dc14390d-db0a-5415-9f68-ce26cabcc981"
+    }
+  ],
+  "name": "runtime-util-linux-swaponoff",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-swaponoff:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-swaponoff:SPDXRef-Package-util-linux-swaponoff",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-util-linux-swapoff:SPDXRef-Package-util-linux-swapoff"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-swaponoff:SPDXRef-Package-util-linux-swaponoff",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-util-linux-swapon:SPDXRef-Package-util-linux-swapon"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

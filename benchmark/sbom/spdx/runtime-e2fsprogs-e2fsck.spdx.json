@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:03Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-e2fsprogs-e2fsck-fd0437f1-35bb-59d9-8105-ca2790c37073",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1c61d2ee305cf557a27a1ad7f6cd11a934cd0e25"
+      },
+      "externalDocumentId": "DocumentRef-package-e2fsprogs-e2fsck",
+      "spdxDocument": "http://spdx.org/spdxdocs/e2fsprogs-e2fsck-b715ab68-0b31-56f0-b6a7-178160fcb097"
+    }
+  ],
+  "name": "runtime-e2fsprogs-e2fsck",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-e2fsprogs-e2fsck:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

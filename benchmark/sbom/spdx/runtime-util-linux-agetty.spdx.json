@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-util-linux-agetty-a1cdbf83-6489-5ec5-8318-f22c857f72b5",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "65981fa71c50a245677dd7cc3c96a35ce8bce8b6"
+      },
+      "externalDocumentId": "DocumentRef-package-util-linux-agetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-agetty-c6cafcdd-59a0-5ad2-90e5-60aee3d34c85"
+    }
+  ],
+  "name": "runtime-util-linux-agetty",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-agetty:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

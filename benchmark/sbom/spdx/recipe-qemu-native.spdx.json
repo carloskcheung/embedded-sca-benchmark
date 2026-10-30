@@ -1,0 +1,179 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:31:28Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-qemu-native-4a6c275b-748a-5a53-90e0-46381c95e2ff",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2dd51c06c45680d39090923118a55bd1f2fd5a68"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bison-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bison-native-d18e081d-4246-5067-9e41-c5ae29c9b9ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e299809b35e60b3a8dcaba11ad3cab8dcbafb57"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glib-2.0-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glib-2.0-native-705aca78-6a39-5d5c-9e39-a6c873295cf1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "171b7a41ca4f4285f02feaeaf21da65ace4cefe5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-meson-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-meson-native-c406ca80-e1f3-5f06-98d6-b7b62049c315"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e9f2c7e4c30f7c5ede908475e0be08d8083f50e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ninja-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ninja-native-69509a4d-51be-58e4-8b69-f8cab885e13f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    }
+  ],
+  "name": "recipe-qemu-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-qemu-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T01:31:28Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:qemu:8.2.7:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://qemu.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "qemu-native",
+      "sourceInfo": "CVEs fixed: CVE-2024-8354 CVE-2025-12464 CVE-2025-11234 CVE-2024-6519 CVE-2025-14876 CVE-2026-2243 CVE-2024-7730 CVE-2026-0665 CVE-2022-1050 CVE-2024-6505",
+      "summary": "Fast open source processor emulator",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "8.2.7"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-qemu-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1f0604f296ab9acb4854c054764a1ba408643fc299bd54a6500cccfaaca65b55"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://download.qemu.org/qemu-8.2.7.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "qemu-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-qemu-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-qemu-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bison-native:SPDXRef-Recipe-bison-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glib-2.0-native:SPDXRef-Recipe-glib-2.0-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-meson-native:SPDXRef-Recipe-meson-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ninja-native:SPDXRef-Recipe-ninja-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-qemu-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

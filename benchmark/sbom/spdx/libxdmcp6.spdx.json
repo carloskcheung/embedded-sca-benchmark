@@ -1,0 +1,245 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:38:47Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libxdmcp6-4317c780-82bd-5bae-8a2d-2e7e7d082abb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "20036353e8d5c8c0e95b324157aba9847fd8e840"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libxdmcp",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxdmcp-7a086720-6a15-5e43-9902-c6c3b099c9d3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libxdmcp6-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cdd54e66b3ca884346e0484fe7a5d88104333fba"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9b1880488a73de95d719aa32c662dfae2ac97a182c1d227c588d1a5eb8ee2aa7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libXdmcp.so.6.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libxdmcp6",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libxdmcp6",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libxdmcp6-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libxdmcp6",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "08cd5000ebbf3173ae3e74c146de02b04d5cba21"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.1.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libxdmcp:SPDXRef-Recipe-libxdmcp",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libxdmcp6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libxdmcp6",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libxdmcp6-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libxdmcp6"
+    },
+    {
+      "comment": "/usr/include/X11/Xmd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Array.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Fill.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Flush.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Key.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Read.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Unwrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Wrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Wrap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Wraphelp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/Write.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libxdmcp/1.1.4/include/X11/Xdmcp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libxdmcp6-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

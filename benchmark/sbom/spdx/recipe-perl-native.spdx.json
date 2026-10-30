@@ -1,0 +1,140 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:55:03Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-perl-native-ca4779ec-f2da-58e4-b2de-b4093de4d855",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b3c80f5d7453f69be4c8b44f0e9a89d8cbc61594"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gdbm-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gdbm-native-41413a0a-1570-5d00-a5f5-8d068dbf5997"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "313ff755433da20a014c1d48109530725e10f6a8"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-make-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-make-native-df9bc34d-be65-55f4-94e1-8830884fb2fe"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6033ceffb09fd925519daefec68d2147f78e0caf"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-perlcross-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-perlcross-native-2c1f6985-82ff-5005-b2a1-d04a20bf908d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    }
+  ],
+  "name": "recipe-perl-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-perl-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:55:03Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Perl is a highly capable, feature-rich programming language",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:perl:5.38.4:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.perl.org/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Artistic-1.0 OR GPL-1.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perl-native",
+      "sourceInfo": "CVEs fixed: CVE-2025-40909 CVE-2026-13221 CVE-2026-19487 CVE-2026-8376 CVE-2026-57432",
+      "summary": "Perl scripting language",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "5.38.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-perl-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fb888accf8b50b5180e91166e5153608be294c57c19878e95f7659c1f1f12758"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://www.cpan.org/src/5.0/perl-5.38.4.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "perl-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-perl-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-perl-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-perl-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-perl-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-perl-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gdbm-native:SPDXRef-Recipe-gdbm-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-perl-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-make-native:SPDXRef-Recipe-make-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-perl-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-perlcross-native:SPDXRef-Recipe-perlcross-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-perl-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

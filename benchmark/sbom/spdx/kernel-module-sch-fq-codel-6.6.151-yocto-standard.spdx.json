@@ -1,0 +1,1757 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:26:02Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/kernel-module-sch-fq-codel-6.6.151-yocto-standard-ae4e0484-488d-58c8-b2d0-da3732e9b907",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92b8a54efd522581719dd55df791e301f8d25a0a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "874398e887366229f93de304a52714e29e73d8df"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e0fcf3fbd638f89dbbf2be86255066e8c446650a97ae06a1c75958f5b173ee46"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/modules/6.6.151-yocto-standard/kernel/net/sched/sch_fq_codel.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ceb62acefebd3c4735fa0f9237ef03a17886eeed"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.6.151+git"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-sch-fq-codel-6.6.151-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-sch-fq-codel-6.6.151-yocto-standard"
+    },
+    {
+      "comment": "/usr/src/debug/linux-yocto/6.6.151+git/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/debug/linux-yocto/6.6.151+git/net/sched/sch_fq_codel.mod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/alternative-macros.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/atomic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/atomic_ll_sc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/atomic_lse.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/device.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/extable.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/insn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/lse.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/mmu.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/module.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/page.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/pgtable-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/pointer_auth.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/probes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/processor.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/ptrace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/stack_pointer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/thread_info.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/tlbbatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/uprobes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/uapi/asm/ptrace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/bug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/compat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/local64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/pgtable-nop4d.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/pgtable-nopud.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/qrwlock_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/qspinlock_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/assoc_array.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/atomic/atomic-arch-fallback.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/atomic/atomic-instrumented.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/atomic/atomic-long.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/backing-dev-defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/bio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/blk_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/bpf-cgroup-defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/bvec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/cache.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/capability.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/cgroup-defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/cgroup.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/compat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/completion.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/cpumask.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/cred.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/dcache.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/delayed_call.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/device.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/device/bus.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/device/class.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/device/driver.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/dynamic_queue_limits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/errseq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/etherdevice.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/export.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/flex_proportions.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/fs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ftrace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/fwnode.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/hrtimer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/idr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/if_link.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/if_vlan.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/instrumented.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/iocontext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ip.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ipv6.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/irqflags.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/jump_label.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kasan-checks.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kcsan-checks.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kernel_read_file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kernfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/key.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kobject.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kobject_ns.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kref.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ktime.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/list_bl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/list_lru.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/list_nulls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/llist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/lockdep_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/lockref.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/maple_tree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/math.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/memcontrol.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mempool.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/memremap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/migrate_mode.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mm_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mm_types_task.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mmzone.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mnt_idmapping.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/module.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/moduleparam.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/net.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/net_tstamp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/netdev_features.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/netdevice.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/netfilter/nf_conntrack_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/netlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/nodemask.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/notifier.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ns_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/nsproxy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/osq_lock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/overflow.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/page_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/path.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/percpu-refcount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/percpu-rwsem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/percpu_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/pid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/pid_namespace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/plist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/pm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/pm_wakeup.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/posix-timers.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/preempt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/projid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/psi_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/quota.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/range.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ratelimit_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rbtree_latch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rbtree_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rcu_segcblist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rcu_sync.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rcupdate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rcuwait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ref_tracker.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/refcount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/restart_block.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rhashtable-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rtnetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rwlock_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rwsem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched/task.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched/user.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/seccomp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/security.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/seq_file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/seqlock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/shm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/shrinker.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/signal_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/siphash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/skbuff.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/slab.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/smp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/smp_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sockptr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/spinlock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/spinlock_api_smp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/spinlock_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/spinlock_types_raw.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/srcu.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/srcutree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/static_call_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/swait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/syscall_user_dispatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sysctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sysfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/task_io_accounting.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/tcp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/time64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/timekeeping.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/timer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/timerqueue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/tracepoint-defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/u64_stats_sync.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/uidgid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/uio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/uprobes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/user_namespace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/uuid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/vmalloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/vmpressure.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/workqueue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/writeback.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/xarray.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/act_api.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/checksum.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/codel.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/codel_impl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/codel_qdisc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/dropreason-core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/dsfield.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/dst.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/dst_ops.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/fib_notifier.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/fib_rules.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/flow.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/flow_offload.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/gen_stats.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/inet_ecn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/inet_frag.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/neighbour.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/net_namespace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/net_trackers.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/bpf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/conntrack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/flow_table.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/generic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/ipv4.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/ipv6.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/mib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/netfilter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/nexthop.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/nftables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/packet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/sctp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/unix.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netns/xfrm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/netprio_cgroup.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/pkt_cls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/pkt_sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/request_sock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/rtnetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/sch_generic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/snmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/sock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/tcp_states.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/net/timewait_sock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/posix_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/siginfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/signal-defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/fib_rules.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/gen_stats.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/hdlc/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/if_link.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/in6.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/ip.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/ipv6.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/neighbour.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/net.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/netlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/pkt_cls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/pkt_sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/quota.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/rseq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/rtnetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/swab.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/taskstats.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/time_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/uio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/vdso/time32.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/net/sched/sch_fq_codel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-sch-fq-codel-6.6.151-yocto-standard-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

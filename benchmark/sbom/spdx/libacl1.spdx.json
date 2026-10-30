@@ -1,0 +1,641 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:35:52Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libacl1-60ae9000-5255-544d-a332-9d00fec7a2eb",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7bf7995d9341c4025070b1f79575c336574ab348"
+      },
+      "externalDocumentId": "DocumentRef-recipe-acl",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-acl-991bebcd-14ce-51cc-8504-78d996f149a0"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libacl1-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "29448067569ae9dcda948c5441eebffe1874a2f8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "93f5a5e0a08d9cdc1a095e462db654fab874e96c030432ecf120f687223bbab5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libacl.so.1.1.2302",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libacl1",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libacl1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libacl1-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libacl1",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e9850ac6f629b231ad2c15a0a0aeb92830d57f2b"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.3.2"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-acl:SPDXRef-Recipe-acl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libacl1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libacl1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libacl1-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libacl1"
+    },
+    {
+      "comment": "/usr/include/attr/error_context.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/libintl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/sys/xattr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/include/acl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/include/acl_ea.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/include/libacl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/include/misc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__acl_extended_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__acl_extended_file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__acl_from_xattr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__acl_from_xattr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__acl_reorder_obj_p.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__acl_to_any_text.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__acl_to_xattr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__acl_to_xattr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__apply_mask_to_mode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/__libobj.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_add_perm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_calc_mask.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_check.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_clear_perms.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_cmp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_copy_entry.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_copy_ext.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_copy_int.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_create_entry.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_delete_def_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_delete_entry.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_delete_perm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_dup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_entries.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_equiv_mode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_error.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_extended_fd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_extended_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_extended_file_nofollow.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_free.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_from_mode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_from_text.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_get_entry.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_get_fd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_get_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_get_perm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_get_permset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_get_qualifier.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_get_tag_type.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_set_fd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_set_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_set_permset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_set_qualifier.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_set_tag_type.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_size.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_to_any_text.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_to_text.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/acl_valid.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/libacl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/libobj.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/perm_copy_fd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libacl/perm_copy_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libmisc/high_water_alloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libmisc/next_line.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libmisc/quote.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libmisc/uid_gid_lookup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libmisc/unquote.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/acl/2.3.2/libmisc/walk_tree.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libacl1-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

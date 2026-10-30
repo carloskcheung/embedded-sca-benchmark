@@ -1,0 +1,313 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T03:22:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-libical-c91f15cc-6505-5889-aae6-469d388ea510",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cabb14de16b0fa623be57031c7e169f5ab36edd7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-cmake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-cmake-native-065aeeea-e673-57cc-a9f5-a3fe1fc2b3ea"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "eda89ebc3373a4e118fb175a376e96348bfd530b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glib-2.0",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glib-2.0-d0091684-3041-5a99-9476-45ed618feb68"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e299809b35e60b3a8dcaba11ad3cab8dcbafb57"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glib-2.0-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glib-2.0-native-705aca78-6a39-5d5c-9e39-a6c873295cf1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0d5c3691928b38cd51d36d72903bf103646261e7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gobject-introspection",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gobject-introspection-94454747-7a5a-5f82-a1ae-37fb6e05bc18"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e682d76aac5eef01003f7727fc4a79b3ab1f591"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gobject-introspection-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gobject-introspection-native-6849a762-f94f-561e-b9ef-c7efaa2fcd2f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ac120078f0f305e0ff92018a6b58eeec41a84961"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-icu",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-icu-3ec3e713-a6eb-5bab-bc46-2540473c36d5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ca006b021dc1b9a2cfd00a6918ab596f0694c72c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libical-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libical-native-1c0b8b52-80b9-574d-a4c9-859c1d72be1e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "689910796ec166a4ce8d8f2b9d524007cb6810e8"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libxml2",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxml2-13362302-8913-5279-b000-57c843c2ee53"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "05349514ad28af51e186c6c6456b7d422d7fea43"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libxml2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxml2-native-3a00c675-f8c7-59bc-88fd-8dcbd5a6a02a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e9f2c7e4c30f7c5ede908475e0be08d8083f50e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ninja-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ninja-native-69509a4d-51be-58e4-8b69-f8cab885e13f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "291d94c36a91656489f0dd7d02ac192b75d4e8a4"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-qemu-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-qemu-native-4a6c275b-748a-5a53-90e0-46381c95e2ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0bf3e97a1f6825a1b42feb42ee72d832a70cb82d"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-vala",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-vala-71aba44a-bb3d-5b6d-a7dc-c098ea69c2e3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e8552f5301c24f598fba215b5935e9d4dccb863"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-vala-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-vala-native-d72d8596-14f1-5152-b103-1c22d3954a16"
+    }
+  ],
+  "name": "recipe-libical",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-libical",
+      "copyrightText": "NOASSERTION",
+      "description": "An Open Source implementation of the iCalendar protocols and protocol data units. The iCalendar specification describes how calendar clients can communicate with calendar servers so users can store their calendar data and arrange meetings with other users. ",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:libical:3.0.17:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://github.com/libical/libical",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-only OR MPL-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libical",
+      "summary": "iCal and scheduling (RFC 2445, 2446, 2447) library",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.0.17"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-libical-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bcda9a6db6870240328752854d1ea475af9bbc6356e6771018200e475e5f781b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/libical/libical/releases//download/v3.0.17/libical-3.0.17.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libical-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-libical-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-libical-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-cmake-native:SPDXRef-Recipe-cmake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glib-2.0:SPDXRef-Recipe-glib-2.0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glib-2.0-native:SPDXRef-Recipe-glib-2.0-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gobject-introspection:SPDXRef-Recipe-gobject-introspection"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gobject-introspection-native:SPDXRef-Recipe-gobject-introspection-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-icu:SPDXRef-Recipe-icu"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libical-native:SPDXRef-Recipe-libical-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libxml2:SPDXRef-Recipe-libxml2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libxml2-native:SPDXRef-Recipe-libxml2-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ninja-native:SPDXRef-Recipe-ninja-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-qemu-native:SPDXRef-Recipe-qemu-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-vala:SPDXRef-Recipe-vala"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libical",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-vala-native:SPDXRef-Recipe-vala-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,983 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T03:17:09Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libelf1-c5871dce-ab0e-5d56-99d3-cb24d184bffa",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "87988c8da3f393dc63757802c44943547317ab46"
+      },
+      "externalDocumentId": "DocumentRef-recipe-elfutils",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-elfutils-4cdfa240-f049-53bc-bf95-ba542d917d61"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libelf1-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9fc7e8964a0f895eca4528d48fe9ba02364cf5d8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "59df420b30a5b117b0b98cf39d35d3eeac4593a02e3aa7d33c8106d898e6dc55"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libelf-0.191.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libelf1",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libelf1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libelf1-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libelf1",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8d555fdb49c8dbfda533f3ab33f90a07fb5e6e03"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.191"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-elfutils:SPDXRef-Recipe-elfutils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libelf1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libelf1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libelf1-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libelf1"
+    },
+    {
+      "comment": "/usr/include/ar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/libintl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/search.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/zconf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/include/zlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/lib/crc32.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/lib/fixedsizehash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/lib/next_prime.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/lib/system.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/chdr_xlate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/dl-hash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_checksum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_fsize.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_getchdr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_getehdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_getphdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_getshdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_newehdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_newphdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_offscn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_updatefile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_updatenull.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_xlatetof.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf32_xlatetom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_begin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_clone.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_cntl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_compress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_compress_gnu.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_end.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_error.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_fill.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_flagdata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_flagehdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_flagelf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_flagphdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_flagscn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_flagshdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getarhdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getaroff.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getarsym.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getbase.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getdata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getdata_rawchunk.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getident.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getphdrnum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getscn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getshdrnum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_getshdrstrndx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_gnu_hash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_hash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_kind.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_memory.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_ndxscn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_newdata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_newscn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_next.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_nextscn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_rand.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_rawdata.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_rawfile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_readall.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_scnshndx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_strptr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_update.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/elf_version.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_checksum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_fsize.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getauxv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getchdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getclass.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getdyn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getehdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getlib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getmove.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getnote.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getphdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getrel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getrela.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getshdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getsym.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getsyminfo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getsymshndx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getverdaux.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getverdef.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getvernaux.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getverneed.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_getversym.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_newehdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_newphdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_offscn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_auxv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_dyn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_ehdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_lib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_move.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_phdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_rel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_rela.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_shdr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_sym.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_syminfo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_symshndx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_verdaux.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_verdef.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_vernaux.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_verneed.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_update_versym.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_xlate.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_xlate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_xlatetof.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gelf_xlatetom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/gnuhash_xlate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/libelf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/libelfP.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/nlist.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/nlist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/note_xlate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/elfutils/0.191/libelf/version_xlate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libelf1-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

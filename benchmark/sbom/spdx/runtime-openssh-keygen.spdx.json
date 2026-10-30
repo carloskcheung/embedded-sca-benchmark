@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:28:51Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-openssh-keygen-fdfb4f95-ff74-5458-94df-4af3f1c9d186",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "730eb4a107cf97ce2010418d86cea776960bb73a"
+      },
+      "externalDocumentId": "DocumentRef-package-openssh-keygen",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssh-keygen-709b0140-aba9-5999-b209-a126240f3278"
+    }
+  ],
+  "name": "runtime-openssh-keygen",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-openssh-keygen:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

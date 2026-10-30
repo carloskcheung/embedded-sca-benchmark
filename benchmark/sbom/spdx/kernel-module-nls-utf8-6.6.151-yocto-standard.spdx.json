@@ -1,0 +1,839 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:26:02Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/kernel-module-nls-utf8-6.6.151-yocto-standard-5b7bbabb-a3a1-54e2-be48-c24440bd2f01",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92b8a54efd522581719dd55df791e301f8d25a0a"
+      },
+      "externalDocumentId": "DocumentRef-recipe-linux-yocto",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-linux-yocto-96d5f18f-835e-5fa6-85f3-0916c0b073e3"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a3172aaec704a974d460b98338f629b2eb6591df"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "089236c715da58317c10377068d3e17849666dfe4d38ff4aaabd07b5c8212197"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/modules/6.6.151-yocto-standard/kernel/fs/nls/nls_utf8.ko",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kernel-module-nls-utf8-6.6.151-yocto-standard",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kernel-module-nls-utf8-6.6.151-yocto-standard",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kernel-module-nls-utf8-6.6.151-yocto-standard",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "44d632fc20671aafe4e441e986ff94cd90ea3d78"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.6.151+git"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-linux-yocto:SPDXRef-Recipe-linux-yocto",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kernel-module-nls-utf8-6.6.151-yocto-standard"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kernel-module-nls-utf8-6.6.151-yocto-standard",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kernel-module-nls-utf8-6.6.151-yocto-standard"
+    },
+    {
+      "comment": "/usr/src/debug/linux-yocto/6.6.151+git/fs/nls/nls_utf8.mod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/extable.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/insn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/mmu.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/module.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/pgtable-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/pointer_auth.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/probes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/processor.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/ptrace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/stack_pointer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/thread_info.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/tlbbatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/asm/uprobes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/arch/arm64/include/uapi/asm/ptrace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/fs/nls/nls_utf8.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/bug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/qrwlock_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/asm-generic/qspinlock_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/assoc_array.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/atomic/atomic-long.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/capability.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/completion.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/cpumask.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/cred.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/dcache.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/delayed_call.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/errseq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/export.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/fs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/hrtimer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/iocontext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/irqflags.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/jump_label.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kernfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/key.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kobject.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kobject_ns.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/kref.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ktime.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/list_bl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/list_lru.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/llist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/lockdep_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/lockref.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/maple_tree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/migrate_mode.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mm_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mm_types_task.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mnt_idmapping.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/module.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/moduleparam.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/nls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/nodemask.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/osq_lock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/path.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/percpu-rwsem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/percpu_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/pid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/plist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/posix-timers.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/preempt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/projid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/quota.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/ratelimit_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rbtree_latch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rbtree_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rcu_segcblist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rcu_sync.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rcupdate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rcuwait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/refcount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/restart_block.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rwlock_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/rwsem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched/task.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sched/user.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/seccomp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/seqlock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/shm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/shrinker.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/signal_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/slab.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/smp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/smp_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/spinlock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/spinlock_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/spinlock_types_raw.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/srcu.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/srcutree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/static_call_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/swait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/syscall_user_dispatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/sysfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/task_io_accounting.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/time64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/timer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/timerqueue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/tracepoint-defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/uidgid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/uprobes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/uuid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/workqueue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/linux/xarray.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/posix_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/siginfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/signal-defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/asm-generic/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/quota.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/rseq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/time_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/uapi/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    },
+    {
+      "comment": "/usr/src/kernel/include/vdso/time32.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-kernel-module-nls-utf8-6.6.151-yocto-standard-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,332 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:00:12Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "55a20143c98cad4df664286f0b57402e1b0c0a5c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-archive-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-archive-native-fd00b327-70b9-5c20-8c90-9c0103cbc9f0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "33e010d896c3563137b4dfc8cbd78206adbac2f9"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bzip2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bzip2-native-9d1fa3cb-3643-5f5e-9360-58c1eb05c68e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f4f515eda361147bc5b66b1683a61d4a5af335e0"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-expat-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-expat-native-77c42bb5-262f-5325-a2b1-1b01bd0d010a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b3c80f5d7453f69be4c8b44f0e9a89d8cbc61594"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gdbm-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gdbm-native-41413a0a-1570-5d00-a5f5-8d068dbf5997"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f1bcf56816ac2e5647bd6317d5862870dd1e13ba"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libedit-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libedit-native-6f691384-6781-5ebb-82b1-bb916697c420"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ff09865e7c19855074b4b5f19c90a72188bbfe14"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libffi-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libffi-native-16d6a62d-8719-56f3-a4ce-660f29fe886a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "eed37544e76cde7928e3d83507b1ba66ebe67057"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libnsl2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libnsl2-native-25b9f36e-c12d-5dcf-bf25-5892da981acb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "fd82d931802480ad021dc6470ac12d4e4c1e3146"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtirpc-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtirpc-native-95d82d43-3a82-5fc4-812e-a93eeb169deb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "00eea26a137bfcb4ba475eff4a39c9ef248357f7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ncurses-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ncurses-native-6ee9d8f0-8e87-5b73-a420-c66a1123b8a6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "adac09d6ccfd0ca78ba38f123d665ba3e3e5c2f3"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-openssl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssl-native-29712d98-dace-570a-bc97-e67cefc5997d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "95e7b5edebb6027376e22a501bd39e6b4600e211"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-sqlite3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-sqlite3-native-37e6312b-56b6-52d3-af92-d788e79f1637"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "72389bdd66c669b10f286b28e74a1d8c495038d0"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-util-linux-libuuid-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-util-linux-libuuid-native-103ab003-39fa-5581-bc0b-bcf14aad3f6c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "027a318fbfaf6a00e140062c4b4c26549a95a81e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-xz-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-xz-native-fb9b6d7a-1472-5337-888f-d4bf9e719144"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    }
+  ],
+  "name": "recipe-python3-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-python3-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:00:12Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:python:python:3.12.15:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:python_software_foundation:python:3.12.15:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:cpython:3.12.15:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.python.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "PSF-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-native",
+      "sourceInfo": "CVEs fixed: CVE-2025-13837 CVE-2026-3644 CVE-2026-6019 CVE-2025-13462 CVE-2026-4519 CVE-2026-7210 CVE-2025-12084",
+      "summary": "The Python Programming Language",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.12.15"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-python3-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://www.python.org/ftp/python/3.12.15/Python-3.12.15.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-python3-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-python3-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-archive-native:SPDXRef-Recipe-autoconf-archive-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bzip2-native:SPDXRef-Recipe-bzip2-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-expat-native:SPDXRef-Recipe-expat-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gdbm-native:SPDXRef-Recipe-gdbm-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libedit-native:SPDXRef-Recipe-libedit-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libffi-native:SPDXRef-Recipe-libffi-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libnsl2-native:SPDXRef-Recipe-libnsl2-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtirpc-native:SPDXRef-Recipe-libtirpc-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ncurses-native:SPDXRef-Recipe-ncurses-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-openssl-native:SPDXRef-Recipe-openssl-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-sqlite3-native:SPDXRef-Recipe-sqlite3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-util-linux-libuuid-native:SPDXRef-Recipe-util-linux-libuuid-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-xz-native:SPDXRef-Recipe-xz-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

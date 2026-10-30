@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:56:35Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/avahi-locale-en-gb-35e61a4c-7f43-5d5a-8ee7-c2ba7e00f0ed",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a34b3a71eb85e063c8af26280d4448369f108a93"
+      },
+      "externalDocumentId": "DocumentRef-recipe-avahi",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-avahi-b4754c8f-dcab-5c30-83e0-ebf6ec632750"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-avahi-locale-en-gb-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3994427f22da823b70177223ccb669a452d08867"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6961d8ccd60013eeb3adb3a807b580dfcbaad10cc13026869073324827035d74"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/en_GB/LC_MESSAGES/avahi.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "avahi-locale-en-gb",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-avahi-locale-en-gb",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-avahi-locale-en-gb-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "avahi-locale-en-gb",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "281e8eeaa6f25992657665910ec2b72f32f21d78"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-avahi:SPDXRef-Recipe-avahi",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-avahi-locale-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-avahi-locale-en-gb",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-avahi-locale-en-gb-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-avahi-locale-en-gb"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

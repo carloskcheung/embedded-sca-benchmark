@@ -1,0 +1,1013 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T03:16:10Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/e2fsprogs-e2fsck-b715ab68-0b31-56f0-b6a7-178160fcb097",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7919caf76560d25f803311d8a54d3363fcb0cb6b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-e2fsprogs",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-e2fsprogs-4717eadb-fa29-52f3-9a62-3544ecd5c823"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd2f3c332f9cc5dca3fd8b97b0ed5ccfc644a81f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9342a67c367a9c5a61e84bba754ce8f42896f8df063a3768c6d6226eeed3012"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/fsck.ext3",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd2f3c332f9cc5dca3fd8b97b0ed5ccfc644a81f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9342a67c367a9c5a61e84bba754ce8f42896f8df063a3768c6d6226eeed3012"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/fsck.ext4",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd2f3c332f9cc5dca3fd8b97b0ed5ccfc644a81f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9342a67c367a9c5a61e84bba754ce8f42896f8df063a3768c6d6226eeed3012"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/fsck.ext2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd2f3c332f9cc5dca3fd8b97b0ed5ccfc644a81f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9342a67c367a9c5a61e84bba754ce8f42896f8df063a3768c6d6226eeed3012"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/e2fsck",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "e2fsprogs-e2fsck",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-e2fsprogs-e2fsck",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-e2fsprogs-e2fsck-1",
+        "SPDXRef-PackagedFile-e2fsprogs-e2fsck-2",
+        "SPDXRef-PackagedFile-e2fsprogs-e2fsck-3",
+        "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "e2fsprogs-e2fsck",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "165d7b31036d0a264c33082bc060bcb11647a8a6"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.47.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-e2fsprogs:SPDXRef-Recipe-e2fsprogs",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-e2fsprogs-e2fsck"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e2fsprogs-e2fsck",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-e2fsprogs-e2fsck"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-e2fsprogs-e2fsck"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-e2fsprogs-e2fsck"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-e2fsprogs-e2fsck"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/siginfo-consts.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/termios-struct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct___jmp_buf_tag.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_rusage.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/blkid/blkid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/execinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/libgen.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/libintl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/setjmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/include/uuid/uuid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/badblocks.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/dirinfo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/dx_dirinfo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/e2fsck.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/e2fsck.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/ea_refcount.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/ehandler.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/encrypted_files.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/extents.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/jfs_user.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/journal.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/logfile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/message.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/pass1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/pass1b.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/pass2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/pass3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/pass4.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/pass5.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/problem.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/problem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/problemP.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/quota.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/readahead.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/recovery.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/region.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/rehash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/revoke.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/sigcatcher.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/super.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/unix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/e2fsck/util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/e2p/e2p.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/et/com_err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/bitops.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/ext2_err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/ext2_ext_attr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/ext2_fs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/ext2_io.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/ext2_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/ext2fs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/ext3_extents.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/fast_commit.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/jfs_compat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/kernel-jbd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/kernel-list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/rbtree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/ext2fs/tdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/devname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/devname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/dict.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/dict.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/dqblk_v2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/mkquota.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/plausible.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/plausible.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/prof_err.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/prof_err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/profile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/profile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/quotaio.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/quotaio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/quotaio_tree.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/quotaio_tree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/quotaio_v2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/quotaio_v2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/e2fsprogs/1.47.0/lib/support/sort_r.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-e2fsprogs-e2fsck-4"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,131 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:28:34Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-linux-libc-headers-2ed63bda-d297-58f5-be96-fcf57476d8ed",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2dd51c06c45680d39090923118a55bd1f2fd5a68"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bison-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bison-native-d18e081d-4246-5067-9e41-c5ae29c9b9ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6c5aeed67292fbf9da1c7457613277eb98f055f5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-rsync-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-rsync-native-639100c3-b666-5884-a1a8-68c8cec5272b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "47dd36b175e5e2308104911916b1cd66a3cf27fe"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-unifdef-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-unifdef-native-33f1ca41-dd34-528b-adf6-32040e8883b4"
+    }
+  ],
+  "name": "recipe-linux-libc-headers",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-linux-libc-headers",
+      "copyrightText": "NOASSERTION",
+      "description": "Designed to maintain an Application Programming Interface (API) stable version of the Linux headers",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:linux-libc-headers:6.6:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://www.kernel.org/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "linux-libc-headers",
+      "summary": "Sanitized set of kernel headers for the C library's use",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-linux-libc-headers-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d926a06c63dd8ac7df3f86ee1ffc2ce2a3b81a2d168484e76b5b389aba8e56d0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "linux-libc-headers-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-linux-libc-headers",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-linux-libc-headers-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-linux-libc-headers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-linux-libc-headers-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-linux-libc-headers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bison-native:SPDXRef-Recipe-bison-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-linux-libc-headers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-linux-libc-headers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-rsync-native:SPDXRef-Recipe-rsync-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-linux-libc-headers",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-unifdef-native:SPDXRef-Recipe-unifdef-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

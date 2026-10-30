@@ -1,0 +1,307 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T16:49:06Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-mosquitto-e9fc2cea-7913-5189-9897-244ca2181db8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d70047f319831bf1fd4b5ded8a452e0075b3199d"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-base-files",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-files-c146050a-959a-5836-966f-98e79d6e765f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d02ccafbb41857537f2dbc2b2a5046fe5c3f04af"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-passwd-bb3f3152-7b84-5ef0-95bd-04186ff304e1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5a6003100f9aa3200281a87b3345005f72475113"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-cjson",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-cjson-3e448e4a-2ed0-5eb3-97b9-fcb78aca6b84"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cabb14de16b0fa623be57031c7e169f5ab36edd7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-cmake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-cmake-native-065aeeea-e673-57cc-a9f5-a3fe1fc2b3ea"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0d14af871c9c5a042b18570c5a759907c74c92bf"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libwebsockets",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libwebsockets-36f14c5f-0064-560a-9204-44bfd69a3fca"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e9f2c7e4c30f7c5ede908475e0be08d8083f50e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ninja-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ninja-native-69509a4d-51be-58e4-8b69-f8cab885e13f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "931e1607f2aa96691b3fa2f0fab4e9e2c40e0d35"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-openssl",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssl-48156327-17ba-5e34-b313-de0c1f21058e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aad97394aafc70c52bb3aafc62d9040eeaf3149f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-6845d95c-0853-56dd-b976-caae5a99461e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5b42c041572f8ac5fabd72042bc7e164bf0f175"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-native-8f9e05bf-71e7-5a75-a2e0-b8f7479cc53d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d9cd040dbdd54bf85028a78d7b59e3b151a07b10"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow-sysroot",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-sysroot-b6b6920a-50f2-5a27-a753-5106a834f19f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1abf1313d50efb2ff39e7b1bda652813cad9381c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-9a30b9ed-a145-56fe-863a-756f27954858"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c55a28348b7449b433137bc92178aa4b0c79f492"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-systemd-systemctl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-systemctl-native-2f3d50ae-528c-5654-b3e7-3b2e2de42e45"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5c1f90a9dff2d6af70bf31c9553eb21a332f0f2b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-uthash",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-uthash-ba49fd67-787b-5719-96a4-075a27790981"
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "extractedText": "Eclipse Distribution License - v 1.0\n\nCopyright (c) 2007, Eclipse Foundation, Inc. and its licensors.\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n    * Neither the name of the Eclipse Foundation, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. \n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+      "licenseId": "LicenseRef-EDL-1.0",
+      "name": "EDL-1.0"
+    }
+  ],
+  "name": "recipe-mosquitto",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-mosquitto",
+      "copyrightText": "NOASSERTION",
+      "description": "Mosquitto is an open source (Eclipse licensed) message broker that implements the MQ Telemetry Transport protocol version 3.1, 3.1.1 and 5, providing both an MQTT broker and several command-line clients. MQTT provides a lightweight method of carrying out messaging using a publish/subscribe model. ",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:mosquitto:2.0.22:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://mosquitto.org/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "EPL-2.0 OR LicenseRef-EDL-1.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "mosquitto",
+      "summary": "Open source MQTT implementation",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.0.22"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-mosquitto-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f752589ef7db40260b633fbdb536e9a04b446a315138d64a7ff3c14e2de6b68"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://mosquitto.org/files/source/mosquitto-2.0.22.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "mosquitto-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-mosquitto-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-mosquitto-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-base-files:SPDXRef-Recipe-base-files"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-base-passwd:SPDXRef-Recipe-base-passwd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-cjson:SPDXRef-Recipe-cjson"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-cmake-native:SPDXRef-Recipe-cmake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libwebsockets:SPDXRef-Recipe-libwebsockets"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ninja-native:SPDXRef-Recipe-ninja-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-openssl:SPDXRef-Recipe-openssl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow:SPDXRef-Recipe-shadow"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow-native:SPDXRef-Recipe-shadow-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow-sysroot:SPDXRef-Recipe-shadow-sysroot"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-systemd:SPDXRef-Recipe-systemd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-systemd-systemctl-native:SPDXRef-Recipe-systemd-systemctl-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-mosquitto",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-uthash:SPDXRef-Recipe-uthash"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

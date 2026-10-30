@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:49:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-kbd-consolefonts-67beb9c0-5a45-5f0a-9097-71e78c2c00cf",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "608a10453cd602e1be2be55d656d5eade8cf53b3"
+      },
+      "externalDocumentId": "DocumentRef-package-kbd-consolefonts",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-consolefonts-e11157d6-4020-586d-bca2-2141fd8701d3"
+    }
+  ],
+  "name": "runtime-kbd-consolefonts",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-kbd-consolefonts:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

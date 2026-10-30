@@ -1,0 +1,60 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:59:01Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-acme-gatewayd-d6731892-e9a4-5a65-b384-c635c5f1bdf8",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d17036af1d60d9cab93c9c580597de762a65ac4a"
+      },
+      "externalDocumentId": "DocumentRef-package-acme-gatewayd",
+      "spdxDocument": "http://spdx.org/spdxdocs/acme-gatewayd-5fee46b4-754a-5812-b922-f71c3e9b8dd4"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4eb56dcb6795429df91f9564852b18aca4550db"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libmosquitto1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libmosquitto1-08745afc-5d1a-5d67-97d4-47156f529ce9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5dfdccebd79325fdbe617395130163f4e8946ca0"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-mosquitto",
+      "spdxDocument": "http://spdx.org/spdxdocs/mosquitto-1e2c8463-8b0f-5763-a75f-0b63a37159fb"
+    }
+  ],
+  "name": "runtime-acme-gatewayd",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-acme-gatewayd:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-acme-gatewayd:SPDXRef-Package-acme-gatewayd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libmosquitto1:SPDXRef-Package-libmosquitto1"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-acme-gatewayd:SPDXRef-Package-acme-gatewayd",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-mosquitto:SPDXRef-Package-mosquitto"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

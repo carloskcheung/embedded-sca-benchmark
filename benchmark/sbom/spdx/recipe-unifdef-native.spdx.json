@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:53:10Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-unifdef-native-33f1ca41-dd34-528b-adf6-32040e8883b4",
+  "name": "recipe-unifdef-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-unifdef-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:53:10Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "The unifdef utility selectively processes conditional C preprocessor #if and #ifdef directives. It removes from a file both the directives and the additional text that they delimit, while otherwise leaving the file alone.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:unifdef:2.12:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://dotat.at/prog/unifdef/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "unifdef-native",
+      "summary": "Selectively remove #ifdef statements from sources",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.12"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-unifdef-native-1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ae8c0b3b4c43c1f6bc5f32412a820818"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "43ce0f02ecdcdc723b2475575563ddb192e988c886d368260bc0a63aee3ac400"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://dotat.at/prog/unifdef/unifdef-2.12.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "unifdef-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-unifdef-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-unifdef-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-unifdef-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-unifdef-native-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

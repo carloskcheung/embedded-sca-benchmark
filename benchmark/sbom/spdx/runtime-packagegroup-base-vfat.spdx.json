@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-packagegroup-base-vfat-7277d9a1-04da-5795-97a4-87ee0334755b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b5ea482823853478633e71d91810a0cd85fa99a6"
+      },
+      "externalDocumentId": "DocumentRef-package-packagegroup-base-vfat",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-vfat-58e05e84-e723-5f88-8222-ebcbafd4a6b6"
+    }
+  ],
+  "name": "runtime-packagegroup-base-vfat",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base-vfat:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

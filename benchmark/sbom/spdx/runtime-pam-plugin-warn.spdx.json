@@ -1,0 +1,60 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:26:24Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-pam-plugin-warn-ae1bc9f2-b1e6-5067-873d-68d045c99254",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92d7a00e09d572feeb26f0ca4ebe4e5f9f8a2e40"
+      },
+      "externalDocumentId": "DocumentRef-package-pam-plugin-warn",
+      "spdxDocument": "http://spdx.org/spdxdocs/pam-plugin-warn-a1b79d74-cd8b-5572-a63f-3f8db986eeb7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c7f709dbea44de32d53a646b1a2659225253c16e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/libpam-a7f4aae6-2d2b-58b1-94e7-a15e43466aba"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c7f709dbea44de32d53a646b1a2659225253c16e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/libpam-a7f4aae6-2d2b-58b1-94e7-a15e43466aba"
+    }
+  ],
+  "name": "runtime-pam-plugin-warn",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-pam-plugin-warn:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-pam-plugin-warn:SPDXRef-Package-pam-plugin-warn",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libpam:SPDXRef-Package-libpam"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-pam-plugin-warn:SPDXRef-Package-pam-plugin-warn",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libpam:SPDXRef-Package-libpam"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

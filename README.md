@@ -30,6 +30,14 @@ python3 benchmark/score.py <fossa-export.json>                # CycloneDX or SPD
 python3 benchmark/score.py --scope yocto benchmark/sbom/spdx/ # score the Yocto SBOM itself
 ```
 
+`benchmark/sbom/spdx/` is the SPDX 2.2 output of a full build of this
+repository (`make yocto && make sbom`), committed so scanners can read it
+without a multi-hour build. Its own score is in
+[`benchmark/results-yocto-spdx.md`](benchmark/results-yocto-spdx.md): every
+component and version is right, but Yocto leaves four licenses in its own
+naming (`LicenseRef-PD`, `LicenseRef-EDL-1.0`, …), which score.py reports as
+`yocto-name`.
+
 ### Deliberate traps
 
 - **Same component, several identities.** Mbed TLS 3.6.2 appears vendored (sensor

@@ -1,0 +1,144 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:42:47Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-python3-jinja2-native-7049a02a-8bac-5606-8853-05f430692bfd",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d4f5347624a0bfabd3fd992c77b3dba19d992da5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-build-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-build-native-31f01149-e917-52f1-a38e-ae049be674fb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "40470652e618ec8c332fb238413565d03cb2f8d7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-flit-core-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-flit-core-native-e62949a3-3d60-5850-bc46-6c225875a32c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aa574517cc2a48e4ddeb3da163cf72a33af69989"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-installer-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-installer-native-6a2f8ac3-c10d-5155-9b98-c3e070517152"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    }
+  ],
+  "name": "recipe-python3-jinja2-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-python3-jinja2-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T01:42:47Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Python Jinja2: A small but fast and easy to use stand-alone template engine written in pure python..",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:jinja2:3.1.6:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:jinja:3.1.6:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://pypi.org/project/Jinja2/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-jinja2-native",
+      "summary": "Python Jinja2: A small but fast and easy to use stand-alone template engine written in pure python.",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.1.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-python3-jinja2-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://files.pythonhosted.org/packages/source/j/jinja2/jinja2-3.1.6.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-jinja2-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-jinja2-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-python3-jinja2-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-jinja2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-python3-jinja2-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-jinja2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-build-native:SPDXRef-Recipe-python3-build-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-jinja2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-flit-core-native:SPDXRef-Recipe-python3-flit-core-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-jinja2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-installer-native:SPDXRef-Recipe-python3-installer-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-jinja2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

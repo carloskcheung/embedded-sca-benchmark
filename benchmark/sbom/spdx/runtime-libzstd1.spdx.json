@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:41:02Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libzstd1-8e78cb4d-0833-5823-a298-55395253ba66",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "de9a526d11aeccb23c9acc5ed73d44fdf97d102c"
+      },
+      "externalDocumentId": "DocumentRef-package-libzstd",
+      "spdxDocument": "http://spdx.org/spdxdocs/libzstd1-a0d15c9c-4e58-550e-b9da-aca2fc5f66bf"
+    }
+  ],
+  "name": "runtime-libzstd1",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libzstd:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

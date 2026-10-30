@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:26:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-kernel-module-sch-fq-codel-6.6.151-yocto-standard-8c7e73e6-5efe-5a31-9cff-2570b08a4c03",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e87c510cb2fdf15c70406a71998f194b02209b92"
+      },
+      "externalDocumentId": "DocumentRef-package-kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/kernel-module-sch-fq-codel-6.6.151-yocto-standard-ae4e0484-488d-58c8-b2d0-da3732e9b907"
+    }
+  ],
+  "name": "runtime-kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-kernel-module-sch-fq-codel-6.6.151-yocto-standard:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

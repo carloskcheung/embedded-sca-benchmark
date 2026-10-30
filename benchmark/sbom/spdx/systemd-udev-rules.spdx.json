@@ -1,0 +1,173 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:48:16Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/systemd-udev-rules-d86f4a71-4946-55af-a57d-95e331103e63",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1abf1313d50efb2ff39e7b1bda652813cad9381c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-9a30b9ed-a145-56fe-863a-756f27954858"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-udev-rules-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "03a129e64c42e0264b32425dd27b8954dd8aca13"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c3a831350c72971c1036d8fd18a745199c2bc1246e8801ec5dfcc995bf9c9f45"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/rules.d/70-uaccess.rules",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-udev-rules-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f8a823b301d78cbf6ba758200d3ab511c743a101"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "959f9e5e3b149bdf01eeedf9950bbf526bdcb949993afda3a870ec200f6e9cc3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/rules.d/73-seat-late.rules",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-udev-rules-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8edcbbca36a1b4e7fe4503a9bb686eb784b61dcc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a9644057ebdc016bc1590404e5b7fda7892586770b3950c3bc407884b58c66e0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/rules.d/71-seat.rules",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-systemd-udev-rules-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f25c003dce717f859a414071db16d501db557602"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6130e000a7693103c4970dbd96b245e32588339b6a9e2c7a694a58461ff9f38e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/rules.d/99-systemd.rules",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "systemd-udev-rules",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-systemd-udev-rules",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-systemd-udev-rules-1",
+        "SPDXRef-PackagedFile-systemd-udev-rules-2",
+        "SPDXRef-PackagedFile-systemd-udev-rules-3",
+        "SPDXRef-PackagedFile-systemd-udev-rules-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "systemd-udev-rules",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "bb142dd876bb817a9ec752f764097aa8d195ca47"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "255.22"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-systemd:SPDXRef-Recipe-systemd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-systemd-udev-rules"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-systemd-udev-rules",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-udev-rules-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-udev-rules"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-udev-rules-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-udev-rules"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-udev-rules-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-udev-rules"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-systemd-udev-rules-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-systemd-udev-rules"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

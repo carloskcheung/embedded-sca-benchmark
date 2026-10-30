@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:57:58Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libnss-mdns-2cd0f1b4-cfbf-5dda-b598-e268afa5a9f3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f106e41ab15a396c31a44aadd8b58e66065f5919"
+      },
+      "externalDocumentId": "DocumentRef-package-libnss-mdns",
+      "spdxDocument": "http://spdx.org/spdxdocs/libnss-mdns-877c5004-d04e-501d-b781-912f7aa68659"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b8ccecec6f0b38b1d99329c3a255b6b517f679a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-avahi-daemon",
+      "spdxDocument": "http://spdx.org/spdxdocs/avahi-daemon-81243a7b-5ae6-57ad-afaf-b9f620b0c46e"
+    }
+  ],
+  "name": "runtime-libnss-mdns",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libnss-mdns:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-libnss-mdns:SPDXRef-Package-libnss-mdns",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-avahi-daemon:SPDXRef-Package-avahi-daemon"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

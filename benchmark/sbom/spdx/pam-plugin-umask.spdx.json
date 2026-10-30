@@ -1,0 +1,221 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:26:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/pam-plugin-umask-f95bbb10-11a2-5a41-b90b-1a3107b23d1e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92970a0b736d949840ecc3366e897e73c13fab2c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libpam-598348bb-de94-5567-9012-dd2dbcb34f59"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-pam-plugin-umask-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b3e688b8fa51d071faa08ebb56140304bdd148ed"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a214908d1665faf6799a47eceb16bb8491db0f0177efa4979263c2c897802123"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/security/pam_umask.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "pam-plugin-umask",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-pam-plugin-umask",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-pam-plugin-umask-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "pam-plugin-umask",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2e37ebbe1f03eb6ab0d7efc212ea0094bfd0b589"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.5.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libpam:SPDXRef-Recipe-libpam",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-pam-plugin-umask"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pam-plugin-umask",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-pam-plugin-umask-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-pam-plugin-umask"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/pam_inline.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/security/_pam_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/security/pam_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/security/pam_modules.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/security/pam_modutil.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/modules/pam_umask/pam_umask.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-umask-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

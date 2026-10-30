@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:39Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libcrypt2-faab6750-2e86-5c0e-8216-8c151080c369",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9391bd7777171a3a6b583d9177f68bce95b77e53"
+      },
+      "externalDocumentId": "DocumentRef-package-libxcrypt",
+      "spdxDocument": "http://spdx.org/spdxdocs/libcrypt2-b5880e0c-458b-5b4d-ac86-e0013f13f300"
+    }
+  ],
+  "name": "runtime-libcrypt2",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libxcrypt:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

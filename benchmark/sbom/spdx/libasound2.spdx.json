@@ -1,0 +1,1469 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T03:41:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libasound2-e7da9ecc-49c2-5d47-9093-a959a0635473",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7e13d7c0f435f604e32b4f27d71ce21cb3b7ad4c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-alsa-lib",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-alsa-lib-b4e57b3f-c8e7-5fb5-aceb-479dba1fa849"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libasound2-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b9db6d300bca1afed604ecbf7b1341fea1370f07"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b022174a06b36d4f39482de20fc301c78e63f6d66940f4a92036a436f32cadce"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libasound.so.2.0.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libasound2",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libasound2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libasound2-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-only AND GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libasound2",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e1f075f83d41ce4542d2e90df1b85e629d0a55ab"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.2.11"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-alsa-lib:SPDXRef-Recipe-alsa-lib",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libasound2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libasound2",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libasound2-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libasound2"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/asm-generic/posix_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/atomic_wide_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/ipc-perm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/mathcalls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/sem-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/shm-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__locale_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/locale_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_semid_ds.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_shmid_ds.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/regex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/sem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/shm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/aserver.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/conf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/control.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/control_external.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/error.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/global.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/hwdep.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/input.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/mixer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/mixer_abst.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/output.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/pcm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/pcm_extplug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/pcm_ioplug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/pcm_plugin.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/pcm_rate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/rawmidi.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/seq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/seq_event.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/seq_midi_event.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/seqmid.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/sound/uapi/asequencer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/sound/uapi/asound.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/timer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/ump.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/ump_msg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/include/use-case.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/async.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/conf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/confeval.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/confmisc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/cards.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/control.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/control_empty.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/control_ext.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/control_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/control_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/control_remap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/control_shm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/ctlparse.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/eld.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/hcontrol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/namehint.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/setup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/control/tlv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/dlmisc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/error.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/hwdep/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/hwdep/hwdep.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/hwdep/hwdep_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/hwdep/hwdep_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/input.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/mixer/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/mixer/bag.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/mixer/mixer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/mixer/mixer_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/mixer/mixer_simple.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/mixer/simple.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/mixer/simple_abst.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/mixer/simple_none.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/names.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/output.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/interval.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/interval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/interval_inline.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/ladspa.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/mask.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/mask_inline.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_adpcm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_alaw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_asym.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_copy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_direct.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_direct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_dmix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_dmix_generic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_dshare.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_dsnoop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_empty.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_ext_parm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_extplug.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_generic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_generic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_hooks.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_iec958.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_ioplug.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_ladspa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_lfloat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_linear.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_meter.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_mmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_mmap_emul.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_mulaw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_multi.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_null.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_params.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_plug.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_plugin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_plugin.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_rate.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_rate_linear.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_route.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_share.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_shm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_simple.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/pcm_softvol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/pcm/plugin_ops.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/rawmidi/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/rawmidi/rawmidi.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/rawmidi/rawmidi_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/rawmidi/rawmidi_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/rawmidi/rawmidi_virt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/rawmidi/ump.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/rawmidi/ump_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/seq/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/seq/seq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/seq/seq_event.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/seq/seq_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/seq/seq_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/seq/seq_midi_event.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/seq/seqmid.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/shmarea.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/socket.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/timer/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/timer/timer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/timer/timer_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/timer/timer_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/timer/timer_query.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/timer/timer_query_hw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/main.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/parser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/ucm_cond.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/ucm_exec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/ucm_include.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/ucm_local.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/ucm_regex.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/ucm_subs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/ucm/utils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-lib/1.2.11/src/userfile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse-init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libasound2-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,111 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T05:29:22Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-docbook-xsl-stylesheets-native-533ea34d-19fe-5235-a651-36cb1d06ebdf",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "05349514ad28af51e186c6c6456b7d422d7fea43"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libxml2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxml2-native-3a00c675-f8c7-59bc-88fd-8dcbd5a6a02a"
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "extractedText": "Copyright\n---------\nCopyright (C) 1999-2007 Norman Walsh\nCopyright (C) 2003 Ji\u0159\u00ed Kosek\nCopyright (C) 2004-2007 Steve Ball\nCopyright (C) 2005-2008 The DocBook Project\nCopyright (C) 2011-2012 O'Reilly Media\n\nPermission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the ``Software''), to deal in the Software without\nrestriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nExcept as contained in this notice, the names of individuals\ncredited with contribution to this software shall not be used in\nadvertising or otherwise to promote the sale, use or other\ndealings in this Software without prior written authorization\nfrom the individuals in question.\n\nAny stylesheet derived from this Software that is publically\ndistributed will be identified with a different name and the\nversion strings in any derived Software will be changed so that\nno possibility of confusion between the derived package and this\nSoftware will exist.\n\nWarranty\n--------\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT.  IN NO EVENT SHALL NORMAN WALSH OR ANY OTHER\nCONTRIBUTOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nContacting the Author\n---------------------\nThe DocBook XSL stylesheets are maintained by Norman Walsh,\n<ndw@nwalsh.com>, and members of the DocBook Project,\n<docbook-developers@sf.net>\n",
+      "licenseId": "LicenseRef-XSL",
+      "name": "XSL"
+    }
+  ],
+  "name": "recipe-docbook-xsl-stylesheets-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-docbook-xsl-stylesheets-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T05:29:22Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "XSL stylesheets for processing DocBook XML to various output formats.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:docbook-xsl-stylesheets:1.79.1:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://docbook.sourceforge.net",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LicenseRef-XSL",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "docbook-xsl-stylesheets-native",
+      "summary": "XSL stylesheets for processing DocBook XML to various output formats",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.79.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-docbook-xsl-stylesheets-native-1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b48cbf929a2ad85e6672f710777ca7bc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "725f452e12b296956e8bfb876ccece71eeecdd14b94f667f3ed9091761a4a968"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://downloads.sourceforge.net/docbook/docbook-xsl-1.79.1.tar.bz2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "docbook-xsl-stylesheets-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xsl-stylesheets-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-docbook-xsl-stylesheets-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xsl-stylesheets-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-docbook-xsl-stylesheets-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xsl-stylesheets-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libxml2-native:SPDXRef-Recipe-libxml2-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

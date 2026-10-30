@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-packagegroup-base-nfs-d78bdd8b-5d2e-59b1-9541-0a09f29ec78c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e38d73e354f275ad2f2bfdabf84f6d8b380d517"
+      },
+      "externalDocumentId": "DocumentRef-package-packagegroup-base-nfs",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-nfs-b1e88c0b-feab-5de5-959d-c2554b23a96a"
+    }
+  ],
+  "name": "runtime-packagegroup-base-nfs",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base-nfs:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

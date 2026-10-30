@@ -1,0 +1,4221 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing the source of the Yocto recipe during the build.",
+    "created": "2026-10-30T17:30:40Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/acme-gateway-image-qemuarm64.rootfs-20261030170952-33150a60-158e-5640-aa55-4c70a7df77a6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d17036af1d60d9cab93c9c580597de762a65ac4a"
+      },
+      "externalDocumentId": "DocumentRef-acme-gatewayd",
+      "spdxDocument": "http://spdx.org/spdxdocs/acme-gatewayd-5fee46b4-754a-5812-b922-f71c3e9b8dd4"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e205b0aaf67e33c1ba1c0fb52b43c447c4e7b2d0"
+      },
+      "externalDocumentId": "DocumentRef-runtime-acme-gatewayd",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-acme-gatewayd-d6731892-e9a4-5a65-b384-c635c5f1bdf8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6a01b99587e8b84db4498beddc4bfb4528784a59"
+      },
+      "externalDocumentId": "DocumentRef-acme-mcu-firmware",
+      "spdxDocument": "http://spdx.org/spdxdocs/acme-mcu-firmware-31f114c7-f7e1-5fc3-98cc-6c9fc621604a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c3fd23a2f0487bf1663497bf189745295cdde306"
+      },
+      "externalDocumentId": "DocumentRef-runtime-acme-mcu-firmware",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-acme-mcu-firmware-cc97d9bf-b37b-56c5-b4db-7e563a5fd5c0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "25422c6801806e601d5ec47ec17b58f0534a7e7b"
+      },
+      "externalDocumentId": "DocumentRef-alsa-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-conf-ce040d73-dc61-5d2e-aed2-574678934c2a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ce01f2e3761bfcb0239d976f05b9f2446aa0afe3"
+      },
+      "externalDocumentId": "DocumentRef-runtime-alsa-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-alsa-conf-3ad86e50-5097-5e50-a31d-0058130ed730"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "88cbec4b49f104171e3cfa75ddcf9340306cf202"
+      },
+      "externalDocumentId": "DocumentRef-alsa-state",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-state-c68e1501-0c58-537c-a1e8-82371e6d9992"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "bcd1527f7a378c122cd4180005895085b89108bd"
+      },
+      "externalDocumentId": "DocumentRef-runtime-alsa-state",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-alsa-state-455c6922-5614-5b5c-9f29-130a3d8b5e80"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c44bc295aaf2d2771d7fd505eb2b2c26fc123d85"
+      },
+      "externalDocumentId": "DocumentRef-alsa-states",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-states-c81175cf-8432-5ffc-8e48-184de0870e80"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "547681046bdfe7a0a28d70f9ca97a4f7867efad5"
+      },
+      "externalDocumentId": "DocumentRef-runtime-alsa-states",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-alsa-states-af2eb094-aa3c-525d-acda-5a646f8e6f30"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ca5927610c8dc70528fe2b239799c1984a6dfed6"
+      },
+      "externalDocumentId": "DocumentRef-alsa-ucm-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-ucm-conf-da521397-9b59-5085-8de8-f15172e1e245"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "45493add9146b2844d26761869a7b67dbf2a9b7a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-alsa-ucm-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-alsa-ucm-conf-c0412a44-3a6f-5d99-8887-586e02276d20"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0b21b0c2cb03a82a63357eb89591ec6f729f3333"
+      },
+      "externalDocumentId": "DocumentRef-alsa-utils-alsactl",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-utils-alsactl-a4571115-8192-5d3f-998c-4a6b99e323c3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "51ed7bcd6107a544c79c1a84b889037faf293460"
+      },
+      "externalDocumentId": "DocumentRef-runtime-alsa-utils-alsactl",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-alsa-utils-alsactl-796e4dbe-08ee-5577-9220-4728384b6b3b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "26179bc25e49356731471f1e03f00555f4867c39"
+      },
+      "externalDocumentId": "DocumentRef-alsa-utils-amixer",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-utils-amixer-857286be-1780-5464-aabc-6a2925b901e0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ace2cf83bfcecce439a5d28f30fc5ba39546236c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-alsa-utils-amixer",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-alsa-utils-amixer-e202bc65-9637-51b7-be65-592b99c50d9d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b8ccecec6f0b38b1d99329c3a255b6b517f679a"
+      },
+      "externalDocumentId": "DocumentRef-avahi-daemon",
+      "spdxDocument": "http://spdx.org/spdxdocs/avahi-daemon-81243a7b-5ae6-57ad-afaf-b9f620b0c46e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e6c5af30f75f7526face7a5e1c384064771186ed"
+      },
+      "externalDocumentId": "DocumentRef-runtime-avahi-daemon",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-avahi-daemon-762df663-9e3d-5177-b1f7-a43159c802d0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "063183a8eee941a448e9846611a604fcb7497149"
+      },
+      "externalDocumentId": "DocumentRef-avahi-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/avahi-locale-en-gb-35e61a4c-7f43-5d5a-8ee7-c2ba7e00f0ed"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "18cfa668d81c0802b3bdb20beff1d048e50d250f"
+      },
+      "externalDocumentId": "DocumentRef-runtime-avahi-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-avahi-locale-en-gb-917b0030-e4f3-53af-b3e4-a67d41d65eca"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c01a4dc8bb929fa6367c31d98073d44ff13a9628"
+      },
+      "externalDocumentId": "DocumentRef-base-files",
+      "spdxDocument": "http://spdx.org/spdxdocs/base-files-ee9424e3-1d7e-5739-b9cd-237a1a6f843f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "588a63e31db24feb8c89b3a9048447954a3c87c7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-base-files",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-base-files-2c77c531-02ab-5600-a436-27b799b75d94"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f0c3ec2c2928078830b21a7c75df63a55cbed4e7"
+      },
+      "externalDocumentId": "DocumentRef-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/base-passwd-78e3ab0a-4686-572d-a886-5105dd9b12de"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c9c3efa61b042bf24912d48665bbfb34ecd27a7c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-base-passwd-ce4b7161-f876-5777-aae4-48933d45e48e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4cf54d3144d3e8e9c39bc14145c75d852d695741"
+      },
+      "externalDocumentId": "DocumentRef-bluez5",
+      "spdxDocument": "http://spdx.org/spdxdocs/bluez5-ed390ea1-f514-59c3-a215-ef66c4b51739"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1c1e3ce53660c1b9f7e0b947b419839288b4dcc5"
+      },
+      "externalDocumentId": "DocumentRef-runtime-bluez5",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-bluez5-25077f95-4e6f-5b89-ba86-d63d50f7dbb3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9bc9f805541ee5fdea0a4373c8ced221bf77121f"
+      },
+      "externalDocumentId": "DocumentRef-busybox",
+      "spdxDocument": "http://spdx.org/spdxdocs/busybox-88c2f534-0ecc-55ec-b418-e44fadbec098"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8d0069ff982d8f0573ef226be0d58f02797531c8"
+      },
+      "externalDocumentId": "DocumentRef-runtime-busybox",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-busybox-a0c870a3-9cc3-5639-8ba5-685df97aea0e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4814975034005441c304e718eb5988966a83a286"
+      },
+      "externalDocumentId": "DocumentRef-busybox-syslog",
+      "spdxDocument": "http://spdx.org/spdxdocs/busybox-syslog-9c50eff5-a9f9-5765-b33a-312c76b55eb2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cbceac1e8b12e7b16ed73c1d5f896f10210c7134"
+      },
+      "externalDocumentId": "DocumentRef-runtime-busybox-syslog",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-busybox-syslog-8cc1c3cf-2c68-5d3c-8e2d-11a54c330cc5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a4748921ffe4fa9094ce9c094e42345da8a9d01d"
+      },
+      "externalDocumentId": "DocumentRef-busybox-udhcpc",
+      "spdxDocument": "http://spdx.org/spdxdocs/busybox-udhcpc-9f92dd51-c9fd-5fc3-820f-967a10a669b3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "fc6f26b4622d26591d64b6526207369e82ec80d8"
+      },
+      "externalDocumentId": "DocumentRef-runtime-busybox-udhcpc",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-busybox-udhcpc-387d74c0-cc17-5544-9a07-6c32ec590f98"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c9d39d06009e654f7548960d44b4b49528306657"
+      },
+      "externalDocumentId": "DocumentRef-can-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/can-utils-72f8fe0c-5a5c-5a87-a8ff-66928b92003d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cd8edb4891116da3d17d07ce181172e07a74b6ae"
+      },
+      "externalDocumentId": "DocumentRef-runtime-can-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-can-utils-62c207c2-cd70-509d-9fcd-cbba2a0f3d0c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "57fef2df9cb354904224b956c6b25b3df522c24a"
+      },
+      "externalDocumentId": "DocumentRef-cjson",
+      "spdxDocument": "http://spdx.org/spdxdocs/cjson-c0c9575d-081b-5012-9785-453dc72288a2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "259d507894422d01353344c6ee47c7ce207c08e9"
+      },
+      "externalDocumentId": "DocumentRef-runtime-cjson",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-cjson-04a13df2-f5fa-5be7-ae8a-f53fa9974adb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "095de16f095f7653ac312889f89bed86ffd63f91"
+      },
+      "externalDocumentId": "DocumentRef-dbus-1",
+      "spdxDocument": "http://spdx.org/spdxdocs/dbus-1-bccce4a2-a46d-5f2a-9f1c-5e385315c235"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8794f97d4ec22f4fc59571ca856f40d1f4dbc05d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dbus-1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-dbus-1-cf5122e9-5d90-5885-b66e-25d5d7bceee2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3d62f851000013f803890cddc90d249030af6417"
+      },
+      "externalDocumentId": "DocumentRef-dbus-common",
+      "spdxDocument": "http://spdx.org/spdxdocs/dbus-common-837338d1-d7ed-54d4-aa1c-d2d369213cfb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "253962fd8da0f1936ff5f49dbbf1d11fa2a59bd1"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dbus-common",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-dbus-common-fce39b3d-e885-5616-b267-3dc08210d161"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "fc3db470fa8a6924134ce81adfca022ec51e874d"
+      },
+      "externalDocumentId": "DocumentRef-dbus-tools",
+      "spdxDocument": "http://spdx.org/spdxdocs/dbus-tools-a9c2e4ea-9aa0-57a5-a4fb-2875d82b4cb0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5908b97632ab4618708273a853fc26a1ba3b3466"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dbus-tools",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-dbus-tools-98739bf6-f6d3-569f-96c4-d95feea2eba7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c84ce2710332018503d3463dd2a983a628891e64"
+      },
+      "externalDocumentId": "DocumentRef-dosfstools",
+      "spdxDocument": "http://spdx.org/spdxdocs/dosfstools-2a841e3c-2087-5a4a-bc4a-e5e6fca7cef8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b3dae990cdf16018ef06435ceacb3776937a3823"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dosfstools",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-dosfstools-422f1a66-3bc7-5803-939d-27a4e96fccbc"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1c61d2ee305cf557a27a1ad7f6cd11a934cd0e25"
+      },
+      "externalDocumentId": "DocumentRef-e2fsprogs-e2fsck",
+      "spdxDocument": "http://spdx.org/spdxdocs/e2fsprogs-e2fsck-b715ab68-0b31-56f0-b6a7-178160fcb097"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4b9e49ff38a239cead6198672f335d777b42fb8b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-e2fsprogs-e2fsck",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-e2fsprogs-e2fsck-fd0437f1-35bb-59d9-8105-ca2790c37073"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7ecd27ab20572114de40a994e06fb13e7ec789c4"
+      },
+      "externalDocumentId": "DocumentRef-glibc-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/glibc-locale-en-gb-23b2d958-9f0c-5ae1-a377-da5f8075c489"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4a273f75fa3623d75cad129a7ebe6d986725b612"
+      },
+      "externalDocumentId": "DocumentRef-runtime-glibc-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-glibc-locale-en-gb-f203c5a1-f0c7-5892-8192-de533fc56ec2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6b2540af436ce7d6f9c31185353e59ca46a427b4"
+      },
+      "externalDocumentId": "DocumentRef-iproute2",
+      "spdxDocument": "http://spdx.org/spdxdocs/iproute2-471b6169-6d4c-5b85-8b69-700df0f91947"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d3db33128649c02148b35a71f2cd5e5c24793794"
+      },
+      "externalDocumentId": "DocumentRef-runtime-iproute2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-iproute2-36734b99-488e-59b3-b0eb-8783833ec4b9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a95e1c0e8a374ba197571a8d0a4f9c072aee93d6"
+      },
+      "externalDocumentId": "DocumentRef-iproute2-ip",
+      "spdxDocument": "http://spdx.org/spdxdocs/iproute2-ip-206c4c9a-2f99-56d1-aef8-75cc4bc5689d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7735f9fa0edb3aa3a86fca530e08ff689f6b9d28"
+      },
+      "externalDocumentId": "DocumentRef-runtime-iproute2-ip",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-iproute2-ip-9fdca4b8-39b5-596d-b4f0-ad4a220d16b8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5fe9d9052551e15d3cb961bc2a715f1752aea805"
+      },
+      "externalDocumentId": "DocumentRef-kbd",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-a231b99c-6530-5c25-bb9f-34ffd81270f7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ccfb1dafd089ad9285bcd350fd69f63170c2ed2a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kbd",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kbd-f7b5a5b0-fe6c-5a2f-95a6-03f1ffc900ed"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "608a10453cd602e1be2be55d656d5eade8cf53b3"
+      },
+      "externalDocumentId": "DocumentRef-kbd-consolefonts",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-consolefonts-e11157d6-4020-586d-bca2-2141fd8701d3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b149a19529c8e2bf346bfa1aaa0e88b19b285839"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kbd-consolefonts",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kbd-consolefonts-67beb9c0-5a45-5f0a-9097-71e78c2c00cf"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8e8e4c2633cf6270966f397135f7755faea65147"
+      },
+      "externalDocumentId": "DocumentRef-kbd-keymaps",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-keymaps-1a81480a-8a5a-588f-b6c8-e25b054a0862"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a40e159faaaf143f25d379a04b6a704663713c80"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kbd-keymaps",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kbd-keymaps-8cb77bd1-e53c-5757-9bf2-f619479795bf"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4221294f399ebe574ecb031883f617728596419e"
+      },
+      "externalDocumentId": "DocumentRef-kbd-keymaps-pine",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-keymaps-pine-474485ca-1eb2-52a3-b4ab-d98907385ac5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e23ffd29026652a5bcc6c3bc3e18a982e3f5345"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kbd-keymaps-pine",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kbd-keymaps-pine-b0474154-df04-5cf8-9a7a-b2e9f0355a4c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "bd4f7a88531377c39b72236e5d73003dca64f983"
+      },
+      "externalDocumentId": "DocumentRef-kernel-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/kernel-6.6.151-yocto-standard-23b6c912-d369-5d36-92dd-638003593227"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5a30b1fc6da7b761a509b25bc9d23c6719d50431"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kernel-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kernel-6.6.151-yocto-standard-3296d18b-d7a8-52bb-9d11-f8391d2c86ba"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "04b082743ff4c7077f5850398cb659a88c7a55c2"
+      },
+      "externalDocumentId": "DocumentRef-kernel-image-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/kernel-image-6.6.151-yocto-standard-1ff259db-978b-5a22-85c3-d5d6ef7b58f8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1af2515c78cecbf6d7ea839ed0c693f4594cc801"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kernel-image-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kernel-image-6.6.151-yocto-standard-40517096-55d9-50cb-9b64-bddadf3f7164"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "832cc4fedbfc66686fe753d62255e78570175298"
+      },
+      "externalDocumentId": "DocumentRef-kernel-image-image-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/kernel-image-image-6.6.151-yocto-standard-5e4f74a1-ceef-5317-a53e-6f5087866d0d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "78cfa42d9a4e22a7f4831a426d97890dd33d4594"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kernel-image-image-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kernel-image-image-6.6.151-yocto-standard-11d5ccff-86c8-5cbf-8c04-4ddaa5e6eb34"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "073ad29d3fa355f8894639431866ed68883c620c"
+      },
+      "externalDocumentId": "DocumentRef-kernel-module-nls-utf8-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/kernel-module-nls-utf8-6.6.151-yocto-standard-5b7bbabb-a3a1-54e2-be48-c24440bd2f01"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5cf0cea7ac4a40df6004cab2eed1683e6363f3c4"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kernel-module-nls-utf8-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kernel-module-nls-utf8-6.6.151-yocto-standard-7c1997ae-c7e7-5228-a7d9-8157ab704745"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e87c510cb2fdf15c70406a71998f194b02209b92"
+      },
+      "externalDocumentId": "DocumentRef-kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/kernel-module-sch-fq-codel-6.6.151-yocto-standard-ae4e0484-488d-58c8-b2d0-da3732e9b907"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "08a68c728f560d7a1dfb15fc164804af94cbf408"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kernel-module-sch-fq-codel-6.6.151-yocto-standard-8c7e73e6-5efe-5a31-9cff-2570b08a4c03"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c36b0570829d8ee4c9f21071139e17a2544ba25e"
+      },
+      "externalDocumentId": "DocumentRef-kmod",
+      "spdxDocument": "http://spdx.org/spdxdocs/kmod-c91a9b67-c26b-5fcd-ac47-27e95ef17a1a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "11c877946f90b00341bdfa5f79b7cbe5b4bcf3b7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-kmod",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-kmod-810dbe6d-8cfb-5c43-a117-83817b3fda0f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f32ad8592b675175ef4dc7bd037de205c850f7df"
+      },
+      "externalDocumentId": "DocumentRef-ldconfig",
+      "spdxDocument": "http://spdx.org/spdxdocs/ldconfig-7e38a952-6968-5151-9591-63015b1f4a16"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "51ca61b36f9fa15abd2702c250af342f057be172"
+      },
+      "externalDocumentId": "DocumentRef-runtime-ldconfig",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-ldconfig-699c8ca9-0759-51fb-ab14-8e078ce66396"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6a5890c2c354e04a1c757dd6ad669408c943853c"
+      },
+      "externalDocumentId": "DocumentRef-libacl1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libacl1-60ae9000-5255-544d-a332-9d00fec7a2eb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0b17f294ef48eacddcdb549d93692a340d436c9a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libacl1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libacl1-01877bdd-3a5b-523d-b7c2-d916306b9935"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f711bd9bfdd5c9160e066e2f74d271f297147d81"
+      },
+      "externalDocumentId": "DocumentRef-libasound2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libasound2-e7da9ecc-49c2-5d47-9093-a959a0635473"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ed0c89464366a802597f6e43aff5ce75c94e0949"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libasound2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libasound2-a962bd3b-bb40-5cc3-94ff-e6498e31fb71"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "58b364da7bf7aa1dfc4ba602be5251d64ff73d50"
+      },
+      "externalDocumentId": "DocumentRef-libattr1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libattr1-ac390096-d3e0-5f26-918a-e1d13e66d19f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1cf0e1b903f18900d13c810a4d9da03eb3ceb02e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libattr1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libattr1-32f676b1-f4bb-5472-8978-7aee85f73000"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "91f28e12e7231057136f83287bdfdc003a990a91"
+      },
+      "externalDocumentId": "DocumentRef-libavahi-common3",
+      "spdxDocument": "http://spdx.org/spdxdocs/libavahi-common3-09f78e76-85fd-5489-9032-a21b567f61d5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "446073fb5beafb572ffaa92a25f6f3a96390a924"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libavahi-common3",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libavahi-common3-a379e7b0-d8ae-5615-8669-e030582d454b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "dcb7d2e6cbae3098df68bdf6354c997c8626c305"
+      },
+      "externalDocumentId": "DocumentRef-libavahi-core7",
+      "spdxDocument": "http://spdx.org/spdxdocs/libavahi-core7-b319a6ae-3861-54b9-b664-cb2b90a7b613"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d324249ba05c160c75a1ccff392572389d96b37b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libavahi-core7",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libavahi-core7-aa5776a1-e504-5db7-a83c-6585d7f210c6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9b357e2f1502e4b4e12ce67b2f8a30f682dce3e0"
+      },
+      "externalDocumentId": "DocumentRef-libblkid1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libblkid1-0831e5ab-c41a-50ed-8839-04a211d1a59d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9c676dfcacbc500f67489de8dbe8a41898860d87"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libblkid1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libblkid1-d3edad73-5f32-5d80-ae44-ff600fa00c38"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a2a66399a60a6c783c04938c1ebb2119cc59e5c3"
+      },
+      "externalDocumentId": "DocumentRef-libc6",
+      "spdxDocument": "http://spdx.org/spdxdocs/libc6-d21332ef-8edc-5dd7-878d-8798a887f769"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5674510e72e7511bcda39dd46029d159dec7275c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libc6",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libc6-40c8754d-e37c-5e50-aaf1-98a8954ed189"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "07a3180e0901084ee1ff7e12164a526ef4430275"
+      },
+      "externalDocumentId": "DocumentRef-libcap",
+      "spdxDocument": "http://spdx.org/spdxdocs/libcap-6981a168-7e59-5e91-9bc3-90eee2b5819e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "10cc531346a7b0ce24ada741b6a6ba080d6a4fca"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libcap",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libcap-14ba83e4-681d-5b20-bbae-9706854e3138"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8bbdf82c5dbfde8cae6ff6cafb2ada19f3035da8"
+      },
+      "externalDocumentId": "DocumentRef-libcom-err2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libcom-err2-f10bd9be-1e50-5df1-b9cd-e3c7198ace88"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0a9c623432f44e282f2680825d57c0e2099daba4"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libcom-err2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libcom-err2-5391ef8f-336a-5682-bfa7-46341955c463"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9391bd7777171a3a6b583d9177f68bce95b77e53"
+      },
+      "externalDocumentId": "DocumentRef-libcrypt2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libcrypt2-b5880e0c-458b-5b4d-ac86-e0013f13f300"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cfb473c35dc20da10a9dad921cc23a069ca61d3b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libcrypt2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libcrypt2-faab6750-2e86-5c0e-8216-8c151080c369"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92cf034f001347592bc9cf418ad483f9666dc6e9"
+      },
+      "externalDocumentId": "DocumentRef-libcrypto3",
+      "spdxDocument": "http://spdx.org/spdxdocs/libcrypto3-c6f9821a-3ec3-5e5e-b995-f63a1bc63db4"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7709bfb508c6cb041627b2784d32f57e9f639516"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libcrypto3",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libcrypto3-281319d2-1e86-5a78-a2b8-6f73711cfde6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1d1914e55152dbc8b390f6b612a72e0ef67a2594"
+      },
+      "externalDocumentId": "DocumentRef-libdaemon0",
+      "spdxDocument": "http://spdx.org/spdxdocs/libdaemon0-f6d4dec7-e5e7-51f6-afd9-f41df14947a1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6b5c771b800feabe07b2ca8f6e01fc9a7512817b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libdaemon0",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libdaemon0-df2e323d-c53c-55e9-980f-a8169da98f6d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e51745b86dd030b1d71ca24fd81ef4bd34c81672"
+      },
+      "externalDocumentId": "DocumentRef-libdbus-1-3",
+      "spdxDocument": "http://spdx.org/spdxdocs/libdbus-1-3-cc558fcc-4bf2-5a72-9445-bc48eda6c0aa"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "da3b399090153691fde0cb47270e09cc5ae95bf1"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libdbus-1-3",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libdbus-1-3-adb41c9f-e6df-56ce-a2d2-54f80de27e61"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ca210b5ed52ba6d4cd8cf25752e58defce71e809"
+      },
+      "externalDocumentId": "DocumentRef-libe2p2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libe2p2-c5d6e3c2-5780-5795-ba9a-12afb4de88e3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a19d76f99243c88eacd7970787c53469cffedb68"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libe2p2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libe2p2-74584897-66ab-570c-a72c-deab133e6960"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "02e7510d65c020f49f0d9d43e3b248a6504c78e9"
+      },
+      "externalDocumentId": "DocumentRef-libelf1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libelf1-c5871dce-ab0e-5d56-99d3-cb24d184bffa"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6d8be0088f7353830009329c1793b5e067a32bb9"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libelf1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libelf1-c12a2bd2-79e1-53de-be87-9213be6774e5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "73425756d641067c53560293762dcc6c01c01588"
+      },
+      "externalDocumentId": "DocumentRef-libexpat1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libexpat1-2be3b7ca-3bf5-53d3-8138-7f1e21413da6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "09fc3484d30c125c10c1a55cd4238f6cd384de67"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libexpat1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libexpat1-ec3f86ec-7cd6-5c7b-ad5c-b4bbd5458760"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "03ac14a86e589e262c1dbdee6aed068bf74c6ee2"
+      },
+      "externalDocumentId": "DocumentRef-libext2fs2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libext2fs2-51fe693b-50bf-5b76-83df-188797a90b27"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f3df3208a0874dc8083471575e4d63bfa1972130"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libext2fs2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libext2fs2-1a7ae427-e2a0-5d84-b33c-c2448aa3b8f8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d87522cbb1c84aa199ceebadf8811ad418847a5b"
+      },
+      "externalDocumentId": "DocumentRef-libffi8",
+      "spdxDocument": "http://spdx.org/spdxdocs/libffi8-cce5ce8d-a997-517f-b3e6-c3cbd8edf6cc"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3ae12b3cbce90ad0f5eb3a5019fdb0f6aa008762"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libffi8",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libffi8-e7498365-c6bc-5daa-90dc-9516947ed8f2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1f68e9035bc33552b7023b08e884aecc388164c5"
+      },
+      "externalDocumentId": "DocumentRef-libgcc1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libgcc1-801a789d-7817-50fb-a41a-dad6b673429c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e277e231f31cb4fdf3f40444cedd0981944e70e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libgcc1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libgcc1-fc7474f8-4450-59e5-b8d0-1ce2d06d3bdd"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d55e310d8d764d895156c69a9b2adaa786ea3769"
+      },
+      "externalDocumentId": "DocumentRef-libglib-2.0-0",
+      "spdxDocument": "http://spdx.org/spdxdocs/libglib-2.0-0-2950f91a-d87c-57bc-90a5-2b6fd058cbea"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a4c9a76d0bbd7f16fefe263c22730a8f492cfc3b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libglib-2.0-0",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libglib-2.0-0-9091c05b-2de9-5190-ba39-5a329466451e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "05df3a8bcbab2bb70df2974b93272a0ff5070350"
+      },
+      "externalDocumentId": "DocumentRef-libglib-2.0-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/libglib-2.0-locale-en-gb-49c5c400-156e-5cad-9e03-9107edc63565"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b183eec4495fd27974e0e3f452f3b343b5cbcde9"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libglib-2.0-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libglib-2.0-locale-en-gb-c03f4a9c-9d34-5699-871b-ed906df4074e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "de0f8e96b2e5f7e120e5488f5db7f2b2ebb3fda0"
+      },
+      "externalDocumentId": "DocumentRef-libkmod2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libkmod2-91d752bd-dc56-5560-8e48-1844988827d2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2075fda2a6b2d4c19bf86bed1771ce6dfbeeaab9"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libkmod2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libkmod2-3b9b50fe-acac-569e-b1d5-1e7491ee14ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a2deabec74c3b8d0cb815a335b2fb7071b5ab586"
+      },
+      "externalDocumentId": "DocumentRef-liblzma5",
+      "spdxDocument": "http://spdx.org/spdxdocs/liblzma5-581e9949-ad9b-58d8-8690-7b520067f059"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9d7b5f87f0f00c158c65ecb6e2095b342e11d3be"
+      },
+      "externalDocumentId": "DocumentRef-runtime-liblzma5",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-liblzma5-e56dde43-de68-5fef-87ff-696ceda5976c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "27dcba4456efd85eb3341aae01721f7bde0c3614"
+      },
+      "externalDocumentId": "DocumentRef-libmnl0",
+      "spdxDocument": "http://spdx.org/spdxdocs/libmnl0-a40a5db7-aa65-5a7e-839e-c8e69384edf8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "71f9872f535b431c8b33960964d2251e75d3f296"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libmnl0",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libmnl0-8179ecd8-6c9e-5a9a-9d8e-c1a68e1a1a07"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3152ed1de458a1dcc7ec1eddf93667ad10e782ac"
+      },
+      "externalDocumentId": "DocumentRef-libmodbus5",
+      "spdxDocument": "http://spdx.org/spdxdocs/libmodbus5-f81b80e6-8524-52cb-9c7b-f6409e3337b8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b334866a040f078beab18b5bdcf4b5f3a0ef21a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libmodbus5",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libmodbus5-d7892790-f3fb-5195-9375-8a61b3775d70"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4eb56dcb6795429df91f9564852b18aca4550db"
+      },
+      "externalDocumentId": "DocumentRef-libmosquitto1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libmosquitto1-08745afc-5d1a-5d67-97d4-47156f529ce9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "06ea8cb850c60eee3f66980517fc8bbc1a6e0361"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libmosquitto1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libmosquitto1-c0248a35-5f3a-5fb0-9739-8de8dbc7e448"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a6a1127e6d790fb71c02133f2e912c77b23fff62"
+      },
+      "externalDocumentId": "DocumentRef-libmount1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libmount1-09cabe2f-60f7-53f3-8735-612cc8a4c20d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5f6d87140bad9c2eadc38dcf8fc38626a54c8d69"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libmount1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libmount1-0adab4f8-85d2-53b6-b9f7-4ae851c3580d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f106e41ab15a396c31a44aadd8b58e66065f5919"
+      },
+      "externalDocumentId": "DocumentRef-libnss-mdns",
+      "spdxDocument": "http://spdx.org/spdxdocs/libnss-mdns-877c5004-d04e-501d-b781-912f7aa68659"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "54c6603863c9487e1e7509a6fd3428eebc6eb40a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libnss-mdns",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libnss-mdns-2cd0f1b4-cfbf-5dda-b598-e268afa5a9f3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2b4a202653d35ebb713b0b183f274f0fc2d4c910"
+      },
+      "externalDocumentId": "DocumentRef-libnss-myhostname2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libnss-myhostname2-56b30fcd-e7ae-59db-82ef-bde35b40077f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8413224384c92a3a4fcc629bbc314f8266a5f7f0"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libnss-myhostname2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libnss-myhostname2-5a062b21-807c-5880-8aaf-c81a17896e03"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "62407904739b1630e0d553409e3306773ab3189b"
+      },
+      "externalDocumentId": "DocumentRef-libnss-systemd2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libnss-systemd2-89fb5432-87df-52c5-b88a-1016b63da653"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "861d08026858bd84124bdadc9af3abd158b93434"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libnss-systemd2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libnss-systemd2-a682388b-5f31-5328-9f76-e971ff85946e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c7f709dbea44de32d53a646b1a2659225253c16e"
+      },
+      "externalDocumentId": "DocumentRef-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/libpam-a7f4aae6-2d2b-58b1-94e7-a15e43466aba"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0712ca61ee42da6537f0d4782cad405d7878213e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libpam-dd5e21f1-08bd-5ede-96e3-3fdeb268a14e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a29847f0eca5310a9e720c860f0a86a4ad2aa313"
+      },
+      "externalDocumentId": "DocumentRef-libpam-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/libpam-runtime-09ef2234-4659-546a-8ab9-8a3f7119e2de"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d6cdf13ce9102251fd8e2820e85a5afc25a8a244"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libpam-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libpam-runtime-4cdc9f07-dc21-5d11-8c5a-dfd4b20d72c8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a4b31ef4dfbb537f3a9b4bcafbe7a88f4335c335"
+      },
+      "externalDocumentId": "DocumentRef-libpcre2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libpcre2-f49fb0d4-ac3d-5436-8f73-b77227cabcae"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f2fa5c9750de775ddf06ce0ec30a9536cbe8ad1f"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libpcre2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libpcre2-36f46008-6153-51be-a0f1-9ab360f0a4e9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "447d489e8883c8c6181bb5fc41aefd8bd096d8b3"
+      },
+      "externalDocumentId": "DocumentRef-libreadline8",
+      "spdxDocument": "http://spdx.org/spdxdocs/libreadline8-f0c3aaf0-5f16-5ae7-8e02-de7940c64a5f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b859452595d38d6da18efbfe1164f67ab0af96c4"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libreadline8",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libreadline8-85d7868b-efdf-50c1-a3ba-ee123a505c9a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9b3903ca87d8985be1c5e1461603640cc8b75aa0"
+      },
+      "externalDocumentId": "DocumentRef-libseccomp",
+      "spdxDocument": "http://spdx.org/spdxdocs/libseccomp-de7982f5-d12c-5127-b52f-8f19e238b0e5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a7eca16e12fe07ddff717e164119b8c89b16bf21"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libseccomp",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libseccomp-df4576e5-1e30-57fe-9526-e874e62fabd1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "85a35afe9777aa5b2bf2a37439a62152f30e6666"
+      },
+      "externalDocumentId": "DocumentRef-libsmartcols1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsmartcols1-1a38d22f-6b6e-543e-b4ae-6b7f57c9add9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7db711e1f8014f11932ca530eced55fcebcdac3c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libsmartcols1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libsmartcols1-35be1f3e-8afb-52df-81de-d974c0f0ba9c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "59417cb872a09574e68046ba18d6797966e1602f"
+      },
+      "externalDocumentId": "DocumentRef-libsqlite3-0",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsqlite3-0-e8742ecb-0e8f-5dc1-a460-5a047ee422ca"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "27e0e5f09f975c60679bc1af7947fc70caae104b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libsqlite3-0",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libsqlite3-0-1b83485f-fa84-53dc-8c16-9d8ac0060398"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "bdff604d2815da13240beddbc1ed8dd1a1262774"
+      },
+      "externalDocumentId": "DocumentRef-libssl3",
+      "spdxDocument": "http://spdx.org/spdxdocs/libssl3-5cac9e74-3a8f-55d6-922c-02d591932154"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "fe8518dc45d949a5d3a9dd3ba95cc77b62a1c3a7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libssl3",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libssl3-3a3dc82a-6483-596b-a9e0-ea05f60c8c07"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "770df195c221a75b2689700716f54fae4396a46e"
+      },
+      "externalDocumentId": "DocumentRef-libstdc++6",
+      "spdxDocument": "http://spdx.org/spdxdocs/libstdc++6-8c6836f0-a246-5604-9347-3e26ee1b4429"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e1dc188a4a280d285573efe0734df6e0a14ecbcf"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libstdc++6",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libstdc++6-8dae62be-d084-5740-8de6-8896cd10d71b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "14212c0d7513eed2f1f73c4159e2429ca8724be7"
+      },
+      "externalDocumentId": "DocumentRef-libsystemd-shared",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsystemd-shared-22a8ac6b-2fc5-5064-9a75-8311ddb0e763"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8a98702637cd1fb33bbca4f4989193e83d12001d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libsystemd-shared",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libsystemd-shared-5d65ea94-0918-5122-9365-dacadb606ee9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2f6a59fc56e43981807353341e4dc7e7b2588a94"
+      },
+      "externalDocumentId": "DocumentRef-libsystemd0",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsystemd0-814ca8e0-0b48-510c-958b-2d7fc86d6b54"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b59383559472b4510e45e107ae2a039942e64673"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libsystemd0",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libsystemd0-92a45c1c-3c4c-59f9-874f-85d91008e9b9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2ee02ca33401b13fba465646e0d47e1a4a7ff1cb"
+      },
+      "externalDocumentId": "DocumentRef-libtinfo5",
+      "spdxDocument": "http://spdx.org/spdxdocs/libtinfo5-e60a80b2-101e-52bd-b5a4-a953845e5a98"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4d4c5daeb42fe4573978b0d0df49dae124d8a2a7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libtinfo5",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libtinfo5-f300d701-a66d-5dba-a7d2-be778cca5247"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "dd3108e877f4603c0c69de4ea4c05ba08b1cd0aa"
+      },
+      "externalDocumentId": "DocumentRef-libtirpc3",
+      "spdxDocument": "http://spdx.org/spdxdocs/libtirpc3-3ca2c749-67e9-5ee8-a913-f72bb736eee1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c056d68372eb8395fc8569aadcb00aabcb628945"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libtirpc3",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libtirpc3-e4379d9e-375d-560a-9be5-2523c257bf60"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0f71488fa74dccd6469aed7ffa7b0a4f1e43f5f9"
+      },
+      "externalDocumentId": "DocumentRef-libudev1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libudev1-98879a21-6f2d-5716-aa74-3d20e9a3e722"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "26043891c312c3bb63ff2b2a001cddad5eb923f0"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libudev1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libudev1-c9014a2c-5bc1-567b-bfee-9894047b702a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9ff27a024954a7a1d911c39cc52a0a1bee32d0fc"
+      },
+      "externalDocumentId": "DocumentRef-libuuid1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libuuid1-ddea1a69-a4b6-56df-9aee-d4530817d51b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f575960cf205e0cafd1ded91f50dde05b0a4f765"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libuuid1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libuuid1-e6d8420e-8e40-5d11-987b-6fc9d8c166cf"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7c5fa01ba5c7a3c3fd84025ea65b4000aa44c470"
+      },
+      "externalDocumentId": "DocumentRef-libuv1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libuv1-815bd836-cfed-5aaf-bbee-1f5e52ed8263"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8a0b4f28d35e8f2fa3ca656fc4c909cd12bc2662"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libuv1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libuv1-84ed67cd-303f-531a-8b70-43bdbc9f94c3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4b49c744b712c205b0980bf9a2bb0e9fb983444f"
+      },
+      "externalDocumentId": "DocumentRef-libwebsockets-evlib-uv",
+      "spdxDocument": "http://spdx.org/spdxdocs/libwebsockets-evlib-uv-472126e4-1dbf-5acf-a38d-6bca5eca60b7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "dc2868410c50aea315601319201363929ac81b0b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libwebsockets-evlib-uv",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libwebsockets-evlib-uv-231c7281-4dbc-5639-acae-d162cecc0182"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "946e5fb94ee6a54c69e2908a1abbc176b75bb7c2"
+      },
+      "externalDocumentId": "DocumentRef-libwebsockets19",
+      "spdxDocument": "http://spdx.org/spdxdocs/libwebsockets19-5110c821-d23c-5dc1-b44f-ec641be2bc30"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f8da5309b39d5765b23a7637c72c8380e4d73f9c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libwebsockets19",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libwebsockets19-b5114aa3-6a04-52a7-adaf-ab03926e20e0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d8d90da10e8738820a8711df5ed2cd94cc74e802"
+      },
+      "externalDocumentId": "DocumentRef-libx11-6",
+      "spdxDocument": "http://spdx.org/spdxdocs/libx11-6-d505fe26-12fa-5189-81f1-876447667bab"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c5b7672c25357c6afb86b179a1f756ed3c076cab"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libx11-6",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libx11-6-ff75781b-0e3f-5c74-8c3f-bd54dcb8b547"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "122e98e6ee0b9bdc3893005bc9c53fd21eb1d8c5"
+      },
+      "externalDocumentId": "DocumentRef-libxau6",
+      "spdxDocument": "http://spdx.org/spdxdocs/libxau6-388eb4b4-08a3-57bc-a4a4-bb21b90e9083"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d6abd6395fd45fe9b20eedac9e1f568512b5bb38"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libxau6",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libxau6-b78c31d1-1681-5981-b201-df3b0acb85f6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d29a2bf6486865d398342f016131c33e74cf812a"
+      },
+      "externalDocumentId": "DocumentRef-libxcb1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libxcb1-44ee8a6c-37ff-5bde-b879-daa4b6df2605"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "103e1e2ef31dcdec7ec0684ecf76fe2ceecb4edf"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libxcb1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libxcb1-fab2db58-6eab-5a48-b58f-bbbe5d303c3b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8ada5ed546bc379480630ffb4e416704579ec6ff"
+      },
+      "externalDocumentId": "DocumentRef-libxdmcp6",
+      "spdxDocument": "http://spdx.org/spdxdocs/libxdmcp6-4317c780-82bd-5bae-8a2d-2e7e7d082abb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "49f0c4a795c0493a376410f6949974d7768a28ba"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libxdmcp6",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libxdmcp6-1632ac4d-38e4-5407-a74b-dfa88a66f25f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4ffe8e3e1d5fadb8d21322d5e0c1ace0f1f53b2"
+      },
+      "externalDocumentId": "DocumentRef-libxml2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libxml2-09ad8067-76cb-5fbb-84be-43f2d1ab3e49"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c1f42d7b30224332057a0f9828ff80cf90e38f13"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libxml2",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libxml2-b43b2fa7-5b71-5760-bc70-84c82979d4b9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "72a5931e4b1603020bfed54b05895e663a381179"
+      },
+      "externalDocumentId": "DocumentRef-libz1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libz1-3da53760-1acb-5df7-9c93-f989cd016eb1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4709b34b8dbaa2fb3b0aec0c3f7d9fd8dcafbcb"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libz1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libz1-e852d464-a5b8-5aff-83e6-ced8a0fbc283"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "de9a526d11aeccb23c9acc5ed73d44fdf97d102c"
+      },
+      "externalDocumentId": "DocumentRef-libzstd1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libzstd1-a0d15c9c-4e58-550e-b9da-aca2fc5f66bf"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3e39bf3799623a5f3e500a93e03492024b6c7631"
+      },
+      "externalDocumentId": "DocumentRef-runtime-libzstd1",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-libzstd1-8e78cb4d-0833-5823-a298-55395253ba66"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2c4ec87d6d438a91be543f6f38993b4bbcfe0eb3"
+      },
+      "externalDocumentId": "DocumentRef-locale-base-c",
+      "spdxDocument": "http://spdx.org/spdxdocs/locale-base-c-18604d21-aacd-57e5-b412-5de2f5993014"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d5f3644e130ac4db980f27b169e3fbfd710cce73"
+      },
+      "externalDocumentId": "DocumentRef-runtime-locale-base-c",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-locale-base-c-377cecdf-0087-5bb6-8c64-9856d536fc05"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "822f69be522cad228fee7c7b0bee4e9fff22112e"
+      },
+      "externalDocumentId": "DocumentRef-locale-base-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/locale-base-en-gb-62e2c47d-d78d-5cca-851f-e2d46f0bb3d6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d5f4281dec581630d82ac20dc24df99433460793"
+      },
+      "externalDocumentId": "DocumentRef-runtime-locale-base-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-locale-base-en-gb-985f40f9-f75b-51cb-bf02-67a26c8e7ca0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "70fe81fafe139e9f40c6497589adb5d2c3ef42e3"
+      },
+      "externalDocumentId": "DocumentRef-locale-base-en-us",
+      "spdxDocument": "http://spdx.org/spdxdocs/locale-base-en-us-1c4828ee-79ec-5ead-a5c9-c04de9237fed"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f79ebb2580bb00209faf61994e3624cb1186a48f"
+      },
+      "externalDocumentId": "DocumentRef-runtime-locale-base-en-us",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-locale-base-en-us-f4d409a8-817c-5358-a941-b2012431dd89"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5dfdccebd79325fdbe617395130163f4e8946ca0"
+      },
+      "externalDocumentId": "DocumentRef-mosquitto",
+      "spdxDocument": "http://spdx.org/spdxdocs/mosquitto-1e2c8463-8b0f-5763-a75f-0b63a37159fb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "fae1ae59a01eb61a4a61de6932ee1ae913e7cbd6"
+      },
+      "externalDocumentId": "DocumentRef-runtime-mosquitto",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-mosquitto-ae57e780-661a-5bbb-9cfa-2f2b8c66502d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "52ebb79de4c89f464ac517976e31cf49aee01a6d"
+      },
+      "externalDocumentId": "DocumentRef-mosquitto-clients",
+      "spdxDocument": "http://spdx.org/spdxdocs/mosquitto-clients-2658c5da-c09d-5a6f-a459-202855ac753d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b57c2aae578f5b4acaadaf56585cbcedf54179bf"
+      },
+      "externalDocumentId": "DocumentRef-runtime-mosquitto-clients",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-mosquitto-clients-1c136224-1259-5373-b827-90cbac5a9034"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ae0ab8f6e1021396e1d4b146501ef2fef686d26f"
+      },
+      "externalDocumentId": "DocumentRef-ncurses-terminfo-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/ncurses-terminfo-base-cd7daf82-90c2-594e-89d3-1466f6bf3255"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a4c85fa9a88e215e8a60d08a4054809384fd600d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-ncurses-terminfo-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-ncurses-terminfo-base-2d161b76-6168-5b9a-96e9-8d4680e552d9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "76ea24f0c3fb39729eb420cf626a0f30087c1d2c"
+      },
+      "externalDocumentId": "DocumentRef-netbase",
+      "spdxDocument": "http://spdx.org/spdxdocs/netbase-71dc585d-f6ca-56c7-bdb8-31927d544813"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "10ef2744803174a4b7c16302a9bfcb621d799056"
+      },
+      "externalDocumentId": "DocumentRef-runtime-netbase",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-netbase-e0dd75fd-3c3c-52b5-87f5-64f56686c87e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "527510730cd9844e4d96fafebb28ce7e993eb650"
+      },
+      "externalDocumentId": "DocumentRef-openssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssh-b3654395-a76e-53f0-8712-cc47496f463e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8f7003b1775d536f4334dd3a8b04f79b4a9ae220"
+      },
+      "externalDocumentId": "DocumentRef-runtime-openssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-openssh-c3c2c899-59ba-52d3-849c-66a6f4ff81b0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "730eb4a107cf97ce2010418d86cea776960bb73a"
+      },
+      "externalDocumentId": "DocumentRef-openssh-keygen",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssh-keygen-709b0140-aba9-5999-b209-a126240f3278"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "47120377106eff68c54c1a649c2b77fc6d6f2566"
+      },
+      "externalDocumentId": "DocumentRef-runtime-openssh-keygen",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-openssh-keygen-fdfb4f95-ff74-5458-94df-4af3f1c9d186"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a80a513d17b95c6053449aaee84aa3677d647921"
+      },
+      "externalDocumentId": "DocumentRef-openssh-scp",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssh-scp-74c472b3-ad97-5922-b560-b90a39142fb6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b5fc19ab1b1b3f8e26ba60a667908dc7c3613f4a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-openssh-scp",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-openssh-scp-5565bd8d-4664-5116-ac30-0227ad28a966"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "744ed787b33e352b1c7732a10616d797551a2520"
+      },
+      "externalDocumentId": "DocumentRef-openssh-sftp-server",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssh-sftp-server-965ea181-40b0-557b-8fea-1a87251bfa40"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "889648df0a8f83a50d6c7b45022dcbe75c7bf1aa"
+      },
+      "externalDocumentId": "DocumentRef-runtime-openssh-sftp-server",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-openssh-sftp-server-2616ee49-f64c-5de7-9b6f-e34de4d8b475"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "86d9352e545aa5675c60e8a895073b9b2a731170"
+      },
+      "externalDocumentId": "DocumentRef-openssh-ssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssh-ssh-2d23337c-d36a-5e42-a8ba-8396fc3b4f7b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ed6172a0992c921e3415fc09fae6e8027a0bfe2a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-openssh-ssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-openssh-ssh-be5e543e-06ec-5a16-bd0c-6c25c0c86904"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a2de1eeb1afe06c65026e2e45ddc360d1bf79c7b"
+      },
+      "externalDocumentId": "DocumentRef-openssh-sshd",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssh-sshd-0e4c81b1-4cf3-50db-9853-5f16d3790ede"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6335e44bae6bcb7650cca3b485f23d9bec93fe2d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-openssh-sshd",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-openssh-sshd-1b59701d-fda6-5120-be5c-739a65ee8f52"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "274d9cccc28c2de65dbb9487f1f04d2179e758e0"
+      },
+      "externalDocumentId": "DocumentRef-openssl-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssl-conf-06cde60f-b881-5cdf-bf18-80915296bd52"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "29ccecafbb8c26140750bc5776ce58d29ac1c0a4"
+      },
+      "externalDocumentId": "DocumentRef-runtime-openssl-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-openssl-conf-96d2cfd3-e493-5a57-91b5-59276888d7b5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7d7f45641d53da28f62e5691191a932d8fea45a4"
+      },
+      "externalDocumentId": "DocumentRef-openssl-ossl-module-legacy",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssl-ossl-module-legacy-4a52ab8e-d398-5184-a732-a2fe507c2e0c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e1dbd41050167aa30f9bc5bf140314adf7416407"
+      },
+      "externalDocumentId": "DocumentRef-runtime-openssl-ossl-module-legacy",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-openssl-ossl-module-legacy-620c9909-1f16-596c-85b5-ba177c2b1dac"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "881824b2c0fb1c05bab0a122839af9b05a7ed394"
+      },
+      "externalDocumentId": "DocumentRef-os-release",
+      "spdxDocument": "http://spdx.org/spdxdocs/os-release-dd6d8653-32be-5392-a3a7-6efb5f2257bd"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f542b1046cd6421d5fdff3b33b91724d5ec203c5"
+      },
+      "externalDocumentId": "DocumentRef-runtime-os-release",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-os-release-2bd5135b-77c6-5427-869f-bc32c221605b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b9c09a5901a241e263eaf5644042013f75279267"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-7efe0b05-366b-5e3a-9fd1-ecd77ae4a6de"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f430238a20e4d53110e70e8516a52f2af0e655b1"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-88b6a9d4-ad74-5026-ac64-35c7cf4e5182"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e54f96deaa5be0e6ebd977f86b46f591e4fd3948"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base-alsa",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-alsa-2b852bf8-9a49-5f47-9a97-265b24418505"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "eda825a4602296478acc770eab9ce3051065c26a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base-alsa",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-alsa-ded702a9-b60e-5602-b3b5-a81991942502"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6aabfd89cb243d2d9b578a7eb1c100e78dc7217a"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base-bluetooth",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-bluetooth-49bb7cef-98ce-58db-82e0-91047449790d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e1a8a339403b2b450146445a94391e23abbe9394"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base-bluetooth",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-bluetooth-7a9cef98-def8-5fe9-998c-29f53809538b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "514365fe1edaaa73a203c388d0a6e2b2ae2fa9d2"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base-extended",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-extended-edbaae9d-9bd0-56ea-9756-318bb857e02a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "173989869ad41f3f39c8e8a3f3969d5de34aa5de"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base-extended",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-extended-8ce0e235-1be9-5216-b767-5d3bff6c26b0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "39bfeb363beacd2a462fe58c207e3d50e8296155"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base-ipv6",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-ipv6-520a5ca4-0917-5f11-a7eb-5fc565a0a46f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b22b74f48f9a40ccb9b842f8b5d13d3829213e43"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base-ipv6",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-ipv6-a5a5bf9f-43b5-51bd-a155-3f5f5bf8d98b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e38d73e354f275ad2f2bfdabf84f6d8b380d517"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base-nfs",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-nfs-b1e88c0b-feab-5de5-959d-c2554b23a96a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "dad4d8524bb40419c726a0a6aa557b4a802c904d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base-nfs",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-nfs-d78bdd8b-5d2e-59b1-9541-0a09f29ec78c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cf18c201ff8ea194f9517081ba2f25b7af9b2a9e"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base-usbgadget",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-usbgadget-26b55798-684d-5577-b1fe-080e99d09f97"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c70e12faceae000d8cae1a3b96de3c65343f93ba"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base-usbgadget",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-usbgadget-76c1bf7a-8368-5d06-8d7f-28991c06da16"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b5ea482823853478633e71d91810a0cd85fa99a6"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base-vfat",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-vfat-58e05e84-e723-5f88-8222-ebcbafd4a6b6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "55aadcc2c77758095d397c9c3dd3eae18090c07a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base-vfat",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-vfat-7277d9a1-04da-5795-97a4-87ee0334755b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "299d120abb19ec64f0a87e23e8f116292a463298"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-base-zeroconf",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-zeroconf-c040c4b8-2c6b-5cc1-bf08-4899f32d4e3e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e56efac48032a665a77fe021d07c72887776e3f4"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-base-zeroconf",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-base-zeroconf-d970acd3-6fbc-566f-9122-8c7b39776888"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3ed76e1ae7e9d13ba0a1db3b093a6cc4d7d41a56"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-core-boot",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-core-boot-3461373d-eb57-5fec-b780-98ead32f9337"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ca89164e72ecaa35194b52880a3875471b21278a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-core-boot",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-core-boot-9cd36ed9-857e-57f8-8c74-3308db0ffbca"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8465ae1570ee9afdcee6e1b003c4eff83a2f2065"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-core-ssh-openssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-core-ssh-openssh-89da8914-d9de-53a2-8381-20e6c09639d3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cd394a63fcefebdda68bf276813801ede5c6c84c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-core-ssh-openssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-core-ssh-openssh-2e0ae869-cb05-53b2-81a3-67196dea3709"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8175d7e1c794ee95a91fbe572b3a3770402240f6"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-distro-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-distro-base-2fbe2070-45eb-59bb-8bdc-05fc4e58d84f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4613b9e0404fd99003240ecf8ebfa2d3c7da155c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-distro-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-distro-base-e2edfef3-ab24-5dca-8afa-880aacf6aa2f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aaccde6da494c76fa6f7bd2dcc60ba5c8e498182"
+      },
+      "externalDocumentId": "DocumentRef-packagegroup-machine-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-machine-base-9b11e73b-80c7-5f52-8756-e240f6fc3931"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9cc06fd2132f4cb4727d06094ea35b5b14e0460e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-packagegroup-machine-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-packagegroup-machine-base-d3b79068-84f0-5500-8230-3dfa6ed2b624"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a787368007df01dec7ba0ac9ba90d4dedf5b1eba"
+      },
+      "externalDocumentId": "DocumentRef-pam-plugin-deny",
+      "spdxDocument": "http://spdx.org/spdxdocs/pam-plugin-deny-1ad441c2-bbc4-510f-b5d9-2f3ca2d90db9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d4f30c89d105a8508c8acbc36a67be6f182600f4"
+      },
+      "externalDocumentId": "DocumentRef-runtime-pam-plugin-deny",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-pam-plugin-deny-aa2b8e9c-a335-52f1-9c0a-5c6e6bfd592a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7e9fcacc27a3fd6fb1472f8b9ff97cbb0dbaedbe"
+      },
+      "externalDocumentId": "DocumentRef-pam-plugin-permit",
+      "spdxDocument": "http://spdx.org/spdxdocs/pam-plugin-permit-d4383a82-e79a-5849-ad7a-7897876aa84d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9be32d04f4790fb9786528fb6dfd523ce7a8d28d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-pam-plugin-permit",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-pam-plugin-permit-c30d3f8b-5456-5863-beb9-300076a382d4"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "48acb4f11625f737f2f5b5f36b897a550f3f60e1"
+      },
+      "externalDocumentId": "DocumentRef-pam-plugin-umask",
+      "spdxDocument": "http://spdx.org/spdxdocs/pam-plugin-umask-f95bbb10-11a2-5a41-b90b-1a3107b23d1e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "fdf3a9f912aeb06487bfe63d4e0ac0d239b7d353"
+      },
+      "externalDocumentId": "DocumentRef-runtime-pam-plugin-umask",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-pam-plugin-umask-d257c2af-2507-5438-9616-31e1ef7ebef0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "fc93ae67c438f667a5cbc00ff247f3fe7c43b9c2"
+      },
+      "externalDocumentId": "DocumentRef-pam-plugin-unix",
+      "spdxDocument": "http://spdx.org/spdxdocs/pam-plugin-unix-1c4f8158-0f48-5f22-a7b5-f19bdd1d4402"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e0452daae34f392b097ad3f65c624a071ae5a0f4"
+      },
+      "externalDocumentId": "DocumentRef-runtime-pam-plugin-unix",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-pam-plugin-unix-79ccdd43-fa55-53a7-bbe2-6dd8314b444a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92d7a00e09d572feeb26f0ca4ebe4e5f9f8a2e40"
+      },
+      "externalDocumentId": "DocumentRef-pam-plugin-warn",
+      "spdxDocument": "http://spdx.org/spdxdocs/pam-plugin-warn-a1b79d74-cd8b-5572-a63f-3f8db986eeb7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2395478f5c83ee5eeed0d4ad5b6aefca572a0226"
+      },
+      "externalDocumentId": "DocumentRef-runtime-pam-plugin-warn",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-pam-plugin-warn-ae1bc9f2-b1e6-5067-873d-68d045c99254"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a33dbc87b53dd27417c5e7068143c5ad3423b016"
+      },
+      "externalDocumentId": "DocumentRef-rpcbind",
+      "spdxDocument": "http://spdx.org/spdxdocs/rpcbind-099d7904-d3ad-59b5-a8dd-a1d9da22fe51"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "42db3c6ad6d8c6a2cec01ed887529457ab194403"
+      },
+      "externalDocumentId": "DocumentRef-runtime-rpcbind",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-rpcbind-e570b71d-cd7c-5582-8c75-f22bf6abbdac"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3a6bedbbc9e653a9a3666f436eb850b81a384a55"
+      },
+      "externalDocumentId": "DocumentRef-shadow",
+      "spdxDocument": "http://spdx.org/spdxdocs/shadow-10e66933-65cf-5a2d-9a1d-99b12a405441"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3e6abf21dbd83e38f0cd30c33bdd0d906062c284"
+      },
+      "externalDocumentId": "DocumentRef-runtime-shadow",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-shadow-3c279d49-9d3e-577b-9897-58e018cc7dd6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b0b79c8dd1cd355d864c990009f1ec6cf46828c"
+      },
+      "externalDocumentId": "DocumentRef-shadow-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/shadow-base-10830f16-d406-51f4-a825-bcd04fe6152f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "771f094f70fd1c9757334e68a12bed04b8d9c882"
+      },
+      "externalDocumentId": "DocumentRef-runtime-shadow-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-shadow-base-4028688d-2dd1-5976-8dcf-f63213f3f0b2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b42deb26b73c98425bdb631e9e01224f96871224"
+      },
+      "externalDocumentId": "DocumentRef-shadow-securetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/shadow-securetty-3d9f4740-df93-56a6-b6ac-4efa24b2bf77"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b0fa873211362c623dd373c1f2c57b37a07f30a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-shadow-securetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-shadow-securetty-de7a6d50-5439-5297-a5f0-8318e83ff5d3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "520c85fa1725475e4e6233c42b08d628b75dcd35"
+      },
+      "externalDocumentId": "DocumentRef-shared-mime-info",
+      "spdxDocument": "http://spdx.org/spdxdocs/shared-mime-info-bcb6f863-c4c9-5eaf-a551-ac72cb0abd88"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9258cf52ec63bc775cfddcf55857c10732ec1f1e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-shared-mime-info",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-shared-mime-info-5d9972a2-9558-5521-9214-48674fba9a5a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b9018c60e1080979f2a2eb4d2d760e99f84a7572"
+      },
+      "externalDocumentId": "DocumentRef-shared-mime-info-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/shared-mime-info-locale-en-gb-91395254-5b3f-5d2e-acaa-969c63c040bf"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "199c02fab331fbed18b385c3ddbb35bb638dfa4d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-shared-mime-info-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-shared-mime-info-locale-en-gb-665e2444-30e5-5482-9358-ffcac28a6f99"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "85814c904ddc80284bd3bf377cbc3f5f488a6847"
+      },
+      "externalDocumentId": "DocumentRef-sqlite3",
+      "spdxDocument": "http://spdx.org/spdxdocs/sqlite3-2ab1393e-a480-5274-837e-c10a15345a25"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9272ae716e3d48c1f32d0bcd08a1c5ba0df9b4ff"
+      },
+      "externalDocumentId": "DocumentRef-runtime-sqlite3",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-sqlite3-918106e4-d7d1-5637-849b-c5828c362ce9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "45a3c6d0008e3abe65554dfc33bfc54f458233fc"
+      },
+      "externalDocumentId": "DocumentRef-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-00fc451d-b6e9-5017-9e51-d97c976713e3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "bd41c6539f01e68d1c78325ad8382be6e6064deb"
+      },
+      "externalDocumentId": "DocumentRef-runtime-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-systemd-84566080-b04d-5f67-8769-fe1cbefc825c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "51d4aa5f719ffe0fab9112e6b3a6cb181d3f36b5"
+      },
+      "externalDocumentId": "DocumentRef-systemd-compat-units",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-compat-units-4c2c3d30-bc83-5896-8412-23f83f9ba639"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "59d18678f83423f5e65487e76cdb91abec222be8"
+      },
+      "externalDocumentId": "DocumentRef-runtime-systemd-compat-units",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-systemd-compat-units-c8169ccc-84f7-560a-8630-6f329c1cb0f6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2102dad9f556f300f2a4104c3425781af640c4ab"
+      },
+      "externalDocumentId": "DocumentRef-systemd-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-conf-f1e0360f-6d1c-5ac9-856d-d0ef46689d6b"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ccde3ffd2bfb831ba3531c8b1ea6fbf97935181b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-systemd-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-systemd-conf-4b9cb37d-c62a-5f70-b98f-4b2f05b465d2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6186bca9d16c3f1f3d8e7e6f02eca24b29b3bf4e"
+      },
+      "externalDocumentId": "DocumentRef-systemd-extra-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-extra-utils-3ae7c6a3-31da-5eec-b5b6-d574b69223c6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3a8fa7987d92db1fb82f6c89253b85a40f9e1d1c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-systemd-extra-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-systemd-extra-utils-d1bed27e-cf3a-5c2e-afaf-c34179c11031"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f79ee165a1674637ba932b3fcbaf23157a3d1b1b"
+      },
+      "externalDocumentId": "DocumentRef-systemd-serialgetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-serialgetty-bcd2c8c3-ad88-5b41-83d2-06676a42f89f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e96aa2e8d024cbcf66668607efe297d904329ef"
+      },
+      "externalDocumentId": "DocumentRef-runtime-systemd-serialgetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-systemd-serialgetty-d79e8b42-66f7-5b46-a59f-18fd37d8be13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "38936120385b626fd7660a41bb33f2d27ab394b1"
+      },
+      "externalDocumentId": "DocumentRef-systemd-udev-rules",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-udev-rules-d86f4a71-4946-55af-a57d-95e331103e63"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8a6758e456d739340eaeee36ba3811c7ab5855d8"
+      },
+      "externalDocumentId": "DocumentRef-runtime-systemd-udev-rules",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-systemd-udev-rules-5a95e3c9-4280-5acd-b882-71a0c3ab5429"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a575a44a61fb7c3dc3cacff7fb574c2febdfacfd"
+      },
+      "externalDocumentId": "DocumentRef-systemd-vconsole-setup",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-vconsole-setup-c2ae399a-5b83-544a-bcef-b088799fcc41"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "05598c68f233a0d298a5e699638f8c8a9cdc3302"
+      },
+      "externalDocumentId": "DocumentRef-runtime-systemd-vconsole-setup",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-systemd-vconsole-setup-ef8b7076-38c9-5642-a3f4-3bfec55907bc"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3e3ca85b0cbb62f5053a61b7b924d15cd96cccf4"
+      },
+      "externalDocumentId": "DocumentRef-tinycbor",
+      "spdxDocument": "http://spdx.org/spdxdocs/tinycbor-bfff19dd-0827-59c4-8a0b-7925cf0c5625"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1874dfb7fc2dee52eeed48697620e6ded987101f"
+      },
+      "externalDocumentId": "DocumentRef-runtime-tinycbor",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-tinycbor-7be9f955-15f1-5aab-9289-cbd64f10f8e8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1dc7ad8f0c99f6e6469bc539a39f6d74d74cfd39"
+      },
+      "externalDocumentId": "DocumentRef-udev",
+      "spdxDocument": "http://spdx.org/spdxdocs/udev-71788d32-2a9e-54e1-948e-381440fd3488"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2b467795d0a1d3ff5d7b12bcb47ae61267918f45"
+      },
+      "externalDocumentId": "DocumentRef-runtime-udev",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-udev-5d4bead7-8f8a-5aa2-8d53-67b1e60d3351"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8c1bd7f26a8f2ecf02d4b12a605781f64b1297a6"
+      },
+      "externalDocumentId": "DocumentRef-udev-hwdb",
+      "spdxDocument": "http://spdx.org/spdxdocs/udev-hwdb-536f650c-610d-59fd-a9aa-822d06daa180"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7be99e7ebb9ec210c6b39fdcce1695574ca6e2a7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-udev-hwdb",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-udev-hwdb-b0e4eab9-2982-5a1a-a49d-1a43dadc8a0f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ec9f5577d0199edbc2fc004074937b1f4851fc0a"
+      },
+      "externalDocumentId": "DocumentRef-update-alternatives-opkg",
+      "spdxDocument": "http://spdx.org/spdxdocs/update-alternatives-opkg-bee129de-d7c1-5485-9609-be84c78b0544"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cefb76b93bf8708c6fa3911316a3b51a2346c508"
+      },
+      "externalDocumentId": "DocumentRef-runtime-update-alternatives-opkg",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-update-alternatives-opkg-47d58a72-d92d-577f-b68d-f55d1c3731bb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "87ee6998d0dc22963e11235741673079388bb97c"
+      },
+      "externalDocumentId": "DocumentRef-update-rc.d",
+      "spdxDocument": "http://spdx.org/spdxdocs/update-rc.d-fde24237-98eb-54c2-b3e8-cc69971dd42c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9b632d1c5cca768095886da3ebe3cb57752413b0"
+      },
+      "externalDocumentId": "DocumentRef-runtime-update-rc.d",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-update-rc.d-91536303-d4bc-55bf-bad5-db561c40958c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "65981fa71c50a245677dd7cc3c96a35ce8bce8b6"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-agetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-agetty-c6cafcdd-59a0-5ad2-90e5-60aee3d34c85"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f5a8488cf5768dc3169e17233a93c59a1a5afd23"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-agetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-agetty-a1cdbf83-6489-5ec5-8318-f22c857f72b5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c8dc2b0c6ff6b6120aba92cc7d6c7f1670746eab"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-fcntl-lock",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-fcntl-lock-c94e31fd-7c08-58ac-8ea6-76e69e3139ae"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5389307df081d2eb69c5a73d58efb3213411e725"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-fcntl-lock",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-fcntl-lock-5cfefacf-b117-52a6-85db-3ef606e78391"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "be5bc7ede9c91fbe6553f3cc29c7788d3018114c"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-fsck",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-fsck-424e2cc7-cd52-5415-8f26-758d0128cde4"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4f9242a957fe60d3fe7aa1c4cfa48c0bf8bca850"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-fsck",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-fsck-85f22b94-d738-5e21-8392-d6cf45eeeec9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b1a2435267f097e8ad44b282ee00e7b06451080"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-mount",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-mount-5e3a3943-9fdf-52d9-a674-935de1669932"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "bbd30c4fe64c31ece4ce093482f1af02f43077d2"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-mount",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-mount-c8c6cf2e-5276-5be0-949f-7215fe6497b7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "514b48903099466ef473f2ccedb52b67a35bc38d"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-sulogin",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-sulogin-1f8fcb7f-8d5d-5de4-9157-039376aff190"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "218ffeb1bb12ecda9d207b5ef60c04f26d27f84a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-sulogin",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-sulogin-fdd6f644-805b-5587-8229-753203fe7b21"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7874c0c05acb4e7c897295a97f207d1516330d88"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-swapoff",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-swapoff-f8c62027-3840-5ba8-b83d-9f81309a4c49"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "193177b812221a695b2671660680e621432dbc3c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-swapoff",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-swapoff-d2ae362d-a17c-578e-9aee-a78cd6c4599d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "42cce7ffc9a10eedc4ea7ffb52bd2308a3d00b7d"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-swapon",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-swapon-dc14390d-db0a-5415-9f68-ce26cabcc981"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "277eafac6001977778648262aa0413d8cd1aeae9"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-swapon",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-swapon-7a1f7174-3a1b-5276-ad4a-043354d66dcc"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d8eee8b9e17da3828c2ab11157de3314743b9158"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-swaponoff",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-swaponoff-59a21ba1-e58a-5f44-b5cb-37836f16d01a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e4fc31dbbf3c4bd4ff2ec2b2c8acf363c5c34413"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-swaponoff",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-swaponoff-7dd324e6-2318-5bb5-b10f-dfc6f4411bcc"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "82a7a3a1bc58c08d4f037de2d9df5d223763801a"
+      },
+      "externalDocumentId": "DocumentRef-util-linux-umount",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-umount-1f25cc32-74e5-5a5c-9bf6-58d9abd4e93a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1c082c38bb13693ddfe8d387a16d7275e1fab5"
+      },
+      "externalDocumentId": "DocumentRef-runtime-util-linux-umount",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-util-linux-umount-771f8f18-5c7c-53dd-b19d-6b90b8dd39e9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ae9d9eec931b09003a65926a8468fd93bd094e08"
+      },
+      "externalDocumentId": "DocumentRef-volatile-binds",
+      "spdxDocument": "http://spdx.org/spdxdocs/volatile-binds-cd179282-7f9d-5c0c-8cd9-b7806645ea8d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "bbc61eda91456b27279e3aef339612af12b688e5"
+      },
+      "externalDocumentId": "DocumentRef-runtime-volatile-binds",
+      "spdxDocument": "http://spdx.org/spdxdocs/runtime-volatile-binds-025b0410-9b1b-591d-b3c1-83bce2dac3b4"
+    }
+  ],
+  "name": "acme-gateway-image-qemuarm64.rootfs-20261030170952",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "acme-gateway-image",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-acme-gatewayd:SPDXRef-Package-acme-gatewayd",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for acme-gatewayd",
+      "relatedSpdxElement": "DocumentRef-runtime-acme-gatewayd:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-acme-mcu-firmware:SPDXRef-Package-acme-mcu-firmware",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for acme-mcu-firmware",
+      "relatedSpdxElement": "DocumentRef-runtime-acme-mcu-firmware:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-alsa-conf:SPDXRef-Package-alsa-conf",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for alsa-conf",
+      "relatedSpdxElement": "DocumentRef-runtime-alsa-conf:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-alsa-state:SPDXRef-Package-alsa-state",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for alsa-state",
+      "relatedSpdxElement": "DocumentRef-runtime-alsa-state:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-alsa-states:SPDXRef-Package-alsa-states",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for alsa-states",
+      "relatedSpdxElement": "DocumentRef-runtime-alsa-states:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-alsa-ucm-conf:SPDXRef-Package-alsa-ucm-conf",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for alsa-ucm-conf",
+      "relatedSpdxElement": "DocumentRef-runtime-alsa-ucm-conf:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-alsa-utils-alsactl:SPDXRef-Package-alsa-utils-alsactl",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for alsa-utils-alsactl",
+      "relatedSpdxElement": "DocumentRef-runtime-alsa-utils-alsactl:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-alsa-utils-amixer:SPDXRef-Package-alsa-utils-amixer",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for alsa-utils-amixer",
+      "relatedSpdxElement": "DocumentRef-runtime-alsa-utils-amixer:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-avahi-daemon:SPDXRef-Package-avahi-daemon",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for avahi-daemon",
+      "relatedSpdxElement": "DocumentRef-runtime-avahi-daemon:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-avahi-locale-en-gb:SPDXRef-Package-avahi-locale-en-gb",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for avahi-locale-en-gb",
+      "relatedSpdxElement": "DocumentRef-runtime-avahi-locale-en-gb:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-base-files:SPDXRef-Package-base-files",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for base-files",
+      "relatedSpdxElement": "DocumentRef-runtime-base-files:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-base-passwd:SPDXRef-Package-base-passwd",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for base-passwd",
+      "relatedSpdxElement": "DocumentRef-runtime-base-passwd:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-bluez5:SPDXRef-Package-bluez5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for bluez5",
+      "relatedSpdxElement": "DocumentRef-runtime-bluez5:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-busybox:SPDXRef-Package-busybox",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for busybox",
+      "relatedSpdxElement": "DocumentRef-runtime-busybox:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-busybox-syslog:SPDXRef-Package-busybox-syslog",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for busybox-syslog",
+      "relatedSpdxElement": "DocumentRef-runtime-busybox-syslog:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-busybox-udhcpc:SPDXRef-Package-busybox-udhcpc",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for busybox-udhcpc",
+      "relatedSpdxElement": "DocumentRef-runtime-busybox-udhcpc:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-can-utils:SPDXRef-Package-can-utils",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for can-utils",
+      "relatedSpdxElement": "DocumentRef-runtime-can-utils:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-cjson:SPDXRef-Package-cjson",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for cjson",
+      "relatedSpdxElement": "DocumentRef-runtime-cjson:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-dbus-1:SPDXRef-Package-dbus-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for dbus-1",
+      "relatedSpdxElement": "DocumentRef-runtime-dbus-1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-dbus-common:SPDXRef-Package-dbus-common",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for dbus-common",
+      "relatedSpdxElement": "DocumentRef-runtime-dbus-common:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-dbus-tools:SPDXRef-Package-dbus-tools",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for dbus-tools",
+      "relatedSpdxElement": "DocumentRef-runtime-dbus-tools:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-dosfstools:SPDXRef-Package-dosfstools",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for dosfstools",
+      "relatedSpdxElement": "DocumentRef-runtime-dosfstools:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-e2fsprogs-e2fsck:SPDXRef-Package-e2fsprogs-e2fsck",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for e2fsprogs-e2fsck",
+      "relatedSpdxElement": "DocumentRef-runtime-e2fsprogs-e2fsck:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-glibc-locale-en-gb:SPDXRef-Package-glibc-locale-en-gb",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for glibc-locale-en-gb",
+      "relatedSpdxElement": "DocumentRef-runtime-glibc-locale-en-gb:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-iproute2:SPDXRef-Package-iproute2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for iproute2",
+      "relatedSpdxElement": "DocumentRef-runtime-iproute2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-iproute2-ip:SPDXRef-Package-iproute2-ip",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for iproute2-ip",
+      "relatedSpdxElement": "DocumentRef-runtime-iproute2-ip:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kbd:SPDXRef-Package-kbd",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kbd",
+      "relatedSpdxElement": "DocumentRef-runtime-kbd:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kbd-consolefonts:SPDXRef-Package-kbd-consolefonts",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kbd-consolefonts",
+      "relatedSpdxElement": "DocumentRef-runtime-kbd-consolefonts:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kbd-keymaps:SPDXRef-Package-kbd-keymaps",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kbd-keymaps",
+      "relatedSpdxElement": "DocumentRef-runtime-kbd-keymaps:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kbd-keymaps-pine:SPDXRef-Package-kbd-keymaps-pine",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kbd-keymaps-pine",
+      "relatedSpdxElement": "DocumentRef-runtime-kbd-keymaps-pine:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kernel-6.6.151-yocto-standard:SPDXRef-Package-kernel-6.6.151-yocto-standard",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kernel-6.6.151-yocto-standard",
+      "relatedSpdxElement": "DocumentRef-runtime-kernel-6.6.151-yocto-standard:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kernel-image-6.6.151-yocto-standard:SPDXRef-Package-kernel-image-6.6.151-yocto-standard",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kernel-image-6.6.151-yocto-standard",
+      "relatedSpdxElement": "DocumentRef-runtime-kernel-image-6.6.151-yocto-standard:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kernel-image-image-6.6.151-yocto-standard:SPDXRef-Package-kernel-image-image-6.6.151-yocto-standard",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kernel-image-image-6.6.151-yocto-standard",
+      "relatedSpdxElement": "DocumentRef-runtime-kernel-image-image-6.6.151-yocto-standard:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kernel-module-nls-utf8-6.6.151-yocto-standard:SPDXRef-Package-kernel-module-nls-utf8-6.6.151-yocto-standard",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kernel-module-nls-utf8-6.6.151-yocto-standard",
+      "relatedSpdxElement": "DocumentRef-runtime-kernel-module-nls-utf8-6.6.151-yocto-standard:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kernel-module-sch-fq-codel-6.6.151-yocto-standard:SPDXRef-Package-kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kernel-module-sch-fq-codel-6.6.151-yocto-standard",
+      "relatedSpdxElement": "DocumentRef-runtime-kernel-module-sch-fq-codel-6.6.151-yocto-standard:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-kmod:SPDXRef-Package-kmod",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for kmod",
+      "relatedSpdxElement": "DocumentRef-runtime-kmod:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-ldconfig:SPDXRef-Package-ldconfig",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for ldconfig",
+      "relatedSpdxElement": "DocumentRef-runtime-ldconfig:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libacl1:SPDXRef-Package-libacl1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libacl1",
+      "relatedSpdxElement": "DocumentRef-runtime-libacl1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libasound2:SPDXRef-Package-libasound2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libasound2",
+      "relatedSpdxElement": "DocumentRef-runtime-libasound2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libattr1:SPDXRef-Package-libattr1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libattr1",
+      "relatedSpdxElement": "DocumentRef-runtime-libattr1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libavahi-common3:SPDXRef-Package-libavahi-common3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libavahi-common3",
+      "relatedSpdxElement": "DocumentRef-runtime-libavahi-common3:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libavahi-core7:SPDXRef-Package-libavahi-core7",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libavahi-core7",
+      "relatedSpdxElement": "DocumentRef-runtime-libavahi-core7:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libblkid1:SPDXRef-Package-libblkid1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libblkid1",
+      "relatedSpdxElement": "DocumentRef-runtime-libblkid1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libc6:SPDXRef-Package-libc6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libc6",
+      "relatedSpdxElement": "DocumentRef-runtime-libc6:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libcap:SPDXRef-Package-libcap",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libcap",
+      "relatedSpdxElement": "DocumentRef-runtime-libcap:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libcom-err2:SPDXRef-Package-libcom-err2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libcom-err2",
+      "relatedSpdxElement": "DocumentRef-runtime-libcom-err2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libcrypt2:SPDXRef-Package-libcrypt2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libcrypt2",
+      "relatedSpdxElement": "DocumentRef-runtime-libcrypt2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libcrypto3:SPDXRef-Package-libcrypto3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libcrypto3",
+      "relatedSpdxElement": "DocumentRef-runtime-libcrypto3:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libdaemon0:SPDXRef-Package-libdaemon0",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libdaemon0",
+      "relatedSpdxElement": "DocumentRef-runtime-libdaemon0:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libdbus-1-3:SPDXRef-Package-libdbus-1-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libdbus-1-3",
+      "relatedSpdxElement": "DocumentRef-runtime-libdbus-1-3:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libe2p2:SPDXRef-Package-libe2p2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libe2p2",
+      "relatedSpdxElement": "DocumentRef-runtime-libe2p2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libelf1:SPDXRef-Package-libelf1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libelf1",
+      "relatedSpdxElement": "DocumentRef-runtime-libelf1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libexpat1:SPDXRef-Package-libexpat1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libexpat1",
+      "relatedSpdxElement": "DocumentRef-runtime-libexpat1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libext2fs2:SPDXRef-Package-libext2fs2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libext2fs2",
+      "relatedSpdxElement": "DocumentRef-runtime-libext2fs2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libffi8:SPDXRef-Package-libffi8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libffi8",
+      "relatedSpdxElement": "DocumentRef-runtime-libffi8:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libgcc1:SPDXRef-Package-libgcc1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libgcc1",
+      "relatedSpdxElement": "DocumentRef-runtime-libgcc1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libglib-2.0-0:SPDXRef-Package-libglib-2.0-0",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libglib-2.0-0",
+      "relatedSpdxElement": "DocumentRef-runtime-libglib-2.0-0:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libglib-2.0-locale-en-gb:SPDXRef-Package-libglib-2.0-locale-en-gb",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libglib-2.0-locale-en-gb",
+      "relatedSpdxElement": "DocumentRef-runtime-libglib-2.0-locale-en-gb:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libkmod2:SPDXRef-Package-libkmod2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libkmod2",
+      "relatedSpdxElement": "DocumentRef-runtime-libkmod2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-liblzma5:SPDXRef-Package-liblzma5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for liblzma5",
+      "relatedSpdxElement": "DocumentRef-runtime-liblzma5:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libmnl0:SPDXRef-Package-libmnl0",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libmnl0",
+      "relatedSpdxElement": "DocumentRef-runtime-libmnl0:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libmodbus5:SPDXRef-Package-libmodbus5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libmodbus5",
+      "relatedSpdxElement": "DocumentRef-runtime-libmodbus5:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libmosquitto1:SPDXRef-Package-libmosquitto1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libmosquitto1",
+      "relatedSpdxElement": "DocumentRef-runtime-libmosquitto1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libmount1:SPDXRef-Package-libmount1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libmount1",
+      "relatedSpdxElement": "DocumentRef-runtime-libmount1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libnss-mdns:SPDXRef-Package-libnss-mdns",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libnss-mdns",
+      "relatedSpdxElement": "DocumentRef-runtime-libnss-mdns:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libnss-myhostname2:SPDXRef-Package-libnss-myhostname2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libnss-myhostname2",
+      "relatedSpdxElement": "DocumentRef-runtime-libnss-myhostname2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libnss-systemd2:SPDXRef-Package-libnss-systemd2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libnss-systemd2",
+      "relatedSpdxElement": "DocumentRef-runtime-libnss-systemd2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libpam:SPDXRef-Package-libpam",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libpam",
+      "relatedSpdxElement": "DocumentRef-runtime-libpam:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libpam-runtime:SPDXRef-Package-libpam-runtime",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libpam-runtime",
+      "relatedSpdxElement": "DocumentRef-runtime-libpam-runtime:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libpcre2:SPDXRef-Package-libpcre2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libpcre2",
+      "relatedSpdxElement": "DocumentRef-runtime-libpcre2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libreadline8:SPDXRef-Package-libreadline8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libreadline8",
+      "relatedSpdxElement": "DocumentRef-runtime-libreadline8:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libseccomp:SPDXRef-Package-libseccomp",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libseccomp",
+      "relatedSpdxElement": "DocumentRef-runtime-libseccomp:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libsmartcols1:SPDXRef-Package-libsmartcols1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libsmartcols1",
+      "relatedSpdxElement": "DocumentRef-runtime-libsmartcols1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libsqlite3-0:SPDXRef-Package-libsqlite3-0",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libsqlite3-0",
+      "relatedSpdxElement": "DocumentRef-runtime-libsqlite3-0:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libssl3:SPDXRef-Package-libssl3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libssl3",
+      "relatedSpdxElement": "DocumentRef-runtime-libssl3:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libstdc++6:SPDXRef-Package-libstdc++6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libstdc++6",
+      "relatedSpdxElement": "DocumentRef-runtime-libstdc++6:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libsystemd-shared:SPDXRef-Package-libsystemd-shared",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libsystemd-shared",
+      "relatedSpdxElement": "DocumentRef-runtime-libsystemd-shared:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libsystemd0:SPDXRef-Package-libsystemd0",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libsystemd0",
+      "relatedSpdxElement": "DocumentRef-runtime-libsystemd0:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libtinfo5:SPDXRef-Package-libtinfo5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libtinfo5",
+      "relatedSpdxElement": "DocumentRef-runtime-libtinfo5:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libtirpc3:SPDXRef-Package-libtirpc3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libtirpc3",
+      "relatedSpdxElement": "DocumentRef-runtime-libtirpc3:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libudev1:SPDXRef-Package-libudev1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libudev1",
+      "relatedSpdxElement": "DocumentRef-runtime-libudev1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libuuid1:SPDXRef-Package-libuuid1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libuuid1",
+      "relatedSpdxElement": "DocumentRef-runtime-libuuid1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libuv1:SPDXRef-Package-libuv1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libuv1",
+      "relatedSpdxElement": "DocumentRef-runtime-libuv1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libwebsockets-evlib-uv:SPDXRef-Package-libwebsockets-evlib-uv",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libwebsockets-evlib-uv",
+      "relatedSpdxElement": "DocumentRef-runtime-libwebsockets-evlib-uv:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libwebsockets19:SPDXRef-Package-libwebsockets19",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libwebsockets19",
+      "relatedSpdxElement": "DocumentRef-runtime-libwebsockets19:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libx11-6:SPDXRef-Package-libx11-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libx11-6",
+      "relatedSpdxElement": "DocumentRef-runtime-libx11-6:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libxau6:SPDXRef-Package-libxau6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libxau6",
+      "relatedSpdxElement": "DocumentRef-runtime-libxau6:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libxcb1:SPDXRef-Package-libxcb1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libxcb1",
+      "relatedSpdxElement": "DocumentRef-runtime-libxcb1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libxdmcp6:SPDXRef-Package-libxdmcp6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libxdmcp6",
+      "relatedSpdxElement": "DocumentRef-runtime-libxdmcp6:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libxml2:SPDXRef-Package-libxml2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libxml2",
+      "relatedSpdxElement": "DocumentRef-runtime-libxml2:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libz1:SPDXRef-Package-libz1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libz1",
+      "relatedSpdxElement": "DocumentRef-runtime-libz1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-libzstd1:SPDXRef-Package-libzstd1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for libzstd1",
+      "relatedSpdxElement": "DocumentRef-runtime-libzstd1:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-locale-base-c:SPDXRef-Package-locale-base-c",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for locale-base-c",
+      "relatedSpdxElement": "DocumentRef-runtime-locale-base-c:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-locale-base-en-gb:SPDXRef-Package-locale-base-en-gb",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for locale-base-en-gb",
+      "relatedSpdxElement": "DocumentRef-runtime-locale-base-en-gb:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-locale-base-en-us:SPDXRef-Package-locale-base-en-us",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for locale-base-en-us",
+      "relatedSpdxElement": "DocumentRef-runtime-locale-base-en-us:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-mosquitto:SPDXRef-Package-mosquitto",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for mosquitto",
+      "relatedSpdxElement": "DocumentRef-runtime-mosquitto:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-mosquitto-clients:SPDXRef-Package-mosquitto-clients",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for mosquitto-clients",
+      "relatedSpdxElement": "DocumentRef-runtime-mosquitto-clients:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-ncurses-terminfo-base:SPDXRef-Package-ncurses-terminfo-base",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for ncurses-terminfo-base",
+      "relatedSpdxElement": "DocumentRef-runtime-ncurses-terminfo-base:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-netbase:SPDXRef-Package-netbase",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for netbase",
+      "relatedSpdxElement": "DocumentRef-runtime-netbase:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-openssh:SPDXRef-Package-openssh",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for openssh",
+      "relatedSpdxElement": "DocumentRef-runtime-openssh:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-openssh-keygen:SPDXRef-Package-openssh-keygen",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for openssh-keygen",
+      "relatedSpdxElement": "DocumentRef-runtime-openssh-keygen:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-openssh-scp:SPDXRef-Package-openssh-scp",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for openssh-scp",
+      "relatedSpdxElement": "DocumentRef-runtime-openssh-scp:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-openssh-sftp-server:SPDXRef-Package-openssh-sftp-server",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for openssh-sftp-server",
+      "relatedSpdxElement": "DocumentRef-runtime-openssh-sftp-server:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-openssh-ssh:SPDXRef-Package-openssh-ssh",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for openssh-ssh",
+      "relatedSpdxElement": "DocumentRef-runtime-openssh-ssh:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-openssh-sshd:SPDXRef-Package-openssh-sshd",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for openssh-sshd",
+      "relatedSpdxElement": "DocumentRef-runtime-openssh-sshd:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-openssl-conf:SPDXRef-Package-openssl-conf",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for openssl-conf",
+      "relatedSpdxElement": "DocumentRef-runtime-openssl-conf:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-openssl-ossl-module-legacy:SPDXRef-Package-openssl-ossl-module-legacy",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for openssl-ossl-module-legacy",
+      "relatedSpdxElement": "DocumentRef-runtime-openssl-ossl-module-legacy:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-os-release:SPDXRef-Package-os-release",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for os-release",
+      "relatedSpdxElement": "DocumentRef-runtime-os-release:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base-alsa:SPDXRef-Package-packagegroup-base-alsa",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base-alsa",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base-alsa:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base-bluetooth:SPDXRef-Package-packagegroup-base-bluetooth",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base-bluetooth",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base-bluetooth:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base-extended:SPDXRef-Package-packagegroup-base-extended",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base-extended",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base-extended:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base-ipv6:SPDXRef-Package-packagegroup-base-ipv6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base-ipv6",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base-ipv6:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base-nfs:SPDXRef-Package-packagegroup-base-nfs",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base-nfs",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base-nfs:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base-usbgadget:SPDXRef-Package-packagegroup-base-usbgadget",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base-usbgadget",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base-usbgadget:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base-vfat:SPDXRef-Package-packagegroup-base-vfat",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base-vfat",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base-vfat:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-base-zeroconf:SPDXRef-Package-packagegroup-base-zeroconf",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-base-zeroconf",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-base-zeroconf:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-core-boot:SPDXRef-Package-packagegroup-core-boot",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-core-boot",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-core-boot:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-core-ssh-openssh:SPDXRef-Package-packagegroup-core-ssh-openssh",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-core-ssh-openssh",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-core-ssh-openssh:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-distro-base:SPDXRef-Package-packagegroup-distro-base",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-distro-base",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-distro-base:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-packagegroup-machine-base:SPDXRef-Package-packagegroup-machine-base",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for packagegroup-machine-base",
+      "relatedSpdxElement": "DocumentRef-runtime-packagegroup-machine-base:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-pam-plugin-deny:SPDXRef-Package-pam-plugin-deny",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for pam-plugin-deny",
+      "relatedSpdxElement": "DocumentRef-runtime-pam-plugin-deny:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-pam-plugin-permit:SPDXRef-Package-pam-plugin-permit",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for pam-plugin-permit",
+      "relatedSpdxElement": "DocumentRef-runtime-pam-plugin-permit:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-pam-plugin-umask:SPDXRef-Package-pam-plugin-umask",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for pam-plugin-umask",
+      "relatedSpdxElement": "DocumentRef-runtime-pam-plugin-umask:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-pam-plugin-unix:SPDXRef-Package-pam-plugin-unix",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for pam-plugin-unix",
+      "relatedSpdxElement": "DocumentRef-runtime-pam-plugin-unix:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-pam-plugin-warn:SPDXRef-Package-pam-plugin-warn",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for pam-plugin-warn",
+      "relatedSpdxElement": "DocumentRef-runtime-pam-plugin-warn:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-rpcbind:SPDXRef-Package-rpcbind",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for rpcbind",
+      "relatedSpdxElement": "DocumentRef-runtime-rpcbind:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-shadow:SPDXRef-Package-shadow",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for shadow",
+      "relatedSpdxElement": "DocumentRef-runtime-shadow:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-shadow-base:SPDXRef-Package-shadow-base",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for shadow-base",
+      "relatedSpdxElement": "DocumentRef-runtime-shadow-base:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-shadow-securetty:SPDXRef-Package-shadow-securetty",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for shadow-securetty",
+      "relatedSpdxElement": "DocumentRef-runtime-shadow-securetty:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-shared-mime-info:SPDXRef-Package-shared-mime-info",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for shared-mime-info",
+      "relatedSpdxElement": "DocumentRef-runtime-shared-mime-info:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-shared-mime-info-locale-en-gb:SPDXRef-Package-shared-mime-info-locale-en-gb",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for shared-mime-info-locale-en-gb",
+      "relatedSpdxElement": "DocumentRef-runtime-shared-mime-info-locale-en-gb:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-sqlite3:SPDXRef-Package-sqlite3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for sqlite3",
+      "relatedSpdxElement": "DocumentRef-runtime-sqlite3:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-systemd:SPDXRef-Package-systemd",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for systemd",
+      "relatedSpdxElement": "DocumentRef-runtime-systemd:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-systemd-compat-units:SPDXRef-Package-systemd-compat-units",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for systemd-compat-units",
+      "relatedSpdxElement": "DocumentRef-runtime-systemd-compat-units:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-systemd-conf:SPDXRef-Package-systemd-conf",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for systemd-conf",
+      "relatedSpdxElement": "DocumentRef-runtime-systemd-conf:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-systemd-extra-utils:SPDXRef-Package-systemd-extra-utils",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for systemd-extra-utils",
+      "relatedSpdxElement": "DocumentRef-runtime-systemd-extra-utils:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-systemd-serialgetty:SPDXRef-Package-systemd-serialgetty",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for systemd-serialgetty",
+      "relatedSpdxElement": "DocumentRef-runtime-systemd-serialgetty:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-systemd-udev-rules:SPDXRef-Package-systemd-udev-rules",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for systemd-udev-rules",
+      "relatedSpdxElement": "DocumentRef-runtime-systemd-udev-rules:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-systemd-vconsole-setup:SPDXRef-Package-systemd-vconsole-setup",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for systemd-vconsole-setup",
+      "relatedSpdxElement": "DocumentRef-runtime-systemd-vconsole-setup:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-tinycbor:SPDXRef-Package-tinycbor",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for tinycbor",
+      "relatedSpdxElement": "DocumentRef-runtime-tinycbor:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-udev:SPDXRef-Package-udev",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for udev",
+      "relatedSpdxElement": "DocumentRef-runtime-udev:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-udev-hwdb:SPDXRef-Package-udev-hwdb",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for udev-hwdb",
+      "relatedSpdxElement": "DocumentRef-runtime-udev-hwdb:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-update-alternatives-opkg:SPDXRef-Package-update-alternatives-opkg",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for update-alternatives-opkg",
+      "relatedSpdxElement": "DocumentRef-runtime-update-alternatives-opkg:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-update-rc.d:SPDXRef-Package-update-rc.d",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for update-rc.d",
+      "relatedSpdxElement": "DocumentRef-runtime-update-rc.d:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-agetty:SPDXRef-Package-util-linux-agetty",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-agetty",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-agetty:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-fcntl-lock:SPDXRef-Package-util-linux-fcntl-lock",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-fcntl-lock",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-fcntl-lock:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-fsck:SPDXRef-Package-util-linux-fsck",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-fsck",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-fsck:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-mount:SPDXRef-Package-util-linux-mount",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-mount",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-mount:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-sulogin:SPDXRef-Package-util-linux-sulogin",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-sulogin",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-sulogin:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-swapoff:SPDXRef-Package-util-linux-swapoff",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-swapoff",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-swapoff:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-swapon:SPDXRef-Package-util-linux-swapon",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-swapon",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-swapon:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-swaponoff:SPDXRef-Package-util-linux-swaponoff",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-swaponoff",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-swaponoff:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-util-linux-umount:SPDXRef-Package-util-linux-umount",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for util-linux-umount",
+      "relatedSpdxElement": "DocumentRef-runtime-util-linux-umount:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-volatile-binds:SPDXRef-Package-volatile-binds",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    },
+    {
+      "comment": "Runtime dependencies for volatile-binds",
+      "relatedSpdxElement": "DocumentRef-runtime-volatile-binds:SPDXRef-DOCUMENT",
+      "relationshipType": "OTHER",
+      "spdxElementId": "SPDXRef-Image-acme-gateway-image-qemuarm64.rootfs-20261030170952"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

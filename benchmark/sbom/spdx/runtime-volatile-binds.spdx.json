@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-volatile-binds-025b0410-9b1b-591d-b3c1-83bce2dac3b4",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ae9d9eec931b09003a65926a8468fd93bd094e08"
+      },
+      "externalDocumentId": "DocumentRef-package-volatile-binds",
+      "spdxDocument": "http://spdx.org/spdxdocs/volatile-binds-cd179282-7f9d-5c0c-8cd9-b7806645ea8d"
+    }
+  ],
+  "name": "runtime-volatile-binds",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-volatile-binds:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

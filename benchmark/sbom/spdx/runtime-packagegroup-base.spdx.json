@@ -1,0 +1,151 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-packagegroup-base-88b6a9d4-ad74-5026-ac64-35c7cf4e5182",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b9c09a5901a241e263eaf5644042013f75279267"
+      },
+      "externalDocumentId": "DocumentRef-package-packagegroup-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-7efe0b05-366b-5e3a-9fd1-ecd77ae4a6de"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e54f96deaa5be0e6ebd977f86b46f591e4fd3948"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-base-alsa",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-alsa-2b852bf8-9a49-5f47-9a97-265b24418505"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6aabfd89cb243d2d9b578a7eb1c100e78dc7217a"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-base-bluetooth",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-bluetooth-49bb7cef-98ce-58db-82e0-91047449790d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "39bfeb363beacd2a462fe58c207e3d50e8296155"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-base-ipv6",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-ipv6-520a5ca4-0917-5f11-a7eb-5fc565a0a46f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e38d73e354f275ad2f2bfdabf84f6d8b380d517"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-base-nfs",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-nfs-b1e88c0b-feab-5de5-959d-c2554b23a96a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cf18c201ff8ea194f9517081ba2f25b7af9b2a9e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-base-usbgadget",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-usbgadget-26b55798-684d-5577-b1fe-080e99d09f97"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b5ea482823853478633e71d91810a0cd85fa99a6"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-base-vfat",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-vfat-58e05e84-e723-5f88-8222-ebcbafd4a6b6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "299d120abb19ec64f0a87e23e8f116292a463298"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-base-zeroconf",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-zeroconf-c040c4b8-2c6b-5cc1-bf08-4899f32d4e3e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8175d7e1c794ee95a91fbe572b3a3770402240f6"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-distro-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-distro-base-2fbe2070-45eb-59bb-8bdc-05fc4e58d84f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aaccde6da494c76fa6f7bd2dcc60ba5c8e498182"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-packagegroup-machine-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-machine-base-9b11e73b-80c7-5f52-8756-e240f6fc3931"
+    }
+  ],
+  "name": "runtime-packagegroup-base",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-base-alsa:SPDXRef-Package-packagegroup-base-alsa"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-base-bluetooth:SPDXRef-Package-packagegroup-base-bluetooth"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-base-ipv6:SPDXRef-Package-packagegroup-base-ipv6"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-base-nfs:SPDXRef-Package-packagegroup-base-nfs"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-base-usbgadget:SPDXRef-Package-packagegroup-base-usbgadget"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-base-vfat:SPDXRef-Package-packagegroup-base-vfat"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-base-zeroconf:SPDXRef-Package-packagegroup-base-zeroconf"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-distro-base:SPDXRef-Package-packagegroup-distro-base"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base:SPDXRef-Package-packagegroup-base",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-packagegroup-machine-base:SPDXRef-Package-packagegroup-machine-base"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

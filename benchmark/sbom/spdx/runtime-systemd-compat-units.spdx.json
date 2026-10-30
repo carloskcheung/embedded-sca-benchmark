@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:48:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-systemd-compat-units-c8169ccc-84f7-560a-8630-6f329c1cb0f6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "51d4aa5f719ffe0fab9112e6b3a6cb181d3f36b5"
+      },
+      "externalDocumentId": "DocumentRef-package-systemd-compat-units",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-compat-units-4c2c3d30-bc83-5896-8412-23f83f9ba639"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "45a3c6d0008e3abe65554dfc33bfc54f458233fc"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-00fc451d-b6e9-5017-9e51-d97c976713e3"
+    }
+  ],
+  "name": "runtime-systemd-compat-units",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-compat-units:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-compat-units:SPDXRef-Package-systemd-compat-units",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-systemd:SPDXRef-Package-systemd"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

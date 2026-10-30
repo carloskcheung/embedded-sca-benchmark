@@ -1,0 +1,86 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-shadow-3c279d49-9d3e-577b-9897-58e018cc7dd6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3a6bedbbc9e653a9a3666f436eb850b81a384a55"
+      },
+      "externalDocumentId": "DocumentRef-package-shadow",
+      "spdxDocument": "http://spdx.org/spdxdocs/shadow-10e66933-65cf-5a2d-9a1d-99b12a405441"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f0c3ec2c2928078830b21a7c75df63a55cbed4e7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/base-passwd-78e3ab0a-4686-572d-a886-5105dd9b12de"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b0b79c8dd1cd355d864c990009f1ec6cf46828c"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-shadow-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/shadow-base-10830f16-d406-51f4-a825-bcd04fe6152f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b42deb26b73c98425bdb631e9e01224f96871224"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-shadow-securetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/shadow-securetty-3d9f4740-df93-56a6-b6ac-4efa24b2bf77"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "514b48903099466ef473f2ccedb52b67a35bc38d"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-util-linux-sulogin",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-sulogin-1f8fcb7f-8d5d-5de4-9157-039376aff190"
+    }
+  ],
+  "name": "runtime-shadow",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-shadow:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-shadow:SPDXRef-Package-shadow",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-base-passwd:SPDXRef-Package-base-passwd"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-shadow:SPDXRef-Package-shadow",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-shadow-base:SPDXRef-Package-shadow-base"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-shadow:SPDXRef-Package-shadow",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-shadow-securetty:SPDXRef-Package-shadow-securetty"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-shadow:SPDXRef-Package-shadow",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-util-linux-sulogin:SPDXRef-Package-util-linux-sulogin"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

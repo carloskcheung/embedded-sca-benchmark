@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:48:28Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/os-release-dd6d8653-32be-5392-a3a7-6efb5f2257bd",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "49610916ccb384329e28ac7d2a2c7007bf47bad8"
+      },
+      "externalDocumentId": "DocumentRef-recipe-os-release",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-os-release-5726ff82-7e29-54a8-8caa-3a350f73a65a"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-os-release-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e9188d09a5080f31c3a0647f001d6456ec539899"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "be18fb4a655e10583eb8f321272acc66baf8097fe061a9f7b0aec31467e634db"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/os-release",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "os-release",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-os-release",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-os-release-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "os-release",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d12de3dddbbf9b324b479f17db2a3d79d5bb1d4b"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-os-release:SPDXRef-Recipe-os-release",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-os-release"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-os-release",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-os-release-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-os-release"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

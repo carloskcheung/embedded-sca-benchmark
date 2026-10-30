@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:59:27Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-alsa-utils-amixer-e202bc65-9637-51b7-be65-592b99c50d9d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "26179bc25e49356731471f1e03f00555f4867c39"
+      },
+      "externalDocumentId": "DocumentRef-package-alsa-utils-amixer",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-utils-amixer-857286be-1780-5464-aabc-6a2925b901e0"
+    }
+  ],
+  "name": "runtime-alsa-utils-amixer",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-alsa-utils-amixer:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:49:36Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-netbase-e0dd75fd-3c3c-52b5-87f5-64f56686c87e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "76ea24f0c3fb39729eb420cf626a0f30087c1d2c"
+      },
+      "externalDocumentId": "DocumentRef-package-netbase",
+      "spdxDocument": "http://spdx.org/spdxdocs/netbase-71dc585d-f6ca-56c7-bdb8-31927d544813"
+    }
+  ],
+  "name": "runtime-netbase",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-netbase:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

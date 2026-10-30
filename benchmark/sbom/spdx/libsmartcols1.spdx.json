@@ -1,0 +1,1055 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:31:36Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libsmartcols1-1a38d22f-6b6e-543e-b4ae-6b7f57c9add9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e8a4153ea49dfe3b3970a66139a60a10f7be8ef3"
+      },
+      "externalDocumentId": "DocumentRef-recipe-util-linux",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-util-linux-03796bcc-1e40-51f7-b208-58742d376218"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libsmartcols1-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "66551373d3aa4ccd5a78d0b5705351c5d8e76bf5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aade6347526fc205810a423f7412d516fb0368e9da4eb7c0c115e345e506a45b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libsmartcols.so.1.1.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libsmartcols1",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libsmartcols1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libsmartcols1-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libsmartcols1",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7b3678252bad50fd261051afb27a70a616d5996c"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.39.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-util-linux:SPDXRef-Recipe-util-linux",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libsmartcols1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libsmartcols1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libsmartcols1-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libsmartcols1"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/cpu-set.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/ioctl-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/statfs-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-bsearch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__locale_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/locale_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/wint_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/bits/wctype-wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/err.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/inttypes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/langinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/libgen.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/libintl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/linux/blkzoned.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/linux/fd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/nl_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/prctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/random.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/sendfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/statfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/sysmacros.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/include/wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/sfp-exceptions.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/sfp-machine.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/double.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/extenddftf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/fixtfdi.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/floatditf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/multf3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/quad.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/soft-fp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/subtf3.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/soft-fp/trunctfdf2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/all-io.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/blkdev.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/buffer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/c.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/canonicalize.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/carefulputc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/cctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/color-names.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/cpuset.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/debug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/debugobj.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/encode.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/env.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/fileutils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/idcache.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/jsonwrt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/linux_version.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/loopdev.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/mbsalign.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/mbsedit.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/md5.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/path.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/procfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/sha1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/strutils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/sysfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/timeutils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/ttyutils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/xalloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/include/xxhash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/blkdev.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/buffer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/c_strtod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/canonicalize.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/color-names.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/cpuset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/crc32.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/crc32c.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/crc64.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/encode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/env.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/fileutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/idcache.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/jsonwrt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/linux_version.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/loopdev.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/mangle.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/match.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/mbsalign.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/mbsedit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/md5.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/path.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/procfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/pwdutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/randutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/sha1.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/sha256.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/signames.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/strutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/strv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/sysfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/timeutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/lib/ttyutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/calculate.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/cell.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/column.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/grouping.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/iter.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/libsmartcols.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/line.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/print-api.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/print.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/smartcolsP.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/symbols.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/table.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/version.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    },
+    {
+      "comment": "/usr/src/debug/util-linux/2.39.3/libsmartcols/src/walk.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libsmartcols1-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:49:18Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/acme-mcu-firmware-31f114c7-f7e1-5fc3-98cc-6c9fc621604a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ce7cf86cedd301b09188f93b9b95ee4ce0979fcf"
+      },
+      "externalDocumentId": "DocumentRef-recipe-acme-mcu-firmware",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-acme-mcu-firmware-c9a63ee5-bc2d-5376-b13b-54faa713ea66"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acme-mcu-firmware-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9631b7d85a9b2188e5016629eef9d4f0e2595dbb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "50f04f1666a423a35e81836c13a9f9d2a4b0ebf4f0e59f2d5195bbddc88bd610"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/firmware/acme/ble-controller.hex",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-acme-mcu-firmware-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2f3b1360f2c3468529876aae19f48e8f67f163d8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5630a4a39a99f1d4985a9ea62319215fdb781f084f7f4d8e9c812d541149a1f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/firmware/acme/sensor-node.bin",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "acme-mcu-firmware",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-acme-mcu-firmware",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-acme-mcu-firmware-1",
+        "SPDXRef-PackagedFile-acme-mcu-firmware-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "acme-mcu-firmware",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "b0f43d7ab3eba190639d067ab3220a059654f4ba"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-acme-mcu-firmware:SPDXRef-Recipe-acme-mcu-firmware",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-acme-mcu-firmware"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-acme-mcu-firmware",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acme-mcu-firmware-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acme-mcu-firmware"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-acme-mcu-firmware-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-acme-mcu-firmware"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-util-linux-fsck-85f22b94-d738-5e21-8392-d6cf45eeeec9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "be5bc7ede9c91fbe6553f3cc29c7788d3018114c"
+      },
+      "externalDocumentId": "DocumentRef-package-util-linux-fsck",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-fsck-424e2cc7-cd52-5415-8f26-758d0128cde4"
+    }
+  ],
+  "name": "runtime-util-linux-fsck",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-fsck:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

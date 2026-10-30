@@ -1,0 +1,91 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:50:31Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2",
+  "name": "recipe-zlib-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-zlib-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:50:31Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:zlib:zlib:1.3.1:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:gnu:zlib:1.3.1:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://zlib.net/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Zlib",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "zlib-native",
+      "sourceInfo": "CVEs fixed: CVE-2026-27171",
+      "summary": "Zlib Compression Library",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.3.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-zlib-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://zlib.net/zlib-1.3.1.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "zlib-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-zlib-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-zlib-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-zlib-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-zlib-native-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

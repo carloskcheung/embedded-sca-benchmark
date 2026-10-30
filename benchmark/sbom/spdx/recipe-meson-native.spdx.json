@@ -1,0 +1,152 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:26:40Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-meson-native-c406ca80-e1f3-5f06-98d6-b7b62049c315",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d4f5347624a0bfabd3fd992c77b3dba19d992da5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-build-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-build-native-31f01149-e917-52f1-a38e-ae049be674fb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aa574517cc2a48e4ddeb3da163cf72a33af69989"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-installer-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-installer-native-6a2f8ac3-c10d-5155-9b98-c3e070517152"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d7c5780e29e322c2d9bd3f877d1806d65775ff61"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-setuptools-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-setuptools-native-92b01c14-7992-558f-a0a2-15e98166b4eb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7582083c20470340448e5cd1ce34ac251649b6b5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-wheel-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-wheel-native-7a4afc6e-8440-50b2-8bb9-a733e12ef1a6"
+    }
+  ],
+  "name": "recipe-meson-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-meson-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T01:26:40Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Meson is a build system designed to increase programmer productivity. It does this by providing a fast, simple and easy to use interface for modern software development tools and practices.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:meson:1.3.1:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://mesonbuild.com",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "meson-native",
+      "summary": "A high performance build system",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.3.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-meson-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6020568bdede1643d4fb41e28215be38eff5d52da28ac7d125457c59e0032ad7"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/mesonbuild/meson/releases//download/1.3.1/meson-1.3.1.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "meson-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-meson-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-meson-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-meson-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-meson-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-meson-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-build-native:SPDXRef-Recipe-python3-build-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-meson-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-installer-native:SPDXRef-Recipe-python3-installer-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-meson-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-meson-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-setuptools-native:SPDXRef-Recipe-python3-setuptools-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-meson-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-wheel-native:SPDXRef-Recipe-python3-wheel-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

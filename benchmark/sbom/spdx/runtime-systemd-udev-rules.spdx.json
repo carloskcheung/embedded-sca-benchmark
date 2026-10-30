@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-systemd-udev-rules-5a95e3c9-4280-5acd-b882-71a0c3ab5429",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "38936120385b626fd7660a41bb33f2d27ab394b1"
+      },
+      "externalDocumentId": "DocumentRef-package-systemd-udev-rules",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-udev-rules-d86f4a71-4946-55af-a57d-95e331103e63"
+    }
+  ],
+  "name": "runtime-systemd-udev-rules",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-udev-rules:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

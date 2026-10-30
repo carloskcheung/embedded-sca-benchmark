@@ -1,0 +1,90 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:00:43Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-unzip-native-973eef0c-f234-504f-abce-ad53e966428c",
+  "name": "recipe-unzip-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-unzip-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:00:43Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Info-ZIP's purpose is to provide free, portable, high-quality versions of the Zip and UnZip compressor-archiver utilities that are compatible with the DOS-based PKZIP by PKWARE, Inc.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:unzip:6.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.info-zip.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Info-ZIP",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "unzip-native",
+      "sourceInfo": "CVEs fixed: CVE-2016-9844 CVE-2021-4217 CVE-2014-8141 CVE-2014-9636 CVE-2019-13232 CVE-2014-9913 CVE-2015-7696 CVE-2008-0888 CVE-2018-18384 CVE-2018-1000035 CVE-2014-8139 CVE-2014-8140 CVE-2015-7697 CVE-2022-0530 CVE-2022-0529 CVE-2015-1315",
+      "summary": "Utilities for extracting and viewing files in .zip archives",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "6.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-unzip-native-1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "62b490407489521db863b523a7f86375"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://downloads.sourceforge.net/infozip/UnZip 6.x (latest)/UnZip 6.0/unzip60.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "unzip-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-unzip-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-unzip-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-unzip-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-unzip-native-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,2795 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:29:34Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libstdc++6-8c6836f0-a246-5604-9347-3e26ee1b4429",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libstdc++6-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ef218799d35e339a37053592229f6009306a72db"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8dd0cfc329da9954e5df8bcf8952eaee8cdc21f78d5e32723f3d77e6d55c79a2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libstdc++.so.6.0.32",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libstdc++6",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libstdc++6",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libstdc++6-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-with-GCC-exception",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libstdc++6",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "104e4a02c2e5d188704438e97bdd9a68255f461e"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "13.5.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libstdc++6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libstdc++6",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libstdc++6-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libstdc++6"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/atomic_wide_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/fenv-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/statvfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-least.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-bsearch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-float.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_rwlock-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__fpos_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__locale_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clock_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/locale_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/mbstate_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/wint_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/bits/wctype-wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/fenv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/iconv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/langinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/libintl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/math.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/nl_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/sendfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/single_threaded.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/statvfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/sysinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/sys/uio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/wchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/include/wctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/unwind.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/include/aarch64-poky-linux/bits/c++config.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/include/aarch64-poky-linux/bits/gthr-default.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/libsupc++/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/libsupc++/atomicity.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/libsupc++/cp-demangle.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++11/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++11/ctype_configure_char.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++11/ctype_members.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++17/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++20/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++20/tzdata.zi.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/basic_file.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/c++locale.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/codecvt_members.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/collate_members.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/collate_members_cow.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/messages_members.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/messages_members_cow.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/monetary_members.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/monetary_members_cow.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/numeric_members.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/numeric_members_cow.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/aarch64-poky-linux/libstdc++-v3/src/c++98/time_members.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/include/demangle.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libgcc/unwind-pe.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libiberty/cp-demangle.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/cpu/generic/atomic_word.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/cpu/generic/cxxabi_tweaks.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/io/basic_file_stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/io/c_io_stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/locale/gnu/c++locale_internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/locale/gnu/c_locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/locale/gnu/messages_members.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/locale/gnu/time_members.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/os/generic/error_constants.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/os/gnu-linux/ctype_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/config/os/gnu-linux/ctype_inline.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/backward/auto_ptr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/backward/strstream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/algorithmfwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/align.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/alloc_traits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/allocated_ptr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/allocator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/atomic_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/atomic_futex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/atomic_wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/basic_ios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/basic_ios.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/basic_string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/basic_string.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/boost_concept_check.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/char_traits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/charconv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/chrono.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/codecvt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/cow_string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/cpp_type_traits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/deque.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/enable_special_members.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/fs_dir.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/fs_fwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/fs_ops.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/fs_path.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/fstream.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/functexcept.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/functional_hash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/gslice.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/gslice_array.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/hashtable_policy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/indirect_array.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/invoke.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/ios_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/istream.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/iterator_concepts.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/locale_classes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/locale_classes.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/locale_conv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/locale_facets.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/locale_facets.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/locale_facets_nonio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/locale_facets_nonio.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/mask_array.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/memory_resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/move.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/new_allocator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/ostream.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/ostream_insert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/parse_numbers.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/postypes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/predefined_ops.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/ptr_traits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/quoted_string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/random.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/ranges_algo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/ranges_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/ranges_cmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/ranges_util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/refwrap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/regex_error.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/shared_ptr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/shared_ptr_atomic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/shared_ptr_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/slice_array.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/sstream.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/std_abs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/std_function.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/std_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/std_thread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_algo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_algobase.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_construct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_deque.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_function.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_heap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_iterator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_iterator_base_funcs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_iterator_base_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_pair.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_stack.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_tempbuf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_tree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_uninitialized.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stl_vector.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/streambuf.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/streambuf_iterator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/string_view.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/stringfwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/unique_lock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/unique_ptr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/uses_allocator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/utility.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/valarray_array.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/valarray_before.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/bits/vector.tcc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_compatibility/fenv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_compatibility/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cfenv",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/clocale",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cmath",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cstddef",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cstdint",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cstdio",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cstdlib",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cstring",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/ctime",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cwchar",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/c_global/cwctype",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/debug/debug.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/debug/formatter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/debug/safe_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/debug/safe_unordered_base.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/aligned_buffer.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/alloc_traits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/atomicity.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/bitmap_allocator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/concurrence.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/mt_allocator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/pool_allocator.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/rope",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/ropeimpl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/stdio_filebuf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/stdio_sync_filebuf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/ext/type_traits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/parallel/settings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/parallel/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/pstl/execution_defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/array",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/atomic",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/bit",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/charconv",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/chrono",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/codecvt",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/complex",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/concepts",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/condition_variable",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/format",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/fstream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/functional",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/future",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/iomanip",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/iosfwd",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/istream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/limits",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/memory_resource",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/mutex",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/numbers",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/optional",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/ostream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/ratio",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/shared_mutex",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/sstream",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/stdexcept",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/streambuf",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/string",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/string_view",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/system_error",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/thread",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/tuple",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/type_traits",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/utility",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/valarray",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/std/vector",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/tr1/cstdint",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/tr1/functional",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/tr1/functional_hash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/include/tr1/tuple",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/array_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/atexit_thread.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/bad_alloc.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/bad_array_length.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/bad_array_new.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/bad_cast.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/bad_typeid.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/class_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/compare",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/cxxabi.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/cxxabi_forced.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/cxxabi_init_exception.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_op.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opa.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opant.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opnt.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_ops.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opsa.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opv.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opva.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opvant.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opvnt.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opvs.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/del_opvsa.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/dyncast.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_alloc.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_atomics.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_aux_runtime.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_call.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_catch.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_exception.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_globals.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_personality.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_ptr.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_term_handler.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_terminate.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_throw.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_tm.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_type.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/eh_unex_handler.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/enum_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/exception",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/exception.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/exception_ptr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/function_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/fundamental_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/guard.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/guard_error.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/hash_bytes.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/hash_bytes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/initializer_list",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/nested_exception.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/nested_exception.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_handler.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_op.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_opa.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_opant.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_opnt.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_opv.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_opva.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_opvant.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/new_opvnt.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/pbase_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/pmem_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/pointer_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/pure.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/si_class_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/tinfo.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/tinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/typeinfo",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/unwind-cxx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/vec.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/vmi_class_type_info.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/libsupc++/vterminate.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/assert_fail.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/chrono.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/codecvt.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/compatibility-atomic-c++0x.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/compatibility-c++0x.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/compatibility-chrono.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/compatibility-condvar.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/compatibility-thread-c++0x.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/condition_variable.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/cow-locale_init.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/cow-stdexcept.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/cow-string-inst.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/ctype.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/cxx11-hash_tr1.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/cxx11-ios_failure.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/cxx11-shim_facets.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/cxx11-stdexcept.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/debug.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/functexcept.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/functional.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/futex.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/future.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/hash_c++0x.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/hashtable_c++0x.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/ios.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/ios_errcat.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/locale-inst.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/mutex.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/mutex_pool.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/placeholders.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/random.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/regex.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/shared_ptr.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/snprintf_lite.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/sso_string.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/string-inst.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/system_error.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++11/thread.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/fast_float/fast_float.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/floating_from_chars.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/floating_to_chars.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/fs_dir.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/fs_ops.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/fs_path.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/memory_resource.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/d2fixed.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/d2fixed_full_table.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/d2s.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/d2s_full_table.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/d2s_intrinsics.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/digit_table.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/f2s.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/f2s_intrinsics.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/generic_128.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/generic_128.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++17/ryu/ryu_generic_128.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++20/tzdb.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/bitmap_allocator.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/codecvt.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/compatibility.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/ext-inst.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/globals_io.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/hash-long-double-tr1-aux.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/hash_tr1.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/hashtable_tr1.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/ios_base_init.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/ios_failure.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/ios_init.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/ios_locale.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/istream-string.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/istream.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/list-aux-2.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/list-aux.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/list.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/locale.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/locale_facets.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/locale_init.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/localename.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/misc-inst.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/mt_allocator.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/parallel_settings.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/pool_allocator.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/stdexcept.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/streambuf.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/strstream.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/tree.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/c++98/valarray.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/filesystem/dir-common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/filesystem/ops-common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/gcc-runtime/13.5.0/libstdc++-v3/src/shared/hashtable-aux.cc",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/include/dso_handle.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/stdlib/atexit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse-init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libstdc++6-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

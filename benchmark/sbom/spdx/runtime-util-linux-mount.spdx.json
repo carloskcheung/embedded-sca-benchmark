@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-util-linux-mount-c8c6cf2e-5276-5be0-949f-7215fe6497b7",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b1a2435267f097e8ad44b282ee00e7b06451080"
+      },
+      "externalDocumentId": "DocumentRef-package-util-linux-mount",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-mount-5e3a3943-9fdf-52d9-a674-935de1669932"
+    }
+  ],
+  "name": "runtime-util-linux-mount",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-mount:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

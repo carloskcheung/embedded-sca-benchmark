@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:49:42Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-dosfstools-422f1a66-3bc7-5803-939d-27a4e96fccbc",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c84ce2710332018503d3463dd2a983a628891e64"
+      },
+      "externalDocumentId": "DocumentRef-package-dosfstools",
+      "spdxDocument": "http://spdx.org/spdxdocs/dosfstools-2a841e3c-2087-5a4a-bc4a-e5e6fca7cef8"
+    }
+  ],
+  "name": "runtime-dosfstools",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-dosfstools:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

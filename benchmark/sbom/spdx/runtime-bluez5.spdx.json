@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:56:57Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-bluez5-25077f95-4e6f-5b89-ba86-d63d50f7dbb3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4cf54d3144d3e8e9c39bc14145c75d852d695741"
+      },
+      "externalDocumentId": "DocumentRef-package-bluez5",
+      "spdxDocument": "http://spdx.org/spdxdocs/bluez5-ed390ea1-f514-59c3-a215-ef66c4b51739"
+    }
+  ],
+  "name": "runtime-bluez5",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-bluez5:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

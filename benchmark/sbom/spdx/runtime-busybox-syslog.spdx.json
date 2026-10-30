@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:17Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-busybox-syslog-8cc1c3cf-2c68-5d3c-8e2d-11a54c330cc5",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4814975034005441c304e718eb5988966a83a286"
+      },
+      "externalDocumentId": "DocumentRef-package-busybox-syslog",
+      "spdxDocument": "http://spdx.org/spdxdocs/busybox-syslog-9c50eff5-a9f9-5765-b33a-312c76b55eb2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9bc9f805541ee5fdea0a4373c8ced221bf77121f"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-busybox",
+      "spdxDocument": "http://spdx.org/spdxdocs/busybox-88c2f534-0ecc-55ec-b418-e44fadbec098"
+    }
+  ],
+  "name": "runtime-busybox-syslog",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-busybox-syslog:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-busybox-syslog:SPDXRef-Package-busybox-syslog",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-busybox:SPDXRef-Package-busybox"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

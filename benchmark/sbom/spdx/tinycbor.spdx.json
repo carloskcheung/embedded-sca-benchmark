@@ -1,0 +1,183 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:30:22Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/tinycbor-bfff19dd-0827-59c4-8a0b-7925cf0c5625",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "abb6ea374fdda1f7ebcb4f6db1355269b633c1e4"
+      },
+      "externalDocumentId": "DocumentRef-recipe-tinycbor",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-tinycbor-d0a629dc-1afd-5c06-8697-b0e3429a4492"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-tinycbor-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "36e747a19334b7215957f98bf713b6f351e422f2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "58f3d2ea50218cebba4bb05a63ec731627d45f93193a12d57a0ba4d95942edc0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/cbordump",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-tinycbor-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bf1eb053fd9d83c9495986e03a91b6497efd86fc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6fa58499f84ea585d1f64b79cde481ece5c50af2a71565c1eda7062ff921bd94"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libtinycbor.so.0.6.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "tinycbor",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-tinycbor",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-tinycbor-1",
+        "SPDXRef-PackagedFile-tinycbor-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "tinycbor",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6ac1a9dd5c3b0cf31469ba41de33a60ccf350ab4"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.6.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-tinycbor:SPDXRef-Recipe-tinycbor",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-tinycbor"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-tinycbor",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-tinycbor-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-tinycbor"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-tinycbor-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-tinycbor"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-tinycbor-2"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

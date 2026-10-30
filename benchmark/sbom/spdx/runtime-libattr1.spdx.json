@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:28:50Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libattr1-32f676b1-f4bb-5472-8978-7aee85f73000",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "58b364da7bf7aa1dfc4ba602be5251d64ff73d50"
+      },
+      "externalDocumentId": "DocumentRef-package-libattr",
+      "spdxDocument": "http://spdx.org/spdxdocs/libattr1-ac390096-d3e0-5f26-918a-e1d13e66d19f"
+    }
+  ],
+  "name": "runtime-libattr1",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libattr:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

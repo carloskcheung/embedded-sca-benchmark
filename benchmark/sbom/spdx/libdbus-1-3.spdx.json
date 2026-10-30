@@ -1,0 +1,1037 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:49:42Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libdbus-1-3-cc558fcc-4bf2-5a72-9445-bc48eda6c0aa",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d66a01a227ee1a22a638d51f9b5b17f5fad41dae"
+      },
+      "externalDocumentId": "DocumentRef-recipe-dbus",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-dbus-71a464b4-138c-59b6-b5fa-4e7ee7d3cef8"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libdbus-1-3-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dd9c414aab7e47ef757b8e97fa0f2bc47cce396d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "24b87b4888782e1619a1442235ce66548df10856919a31d1a8894755386bbd00"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libdbus-1.so.3.32.4",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libdbus-1-3",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libdbus-1-3",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libdbus-1-3-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "AFL-2.1 OR GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libdbus-1-3",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ccfa64115a9515eb22b23f49b0df8ca68d3a85ef"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.14.10"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-dbus:SPDXRef-Recipe-dbus",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libdbus-1-3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libdbus-1-3",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libdbus-1-3-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libdbus-1-3"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/atomic_wide_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/random.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/uio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/systemd/sd-daemon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-address.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-address.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-arch-deps.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-auth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-auth.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-bus.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-connection-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-connection.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-connection.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-credentials.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-credentials.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-dataslot.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-dataslot.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-errors.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-errors.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-file-unix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-hash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-hash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-internals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-internals.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-keyring.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-keyring.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-basic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-basic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-byteswap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-header.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-header.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-recursive.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-recursive.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-validate.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-marshal-validate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-memory.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-memory.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-mempool.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-mempool.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-message-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-message-private.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-message.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-message.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-nonce.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-nonce.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-object-tree.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-object-tree.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-pending-call-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-pending-call.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-pending-call.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-pipe-unix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-pipe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-pipe.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-resources.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-resources.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-server-protected.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-server-socket.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-server-socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-server-unix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-server.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-server.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-sha.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-sha.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-shared.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-signature.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-signature.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-string-private.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-string.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-syntax.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-sysdeps-pthread.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-sysdeps-unix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-sysdeps-unix.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-sysdeps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-sysdeps.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-threads-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-threads.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-threads.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-timeout.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-timeout.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-transport-protected.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-transport-socket.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-transport-socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-transport-unix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-transport.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-transport.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-userdb.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-userdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-uuidgen.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-valgrind-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-watch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/dbus/1.14.10/dbus/dbus-watch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse-init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libdbus-1-3-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

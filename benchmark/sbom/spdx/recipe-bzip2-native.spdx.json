@@ -1,0 +1,153 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:55:54Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-bzip2-native-9d1fa3cb-3643-5f5e-9360-58c1eb05c68e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    }
+  ],
+  "name": "recipe-bzip2-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-bzip2-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:55:54Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:bzip:bzip2:1.0.8:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://sourceware.org/bzip2/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "bzip2-1.0.6 AND GPL-3.0-or-later AND Apache-2.0 AND MS-PL AND BSD-3-Clause AND Zlib",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bzip2-native",
+      "sourceInfo": "CVEs fixed: CVE-2026-42250",
+      "summary": "Very high-quality data compression program",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-bzip2-native-1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "67e051268d0c475ea773822f7500d0e5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bzip2-native-source-1",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-bzip2-native-2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "git+https://sourceware.org/git/bzip2-tests.git@f9061c030a25de5b6829e1abf373057309c734c0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "bzip2-native-source-2",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bzip2-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-bzip2-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bzip2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-bzip2-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-bzip2-native-2",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bzip2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-bzip2-native-2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bzip2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bzip2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-bzip2-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

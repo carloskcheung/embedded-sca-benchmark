@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:39:55Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-locale-base-en-us-f4d409a8-817c-5358-a941-b2012431dd89",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "70fe81fafe139e9f40c6497589adb5d2c3ef42e3"
+      },
+      "externalDocumentId": "DocumentRef-package-locale-base-en-us",
+      "spdxDocument": "http://spdx.org/spdxdocs/locale-base-en-us-1c4828ee-79ec-5ead-a5c9-c04de9237fed"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "742998bbf2dc1147f341a0e1d66a01e672ba2277"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-glibc-binary-localedata-en-us",
+      "spdxDocument": "http://spdx.org/spdxdocs/glibc-binary-localedata-en-us-8562b58a-67fc-59bf-be5f-df615cc4d765"
+    }
+  ],
+  "name": "runtime-locale-base-en-us",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-locale-base-en-us:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-locale-base-en-us:SPDXRef-Package-locale-base-en-us",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-glibc-binary-localedata-en-us:SPDXRef-Package-glibc-binary-localedata-en-us"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

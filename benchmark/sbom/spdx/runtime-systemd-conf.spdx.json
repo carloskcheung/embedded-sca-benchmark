@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:39Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-systemd-conf-4b9cb37d-c62a-5f70-b98f-4b2f05b465d2",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2102dad9f556f300f2a4104c3425781af640c4ab"
+      },
+      "externalDocumentId": "DocumentRef-package-systemd-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-conf-f1e0360f-6d1c-5ac9-856d-d0ef46689d6b"
+    }
+  ],
+  "name": "runtime-systemd-conf",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-conf:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

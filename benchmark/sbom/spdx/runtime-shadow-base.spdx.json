@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:45Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-shadow-base-4028688d-2dd1-5976-8dcf-f63213f3f0b2",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5b0b79c8dd1cd355d864c990009f1ec6cf46828c"
+      },
+      "externalDocumentId": "DocumentRef-package-shadow-base",
+      "spdxDocument": "http://spdx.org/spdxdocs/shadow-base-10830f16-d406-51f4-a825-bcd04fe6152f"
+    }
+  ],
+  "name": "runtime-shadow-base",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-shadow-base:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

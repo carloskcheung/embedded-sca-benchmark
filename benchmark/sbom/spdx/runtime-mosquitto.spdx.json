@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:07Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-mosquitto-ae57e780-661a-5bbb-9cfa-2f2b8c66502d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5dfdccebd79325fdbe617395130163f4e8946ca0"
+      },
+      "externalDocumentId": "DocumentRef-package-mosquitto",
+      "spdxDocument": "http://spdx.org/spdxdocs/mosquitto-1e2c8463-8b0f-5763-a75f-0b63a37159fb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c4eb56dcb6795429df91f9564852b18aca4550db"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libmosquitto1",
+      "spdxDocument": "http://spdx.org/spdxdocs/libmosquitto1-08745afc-5d1a-5d67-97d4-47156f529ce9"
+    }
+  ],
+  "name": "runtime-mosquitto",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-mosquitto:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-mosquitto:SPDXRef-Package-mosquitto",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libmosquitto1:SPDXRef-Package-libmosquitto1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

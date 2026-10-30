@@ -1,0 +1,405 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T16:56:35Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-avahi-b4754c8f-dcab-5c30-83e0-ebf6ec632750",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d70047f319831bf1fd4b5ded8a452e0075b3199d"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-base-files",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-files-c146050a-959a-5836-966f-98e79d6e765f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d02ccafbb41857537f2dbc2b2a5046fe5c3f04af"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-passwd-bb3f3152-7b84-5ef0-95bd-04186ff304e1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d66a01a227ee1a22a638d51f9b5b17f5fad41dae"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-dbus",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-dbus-71a464b4-138c-59b6-b5fa-4e7ee7d3cef8"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7cfeb57633c21cefeee3e5bf5f7a7b4ccf108e55"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-expat",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-expat-3c0df939-071e-5cc6-ab3d-a72974b1f775"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "34b62e10031b25f9fcde0a193bd805baea98428e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-native-bc0b5e4e-69c4-5def-955c-45419d0a98ee"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "eda89ebc3373a4e118fb175a376e96348bfd530b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glib-2.0",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glib-2.0-d0091684-3041-5a99-9476-45ed618feb68"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e299809b35e60b3a8dcaba11ad3cab8dcbafb57"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glib-2.0-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glib-2.0-native-705aca78-6a39-5d5c-9e39-a6c873295cf1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0d5c3691928b38cd51d36d72903bf103646261e7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gobject-introspection",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gobject-introspection-94454747-7a5a-5f82-a1ae-37fb6e05bc18"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e682d76aac5eef01003f7727fc4a79b3ab1f591"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gobject-introspection-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gobject-introspection-native-6849a762-f94f-561e-b9ef-c7efaa2fcd2f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e4927b1349d5c151ce088c6904de425cbbc6d6e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libcap",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libcap-71d96c70-9f88-56e2-add1-19af56887698"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "66318d5f861c68bd5969bdbaf2aeeecb0fc5f247"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libdaemon",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libdaemon-41947111-27be-5156-91dc-85a1e2968400"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f2cacbf0939f303297321fc12601bb5b7cb6a7be"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-cross",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-cross-07500b21-b619-56d3-838e-16ca401a612f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "291d94c36a91656489f0dd7d02ac192b75d4e8a4"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-qemu-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-qemu-native-4a6c275b-748a-5a53-90e0-46381c95e2ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aad97394aafc70c52bb3aafc62d9040eeaf3149f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-6845d95c-0853-56dd-b976-caae5a99461e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5b42c041572f8ac5fabd72042bc7e164bf0f175"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-native-8f9e05bf-71e7-5a75-a2e0-b8f7479cc53d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d9cd040dbdd54bf85028a78d7b59e3b151a07b10"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow-sysroot",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-sysroot-b6b6920a-50f2-5a27-a753-5106a834f19f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c55a28348b7449b433137bc92178aa4b0c79f492"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-systemd-systemctl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-systemctl-native-2f3d50ae-528c-5654-b3e7-3b2e2de42e45"
+    }
+  ],
+  "name": "recipe-avahi",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-avahi",
+      "copyrightText": "NOASSERTION",
+      "description": "Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. This tool implements IPv4LL, \"Dynamic Configuration of IPv4 Link-Local Addresses\" (IETF RFC3927), a protocol for automatic IP address configuration from the link-local 169.254.0.0/16 range without the need for a central server.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:avahi:0.8:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://avahi.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "avahi",
+      "sourceInfo": "CVEs fixed: CVE-2023-38469 CVE-2023-38471 CVE-2026-24401 CVE-2021-3468 CVE-2023-38470 CVE-2025-68276 CVE-2023-38473 CVE-2021-3502 CVE-2023-1981 CVE-2023-38472 CVE-2026-34933 CVE-2025-68468 CVE-2024-52615 CVE-2025-68471 CVE-2024-52616",
+      "summary": "Avahi IPv4LL network address configuration daemon",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-avahi-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "060309d7a333d38d951bc27598c677af1796934dbd98e1024e7ad8de798fedda"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/avahi/avahi/releases//download/v0.8/avahi-0.8.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "avahi-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-avahi-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-avahi-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-base-files:SPDXRef-Recipe-base-files"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-base-passwd:SPDXRef-Recipe-base-passwd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-dbus:SPDXRef-Recipe-dbus"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-expat:SPDXRef-Recipe-expat"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-native:SPDXRef-Recipe-gettext-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glib-2.0:SPDXRef-Recipe-glib-2.0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glib-2.0-native:SPDXRef-Recipe-glib-2.0-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gobject-introspection:SPDXRef-Recipe-gobject-introspection"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gobject-introspection-native:SPDXRef-Recipe-gobject-introspection-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libcap:SPDXRef-Recipe-libcap"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libdaemon:SPDXRef-Recipe-libdaemon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-cross:SPDXRef-Recipe-libtool-cross"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-qemu-native:SPDXRef-Recipe-qemu-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow:SPDXRef-Recipe-shadow"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow-native:SPDXRef-Recipe-shadow-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow-sysroot:SPDXRef-Recipe-shadow-sysroot"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-avahi",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-systemd-systemctl-native:SPDXRef-Recipe-systemd-systemctl-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

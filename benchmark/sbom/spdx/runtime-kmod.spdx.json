@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:42:51Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-kmod-810dbe6d-8cfb-5c43-a117-83817b3fda0f",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c36b0570829d8ee4c9f21071139e17a2544ba25e"
+      },
+      "externalDocumentId": "DocumentRef-package-kmod",
+      "spdxDocument": "http://spdx.org/spdxdocs/kmod-c91a9b67-c26b-5fcd-ac47-27e95ef17a1a"
+    }
+  ],
+  "name": "runtime-kmod",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-kmod:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

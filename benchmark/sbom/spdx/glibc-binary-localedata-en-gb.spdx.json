@@ -1,0 +1,397 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:38:25Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/glibc-binary-localedata-en-gb-a94b97c0-8d59-5a58-b44e-65dc9cc9530c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8f592d3372337274afbe1a767c2e333cffa68ad2"
+      },
+      "externalDocumentId": "DocumentRef-recipe-glibc-locale",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-locale-47f2a024-76b3-5cce-b0ab-d34e50dc4570"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0a7d0d264f9ded94057020e807bfaa13a7573821"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bb14a6f2cbd5092a755e8f272079822d3e842620dd4542a8dfa1e5e72fc6115b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_MEASUREMENT",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aea263841942159a59feb2967f6cf2b562b7288d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "59015993b1b671273461ef1167d7a9ad76dc090d521c91102e962217ed6b6dba"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_CTYPE",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a6b33426e90246729a695afa8ddf500a8e7897f4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51a3b8400e0cc2ff5443f7d77d95c56f9ea47e027f0f85ec7fa5d02058aeac99"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_IDENTIFICATION",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a1a2eabc4a2a2da47d7a90d36b4d0826aac03c73"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2d776e660519a0af4e766d36c0698101f73e1aed52c30b14588205ee5d76adf1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_NAME",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f203008edebd8ac0994206bef79fd9537bef104a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ddb8c313bd9008bceb65ca9142715400e5d6ad11bdd5079044e21a88996a31b9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_TELEPHONE",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "567aaf639393135b76e22e72aaee1df95764e990"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cde048b81e2a026517cc707c906aebbd50f5ee3957b6f0c1c04699dffcb7c015"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_PAPER",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "82cc9ff693e207ca17c80c9b40de3dc8f0346565"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "24545b905165763a1f998fdd5d945dae7bf3364cf9d2dfd4281e34695d2d40ac"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_TIME",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fa7a5b80b2d442e9c5bc8e3504ebd56e7bd1a3a4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2e79e6fa009a80c248f350fdc58299e2f3b849253fbe934905f24e257bb02c60"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_ADDRESS",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7f9c1a4b06bb399500e475bf919564a5344f076f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3ef266c46371086b75cd8f56a6040ab87083cbd76a507d46aad5d5a209ddeebf"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_MONETARY",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-10",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "06336090b14f253421dbcdc0f98677a4f0ab3b64"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5172617c05a37b20bf980ca047b35da4ccc281be9672df40b267dbc0a7d69c09"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_NUMERIC",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-11",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "62729daa665129c7cf74f746439d696d5bc0b41b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f062bf818ec7c394208e4b12db855fbe3765ca1463b2e0cfe05e434f1c293981"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_COLLATE",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7597a7a6f7e3c6ce06533debe24130833112ac3a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ff22236475c720a2c0c598e18dcaa0c2350de8bb335bcb6bbc994346b688f4e0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/locale/en_GB/LC_MESSAGES/SYS_LC_MESSAGES",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "glibc-binary-localedata-en-gb",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-glibc-binary-localedata-en-gb",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-1",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-2",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-3",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-4",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-5",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-6",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-7",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-8",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-9",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-10",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-11",
+        "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-12"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "glibc-binary-localedata-en-gb",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "eaf203fef2c4e3fb8ba59b5141e70cee2acddb05"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.39+git"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-glibc-locale:SPDXRef-Recipe-glibc-locale",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-glibc-binary-localedata-en-gb",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-7",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-9",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-10",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-11",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-glibc-binary-localedata-en-gb-12",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-glibc-binary-localedata-en-gb"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

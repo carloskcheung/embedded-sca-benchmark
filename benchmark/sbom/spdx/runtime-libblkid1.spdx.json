@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libblkid1-d3edad73-5f32-5d80-ae44-ff600fa00c38",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9b357e2f1502e4b4e12ce67b2f8a30f682dce3e0"
+      },
+      "externalDocumentId": "DocumentRef-package-util-linux-libblkid",
+      "spdxDocument": "http://spdx.org/spdxdocs/libblkid1-0831e5ab-c41a-50ed-8839-04a211d1a59d"
+    }
+  ],
+  "name": "runtime-libblkid1",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-libblkid:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

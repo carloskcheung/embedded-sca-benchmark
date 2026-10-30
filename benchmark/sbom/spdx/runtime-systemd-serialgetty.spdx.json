@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:37Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-systemd-serialgetty-d79e8b42-66f7-5b46-a59f-18fd37d8be13",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f79ee165a1674637ba932b3fcbaf23157a3d1b1b"
+      },
+      "externalDocumentId": "DocumentRef-package-systemd-serialgetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-serialgetty-bcd2c8c3-ad88-5b41-83d2-06676a42f89f"
+    }
+  ],
+  "name": "runtime-systemd-serialgetty",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-serialgetty:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,57 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:29:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/packagegroup-core-ssh-openssh-89da8914-d9de-53a2-8381-20e6c09639d3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3ccc0a6715ef11e0d6c0412111a04f851e39e52b"
+      },
+      "externalDocumentId": "DocumentRef-recipe-packagegroup-core-ssh-openssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-packagegroup-core-ssh-openssh-8ab8eb85-f9f0-521d-87af-253b3796a4fc"
+    }
+  ],
+  "name": "packagegroup-core-ssh-openssh",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-packagegroup-core-ssh-openssh",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "packagegroup-core-ssh-openssh",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-packagegroup-core-ssh-openssh:SPDXRef-Recipe-packagegroup-core-ssh-openssh",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-packagegroup-core-ssh-openssh"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-packagegroup-core-ssh-openssh",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

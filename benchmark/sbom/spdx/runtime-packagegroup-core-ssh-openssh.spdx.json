@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:19Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-packagegroup-core-ssh-openssh-2e0ae869-cb05-53b2-81a3-67196dea3709",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8465ae1570ee9afdcee6e1b003c4eff83a2f2065"
+      },
+      "externalDocumentId": "DocumentRef-package-packagegroup-core-ssh-openssh",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-core-ssh-openssh-89da8914-d9de-53a2-8381-20e6c09639d3"
+    }
+  ],
+  "name": "runtime-packagegroup-core-ssh-openssh",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-core-ssh-openssh:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

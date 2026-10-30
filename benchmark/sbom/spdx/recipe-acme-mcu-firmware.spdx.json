@@ -1,0 +1,48 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T05:49:18Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-acme-mcu-firmware-c9a63ee5-bc2d-5376-b13b-54faa713ea66",
+  "name": "recipe-acme-mcu-firmware",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-acme-mcu-firmware",
+      "copyrightText": "NOASSERTION",
+      "description": "Prebuilt images for the FreeRTOS sensor node and the Zephyr BLE motor controller, flashed by the gateway at first boot.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:acme-mcu-firmware:1.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NONE",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "acme-mcu-firmware",
+      "summary": "Firmware for the Acme gateway's companion MCUs",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-acme-mcu-firmware",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

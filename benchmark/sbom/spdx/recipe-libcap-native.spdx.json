@@ -1,0 +1,101 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:11:00Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-libcap-native-3ff1c6eb-74c0-5b21-9241-25ca52a66a08",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2b9d250f252eaa9961c5c0a4b172316821ada921"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gperf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gperf-native-8ff83514-7088-5153-b0e5-1d27897382c3"
+    }
+  ],
+  "name": "recipe-libcap-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-libcap-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:11:00Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "A library providing the API to access POSIX capabilities. These allow giving various kinds of specific privileges to individual users, without giving them full root permissions.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:libcap:2.69:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://sites.google.com/site/fullycapable/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause OR GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libcap-native",
+      "sourceInfo": "CVEs fixed: CVE-2025-1390 CVE-2026-4878",
+      "summary": "Library for getting/setting POSIX.1e capabilities",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.69"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-libcap-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f311f8f3dad84699d0566d1d6f7ec943a9298b28f714cae3c931dfd57492d7eb"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://cdn.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.69.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libcap-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libcap-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-libcap-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libcap-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-libcap-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-libcap-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gperf-native:SPDXRef-Recipe-gperf-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

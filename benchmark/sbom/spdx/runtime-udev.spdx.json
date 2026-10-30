@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-udev-5d4bead7-8f8a-5aa2-8d53-67b1e60d3351",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1dc7ad8f0c99f6e6469bc539a39f6d74d74cfd39"
+      },
+      "externalDocumentId": "DocumentRef-package-udev",
+      "spdxDocument": "http://spdx.org/spdxdocs/udev-71788d32-2a9e-54e1-948e-381440fd3488"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "14212c0d7513eed2f1f73c4159e2429ca8724be7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libsystemd-shared",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsystemd-shared-22a8ac6b-2fc5-5064-9a75-8311ddb0e763"
+    }
+  ],
+  "name": "runtime-udev",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-udev:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-udev:SPDXRef-Package-udev",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libsystemd-shared:SPDXRef-Package-libsystemd-shared"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,57 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:37:37Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/base-passwd-78e3ab0a-4686-572d-a886-5105dd9b12de",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d02ccafbb41857537f2dbc2b2a5046fe5c3f04af"
+      },
+      "externalDocumentId": "DocumentRef-recipe-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-passwd-bb3f3152-7b84-5ef0-95bd-04186ff304e1"
+    }
+  ],
+  "name": "base-passwd",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-base-passwd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "base-passwd",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.6.8"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-base-passwd:SPDXRef-Recipe-base-passwd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-base-passwd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-base-passwd",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

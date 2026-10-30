@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:06:30Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libcrypto3-281319d2-1e86-5a78-a2b8-6f73711cfde6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92cf034f001347592bc9cf418ad483f9666dc6e9"
+      },
+      "externalDocumentId": "DocumentRef-package-libcrypto",
+      "spdxDocument": "http://spdx.org/spdxdocs/libcrypto3-c6f9821a-3ec3-5e5e-b995-f63a1bc63db4"
+    }
+  ],
+  "name": "runtime-libcrypto3",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libcrypto:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

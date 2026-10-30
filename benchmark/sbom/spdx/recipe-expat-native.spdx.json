@@ -1,0 +1,119 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:57:35Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-expat-native-77c42bb5-262f-5325-a2b1-1b01bd0d010a",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "cabb14de16b0fa623be57031c7e169f5ab36edd7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-cmake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-cmake-native-065aeeea-e673-57cc-a9f5-a3fe1fc2b3ea"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e9f2c7e4c30f7c5ede908475e0be08d8083f50e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ninja-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ninja-native-69509a4d-51be-58e4-8b69-f8cab885e13f"
+    }
+  ],
+  "name": "recipe-expat-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-expat-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:57:35Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:expat:2.8.3:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:libexpat:2.8.3:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://github.com/libexpat/libexpat",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "expat-native",
+      "sourceInfo": "CVEs fixed: CVE-2026-93990 CVE-2026-76956 CVE-2026-66046 CVE-2026-76641 CVE-2026-76957",
+      "summary": "A stream-oriented XML parser library",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.8.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-expat-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b4cc2483927d5e90bf8c40b44a6b95b368b42a8a96e25883fce188b48a92b670"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/libexpat/libexpat/releases//download/R_2_8_3/expat-2.8.3.tar.bz2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "expat-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-expat-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-expat-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-expat-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-expat-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-expat-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-cmake-native:SPDXRef-Recipe-cmake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-expat-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ninja-native:SPDXRef-Recipe-ninja-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

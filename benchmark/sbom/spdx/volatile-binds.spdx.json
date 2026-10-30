@@ -1,0 +1,229 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:48:32Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/volatile-binds-cd179282-7f9d-5c0c-8cd9-b7806645ea8d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "71ea684b380531e2b6f0a27fdde07b6a4edaeed9"
+      },
+      "externalDocumentId": "DocumentRef-recipe-volatile-binds",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-volatile-binds-1f581819-98e3-5454-93e0-caf71656cbda"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-volatile-binds-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d4fc34dfb32d2ad4ff7adf13bf2a4796ed013099"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1b551389671863870f9f1aa8fc395c9ba2f943edb39f2943d23c9a8d605a832f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system-preset/98-volatile-binds.preset",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-volatile-binds-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "57b39eed976c0ee348102b9049ca46f87065a0b1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0ad25614133bca992c8bb9931f43cce0ff221a3d13a37a3d919af32ffd337f4a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/var-volatile-srv.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-volatile-binds-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "eb0873cbf518f1cde8255a6c97d6f042fac86a32"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "36684181e854179efae639ba1875ca47d631f4951daacb3edbb416836b096441"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/var-volatile-spool.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-volatile-binds-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da034b869d55064232692558f1e811849a1a4aa9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b4522408badeec80a118d2a96991346937cdedd000e5d88e1081b8c1d178fe31"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/var-volatile-cache.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-volatile-binds-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d5e27204104076716a0ee49764dfe4e82c67d28a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ba4f3e22d39ab66ec8a1cad481e12d1a985498b3129579f406820b5552cde6d0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/var-volatile-lib.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-volatile-binds-6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a8ee227ea4a36063de5be1e643536c5bbfdeabe1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0cbb4eed8a7603ef3f1977d073262a8159cad91c1457802c6975f3b2c52230d0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/mount-copybind",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "volatile-binds",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-volatile-binds",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-volatile-binds-1",
+        "SPDXRef-PackagedFile-volatile-binds-2",
+        "SPDXRef-PackagedFile-volatile-binds-3",
+        "SPDXRef-PackagedFile-volatile-binds-4",
+        "SPDXRef-PackagedFile-volatile-binds-5",
+        "SPDXRef-PackagedFile-volatile-binds-6"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "volatile-binds",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "35f4dbe86e7b211cc91402804601020cefe64fc0"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-volatile-binds:SPDXRef-Recipe-volatile-binds",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-volatile-binds"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-volatile-binds",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-volatile-binds-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-volatile-binds"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-volatile-binds-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-volatile-binds"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-volatile-binds-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-volatile-binds"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-volatile-binds-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-volatile-binds"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-volatile-binds-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-volatile-binds"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-volatile-binds-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-volatile-binds"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

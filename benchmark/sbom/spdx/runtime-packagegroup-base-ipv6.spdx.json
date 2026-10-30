@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-packagegroup-base-ipv6-a5a5bf9f-43b5-51bd-a155-3f5f5bf8d98b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "39bfeb363beacd2a462fe58c207e3d50e8296155"
+      },
+      "externalDocumentId": "DocumentRef-package-packagegroup-base-ipv6",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-ipv6-520a5ca4-0917-5f11-a7eb-5fc565a0a46f"
+    }
+  ],
+  "name": "runtime-packagegroup-base-ipv6",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base-ipv6:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

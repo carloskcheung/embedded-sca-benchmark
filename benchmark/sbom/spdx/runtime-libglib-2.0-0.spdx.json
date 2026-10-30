@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:57:34Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libglib-2.0-0-9091c05b-2de9-5190-ba39-5a329466451e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d55e310d8d764d895156c69a9b2adaa786ea3769"
+      },
+      "externalDocumentId": "DocumentRef-package-glib-2.0",
+      "spdxDocument": "http://spdx.org/spdxdocs/libglib-2.0-0-2950f91a-d87c-57bc-90a5-2b6fd058cbea"
+    }
+  ],
+  "name": "runtime-libglib-2.0-0",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-glib-2.0:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

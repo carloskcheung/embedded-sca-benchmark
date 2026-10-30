@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:28:51Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-openssh-sftp-server-2616ee49-f64c-5de7-9b6f-e34de4d8b475",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "744ed787b33e352b1c7732a10616d797551a2520"
+      },
+      "externalDocumentId": "DocumentRef-package-openssh-sftp-server",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssh-sftp-server-965ea181-40b0-557b-8fea-1a87251bfa40"
+    }
+  ],
+  "name": "runtime-openssh-sftp-server",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-openssh-sftp-server:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

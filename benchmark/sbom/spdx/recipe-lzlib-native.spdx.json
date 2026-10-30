@@ -1,0 +1,85 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T00:18:00Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-lzlib-native-9c4ae317-089e-5c15-a16e-7f2c625ec21f",
+  "name": "recipe-lzlib-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-lzlib-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T00:18:00Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Lzlib is a data compression library providing in-memory LZMA compression and decompression functions, including integrity checking of the decompressed data. The compressed data format used by the library is the lzip format. Lzlib is written in C. ",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:lzlib:1.14:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://www.nongnu.org/lzip/lzlib.html",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "lzlib-native",
+      "summary": "Data compression library providing in-memory LZMA compression and decompression functions",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.14"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-lzlib-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5acac8714ed4f306020bae660dddce706e5f8a795863679037da9fe6bf4dcf6f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://download.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.14.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "lzlib-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-lzlib-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-lzlib-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-lzlib-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-lzlib-native-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

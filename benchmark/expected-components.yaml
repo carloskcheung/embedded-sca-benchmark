@@ -18,6 +18,8 @@
 #
 # `yocto_license` is the recipe's LICENSE string where Yocto's naming differs
 # from SPDX (e.g. EDL-1.0 == BSD-3-Clause, PD for SQLite's blessing).
+# create-spdx emits those names as LicenseRef-<name> (and CLOSED as NONE);
+# score.py reports a match on them as "yocto-name" rather than "ok".
 #
 # `scope` matches the --scope flag of score.py.
 #
@@ -217,7 +219,8 @@ components:
   - name: BusyBox
     aliases: [busybox]
     version: "1.36.1"
-    license: GPL-2.0-only AND bzip2-1.0.4
+    license: GPL-2.0-only AND LicenseRef-bzip2-1.0.4
+    yocto_license: GPL-2.0-only & bzip2-1.0.4
     purl: pkg:yocto/core/busybox@1.36.1
     scope: yocto
     inclusion: yocto-recipe-patched
@@ -231,6 +234,7 @@ components:
     aliases: [acme-mcu-firmware]
     version: "1.0"
     license: LicenseRef-Acme-Proprietary
+    yocto_license: NONE
     scope: yocto
     inclusion: binary-embedded
     contains: [FreeRTOS-Kernel, lwIP, Mbed TLS, cJSON, TinyCBOR, nanopb, Zephyr RTOS,

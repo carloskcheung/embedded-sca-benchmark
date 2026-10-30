@@ -1,0 +1,92 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:50:17Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-gettext-minimal-native-d0a27f93-c2cb-5d69-ab6b-b5b2d7da1769",
+  "hasExtractedLicensingInfos": [
+    {
+      "extractedText": "Copyright (C) 1997-2010 Free Software Foundation, Inc.\nThis file is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\n",
+      "licenseId": "LicenseRef-FSF-Unlimited",
+      "name": "FSF-Unlimited"
+    }
+  ],
+  "name": "recipe-gettext-minimal-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-gettext-minimal-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:50:17Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Contains the m4 macros sufficient to support building autoconf/automake. This provides a significant build time speedup by the removal of gettext-native from most dependency chains (now only needed for gettext for the target).",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:gettext-minimal:0.22.5:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.gnu.org/software/gettext/gettext.html",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LicenseRef-FSF-Unlimited",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gettext-minimal-native",
+      "summary": "Minimal gettext for supporting native autoconf/automake",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.22.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-gettext-minimal-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ec1705b1e969b83a9f073144ec806151db88127f5e40fe5a94cb6c8fa48996a0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://ftpmirror.gnu.org/gnu/gettext/gettext-0.22.5.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gettext-minimal-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gettext-minimal-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-gettext-minimal-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gettext-minimal-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-gettext-minimal-native-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,79 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:50:17Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-gnu-config-native-7f998b5b-4a9f-5868-bb80-1279a9b986ff",
+  "name": "recipe-gnu-config-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-gnu-config-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:50:17Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Tool that installs the GNU config.guess / config.sub into a directory tree",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:gnu-config:20240101:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://git.savannah.gnu.org/cgit/config.git",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-with-autoconf-exception",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gnu-config-native",
+      "summary": "gnu-configize",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "20240101+git"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-gnu-config-native-1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "git+https://git.savannah.gnu.org/git/config.git@948ae97ca5703224bd3eada06b7a69f40dd15a02",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gnu-config-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gnu-config-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-gnu-config-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gnu-config-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-gnu-config-native-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

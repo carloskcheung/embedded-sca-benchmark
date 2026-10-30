@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-util-linux-swapon-7a1f7174-3a1b-5276-ad4a-043354d66dcc",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "42cce7ffc9a10eedc4ea7ffb52bd2308a3d00b7d"
+      },
+      "externalDocumentId": "DocumentRef-package-util-linux-swapon",
+      "spdxDocument": "http://spdx.org/spdxdocs/util-linux-swapon-dc14390d-db0a-5415-9f68-ce26cabcc981"
+    }
+  ],
+  "name": "runtime-util-linux-swapon",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-swapon:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,216 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:28:36Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "363a6b75c2da2f224235de83fef2e68bce87c621"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-autoconf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-autoconf-native-124e4a29-7bee-575a-9a44-2226fa6af9c9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "587e08b65a9dd8a914850f1fbe12ddf14ab10159"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-automake-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-automake-native-e3046935-37af-5c2e-b371-e883e5ef1216"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a9b651021a4596c4e53658b61552a3895bc3fb64"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-binutils-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-binutils-cross-aarch64-be42eab0-0583-5e7c-ad4f-ce56c5a2853e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "95977ff99d0f707373602e6404e0f89603d2ef43"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-flex-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-flex-native-db3e6886-d8ff-51c5-9589-0e997748f089"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a59bff462ec436735cf9afda2580510783ede829"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gmp-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gmp-native-008a73c2-0509-5b24-a32c-a84f417c6f76"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d66ea2d0fc4455055306ef85d3f5121e4e92f7c1"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libmpc-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libmpc-native-106a5827-b85a-571e-9b61-3567ebe410d9"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6e0e6e63946e39ab30ee6cfd4bb12a46a0c72140"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libtool-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libtool-native-af5e5210-5bed-5317-878d-15206849f191"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "73b4ccbd518a38888b424a98562a7f7efdd2390a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-linux-libc-headers",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-linux-libc-headers-2ed63bda-d297-58f5-be96-fcf57476d8ed"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "82fba4511f28c93bf08645d45a1b89d0e4f127dd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-mpfr-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-mpfr-native-63ad704f-f019-5db3-9fd1-ef154f972c7e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "032c99ee251cd907f4733b083193bda44bf2f78a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-texinfo-dummy-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-texinfo-dummy-native-cb9012ff-d8d8-5775-98c1-f58ed5fb9573"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5841c15d7d43966f8a0f0d6c7b7d5e043a85b50f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zstd-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zstd-native-ccc925e5-9b0f-5106-b595-cbfe0152bf06"
+    }
+  ],
+  "name": "recipe-gcc-cross-aarch64",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T01:28:36Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:gcc:13.5.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.gnu.org/software/gcc/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-with-GCC-exception AND GPL-3.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "gcc-cross-aarch64",
+      "sourceInfo": "CVEs fixed: CVE-2023-4039",
+      "summary": "GNU cc and gcc C compilers",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "13.5.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-autoconf-native:SPDXRef-Recipe-autoconf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-automake-native:SPDXRef-Recipe-automake-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-binutils-cross-aarch64:SPDXRef-Recipe-binutils-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-flex-native:SPDXRef-Recipe-flex-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gmp-native:SPDXRef-Recipe-gmp-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libmpc-native:SPDXRef-Recipe-libmpc-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libtool-native:SPDXRef-Recipe-libtool-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-linux-libc-headers:SPDXRef-Recipe-linux-libc-headers"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-mpfr-native:SPDXRef-Recipe-mpfr-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-texinfo-dummy-native:SPDXRef-Recipe-texinfo-dummy-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-gcc-cross-aarch64",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zstd-native:SPDXRef-Recipe-zstd-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:17Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-busybox-a0c870a3-9cc3-5639-8ba5-685df97aea0e",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "9bc9f805541ee5fdea0a4373c8ced221bf77121f"
+      },
+      "externalDocumentId": "DocumentRef-package-busybox",
+      "spdxDocument": "http://spdx.org/spdxdocs/busybox-88c2f534-0ecc-55ec-b418-e44fadbec098"
+    }
+  ],
+  "name": "runtime-busybox",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-busybox:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

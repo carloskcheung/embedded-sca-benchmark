@@ -1,0 +1,4469 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:28:59Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/busybox-88c2f534-0ecc-55ec-b418-e44fadbec098",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f78d7e8756baa4158bc5bad313480ff18eb026f5"
+      },
+      "externalDocumentId": "DocumentRef-recipe-busybox",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-busybox-1dd695ee-b779-5d09-9314-a0c15f2a4031"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "76a6ce4b34d6bb9fe9485b4c885be524084275e3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "21d23fba1ccc78788914fc63208c37f9b662c30e3c727372324aa3265e55d599"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/busybox.suid",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8aed88bc3b491024234c58ef8aa251512066d2d1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b18c7b394a651e8582da33d65a423bf3c39147cc1d827217081fcc412c7cadaf"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/bin/busybox.nosuid",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "650a049c763cc35c51116dc3f02eba4a6a8b8699"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e496cf8273de6daa3ffb85d7cc6cfeabf4f05ca90264ed6c1786f93e19b74667"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/busybox.links.suid",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-busybox-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "736633276a1ed143dff45ed24772800a0d3cb5c2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "82aa26cf749ec253dc9d43f4aa426b31591e1f9cf30e6a6ff72c64cb10e0c45a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/busybox.links.nosuid",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "busybox",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-busybox",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-busybox-1",
+        "SPDXRef-PackagedFile-busybox-2",
+        "SPDXRef-PackagedFile-busybox-3",
+        "SPDXRef-PackagedFile-busybox-4"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND DocumentRef-recipe-busybox:LicenseRef-bzip2-1.0.4",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "busybox",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "0e6c4768e668d224ff1e5ce409ab70a079b16e9c"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.36.1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-busybox:SPDXRef-Recipe-busybox",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-busybox"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-busybox",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-busybox-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-busybox"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/asm-generic/posix_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/cpu-set.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/ioctl-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/ipc-perm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/mathcalls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/setjmp2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/shm-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/socket2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/statfs-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/statvfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-bsearch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-float.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/termios-struct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/clock_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/res_state.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct___jmp_buf_tag.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_rusage.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_shmid_ds.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/bits/utmpx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/fnmatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/libgen.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/fs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/if_addr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/if_link.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/if_packet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/kd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/loop.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/netlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/rfkill.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/rtnetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/sysinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/linux/vt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/mntent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/net/ethernet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/net/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/net/route.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/netinet/ether.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/netinet/ip.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/netinet/udp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/netpacket/packet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/regex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/resolv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/setjmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/shadow.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/klog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/mount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/prctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/reboot.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/sem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/sendfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/shm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/statfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/statvfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/swap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/sysinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/sysmacros.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/times.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/utmpx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/bbunzip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/bzip2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/chksum_and_xwrite_tar_header.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/cpio.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/gzip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/bz/blocksort.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/bz/bzlib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/bz/bzlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/bz/bzlib_private.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/bz/compress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/bz/huffman.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/data_align.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/data_extract_all.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/data_extract_to_stdout.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/data_skip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/decompress_bunzip2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/decompress_gunzip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/decompress_uncompress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/decompress_unlzma.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/decompress_unxz.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/filter_accept_all.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/filter_accept_list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/filter_accept_reject_list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/find_list_entry.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/get_header_cpio.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/get_header_tar.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/header_list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/header_skip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/header_verbose_list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/init_handle.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/open_transformer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/seek_by_jump.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/seek_by_read.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/unsafe_prefix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/unsafe_symlink_target.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/unxz/xz.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/unxz/xz_dec_lzma2.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/unxz/xz_dec_stream.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/unxz/xz_lzma2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/libarchive/unxz/xz_stream.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/tar.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/archival/unzip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/chvt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/clear.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/deallocvt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/dumpkmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/loadfont.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/loadkmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/openvt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/reset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/resize.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/console-tools/setconsole.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/basename.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/cat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/chgrp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/chmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/chown.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/chroot.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/cksum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/cp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/cut.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/date.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/dd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/df.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/dirname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/du.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/echo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/env.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/expr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/false.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/head.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/id.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/libcoreutils/coreutils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/libcoreutils/cp_mv_stat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/libcoreutils/getopt_mk_fifo_nod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/ln.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/logname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/ls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/md5_sha1_sum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/mkdir.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/mkfifo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/mknod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/mktemp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/mv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/nohup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/nproc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/od.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/printf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/pwd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/readlink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/realpath.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/rm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/rmdir.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/seq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/shuf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/sleep.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/sort.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/stat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/stty.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/sync.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/tail.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/tee.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/test.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/test_ptr_hack.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/touch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/tr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/true.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/tty.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/uname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/uniq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/unlink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/usleep.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/uudecode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/wc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/who.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/whoami.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/coreutils/yes.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/debianutils/run_parts.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/debianutils/start_stop_daemon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/debianutils/which.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/e2fsprogs/chattr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/e2fsprogs/e2fs_lib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/e2fsprogs/e2fs_lib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/e2fsprogs/fsck.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/editors/awk.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/editors/cmp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/editors/diff.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/editors/patch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/editors/sed.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/editors/vi.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/findutils/find.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/findutils/grep.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/findutils/xargs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/applet_metadata.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/applet_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/applets.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/bb_archive.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/bb_e2fs_defs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/busybox.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/common_bufsiz.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/dump.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/inet_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/libbb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/platform.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/rtc_.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/unicode.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/volume_id.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/xatonum.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/xregex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/init/halt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/appletlib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/ask_confirmation.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/auto_string.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_askpass.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_cat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_do_delay.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_getgroups.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_getsockname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_pwd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_qsort.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_strtonum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/change_identity.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/chomp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/common_bufsiz.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/compare_string_array.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/concat_path_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/concat_subpath_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/copy_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/copyfd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/correct_password.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/crc32.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/default_error_retval.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/device_open.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/dump.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/duration.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/endofname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/executable.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/fclose_nonstdin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/fflush_stdout_and_exit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/fgets_str.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/find_mount_point.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/find_pid_by_name.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/find_root_device.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/full_write.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/get_console.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/get_last_path_component.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/get_line_from_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/get_shell_name.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/get_volsize.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/getopt32.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/getopt_allopts.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/hash_md5_sha.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/herror_msg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/human_readable.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/in_ether.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/inet_cksum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/inet_common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/inode_hash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/isdirectory.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/isqrt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/iterate_on_dir.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/kernel_version.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/last_char_is.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/lineedit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/lineedit_ptr_hack.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/llist.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/login.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/loop.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/make_directory.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/makedev.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/match_fstype.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/messages.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/mode_string.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/nuke_str.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/parse_config.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/parse_mode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/percent_decode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/perror_msg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/perror_nomsg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/perror_nomsg_and_die.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/pidfile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/print_flags.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/print_numbered_lines.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/printable.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/printable_string.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/process_escape_sequence.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/procps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/progress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/ptr_to_globals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/pw_encrypt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/pw_encrypt_des.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/pw_encrypt_md5.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/read.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/read_key.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/read_printf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/recursive_action.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/remove_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/replace.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/rtc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/run_shell.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/safe_gethostname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/safe_poll.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/safe_strncpy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/safe_write.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/setup_environment.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/signals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/simplify_path.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/single_argv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/skip_whitespace.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/speed_table.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/str_tolower.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/strrstr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/sysconf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/time.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/trim.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/u_signal_names.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/unicode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/update_passwd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/utmp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/uuencode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/verror_msg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/vfork_daemon_rexec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/wfopen.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/wfopen_input.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xatonum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xatonum_template.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xconnect.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xfunc_die.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xfuncs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xfuncs_printf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xgetcwd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xgethostbyname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xreadlink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xrealloc_vector.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xregcomp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libpwdgrp/uidgid_get.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/addgroup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/adduser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/deluser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/getty.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/sulogin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/miscutils/ascii.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/miscutils/dc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/miscutils/less.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/miscutils/microcom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/miscutils/rfkill.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/miscutils/strings.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/miscutils/time.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/miscutils/ts.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/modutils/depmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/modutils/insmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/modutils/lsmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/modutils/modprobe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/modutils/modutils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/modutils/modutils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/modutils/rmmod.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/hostname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/ifconfig.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/ifupdown.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/interface.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/ip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/ip_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/ip_parse_common_args.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/ipaddress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/iplink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/iproute.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/iptunnel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/libnetlink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/libnetlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/ll_addr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/ll_map.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/ll_map.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/ll_types.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/rt_names.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/rt_names.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/rtm_map.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/rtm_map.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/utils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/libiproute/utils.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/nc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/netstat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/nslookup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/parse_pasv_epsv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/route.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/telnet.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tftp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_aes.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_aes.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_aesgcm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_aesgcm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_fe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_pstm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_pstm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_pstm_montgomery_reduce.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_pstm_mul_comba.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_pstm_sqr_comba.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_rsa.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_rsa.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/tls_sp_c32.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/arpping.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/dhcpc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/dhcpc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/dhcpd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/dhcpd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/domain_codec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/dumpleases.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/packet.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/signalpipe.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/udhcp/socket.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/wget.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/free.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/fuser.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/kill.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/pgrep.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/pidof.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/ps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/sysctl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/top.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/uptime.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/procps/watch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/shell/ash.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/shell/ash_ptr_hack.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/shell/math.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/shell/math.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/shell/shell_common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/shell/shell_common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/sysklogd/klogd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/sysklogd/logger.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/sysklogd/logread.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/sysklogd/syslogd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/sysklogd/syslogd_and_logger.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/blkid.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/dmesg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/fbset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/fdisk.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/flock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/fstrim.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/getopt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/hexdump.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/hwclock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/losetup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/mesg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/mkswap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/more.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/mount.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/mountpoint.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/pivot_root.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/rdate.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/renice.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/rev.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/setsid.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/swaponoff.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/switch_root.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/umount.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/btrfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/erofs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/ext.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/f2fs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/fat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/get_devname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/linux_swap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/squashfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/volume_id.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/util-linux/volume_id/volume_id_internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-2"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/ioctl-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios-struct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/bits/utmpx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/linux/vt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/net/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/netinet/icmp6.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/netinet/ip.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/netinet/ip_icmp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/netinet/udp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/shadow.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/prctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/sendfile.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/include/utmpx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/applet_metadata.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/applet_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/applets.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/busybox.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/common_bufsiz.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/libbb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/platform.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/unicode.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/include/xatonum.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/appletlib.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/auto_string.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_askpass.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_do_delay.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_pwd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/bb_strtonum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/change_identity.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/common_bufsiz.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/compare_string_array.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/copyfd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/correct_password.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/default_error_retval.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/duration.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/fflush_stdout_and_exit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/full_write.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/get_last_path_component.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/get_line_from_file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/getopt32.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/hash_md5_sha.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/inet_cksum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/last_char_is.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/llist.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/login.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/messages.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/nuke_str.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/perror_msg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/perror_nomsg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/printable_string.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/ptr_to_globals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/pw_encrypt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/pw_encrypt_des.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/pw_encrypt_md5.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/read.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/run_shell.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/safe_gethostname.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/safe_poll.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/safe_strncpy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/safe_write.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/setup_environment.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/signals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/skip_whitespace.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/time.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/unicode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/update_passwd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/utmp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/verror_msg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/vfork_daemon_rexec.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/wfopen.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xatonum.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xatonum_template.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xconnect.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xfunc_die.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xfuncs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xfuncs_printf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libbb/xreadlink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/libpwdgrp/uidgid_get.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/login.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/passwd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/su.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/loginutils/vlock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/ping.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/busybox/1.36.1/networking/traceroute.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-busybox-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

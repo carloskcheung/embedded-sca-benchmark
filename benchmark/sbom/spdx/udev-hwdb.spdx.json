@@ -1,0 +1,985 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:48:16Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/udev-hwdb-536f650c-610d-59fd-a9aa-822d06daa180",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1abf1313d50efb2ff39e7b1bda652813cad9381c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-9a30b9ed-a145-56fe-863a-756f27954858"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0951aa5e77b7da6e396198562840990b9fa4fe9c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a43331fc7f5b5d6cde9904eddab3112a0add20ece01535cf805a9ebf49c01d7f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-joystick.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "14fb0b7acab52c31f79c6322407085397f89727b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7d9f061cb5af153399f4fc655099acb7d4ab8c26f28e152b66c07a21ac043613"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-acpi-vendor.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "056d83e0c66b1b9d501fd8207a44f2ddacbfb3b8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cbf9997a8d81590952adb23da5cdcbf47a54b6df5d8debf03459b12d392154da"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/60-autosuspend.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "290501b5d98ccfe9a2298d07297a91cb72fef627"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8dac7b94a70be1f96eb2cf73eb9315960ed3cad20cfeda98d2f2f6e8f896ec7d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/README",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5f4c4b045c20f91cb4a8740341936e35da2ea176"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f896f73c4eeacd0380e674b2edc924245a9aa7cced17b67a8be85003343c674"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-pointingstick.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7e6cb3da23c3cc639c4e311335f83bafcc0bd0a4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f63a5f4fe6442c6bd3b156cbdc0751f5462b4eb96bce86cbe3020649392371a1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-mouse.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0ea50c5dde8b04151b4b9a89fc1c420a8735f89a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e4e800b39b69290eac42bd1fb3292244c30d621b8a1b820d373cc815610efa8e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-dmi-id.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fba42f60911090ce6a9bab160c14a9963867dcca"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "326fd7726b49650cdaa240c3fd9bdbd3ca4f0efe0df045c87f056d51a8c418db"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-software-radio.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d99ec0ddabc81c14b5b2fb9f99b7f60c32e7b091"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9fbf1ff2ce58086844848616b1722b2c128731aa62a76a717a60e9d83ab8877f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/60-input-id.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-10",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7a2ccc3017b0704908a0a6cdff6aeae4b84444bf"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "acd02dcf5b5abfb44a46deabe5b0c038da1e7e4172a85f4f60d2d3b887adfbce"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-sdio-classes.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-11",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4d7cd3348c65cc4510bbdec6fb641bc2d5d24cb0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c430f4a374ccca3eb2f7d26184fd7a2aee114bfb9ffeb5de288c52f05ea50bfe"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/60-autosuspend-chromiumos.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-12",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3cc2cda6514a2be65fbf8e06540fa9d3fb122350"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3210a3508e6bd7d626142e7a2c1ab82cad4f018b5ea2d8cbc1a539d3dc3ef3f9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-usb-vendor-model.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-13",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d25d4df7f22afa2bdd4424f1baf9d7bb550a0b28"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e63bdbcaab2ee101a5007e6428ce9cdcd67cd27ec7c4c120789869d8ea45b1c4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-pda.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-14",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "44717383a3f70f4f266cd18ecceb8e29ec8a194c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eea5b5d7ba2dd8c88c53bbef3771be9d1e75be07fd314e97edf5b4f05fcba9dd"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/60-autosuspend-fingerprint-reader.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-15",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "53e7e31efbbed6a92c6cf1cb315c027d9b0cb2ef"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5cb5ffb4a71614463d0b5776fc8bfb6e0e38b927dbb358def27fe39d5600d1bc"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-hardware-wallets.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-16",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48e644914a336f7f18a55679e3e5d18e0844bde9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f09efef95fbf7693da263f4aa71e5d9140697534f0f5ffc1124608ffa38e90ea"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-usb-classes.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-17",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a853f098029448104557b316f2f171e5c38edd3f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "822d6b6948e9071e08bdca8a3d0c602427f4a1676cb278df0d4215e57e42d527"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/60-keyboard.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-18",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b29dedc9bd3f5a30e2c783df70caf26411a6ce37"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8dc211c817011f43ea16bca487bab6b578ace1aee94e1f245cec2098c25c668c"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/60-evdev.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-19",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca07c0e1eb7cedfb971c7d1239c1ec530c1c00ec"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "08e7bdd8e85d9cbaa0cb8c44bda9bad6a784f316eb64fbd839d02588ae68c925"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-vmbus-class.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-20",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a98283bc7a914eecc2a3c9d5d46b22349db3acf4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a6ad8bd08e79a995f11459f6191d922126b4cc2452ca685c2c874b7839caae6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-bluetooth-vendor-product.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-21",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6dd7cace46797a048bfe70cdef9f3a93ed4fa10a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "77e4fb24168f78a7635acbe870cdb158c3bd4608544c3533ba835d5fbbe987f0"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-analyzers.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-22",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e2fb287e0c2eee42130b8f348b65eb95a1220068"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f59c9967b3c6665b1abc1ad115d1afe8ed18d451571476a5d14b9aff4d0e1488"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-net-ifname.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-23",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5121ae9fafd47d1d5769497ebb8cb42b8615d6b2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f56b790e1d668977277a0d92c59fbf7fa9ca8a2408981e550b0706a4143c0cf8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-pci-classes.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-24",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e0616535c360fa158cf28fcec540f202c86bf916"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bcfd994f4380e75f77be8e33ab6f0d7ffa33d48d32dbc4e9496f91f29f388dce"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-sound-card.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-25",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9d01a2e1d2ebfddd35a57e27366300bd8e1c03c9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "126c817553924120bea09451f4711f1dee770b63d88fa3dcd503b55f430888e2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-cameras.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-26",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fab585d85b59bb282578fb754962fe2702032de6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f42d9fdf6b58420b5ba04978e5333bf4753643e22ab7e80d0836323fa602f02a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/60-sensor.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-27",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9026e16fa72a8e46f8a3d6e3309bfa9855287733"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9eb89fc7a64772697cf84fb588197c057c3a8bb4ed2be7552b5a9dc48de2774a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-sdio-vendor-model.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-28",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "94dc8d370e9f93a761a1cae3415729b9bb5a673d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dcf105b747fddc8f0d70bc653e78e09fb92e4c2c3e156fd1bd068f9dcc712501"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/60-seat.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-29",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "150c5ac1ad7ccae223b0755b275dbf8a3793e188"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1a674d15603aa3fea0fecbbc071968724dc54815cd2a587f0295f247cd5852f5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-av-production.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-30",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "673058bbbcc1424ac68a31d924c5e4bc9b0c5245"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9cd42a063acfcc57e965ddbdad34aa1da98bcf0ebb860e3bac8e8f10a511884a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-pci-vendor-model.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-31",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4db65f255f57f3190de14bbeba3f1de844997ff1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0657f38520d6eb9daf078932b66464feb00b79902a85c6232bd90a733453890f"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/70-touchpad.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-32",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f220e641c83257dcaa8779b0cd6a5359090c0cbd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "302b78f3f1f405790899ac186bfff5e7e9d7ec2780ad7f4dab56cd5c8ed5fed4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/80-ieee1394-unit-function.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-udev-hwdb-33",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6f5df610c44c1c7855e82f3b79f5b7850c4ec3b9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "27ae530b38dbef69fd04a7077d68d54a05a7d46de724487e8934c5e28a07a358"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/hwdb.d/20-OUI.hwdb",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "udev-hwdb",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-udev-hwdb",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-udev-hwdb-1",
+        "SPDXRef-PackagedFile-udev-hwdb-2",
+        "SPDXRef-PackagedFile-udev-hwdb-3",
+        "SPDXRef-PackagedFile-udev-hwdb-4",
+        "SPDXRef-PackagedFile-udev-hwdb-5",
+        "SPDXRef-PackagedFile-udev-hwdb-6",
+        "SPDXRef-PackagedFile-udev-hwdb-7",
+        "SPDXRef-PackagedFile-udev-hwdb-8",
+        "SPDXRef-PackagedFile-udev-hwdb-9",
+        "SPDXRef-PackagedFile-udev-hwdb-10",
+        "SPDXRef-PackagedFile-udev-hwdb-11",
+        "SPDXRef-PackagedFile-udev-hwdb-12",
+        "SPDXRef-PackagedFile-udev-hwdb-13",
+        "SPDXRef-PackagedFile-udev-hwdb-14",
+        "SPDXRef-PackagedFile-udev-hwdb-15",
+        "SPDXRef-PackagedFile-udev-hwdb-16",
+        "SPDXRef-PackagedFile-udev-hwdb-17",
+        "SPDXRef-PackagedFile-udev-hwdb-18",
+        "SPDXRef-PackagedFile-udev-hwdb-19",
+        "SPDXRef-PackagedFile-udev-hwdb-20",
+        "SPDXRef-PackagedFile-udev-hwdb-21",
+        "SPDXRef-PackagedFile-udev-hwdb-22",
+        "SPDXRef-PackagedFile-udev-hwdb-23",
+        "SPDXRef-PackagedFile-udev-hwdb-24",
+        "SPDXRef-PackagedFile-udev-hwdb-25",
+        "SPDXRef-PackagedFile-udev-hwdb-26",
+        "SPDXRef-PackagedFile-udev-hwdb-27",
+        "SPDXRef-PackagedFile-udev-hwdb-28",
+        "SPDXRef-PackagedFile-udev-hwdb-29",
+        "SPDXRef-PackagedFile-udev-hwdb-30",
+        "SPDXRef-PackagedFile-udev-hwdb-31",
+        "SPDXRef-PackagedFile-udev-hwdb-32",
+        "SPDXRef-PackagedFile-udev-hwdb-33"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "udev-hwdb",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d44ef77de12b42568796d2599235aa5681b015ea"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "255.22"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-systemd:SPDXRef-Recipe-systemd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-udev-hwdb",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-7",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-9",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-10",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-11",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-12",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-13",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-14",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-15",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-16",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-17",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-18",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-19",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-20",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-21",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-22",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-23",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-24",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-25",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-26",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-27",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-28",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-29",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-30",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-31",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-32",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-udev-hwdb-33",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-udev-hwdb"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

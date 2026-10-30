@@ -1,0 +1,659 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:41:01Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libzstd1-a0d15c9c-4e58-550e-b9da-aca2fc5f66bf",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "142fd697c40541de6693436572fdb9ccc1281ebc"
+      },
+      "externalDocumentId": "DocumentRef-recipe-zstd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zstd-b618f900-5369-5a25-8647-066a4f7a592a"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libzstd1-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8c065b0259ad31f345a90489ea56a545941fd19c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "83885227392ad97077a3f234f75558876e469b979f53e49c379a9ab94dc74734"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libzstd.so.1.5.5",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libzstd1",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libzstd1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libzstd1-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause OR GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libzstd1",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "50e91ebbe0e669b2336f80d1eee7f7046e913bfe"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.5.5"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-zstd:SPDXRef-Recipe-zstd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libzstd1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libzstd1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libzstd1-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libzstd1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/atomic_wide_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clock_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/arm_neon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/allocations.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/bits.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/bitstream.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/cpu.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/debug.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/entropy_common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/error_private.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/error_private.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/fse.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/fse_decompress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/huf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/mem.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/pool.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/pool.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/threading.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/xxhash.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/zstd_common.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/zstd_internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/common/zstd_trace.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/clevels.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/fse_compress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/hist.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/hist.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/huf_compress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_compress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_compress_internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_compress_literals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_compress_literals.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_compress_sequences.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_compress_sequences.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_compress_superblock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_compress_superblock.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_cwksp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_double_fast.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_double_fast.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_fast.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_fast.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_lazy.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_lazy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_ldm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_ldm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_ldm_geartab.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_opt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstd_opt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstdmt_compress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/compress/zstdmt_compress.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/decompress/huf_decompress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/decompress/zstd_ddict.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/decompress/zstd_ddict.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/decompress/zstd_decompress.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/decompress/zstd_decompress_block.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/decompress/zstd_decompress_block.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/decompress/zstd_decompress_internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/dictBuilder/cover.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/dictBuilder/cover.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/dictBuilder/divsufsort.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/dictBuilder/divsufsort.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/dictBuilder/fastcover.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/dictBuilder/zdict.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_legacy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_v04.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_v04.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_v05.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_v05.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_v06.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_v06.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_v07.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/legacy/zstd_v07.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/zdict.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/zstd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    },
+    {
+      "comment": "/usr/src/debug/zstd/1.5.5/lib/zstd_errors.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libzstd1-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

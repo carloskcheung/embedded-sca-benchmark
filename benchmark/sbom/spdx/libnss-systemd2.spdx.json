@@ -1,0 +1,2483 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:48:16Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libnss-systemd2-89fb5432-87df-52c5-b88a-1016b63da653",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1abf1313d50efb2ff39e7b1bda652813cad9381c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-systemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-9a30b9ed-a145-56fe-863a-756f27954858"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libnss-systemd2-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "42a77ef49a83bcb9a57e801d36229bcd3b15b452"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "67fc345ad9855c0c19ccfee78810d6e3c95a98c738a403c87ee96345531f125d"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libnss_systemd.so.2",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libnss-systemd2",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libnss-systemd2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libnss-systemd2-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libnss-systemd2",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6f5fec828153cc5e79162a01ae413554d80ef1de"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "255.22"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-systemd:SPDXRef-Recipe-systemd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libnss-systemd2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libnss-systemd2",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libnss-systemd2-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libnss-systemd2"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/arpa/nameser.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/asm-generic/int-ll64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/confname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/dirent_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/epoll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl-linux.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/inotify.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/ioctl-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/mathcalls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/mqueue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigevent-consts.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/siginfo-consts.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/signalfd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/sigthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/statfs-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/statvfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/statx-generic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib-bsearch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios-struct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/timerfd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__locale_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/clockid_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/idtype_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/locale_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigevent_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_itimerspec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_sched_param.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_tm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/types/timer_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/uintn-identity.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/bits/unistd_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/crypt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/fnmatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/grp.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/gshadow.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/langinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/linux/if_packet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/linux/mount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/linux/random.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/linux/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/linux/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/linux/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/linux/vm_sockets.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/linux/vt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/malloc.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/mqueue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/net/ethernet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/net/if.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/nl_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/nss.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/printf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/shadow.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/spawn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/stdint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/stdio_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/auxv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/capability.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/epoll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/inotify.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/mount.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/personality.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/prctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/random.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/resource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/signalfd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/statfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/statvfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/sysmacros.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/timerfd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/uio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/sys/xattr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/termios.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/uchar.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/include/dso_handle.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/include/register-atfork.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/signal/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/pthread/pthread_atfork.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/internal-signals.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/unix/sysv/linux/internal-sigset.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse-init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/libgcc/13.5.0/libgcc/config/aarch64/lse.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/af-from-name.gperf",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/af-list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/af-list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/af-to-name.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/alloc-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/alloc-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/architecture.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/architecture.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/argv-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/argv-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/btrfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/btrfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/bus-label.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/bus-label.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/cap-from-name.gperf",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/cap-list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/cap-list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/cap-to-name.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/capability-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/capability-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/cgroup-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/cgroup-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/chase.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/chase.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/conf-files.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/conf-files.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/devnum-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/devnum-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/dirent-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/dirent-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/efivars.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/env-file.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/env-file.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/env-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/env-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/errno-from-name.gperf",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/errno-list.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/errno-list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/errno-to-name.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/errno-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/escape.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/escape.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/ether-addr-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/ether-addr-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/extract-word.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/extract-word.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/fd-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/fd-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/fileio.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/fileio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/filesystem-switch-case.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/filesystems-gperf.gperf",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/filesystems.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/filesystems.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/format-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/format-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/fs-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/fs-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/glob-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/glyph-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/glyph-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/gunicode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/gunicode.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hash-funcs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hash-funcs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hashmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hashmap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hexdecoct.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hexdecoct.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hmac.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hmac.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hostname-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/hostname-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/in-addr-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/in-addr-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/initrd-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/initrd-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/inotify-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/inotify-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/io-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/io-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/iovec-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/iovec-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/label.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/label.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/linux/btrfs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/linux/netlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/locale-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/locale-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/lock-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/lock-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/log.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/log.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/login-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/login-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/macro.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/mallinfo-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/memory-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/memory-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/mempool.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/mempool.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/memstream-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/memstream-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/missing_keyctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/missing_stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/missing_syscall.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/mkdir.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/mkdir.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/mountpoint-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/mountpoint-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/namespace-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/namespace-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/nulstr-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/nulstr-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/os-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/os-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/parse-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/parse-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/path-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/path-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/pidref.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/pidref.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/prioq.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/prioq.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/proc-cmdline.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/proc-cmdline.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/process-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/process-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/psi-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/psi-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/pthread-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/random-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/random-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/ratelimit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/ratelimit.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/raw-clone.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/rlimit-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/rlimit-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/set.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/signal-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/signal-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/siphash24.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/siphash24.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/socket-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/socket-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/sort-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/sort-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/sparse-endian.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/stat-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/stat-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/stdio-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/string-table.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/string-table.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/string-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/string-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/strv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/strv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/strxcpyx.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/strxcpyx.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/sync-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/sync-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/sysctl-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/sysctl-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/syslog-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/syslog-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/terminal-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/terminal-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/time-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/time-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/tmpfile-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/tmpfile-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/uid-alloc-range.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/uid-alloc-range.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/umask-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/unaligned.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/unit-def.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/unit-def.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/unit-name.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/unit-name.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/user-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/user-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/utf8.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/utf8.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/virt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/virt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/xattr-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/basic/xattr-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/logarithm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/macro-fundamental.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/memory-util-fundamental.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/sha256.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/sha256.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/string-util-fundamental.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/string-util-fundamental.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/fundamental/unaligned-fundamental.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/libsystemd/sd-daemon/sd-daemon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/libsystemd/sd-event/event-source.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/libsystemd/sd-event/sd-event.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/libsystemd/sd-id128/id128-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/libsystemd/sd-id128/id128-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/libsystemd/sd-id128/sd-id128.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/nss-systemd/nss-systemd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/nss-systemd/nss-systemd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/nss-systemd/userdb-glue.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/nss-systemd/userdb-glue.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/dlfcn-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/dns-domain.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/dns-domain.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/fdset.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/fdset.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/gpt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/group-record.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/group-record.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/image-policy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/json-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/json.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/json.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/label-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/libcrypt-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/libcrypt-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/pkcs11-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/pkcs11-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/selinux-util.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/selinux-util.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/user-record-nss.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/user-record-nss.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/user-record.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/user-record.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/userdb-dropin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/userdb-dropin.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/userdb.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/userdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/varlink-idl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/varlink-idl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/varlink-internal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/varlink-io.systemd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/varlink-org.varlink.service.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/varlink.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/shared/varlink.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/systemd/_sd-common.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/systemd/sd-daemon.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/systemd/sd-event.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    },
+    {
+      "comment": "/usr/src/debug/systemd/255.22/src/systemd/sd-id128.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libnss-systemd2-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

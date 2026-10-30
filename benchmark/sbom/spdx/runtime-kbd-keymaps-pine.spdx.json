@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:49:13Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-kbd-keymaps-pine-b0474154-df04-5cf8-9a7a-b2e9f0355a4c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4221294f399ebe574ecb031883f617728596419e"
+      },
+      "externalDocumentId": "DocumentRef-package-kbd-keymaps-pine",
+      "spdxDocument": "http://spdx.org/spdxdocs/kbd-keymaps-pine-474485ca-1eb2-52a3-b4ab-d98907385ac5"
+    }
+  ],
+  "name": "runtime-kbd-keymaps-pine",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-kbd-keymaps-pine:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:59:24Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-alsa-state-455c6922-5614-5b5c-9f29-130a3d8b5e80",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "88cbec4b49f104171e3cfa75ddcf9340306cf202"
+      },
+      "externalDocumentId": "DocumentRef-package-alsa-state",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-state-c68e1501-0c58-537c-a1e8-82371e6d9992"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0b21b0c2cb03a82a63357eb89591ec6f729f3333"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-alsa-utils-alsactl",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-utils-alsactl-a4571115-8192-5d3f-998c-4a6b99e323c3"
+    }
+  ],
+  "name": "runtime-alsa-state",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-alsa-state:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-alsa-state:SPDXRef-Package-alsa-state",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-alsa-utils-alsactl:SPDXRef-Package-alsa-utils-alsactl"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

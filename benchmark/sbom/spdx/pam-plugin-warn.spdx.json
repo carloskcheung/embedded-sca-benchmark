@@ -1,0 +1,119 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:26:21Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/pam-plugin-warn-a1b79d74-cd8b-5572-a63f-3f8db986eeb7",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "92970a0b736d949840ecc3366e897e73c13fab2c"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libpam-598348bb-de94-5567-9012-dd2dbcb34f59"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-pam-plugin-warn-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "87c67ebbe938e97d5338fcf38e02de1b84766e7b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4bc6d05137b63d03757ba25deb3367cad1ff6c8cf76f905ebd5d9820618c05dd"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/security/pam_warn.so",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "pam-plugin-warn",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-pam-plugin-warn",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-pam-plugin-warn-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "pam-plugin-warn",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d778d2c8f65d004b330ac229c0c023fa8c6ba7da"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.5.3"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libpam:SPDXRef-Recipe-libpam",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-pam-plugin-warn"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-pam-plugin-warn",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-pam-plugin-warn-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-pam-plugin-warn"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-warn-1"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-warn-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/security/_pam_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-warn-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/libpam/include/security/pam_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-warn-1"
+    },
+    {
+      "comment": "/usr/src/debug/libpam/1.5.3/modules/pam_warn/pam_warn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-pam-plugin-warn-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

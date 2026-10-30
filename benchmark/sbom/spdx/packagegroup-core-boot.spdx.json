@@ -1,0 +1,57 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:29:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/packagegroup-core-boot-3461373d-eb57-5fec-b780-98ead32f9337",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "71b6e21c57fe19cf0aca0742a299bd5cbf460896"
+      },
+      "externalDocumentId": "DocumentRef-recipe-packagegroup-core-boot",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-packagegroup-core-boot-14d22e2f-db47-5b86-a08e-b921c83de151"
+    }
+  ],
+  "name": "packagegroup-core-boot",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-packagegroup-core-boot",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "packagegroup-core-boot",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-packagegroup-core-boot:SPDXRef-Recipe-packagegroup-core-boot",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-packagegroup-core-boot"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-packagegroup-core-boot",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

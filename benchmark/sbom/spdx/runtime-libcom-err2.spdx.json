@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:03Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libcom-err2-5391ef8f-336a-5682-bfa7-46341955c463",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8bbdf82c5dbfde8cae6ff6cafb2ada19f3035da8"
+      },
+      "externalDocumentId": "DocumentRef-package-libcomerr",
+      "spdxDocument": "http://spdx.org/spdxdocs/libcom-err2-f10bd9be-1e50-5df1-b9cd-e3c7198ace88"
+    }
+  ],
+  "name": "runtime-libcom-err2",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libcomerr:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

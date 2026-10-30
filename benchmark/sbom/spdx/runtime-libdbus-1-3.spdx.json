@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:57:35Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libdbus-1-3-adb41c9f-e6df-56ce-a2d2-54f80de27e61",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e51745b86dd030b1d71ca24fd81ef4bd34c81672"
+      },
+      "externalDocumentId": "DocumentRef-package-dbus-lib",
+      "spdxDocument": "http://spdx.org/spdxdocs/libdbus-1-3-cc558fcc-4bf2-5a72-9445-bc48eda6c0aa"
+    }
+  ],
+  "name": "runtime-libdbus-1-3",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-dbus-lib:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

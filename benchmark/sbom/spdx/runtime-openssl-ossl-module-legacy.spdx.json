@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:06:30Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-openssl-ossl-module-legacy-620c9909-1f16-596c-85b5-ba177c2b1dac",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7d7f45641d53da28f62e5691191a932d8fea45a4"
+      },
+      "externalDocumentId": "DocumentRef-package-openssl-ossl-module-legacy",
+      "spdxDocument": "http://spdx.org/spdxdocs/openssl-ossl-module-legacy-4a52ab8e-d398-5184-a732-a2fe507c2e0c"
+    }
+  ],
+  "name": "runtime-openssl-ossl-module-legacy",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-openssl-ossl-module-legacy:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

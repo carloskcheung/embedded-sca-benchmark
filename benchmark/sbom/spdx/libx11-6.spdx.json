@@ -1,0 +1,3547 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T02:22:54Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/libx11-6-d505fe26-12fa-5189-81f1-876447667bab",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a3cbcc93ce4dbb50aebd4ebd5fed202ed93d5076"
+      },
+      "externalDocumentId": "DocumentRef-recipe-libx11",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libx11-55e245a1-d00e-5445-bb7b-87ecfa6d3cde"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libx11-6-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c040850c1d8a6b08d2270354a72b2dcc00c1ab4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0323aaa64feb069500a0a6f92b6808abba700f27693ee4b093582d266750a2f5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/X11/XErrorDB",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libx11-6-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c7bf6b1830f203f5aa5b522176be30c74c681d8f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7a3f9b068488408d8a3422013209db1b32e5cc57d500c0f069c06490c1f41c29"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/X11/Xcms.txt",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-libx11-6-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ff6c237fc4f3ee619e82ef8fee7ab74369a1393e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "48e641f8e3b8bf63d8fdb7b299520a0c132203b526bd2921492b80c259dadd2b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/libX11.so.6.4.0",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "libx11-6",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libx11-6",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-libx11-6-1",
+        "SPDXRef-PackagedFile-libx11-6-2",
+        "SPDXRef-PackagedFile-libx11-6-3"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT AND BSD-1-Clause AND HPND AND HPND-sell-variant AND ISC",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "libx11-6",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9fb49c22f433caaa9f9f82bd3b27569a76fd3e1b"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.8.9"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-libx11:SPDXRef-Recipe-libx11",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-libx11-6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libx11-6",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libx11-6-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libx11-6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libx11-6-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libx11-6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-libx11-6-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-libx11-6"
+    },
+    {
+      "comment": "/usr/include/X11/X.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xmd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xos_r.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xproto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xprotostr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xthreads.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xtrans/Xtrans.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xtrans/Xtrans.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xtrans/Xtransint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/Xtrans/Xtranssock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/extensions/XKBproto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/X11/extensions/XKBstr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/arpa/inet.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/atomic_wide_counter.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/byteswap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/pthreadtypes-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/select-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/sockaddr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/socket_type.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/struct_mutex.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/thread-shared-types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_iovec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/dlfcn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/langinfo.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/locale.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/netdb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/netinet/in.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/nl_types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/pthread.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/pwd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/ioctl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/select.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/socket.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/uio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/un.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/sys/utsname.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/xcb/xcb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/xcb/xcbext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/include/xcb/xproto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/ImUtil.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/XKBlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/Xcms.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/Xlib-xcb.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/Xlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/Xlibint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/Xregion.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/Xresource.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/Xutil.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/include/X11/extensions/XKBgeom.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imCallbk.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imDefFlt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imDefIc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imDefIm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imDefLkup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imDispch.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imEvToWire.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imExten.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imImSw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imInsClbk.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imInt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imLcFlt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imLcGIc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imLcIc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imLcIm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imLcLkup.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imLcPrs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imLcSIc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imRm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imRmAttr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imThaiFlt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imThaiIc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imThaiIm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imTrX.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imTrans.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/im/ximcp/imTransR.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/lc/Utf8/lcUTF8Load.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/lc/def/lcDefConv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/lc/gen/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/lc/gen/lcGenConv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/omDefault.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/omGeneric.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/omImText.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/omText.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/omTextEsc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/omTextExt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/omTextPer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/modules/om/generic/omXChar.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/AllCells.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/AllPlanes.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/AllowEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/AutoRep.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Backgnd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/BdrWidth.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Bell.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Border.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChAccCon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChActPGb.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChClMode.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChGC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChKeyCon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChPntCon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChProp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChSaveSet.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChWAttrs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChWindow.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChkIfEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChkMaskEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChkTypEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChkTypWEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ChkWinEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CirWin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CirWinDn.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CirWinUp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ClDisplay.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Clear.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ClearArea.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Cmap.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ConfWind.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Context.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ConvSel.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CopyArea.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CopyCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CopyGC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CopyPlane.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Cr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CrBFData.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CrCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CrCursor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CrGC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CrGlCur.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CrPFBData.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CrPixmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/CrWindow.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Cursor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DefCursor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DelProp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Depths.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DestSubs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DestWind.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DisName.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrArc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrArcs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrLine.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrLines.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrPoint.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrPoints.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrRect.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrRects.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/DrSegs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ErrDes.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ErrHndlr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/EvToWire.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FSSaver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FSWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FetchName.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FillArc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FillArcs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FillPoly.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FillRct.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FillRcts.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FilterEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Flush.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Font.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FontInfo.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FontNames.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FreeCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FreeCols.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FreeCurs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FreeEData.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FreeEventData.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FreeGC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/FreePix.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GCMisc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Geom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetAtomNm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetColor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetDflt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetEventData.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetFPath.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetFProp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetGCVals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetGeom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetHColor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetHints.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetIFocus.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetImage.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetKCnt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetMoEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetNrmHint.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetPCnt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetPntMap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetProp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetRGBCMap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetSOwner.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetSSaver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetStCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetTxtProp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetWAttrs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetWMCMapW.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GetWMProto.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GrButton.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GrKey.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GrKeybd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GrPointer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/GrServer.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Host.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Iconify.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/IfEvent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ImText.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ImText16.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ImUtil.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/InitExt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/InsCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/IntAtom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Key.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/KeyBind.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/KeysymStr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/KillCl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/LiHosts.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/LiICmaps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/LiProps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ListExt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/LoadFont.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/LockDis.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/LookupCol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/LowerWin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Macros.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/MapRaised.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/MapSubs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/MapWindow.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/MaskEvent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Misc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ModMap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/MoveWin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/NextEvent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/OCWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/OMWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/OpenDis.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ParseCmd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ParseCol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ParseGeom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PeekEvent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PeekIfEv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Pending.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PixFormats.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PmapBgnd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PmapBord.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PolyReg.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PolyTxt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PolyTxt16.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PropAlloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PutBEvent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/PutImage.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuBest.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuColor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuColors.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuCurShp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuExt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuKeybd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuPntr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuStipShp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuTextE16.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuTextExt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuTileShp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/QuTree.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Quarks.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/RaiseWin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/RdBitF.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/RecolorC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ReconfWM.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ReconfWin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Region.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/RegstFlt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/RepWindow.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/RestackWs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/RotProp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ScrResStr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SelInput.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SendEvent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetBack.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetCRects.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetClMask.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetClOrig.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetDashes.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetFPath.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetFont.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetFore.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetFunc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetHints.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetIFocus.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetLStyle.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetLocale.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetNrmHint.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetPMask.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetPntMap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetRGBCMap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetSOwner.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetSSaver.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetStCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetState.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetStip.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetTSOrig.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetTile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetTxtProp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetWMCMapW.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/SetWMProto.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/StBytes.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/StColor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/StColors.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/StNColor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/StName.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/StrKeysym.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/StrToText.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Sync.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Synchro.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Text.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Text16.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/TextExt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/TextExt16.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/TextToStr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/TrCoords.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UndefCurs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UngrabBut.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UngrabKbd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UngrabKey.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UngrabPtr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UngrabSvr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UninsCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UnldFont.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UnmapSubs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/UnmapWin.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/VisUtil.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/WMGeom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/WMProps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/WarpPtr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/WinEvent.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Window.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Withdraw.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/WrBitF.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Xatomtype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Xintatom.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Xintconn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/XlibAsync.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/XlibInt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/XomGeneric.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Xprivate.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Xresinternal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Xrm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/Xxcbint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/evtomask.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/globals.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/imConv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/ks_tables.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/locking.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/locking.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/poly.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcb_disp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcb_io.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/AddDIC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/AddSF.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/CCC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/Cv.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/CvColW.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/CvCols.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCGcC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCGcV.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCGcVC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCMnV.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCMxC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCMxV.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCMxVC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCMxVs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/HVCWpAj.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/IdOfPr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LRGB.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/Lab.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LabGcC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LabGcL.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LabGcLC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LabMnL.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LabMxC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LabMxL.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LabMxLC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LabWpAj.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/Luv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LuvGcC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LuvGcL.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LuvGcLC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LuvMnL.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LuvMxC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LuvMxL.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LuvMxLC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/LuvWpAj.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/OfCCC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/PrOfId.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/QBlack.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/QBlue.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/QGreen.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/QRed.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/QWhite.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/QuCol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/QuCols.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/SetCCC.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/SetGetCols.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/StCol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/StCols.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/UNDEFINED.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/XRGB.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/XYZ.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/Xcmsint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsAllCol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsAllNCol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsCmap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsColNm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsGlobls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsInt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsLkCol.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsMath.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsProp.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/cmsTrig.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/uvY.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xcms/xyY.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKB.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBAlloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBBell.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBBind.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBCompat.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBCtrls.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBCvt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBExtDev.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBGAlloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBGeom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBGetByName.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBGetMap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBList.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBMAlloc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBMisc.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBNames.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBRdBuf.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBSetGeom.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBSetMap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBUse.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBleds.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xkb/XKBlibint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/ICWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/IMWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XDefaultIMIF.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XDefaultOMIF.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XimImSw.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XimProto.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XimTrInt.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XimTrX.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XimTrans.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/Ximint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XimintL.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XimintP.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XlcGeneric.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XlcPubI.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/XlcPublic.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/Xlcint.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/imKStoUCS.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcCT.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcCharSet.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcConv.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcDB.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcFile.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcGeneric.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcInit.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcPrTxt.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcPubWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcPublic.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcRM.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcStd.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcTxtPr.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUTF8.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/armscii_8.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/big5.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/big5_emacs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/big5hkscs.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/cp1133.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/cp1251.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/cp1255.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/cp1256.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/gb2312.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/gbk.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/georgian_academy.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/georgian_ps.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_1.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_10.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_11.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_13.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_14.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_15.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_16.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_3.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_4.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_5.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_6.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_7.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_8.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_9.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/iso8859_9e.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/jisx0201.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/jisx0208.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/jisx0212.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/koi8_c.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/koi8_r.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/koi8_u.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/ksc5601.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/mulelao.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/tatar_cyr.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/tcvn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/tis620.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/ucs2be.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/utf8.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUniConv/viscii.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcUtil.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/lcWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/mbWMProps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/mbWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/utf8WMProps.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/utf8Wrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    },
+    {
+      "comment": "/usr/src/debug/libx11/1.8.9/src/xlibi18n/wcWrap.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-libx11-6-3"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

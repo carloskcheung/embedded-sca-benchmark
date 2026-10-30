@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:49:25Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libmodbus5-d7892790-f3fb-5195-9375-8a61b3775d70",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "3152ed1de458a1dcc7ec1eddf93667ad10e782ac"
+      },
+      "externalDocumentId": "DocumentRef-package-libmodbus",
+      "spdxDocument": "http://spdx.org/spdxdocs/libmodbus5-f81b80e6-8524-52cb-9c7b-f6409e3337b8"
+    }
+  ],
+  "name": "runtime-libmodbus5",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libmodbus:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

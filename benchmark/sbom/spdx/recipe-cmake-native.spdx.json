@@ -1,0 +1,166 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-29T23:57:22Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-cmake-native-065aeeea-e673-57cc-a9f5-a3fe1fc2b3ea",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "33e010d896c3563137b4dfc8cbd78206adbac2f9"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bzip2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bzip2-native-9d1fa3cb-3643-5f5e-9360-58c1eb05c68e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "00eea26a137bfcb4ba475eff4a39c9ef248357f7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ncurses-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ncurses-native-6ee9d8f0-8e87-5b73-a420-c66a1123b8a6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "adac09d6ccfd0ca78ba38f123d665ba3e3e5c2f3"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-openssl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssl-native-29712d98-dace-570a-bc97-e67cefc5997d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "027a318fbfaf6a00e140062c4b4c26549a95a81e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-xz-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-xz-native-fb9b6d7a-1472-5337-888f-d4bf9e719144"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7f2fc0174da04b99327a7ef46df4c3963b3304ea"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zlib-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zlib-native-1fc15e1f-ff2b-539e-861e-33e08efd56d2"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5841c15d7d43966f8a0f0d6c7b7d5e043a85b50f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zstd-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zstd-native-ccc925e5-9b0f-5106-b595-cbfe0152bf06"
+    }
+  ],
+  "name": "recipe-cmake-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-cmake-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-29T23:57:22Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:cmake:3.28.3:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.cmake.org/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause AND BSD-1-Clause AND MIT AND BSD-2-Clause AND curl",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "cmake-native",
+      "sourceInfo": "CVEs fixed: CVE-2025-9301",
+      "summary": "Cross-platform, open-source make system",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.28.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-cmake-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "72b7570e5c8593de6ac4ab433b73eab18c5fb328880460c86ce32608141ad5c1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://cmake.org/files/v3.28/cmake-3.28.3.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "cmake-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-cmake-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-cmake-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-cmake-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-cmake-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-cmake-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bzip2-native:SPDXRef-Recipe-bzip2-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-cmake-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ncurses-native:SPDXRef-Recipe-ncurses-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-cmake-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-openssl-native:SPDXRef-Recipe-openssl-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-cmake-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-xz-native:SPDXRef-Recipe-xz-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-cmake-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zlib-native:SPDXRef-Recipe-zlib-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-cmake-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zstd-native:SPDXRef-Recipe-zstd-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

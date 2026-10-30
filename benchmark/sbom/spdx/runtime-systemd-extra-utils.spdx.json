@@ -1,0 +1,47 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-systemd-extra-utils-d1bed27e-cf3a-5c2e-afaf-c34179c11031",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6186bca9d16c3f1f3d8e7e6f02eca24b29b3bf4e"
+      },
+      "externalDocumentId": "DocumentRef-package-systemd-extra-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/systemd-extra-utils-3ae7c6a3-31da-5eec-b5b6-d574b69223c6"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "14212c0d7513eed2f1f73c4159e2429ca8724be7"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libsystemd-shared",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsystemd-shared-22a8ac6b-2fc5-5064-9a75-8311ddb0e763"
+    }
+  ],
+  "name": "runtime-systemd-extra-utils",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-extra-utils:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-systemd-extra-utils:SPDXRef-Package-systemd-extra-utils",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libsystemd-shared:SPDXRef-Package-libsystemd-shared"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

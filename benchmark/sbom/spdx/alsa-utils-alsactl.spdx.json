@@ -1,0 +1,915 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T16:59:23Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/alsa-utils-alsactl-a4571115-8192-5d3f-998c-4a6b99e323c3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "687cf716bc5a6ca25836cab754739acaad864869"
+      },
+      "externalDocumentId": "DocumentRef-recipe-alsa-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-alsa-utils-b39ab38f-e304-587f-9ea1-b01a6b629753"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "976117a6a85089c87be02718d4d20d67e6df5537"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e84c5a4777ad9e965702983bb201f336bedf9279163b8540390e1f1775e88e95"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/init/ca0106",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fd59034ea2eea51f61c15519c716c9285a52572a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1ecafe04be851b9c4dbeb0c59d6e68d68568cca09dbec5833c03adc7494126e5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/init/hda",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4c0ee6f9448a91dc9df74be9569dfdd44f5f735b"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "16a4b8cfc3708b86f0ec9b9930da3645d959ee739aec25c4006cccf5594f3161"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/init/00main",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0452266e241994dd3ed5821f9db3be95a1e8d1b2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ceaf6edac493f7ff8a2dd7a7b9cd43bf7334f3af432fefed9b377705c06a754"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/init/test",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f87e871281dfd63317d1e94f15dbd85d9276b5c2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2434cedd501565f324103477957853575301bfc60c22b380c1f7221be64b7131"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/init/help",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "183fa403951e93071d8248a052782b6880273636"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "180debbe6d1340a6713298b9b0dd4b3edfc8cf7822648baf6cb71b2dd27667e6"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/init/info",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c2055e8e8437a59c1b454b9ec262995a71bc8717"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f044bccf6275c1ef2be920ffd48fc6b7f6a5d378570ef530218bc618302a8b9b"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/alsa/init/default",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2bf35fd89e09b8bb419d1f3b9b73e9110622cbfe"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7100ca45164e678f8f59fe67b7bc87823d3e69f533409f130b53780150c17c79"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/udev/rules.d/90-alsa-restore.rules",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6ae8cd9ff1615ebbcc7a99859e80c3be8cdc1da7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b71ffd659a6f5b9384b438a4adc3f5d4fe7825a8bce0fcc719bc6de35c90cd2e"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/alsa-restore.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-10",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a11cc739cacfb36186ce00e0599fea573c9f8a88"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "acd1b6c0b651b63bf7734b4fac8d8e986b97937afd432e8035626acda66eb654"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/systemd/system/alsa-state.service",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-alsa-utils-alsactl-11",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c07a82e426a4ea1950544065b99d21845bd181d2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "002c0e21fbe9fd40b587971cb6bfa9f4adb07b99edc720edf4bc30780912a02a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/sbin/alsactl",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "alsa-utils-alsactl",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-alsa-utils-alsactl",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-1",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-2",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-3",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-4",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-5",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-6",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-7",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-8",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-9",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-10",
+        "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "alsa-utils-alsactl",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2cd30f75f31b7fba0f25db1f841ffa1b4dbad978"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.2.11"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-alsa-utils:SPDXRef-Recipe-alsa-utils",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-alsa-utils-alsactl",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-3",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-4",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-5",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-6",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-7",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-8",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-9",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-10",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-alsa-utils-alsactl-11",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-alsa-utils-alsactl"
+    },
+    {
+      "comment": "/usr/include/alsa/conf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/alsa/control.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/alsa/error.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/alsa/hwdep.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/alsa/input.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/alsa/output.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/alsa/pcm.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/alsa/rawmidi.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/alsa/use-case.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/assert.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/fcntl2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_core.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/getopt_ext.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/inotify.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/mathcalls.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/poll2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/select-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/sigaction.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/stdio2.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/string_fortified.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/struct_stat-64.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/syslog-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/__sigval_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/siginfo_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/sigset_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_FILE.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_sched_param.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timespec.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/struct_timeval.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/types/time_t.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/unistd-decl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/bits/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/ctype.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/dirent.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/errno.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/fcntl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/fnmatch.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sched.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/signal.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/stdio.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/stdlib.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/string.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/strings.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/epoll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/inotify.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/mman.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/poll.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/select.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/signalfd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/stat.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/syslog.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/sys/wait.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/time.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/include/unistd.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stdarg.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/13.5.0/include/stddef.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/<built-in>",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/alsactl.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/alsactl.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/clean.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/daemon.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/info.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/init_parse.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/init_sysfs.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/init_ucm.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/init_utils_run.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/init_utils_string.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/list.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/lock.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/monitor.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/state.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/alsa-utils/1.2.11/alsactl/utils.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-intn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/bits/stdint-uintn.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/abi-note.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/csu/init.c",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/elf/elf.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/posix/bits/types.h",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crti.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/crtn.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    },
+    {
+      "comment": "/usr/src/debug/glibc/2.39+git/sysdeps/aarch64/start.S",
+      "relatedSpdxElement": "NOASSERTION",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-PackagedFile-alsa-utils-alsactl-11"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

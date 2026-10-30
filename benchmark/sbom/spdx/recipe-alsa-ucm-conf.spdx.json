@@ -1,0 +1,77 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T05:46:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-alsa-ucm-conf-84e73384-67f9-5212-a9e0-d446d0a5e4a3",
+  "name": "recipe-alsa-ucm-conf",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-alsa-ucm-conf",
+      "copyrightText": "NOASSERTION",
+      "description": "This package contains ALSA Use Case Manager configuration of audio input/output names and routing for specific audio hardware. They can be used with the alsaucm tool. ",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:alsa-ucm-conf:1.2.11:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://alsa-project.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "alsa-ucm-conf",
+      "summary": "ALSA Use Case Manager configuration",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "1.2.11"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-alsa-ucm-conf-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "387c01cf30e2a1676d7b8f72b2681cf219abca70dd1ec2a9e33add5bf3feae81"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://www.alsa-project.org/files/pub/lib/alsa-ucm-conf-1.2.11.tar.bz2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "alsa-ucm-conf-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-ucm-conf",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-alsa-ucm-conf-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-alsa-ucm-conf",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-alsa-ucm-conf-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

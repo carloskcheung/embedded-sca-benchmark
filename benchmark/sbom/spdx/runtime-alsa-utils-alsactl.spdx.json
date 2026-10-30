@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:59:27Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-alsa-utils-alsactl-796e4dbe-08ee-5577-9220-4728384b6b3b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "0b21b0c2cb03a82a63357eb89591ec6f729f3333"
+      },
+      "externalDocumentId": "DocumentRef-package-alsa-utils-alsactl",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-utils-alsactl-a4571115-8192-5d3f-998c-4a6b99e323c3"
+    }
+  ],
+  "name": "runtime-alsa-utils-alsactl",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-alsa-utils-alsactl:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

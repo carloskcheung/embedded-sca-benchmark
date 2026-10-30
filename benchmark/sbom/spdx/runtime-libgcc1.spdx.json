@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:23Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libgcc1-fc7474f8-4450-59e5-b8d0-1ce2d06d3bdd",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1f68e9035bc33552b7023b08e884aecc388164c5"
+      },
+      "externalDocumentId": "DocumentRef-package-libgcc",
+      "spdxDocument": "http://spdx.org/spdxdocs/libgcc1-801a789d-7817-50fb-a41a-dad6b673429c"
+    }
+  ],
+  "name": "runtime-libgcc1",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libgcc:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

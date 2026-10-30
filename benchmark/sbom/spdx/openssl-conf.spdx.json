@@ -1,0 +1,117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T01:30:31Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/openssl-conf-06cde60f-b881-5cdf-bf18-80915296bd52",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "931e1607f2aa96691b3fa2f0fab4e9e2c40e0d35"
+      },
+      "externalDocumentId": "DocumentRef-recipe-openssl",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssl-48156327-17ba-5e34-b313-de0c1f21058e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-conf-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5ff8070dceaa742043d8171f98abe95e5abd02e5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a65a2cb9f4ee8ffdc7ef4f0ac600c0bdafb95b7b1ab457188ac610a62f5ad6b3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/lib/ssl-3/openssl.cnf.dist",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-PackagedFile-openssl-conf-2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5ff8070dceaa742043d8171f98abe95e5abd02e5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a65a2cb9f4ee8ffdc7ef4f0ac600c0bdafb95b7b1ab457188ac610a62f5ad6b3"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "etc/ssl/openssl.cnf",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "openssl-conf",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-openssl-conf",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-openssl-conf-1",
+        "SPDXRef-PackagedFile-openssl-conf-2"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "openssl-conf",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2f6e402692175c0cb052ccc5c8d8b3dc1a9ac6d2"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "3.5.9"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-openssl:SPDXRef-Recipe-openssl",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-openssl-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-openssl-conf",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-conf-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-conf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-openssl-conf-2",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-openssl-conf"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:26:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-kernel-image-image-6.6.151-yocto-standard-11d5ccff-86c8-5cbf-8c04-4ddaa5e6eb34",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "832cc4fedbfc66686fe753d62255e78570175298"
+      },
+      "externalDocumentId": "DocumentRef-package-kernel-image-image",
+      "spdxDocument": "http://spdx.org/spdxdocs/kernel-image-image-6.6.151-yocto-standard-5e4f74a1-ceef-5317-a53e-6f5087866d0d"
+    }
+  ],
+  "name": "runtime-kernel-image-image-6.6.151-yocto-standard",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-kernel-image-image:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

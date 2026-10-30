@@ -1,0 +1,425 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T16:48:16Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-systemd-9a30b9ed-a145-56fe-863a-756f27954858",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7bf7995d9341c4025070b1f79575c336574ab348"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-acl",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-acl-991bebcd-14ce-51cc-8504-78d996f149a0"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d70047f319831bf1fd4b5ded8a452e0075b3199d"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-base-files",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-files-c146050a-959a-5836-966f-98e79d6e765f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d02ccafbb41857537f2dbc2b2a5046fe5c3f04af"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-base-passwd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-base-passwd-bb3f3152-7b84-5ef0-95bd-04186ff304e1"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a5dbac8a2264f35e217ed9092e05f1e8df5de7df"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-bash-completion",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-bash-completion-449f3c99-4701-554f-9a75-392b0289d6be"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "8fea9a586989ca4009426927266cffda579eab8a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-cross-aarch64",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-cross-aarch64-e05122e2-842a-5b45-a068-7a450933ae13"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "1a1a526293f3054fe85aa3191b9ce9d07510e0e5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gcc-runtime",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gcc-runtime-a8177036-816d-5f00-a030-969647302050"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "34b62e10031b25f9fcde0a193bd805baea98428e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gettext-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gettext-native-bc0b5e4e-69c4-5def-955c-45419d0a98ee"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "deb32c31751b7a823666c1d56d4e2723bc0adefd"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-glibc",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-glibc-8ec5f1d4-204b-530d-8854-79bbb314d6d7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2b9d250f252eaa9961c5c0a4b172316821ada921"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-gperf-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-gperf-native-8ff83514-7088-5153-b0e5-1d27897382c3"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "37f9bad6906228dd120705ee9c6b3f83c2ad2d73"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-kmod",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-kmod-20bdd709-d6c7-5444-8085-cc59b1bedf3f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4e4927b1349d5c151ce088c6904de425cbbc6d6e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libcap",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libcap-71d96c70-9f88-56e2-add1-19af56887698"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "15c9926a4fed0c834090d51ddaf199e0ee1d157d"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libseccomp",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libseccomp-7ffe5687-651c-5e5e-9064-62cb4834fa8a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e4eb69c4604e0df60c550aeb3a83f68f05cf2d6b"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libxkbcommon",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxkbcommon-951aacc0-ad81-5c0c-ace5-75e817351ed5"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "171b7a41ca4f4285f02feaeaf21da65ace4cefe5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-meson-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-meson-native-c406ca80-e1f3-5f06-98d6-b7b62049c315"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e9f2c7e4c30f7c5ede908475e0be08d8083f50e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-ninja-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-ninja-native-69509a4d-51be-58e4-8b69-f8cab885e13f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2e8c1ee48aa185808544aabeacf8320882ff6e5c"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-opkg-utils",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-opkg-utils-f3c24e09-f6ff-5f5c-ab93-a37218f4e1a7"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b3629b80c8e11b67280fe49b323ced9192c5db6e"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-perl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-perl-native-ca4779ec-f2da-58e4-b2de-b4093de4d855"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "93ba8d643d7a5fadfd18e770b5cd00a5f9f04f23"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-pkgconfig-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-pkgconfig-native-f02bc6f9-93d3-5de4-bfc1-f49135872105"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6818aa6dc79bae2e61ef388ff884ad97695776c0"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-jinja2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-jinja2-native-7049a02a-8bac-5606-8853-05f430692bfd"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "291d94c36a91656489f0dd7d02ac192b75d4e8a4"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-qemu-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-qemu-native-4a6c275b-748a-5a53-90e0-46381c95e2ff"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aad97394aafc70c52bb3aafc62d9040eeaf3149f"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-6845d95c-0853-56dd-b976-caae5a99461e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e5b42c041572f8ac5fabd72042bc7e164bf0f175"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-native-8f9e05bf-71e7-5a75-a2e0-b8f7479cc53d"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d9cd040dbdd54bf85028a78d7b59e3b151a07b10"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-shadow-sysroot",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shadow-sysroot-b6b6920a-50f2-5a27-a753-5106a834f19f"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c55a28348b7449b433137bc92178aa4b0c79f492"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-systemd-systemctl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-systemd-systemctl-native-2f3d50ae-528c-5654-b3e7-3b2e2de42e45"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "e8a4153ea49dfe3b3970a66139a60a10f7be8ef3"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-util-linux",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-util-linux-03796bcc-1e40-51f7-b208-58742d376218"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "142fd697c40541de6693436572fdb9ccc1281ebc"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-zstd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-zstd-b618f900-5369-5a25-8647-066a4f7a592a"
+    }
+  ],
+  "name": "recipe-systemd",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-systemd",
+      "copyrightText": "NOASSERTION",
+      "description": "systemd is a system and service manager for Linux, compatible with SysV and LSB init scripts. systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux cgroups, supports snapshotting and restoring of the system state, maintains mount and automount points and implements an elaborate transactional dependency-based service control logic. It can work as a drop-in replacement for sysvinit.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:systemd:255.22:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.1-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "systemd",
+      "sourceInfo": "CVEs fixed: CVE-2026-40225 CVE-2026-40226 CVE-2026-29111 CVE-2026-4105",
+      "summary": "A System and service manager",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "255.22"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-systemd-1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "git+https://github.com/systemd/systemd-stable.git@356c54394add8c6a1d52773852c23656590dc33b",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "systemd-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-systemd-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-systemd-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-acl:SPDXRef-Recipe-acl"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-base-files:SPDXRef-Recipe-base-files"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-base-passwd:SPDXRef-Recipe-base-passwd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-bash-completion:SPDXRef-Recipe-bash-completion"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-cross-aarch64:SPDXRef-Recipe-gcc-cross-aarch64"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gcc-runtime:SPDXRef-Recipe-gcc-runtime"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gettext-native:SPDXRef-Recipe-gettext-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-glibc:SPDXRef-Recipe-glibc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-gperf-native:SPDXRef-Recipe-gperf-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-kmod:SPDXRef-Recipe-kmod"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libcap:SPDXRef-Recipe-libcap"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libseccomp:SPDXRef-Recipe-libseccomp"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libxkbcommon:SPDXRef-Recipe-libxkbcommon"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-meson-native:SPDXRef-Recipe-meson-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-ninja-native:SPDXRef-Recipe-ninja-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-opkg-utils:SPDXRef-Recipe-opkg-utils"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-perl-native:SPDXRef-Recipe-perl-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-pkgconfig-native:SPDXRef-Recipe-pkgconfig-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-jinja2-native:SPDXRef-Recipe-python3-jinja2-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-qemu-native:SPDXRef-Recipe-qemu-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow:SPDXRef-Recipe-shadow"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow-native:SPDXRef-Recipe-shadow-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-shadow-sysroot:SPDXRef-Recipe-shadow-sysroot"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-systemd-systemctl-native:SPDXRef-Recipe-systemd-systemctl-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-util-linux:SPDXRef-Recipe-util-linux"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-systemd",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-zstd:SPDXRef-Recipe-zstd"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,60 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:46:47Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libasound2-a962bd3b-bb40-5cc3-94ff-e6498e31fb71",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "f711bd9bfdd5c9160e066e2f74d271f297147d81"
+      },
+      "externalDocumentId": "DocumentRef-package-alsa-lib",
+      "spdxDocument": "http://spdx.org/spdxdocs/libasound2-e7da9ecc-49c2-5d47-9093-a959a0635473"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "25422c6801806e601d5ec47ec17b58f0534a7e7b"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-alsa-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-conf-ce040d73-dc61-5d2e-aed2-574678934c2a"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "ca5927610c8dc70528fe2b239799c1984a6dfed6"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-alsa-ucm-conf",
+      "spdxDocument": "http://spdx.org/spdxdocs/alsa-ucm-conf-da521397-9b59-5085-8de8-f15172e1e245"
+    }
+  ],
+  "name": "runtime-libasound2",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-alsa-lib:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-alsa-lib:SPDXRef-Package-libasound2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-alsa-conf:SPDXRef-Package-alsa-conf"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-alsa-lib:SPDXRef-Package-libasound2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-alsa-ucm-conf:SPDXRef-Package-alsa-ucm-conf"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

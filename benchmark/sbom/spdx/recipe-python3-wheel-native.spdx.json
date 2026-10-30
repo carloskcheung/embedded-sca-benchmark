@@ -1,0 +1,140 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T01:26:30Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-python3-wheel-native-7a4afc6e-8440-50b2-8bb9-a733e12ef1a6",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "d4f5347624a0bfabd3fd992c77b3dba19d992da5"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-build-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-build-native-31f01149-e917-52f1-a38e-ae049be674fb"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "40470652e618ec8c332fb238413565d03cb2f8d7"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-flit-core-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-flit-core-native-e62949a3-3d60-5850-bc46-6c225875a32c"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "aa574517cc2a48e4ddeb3da163cf72a33af69989"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-installer-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-installer-native-6a2f8ac3-c10d-5155-9b98-c3e070517152"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "5005716f0b24ed5075a843b472664ad3f3ce744a"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-python3-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-python3-native-34cc7325-70e1-5a3a-873a-66b0c1f8d193"
+    }
+  ],
+  "name": "recipe-python3-wheel-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-python3-wheel-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T01:26:30Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "The official binary distribution format for Python .",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:wheel_project:wheel:0.42.0:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://github.com/pypa/wheel",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-wheel-native",
+      "sourceInfo": "CVEs fixed: CVE-2026-24049",
+      "summary": "The official binary distribution format for Python ",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.42.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-python3-wheel-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c45be39f7882c9d34243236f2d63cbd58039e360f85d0913425fbd7ceea617a8"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://files.pythonhosted.org/packages/source/w/wheel/wheel-0.42.0.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "python3-wheel-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-wheel-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-python3-wheel-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-wheel-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-python3-wheel-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-wheel-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-build-native:SPDXRef-Recipe-python3-build-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-wheel-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-flit-core-native:SPDXRef-Recipe-python3-flit-core-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-wheel-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-installer-native:SPDXRef-Recipe-python3-installer-native"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-python3-wheel-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-python3-native:SPDXRef-Recipe-python3-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

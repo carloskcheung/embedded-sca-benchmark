@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:39:55Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-glibc-locale-en-gb-f203c5a1-f0c7-5892-8192-de533fc56ec2",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "7ecd27ab20572114de40a994e06fb13e7ec789c4"
+      },
+      "externalDocumentId": "DocumentRef-package-glibc-locale-en-gb",
+      "spdxDocument": "http://spdx.org/spdxdocs/glibc-locale-en-gb-23b2d958-9f0c-5ae1-a377-da5f8075c489"
+    }
+  ],
+  "name": "runtime-glibc-locale-en-gb",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-glibc-locale-en-gb:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

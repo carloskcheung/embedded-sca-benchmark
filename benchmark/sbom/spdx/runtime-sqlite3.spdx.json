@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:30:05Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-sqlite3-918106e4-d7d1-5637-849b-c5828c362ce9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "85814c904ddc80284bd3bf377cbc3f5f488a6847"
+      },
+      "externalDocumentId": "DocumentRef-package-sqlite3",
+      "spdxDocument": "http://spdx.org/spdxdocs/sqlite3-2ab1393e-a480-5274-837e-c10a15345a25"
+    }
+  ],
+  "name": "runtime-sqlite3",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-sqlite3:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

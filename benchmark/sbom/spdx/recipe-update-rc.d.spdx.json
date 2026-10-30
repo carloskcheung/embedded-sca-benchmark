@@ -1,0 +1,71 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T05:48:49Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-update-rc.d-87cf57af-6fc6-500b-8aa5-8b53c9c11554",
+  "name": "recipe-update-rc.d",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-update-rc.d",
+      "copyrightText": "NOASSERTION",
+      "description": "update-rc.d is a utility that allows the management of symlinks to the initscripts in the /etc/rcN.d directory structure.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:update-rc.d:0.8:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://github.com/philb/update-rc.d/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "update-rc.d",
+      "summary": "manage symlinks in /etc/rcN.d",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "0.8+git"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-update-rc.d-1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "git+https://git.yoctoproject.org/update-rc.d@b8f950105010270a768aa12245d6abf166346015",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "update-rc.d-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-update-rc.d",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-update-rc.d-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-update-rc.d",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-update-rc.d-1"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

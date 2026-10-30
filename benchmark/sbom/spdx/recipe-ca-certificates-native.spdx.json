@@ -1,0 +1,100 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T02:23:01Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-ca-certificates-native-e1c57d0d-ef9d-5684-b179-22e9a049b04d",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "adac09d6ccfd0ca78ba38f123d665ba3e3e5c2f3"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-openssl-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-openssl-native-29712d98-dace-570a-bc97-e67cefc5997d"
+    }
+  ],
+  "name": "recipe-ca-certificates-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-ca-certificates-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T02:23:01Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "This package includes PEM files of CA certificates to allow SSL-based applications to check for the authenticity of SSL connections. This derived from Debian's CA Certificates.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:ca-certificates:20260816:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "http://packages.debian.org/sid/ca-certificates",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND MPL-2.0",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "ca-certificates-native",
+      "summary": "Common CA certificates",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "20260816"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-ca-certificates-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d939bcdd0cb058712cf4175bac76997676eb8b68fe9473765e1b40fb3d5b186a"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "http://ftp.debian.org/debian/pool/main/c/ca-certificates/ca-certificates_20260816.tar.xz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "ca-certificates-native-source-1",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-ca-certificates-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-ca-certificates-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-ca-certificates-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-ca-certificates-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-ca-certificates-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-openssl-native:SPDXRef-Recipe-openssl-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

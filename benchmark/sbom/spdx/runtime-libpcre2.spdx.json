@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:34:28Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libpcre2-36f46008-6153-51be-a0f1-9ab360f0a4e9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "a4b31ef4dfbb537f3a9b4bcafbe7a88f4335c335"
+      },
+      "externalDocumentId": "DocumentRef-package-libpcre2",
+      "spdxDocument": "http://spdx.org/spdxdocs/libpcre2-f49fb0d4-ac3d-5436-8f73-b77227cabcae"
+    }
+  ],
+  "name": "runtime-libpcre2",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libpcre2:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

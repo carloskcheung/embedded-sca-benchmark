@@ -1,0 +1,219 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing recipe files during the build.",
+    "created": "2026-10-30T05:29:17Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/recipe-docbook-xml-dtd4-native-ff999756-af69-5f13-a6f8-9e66cb532674",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "05349514ad28af51e186c6c6456b7d422d7fea43"
+      },
+      "externalDocumentId": "DocumentRef-dependency-recipe-libxml2-native",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-libxml2-native-3a00c675-f8c7-59bc-88fd-8dcbd5a6a02a"
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "extractedText": "  Permission to use, copy, modify and distribute the DocBook DTD and\n  its accompanying documentation for any purpose and without fee is\n  hereby granted in perpetuity, provided that the above copyright\n  notice and this paragraph appear in all copies.  The copyright\n  holders make no representation about the suitability of the DTD for\n  any purpose.  It is provided \"as is\" without expressed or implied\n  warranty.\n\n  If you modify the DocBook DTD in any way, except for declaring and\n  referencing additional sets of general entities and declaring\n  additional notations, label your DTD as a variant of DocBook.  See\n  the maintenance documentation for more information.\n\n",
+      "licenseId": "LicenseRef-OASIS",
+      "name": "OASIS"
+    }
+  ],
+  "name": "recipe-docbook-xml-dtd4-native",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Recipe-docbook-xml-dtd4-native",
+      "annotations": [
+        {
+          "annotationDate": "2026-10-30T05:29:17Z",
+          "annotationType": "OTHER",
+          "annotator": "Tool: oe-spdx-creator - 1.0",
+          "comment": "isNative"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "description": "Document type definitions for verification of XML data files against the DocBook rule set.",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:*:*:docbook-xml-dtd4:4.5:*:*:*:*:*:*:*",
+          "referenceType": "http://spdx.org/rdf/references/cpe23Type"
+        }
+      ],
+      "homepage": "https://docbook.org",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LicenseRef-OASIS",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "docbook-xml-dtd4-native",
+      "summary": "Document type definitions for verification of XML data files",
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "4.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-docbook-xml-dtd4-native-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "30f0644064e0ea71751438251940b1431f46acada814a062870f486c772e7772"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://archive.docbook.org/xml/4.1.2/docbkx412.zip",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "docbook-xml-dtd4-native-source-1",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-docbook-xml-dtd4-native-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "acc4601e4f97a196076b7e64b368d9248b07c7abf26b34a02cca40eeebe60fa2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://archive.docbook.org/xml/4.2/docbook-xml-4.2.zip",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "docbook-xml-dtd4-native-source-2",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-docbook-xml-dtd4-native-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "23068a94ea6fd484b004c5a73ec36a66aa47ea8f0d6b62cc1695931f5c143464"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://archive.docbook.org/xml/4.3/docbook-xml-4.3.zip",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "docbook-xml-dtd4-native-source-3",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-docbook-xml-dtd4-native-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "02f159eb88c4254d95e831c51c144b1863b216d909b5ff45743a1ce6f5273090"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://archive.docbook.org/xml/4.4/docbook-xml-4.4.zip",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "docbook-xml-dtd4-native-source-4",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Download-docbook-xml-dtd4-native-5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4e4e037a2b83c98c6c94818390d4bdd3f6e10f6ec62dd79188594e26190dc7b4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://archive.docbook.org/xml/4.5/docbook-xml-4.5.zip",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "docbook-xml-dtd4-native-source-5",
+      "supplier": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xml-dtd4-native",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-docbook-xml-dtd4-native-1",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xml-dtd4-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-docbook-xml-dtd4-native-1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-docbook-xml-dtd4-native-2",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xml-dtd4-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-docbook-xml-dtd4-native-2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-docbook-xml-dtd4-native-3",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xml-dtd4-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-docbook-xml-dtd4-native-3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-docbook-xml-dtd4-native-4",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xml-dtd4-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-docbook-xml-dtd4-native-4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Download-docbook-xml-dtd4-native-5",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xml-dtd4-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "SPDXRef-Download-docbook-xml-dtd4-native-5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Recipe-docbook-xml-dtd4-native",
+      "relationshipType": "BUILD_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-dependency-recipe-libxml2-native:SPDXRef-Recipe-libxml2-native"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

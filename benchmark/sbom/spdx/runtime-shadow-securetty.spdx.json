@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:48:44Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-shadow-securetty-de7a6d50-5439-5297-a5f0-8318e83ff5d3",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b42deb26b73c98425bdb631e9e01224f96871224"
+      },
+      "externalDocumentId": "DocumentRef-package-shadow-securetty",
+      "spdxDocument": "http://spdx.org/spdxdocs/shadow-securetty-3d9f4740-df93-56a6-b6ac-4efa24b2bf77"
+    }
+  ],
+  "name": "runtime-shadow-securetty",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-shadow-securetty:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

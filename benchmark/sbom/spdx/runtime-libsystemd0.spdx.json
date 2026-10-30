@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:49:46Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libsystemd0-92a45c1c-3c4c-59f9-874f-85d91008e9b9",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "2f6a59fc56e43981807353341e4dc7e7b2588a94"
+      },
+      "externalDocumentId": "DocumentRef-package-libsystemd",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsystemd0-814ca8e0-0b48-510c-958b-2d7fc86d6b54"
+    }
+  ],
+  "name": "runtime-libsystemd0",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libsystemd:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

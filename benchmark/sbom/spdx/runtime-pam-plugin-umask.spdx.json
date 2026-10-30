@@ -1,0 +1,60 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:26:24Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-pam-plugin-umask-d257c2af-2507-5438-9616-31e1ef7ebef0",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "48acb4f11625f737f2f5b5f36b897a550f3f60e1"
+      },
+      "externalDocumentId": "DocumentRef-package-pam-plugin-umask",
+      "spdxDocument": "http://spdx.org/spdxdocs/pam-plugin-umask-f95bbb10-11a2-5a41-b90b-1a3107b23d1e"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c7f709dbea44de32d53a646b1a2659225253c16e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/libpam-a7f4aae6-2d2b-58b1-94e7-a15e43466aba"
+    },
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "c7f709dbea44de32d53a646b1a2659225253c16e"
+      },
+      "externalDocumentId": "DocumentRef-runtime-dependency-libpam",
+      "spdxDocument": "http://spdx.org/spdxdocs/libpam-a7f4aae6-2d2b-58b1-94e7-a15e43466aba"
+    }
+  ],
+  "name": "runtime-pam-plugin-umask",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-pam-plugin-umask:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-pam-plugin-umask:SPDXRef-Package-pam-plugin-umask",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libpam:SPDXRef-Package-libpam"
+    },
+    {
+      "relatedSpdxElement": "DocumentRef-package-pam-plugin-umask:SPDXRef-Package-pam-plugin-umask",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "spdxElementId": "DocumentRef-runtime-dependency-libpam:SPDXRef-Package-libpam"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

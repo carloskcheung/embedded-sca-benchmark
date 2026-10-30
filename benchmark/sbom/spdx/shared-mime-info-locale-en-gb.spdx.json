@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:47:11Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/shared-mime-info-locale-en-gb-91395254-5b3f-5d2e-acaa-969c63c040bf",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "21771e256ed285413a077dc0c5cf26c183bba108"
+      },
+      "externalDocumentId": "DocumentRef-recipe-shared-mime-info",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-shared-mime-info-501e2e1f-1c5c-510d-bc03-82eb288c553e"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-shared-mime-info-locale-en-gb-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7b1234db2215e52a46b66c03c914a6934017581f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1efe001efed5a94b9d012ebcf8519a2f411297cd5bdd46f6f11ce520935b6754"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/locale/en_GB/LC_MESSAGES/shared-mime-info.mo",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "shared-mime-info-locale-en-gb",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-shared-mime-info-locale-en-gb",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-shared-mime-info-locale-en-gb-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "shared-mime-info-locale-en-gb",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "cdc8a338d999bf9b3ded027cc1f2883e62345412"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-shared-mime-info:SPDXRef-Recipe-shared-mime-info",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-shared-mime-info-locale-en-gb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-shared-mime-info-locale-en-gb",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-shared-mime-info-locale-en-gb-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-shared-mime-info-locale-en-gb"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

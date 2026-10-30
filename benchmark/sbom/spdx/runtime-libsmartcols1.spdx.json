@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T16:52:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libsmartcols1-35be1f3e-8afb-52df-81de-d974c0f0ba9c",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "85a35afe9777aa5b2bf2a37439a62152f30e6666"
+      },
+      "externalDocumentId": "DocumentRef-package-util-linux-libsmartcols",
+      "spdxDocument": "http://spdx.org/spdxdocs/libsmartcols1-1a38d22f-6b6e-543e-b4ae-6b7f57c9add9"
+    }
+  ],
+  "name": "runtime-libsmartcols1",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-util-linux-libsmartcols:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T01:29:26Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-packagegroup-base-bluetooth-7a9cef98-def8-5fe9-998c-29f53809538b",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "6aabfd89cb243d2d9b578a7eb1c100e78dc7217a"
+      },
+      "externalDocumentId": "DocumentRef-package-packagegroup-base-bluetooth",
+      "spdxDocument": "http://spdx.org/spdxdocs/packagegroup-base-bluetooth-49bb7cef-98ce-58db-82e0-91047449790d"
+    }
+  ],
+  "name": "runtime-packagegroup-base-bluetooth",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-packagegroup-base-bluetooth:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

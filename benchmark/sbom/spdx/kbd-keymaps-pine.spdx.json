@@ -1,0 +1,89 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing packages created during the build.",
+    "created": "2026-10-30T05:49:12Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/kbd-keymaps-pine-474485ca-1eb2-52a3-b4ab-d98907385ac5",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "b0c9fb610224b7ebd2aeb0b7c80cc25ad9d4bf66"
+      },
+      "externalDocumentId": "DocumentRef-recipe-kbd",
+      "spdxDocument": "http://spdx.org/spdxdocs/recipe-kbd-ec0b128b-1299-5a95-8e8f-6f7114cd836a"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-PackagedFile-kbd-keymaps-pine-1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fd82b526ff4ffa80c79e331a11ffca809d634704"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "04f76c64c2826bcc2ff50d557f7a78191a698d0f6caa4db00e48d2c6f37a00f2"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "fileName": "usr/share/keymaps/pine/en.map.gz",
+      "fileTypes": [
+        "BINARY"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ]
+    }
+  ],
+  "name": "kbd-keymaps-pine",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-kbd-keymaps-pine",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "hasFiles": [
+        "SPDXRef-PackagedFile-kbd-keymaps-pine-1"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "kbd-keymaps-pine",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "0018559cd58bd62f75b7a40ae438890a32d0e144"
+      },
+      "supplier": "Organization: OpenEmbedded ()",
+      "versionInfo": "2.6.4"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-recipe-kbd:SPDXRef-Recipe-kbd",
+      "relationshipType": "GENERATED_FROM",
+      "spdxElementId": "SPDXRef-Package-kbd-keymaps-pine"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-kbd-keymaps-pine",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-PackagedFile-kbd-keymaps-pine-1",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Package-kbd-keymaps-pine"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

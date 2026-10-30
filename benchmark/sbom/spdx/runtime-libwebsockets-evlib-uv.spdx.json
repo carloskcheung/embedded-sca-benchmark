@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "This document was created by analyzing package runtime dependencies.",
+    "created": "2026-10-30T05:23:15Z",
+    "creators": [
+      "Tool: OpenEmbedded Core create-spdx.bbclass",
+      "Organization: OpenEmbedded ()",
+      "Person: N/A ()"
+    ],
+    "licenseListVersion": "3.14"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/runtime-libwebsockets-evlib-uv-231c7281-4dbc-5639-acae-d162cecc0182",
+  "externalDocumentRefs": [
+    {
+      "checksum": {
+        "algorithm": "SHA1",
+        "checksumValue": "4b49c744b712c205b0980bf9a2bb0e9fb983444f"
+      },
+      "externalDocumentId": "DocumentRef-package-libwebsockets-evlib-uv",
+      "spdxDocument": "http://spdx.org/spdxdocs/libwebsockets-evlib-uv-472126e4-1dbf-5acf-a38d-6bca5eca60b7"
+    }
+  ],
+  "name": "runtime-libwebsockets-evlib-uv",
+  "relationships": [
+    {
+      "relatedSpdxElement": "DocumentRef-package-libwebsockets-evlib-uv:SPDXRef-DOCUMENT",
+      "relationshipType": "AMENDS",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
