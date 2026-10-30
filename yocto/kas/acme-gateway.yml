@@ -46,6 +46,14 @@ local_conf_header:
     SPDX_INCLUDE_SOURCES = "0"
 
   build-host: |
-    # Sized for an 8 GB Docker Desktop VM
-    BB_NUMBER_THREADS = "4"
+    # Sized for an 8 GB Docker Desktop VM; gcc's insn-emit.cc alone can take
+    # >2 GB per compiler process.
+    BB_NUMBER_THREADS = "3"
     PARALLEL_MAKE = "-j 4"
+    PARALLEL_MAKE:pn-gcc = "-j 2"
+
+  mirrors: |
+    # Prefer the Yocto Project source mirror (plain tarballs, including git
+    # snapshots) over cloning full histories such as systemd-stable.
+    INHERIT += "own-mirrors"
+    SOURCE_MIRROR_URL = "https://downloads.yoctoproject.org/mirror/sources/"
